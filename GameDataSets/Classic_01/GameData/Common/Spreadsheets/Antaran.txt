@@ -1,0 +1,10 @@
+"Used for the Antaran Expeditions: number of ""still searching"" and ""attrition"" lottery balls that should be placed in the hopper for each turn of each Antaran Expedition"			
+Success Ball multiplier is the number that the calculated success balls should be multiplied by to get the final number of success balls			
+
+TableStart	LotteryBalls		
+ColumnHeadingsStart	DestinationPhase	ArcheologyPhase	InboundPhase
+RowHeadingsStart			
+StillSearching	800	400	250
+Attrition	100	100	0
+Success Ball multiplier	1	1	1
+TableEnd			

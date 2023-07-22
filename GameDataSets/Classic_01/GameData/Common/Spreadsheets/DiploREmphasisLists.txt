@@ -1,0 +1,1690 @@
+TableStart	ReplyActionHumble				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	ACTN101
+2	0	0	0	0	ACTN101
+3	0	0	0	0	ACTN101
+4	0	0	0	0	ACTN102
+5	0	0	0	0	ACTN102
+6	0	0	0	0	ACTN103
+7	0	0	0	0	ACTN103
+8	0	0	0	0	ACTN103
+9	0	0	0	0	ACTN104
+10	0	0	0	0	ACTN104
+11	0	0	0	0	ACTN105
+12	0	0	0	0	ACTN105
+13	1	0	0	0	ACTN106
+14	1	0	0	0	ACTN106
+15	1	0	0	0	ACTN106
+16	4	0	0	0	ACTN107
+17	4	0	0	0	ACTN107
+18	14	0	0	0	ACTN108
+19	14	0	0	0	ACTN108
+20	0	0	0	0	ACTN111
+21	0	0	0	0	ACTN112
+22	0	0	0	0	ACTN114
+23	0	0	0	0	ACTN114
+24	0	0	0	0	ACTN118
+TableEnd					
+					
+TableStart	ReplyActionAppreciative				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	ACTN113
+2	0	0	0	0	ACTN113
+3	0	0	0	0	ACTN202
+4	0	0	0	0	ACTN202
+5	0	0	0	0	ACTN202
+6	0	0	0	0	ACTN203
+7	0	0	0	0	ACTN203
+8	0	0	0	0	ACTN203
+9	0	0	0	0	ACTN211
+10	6	0	0	0	ACTN213
+11	7	0	0	0	ACTN301
+12	7	0	0	0	ACTN301
+13	0	0	0	0	ACTN302
+14	0	0	0	0	ACTN302
+15	0	0	0	0	ACTN302
+16	0	0	0	0	ACTN303
+17	0	0	0	0	ACTN303
+18	0	0	0	0	ACTN303
+19	0	0	0	0	ACTN304
+20	0	0	0	0	ACTN304
+21	0	0	0	0	ACTN304
+TableEnd					
+					
+TableStart	ReplyActionPolite				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	ACTN209
+2	0	0	0	0	ACTN209
+3	0	0	0	0	ACTN306
+4	0	0	0	0	ACTN306
+5	0	0	0	0	ACTN307
+6	0	0	0	0	ACTN307
+7	0	0	0	0	ACTN307
+8	0	0	0	0	ACTN308
+9	0	0	0	0	ACTN308
+10	0	0	0	0	ACTN308
+11	0	0	0	0	ACTN309
+12	0	0	0	0	ACTN309
+13	0	0	0	0	ACTN401
+14	0	0	0	0	ACTN401
+15	0	0	0	0	ACTN401
+TableEnd					
+					
+TableStart	ReplyActionFormal				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	ACTN210
+2	0	0	0	0	ACTN210
+3	0	0	0	0	ACTN210
+4	0	0	0	0	ACTN310
+5	0	0	0	0	ACTN311
+6	0	0	0	0	ACTN311
+7	0	0	0	0	ACTN311
+8	4	0	0	0	ACTN312
+9	0	0	0	0	ACTN402
+10	0	0	0	0	ACTN402
+11	0	0	0	0	ACTN403
+12	0	0	0	0	ACTN403
+13	0	0	0	0	ACTN403
+14	0	0	0	0	ACTN404
+15	0	0	0	0	ACTN404
+16	0	0	0	0	ACTN404
+17	2	0	0	0	ACTN405
+18	2	0	0	0	ACTN405
+19	7	0	0	0	ACTN406
+20	7	0	0	0	ACTN406
+21	12	0	0	0	ACTN407
+22	4	0	0	0	ACTN408
+23	4	0	0	0	ACTN408
+24	0	0	0	0	ACTN409
+25	0	0	0	0	ACTN409
+26	3	0	0	0	ACTN410
+27	0	0	0	0	ACTN411
+28	0	0	0	0	ACTN411
+29	0	0	0	0	ACTN412
+30	0	0	0	0	ACTN412
+31	0	0	0	0	ACTN413
+32	0	0	0	0	ACTN413
+33	0	0	0	0	ACTN414
+34	0	0	0	0	ACTN415
+35	0	0	0	0	ACTN416
+TableEnd					
+					
+TableStart	ReplyActionCool				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	ACTN502
+2	0	0	0	0	ACTN502
+3	0	0	0	0	ACTN502
+4	0	0	0	0	ACTN503
+5	0	0	0	0	ACTN503
+6	0	0	0	0	ACTN504
+7	0	0	0	0	ACTN504
+8	0	0	0	0	ACTN505
+9	0	0	0	0	ACTN505
+10	0	0	0	0	ACTN505
+11	0	0	0	0	ACTN506
+12	0	0	0	0	ACTN506
+13	0	0	0	0	ACTN506
+14	5	0	0	0	ACTN507
+15	5	0	0	0	ACTN507
+16	0	0	0	0	ACTN508
+17	0	0	0	0	ACTN508
+18	0	0	0	0	ACTN509
+19	0	0	0	0	ACTN510
+20	0	0	0	0	ACTN510
+21	0	0	0	0	ACTN510
+22	15	0	0	0	ACTN511
+23	15	0	0	0	ACTN511
+24	0	0	0	0	ACTN512
+25	0	0	0	0	ACTN512
+26	0	0	0	0	ACTN512
+27	0	0	0	0	ACTN513
+28	0	0	0	0	ACTN513
+29	0	0	0	0	ACTN514
+30	0	0	0	0	ACTN514
+31	0	0	0	0	ACTN514
+32	0	0	0	0	ACTN515
+TableEnd					
+					
+TableStart	ReplyActionCold				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	ACTN501
+2	0	0	0	0	ACTN501
+3	0	0	0	0	ACTN516
+4	0	0	0	0	ACTN601
+5	0	0	0	0	ACTN601
+6	0	0	0	0	ACTN601
+7	0	0	0	0	ACTN603
+8	0	0	0	0	ACTN603
+9	5	0	0	0	ACTN605
+10	5	0	0	0	ACTN605
+11	1	0	0	0	ACTN606
+12	1	0	0	0	ACTN606
+13	1	0	0	0	ACTN606
+14	0	0	0	0	ACTN607
+15	0	0	0	0	ACTN608
+16	0	0	0	0	ACTN608
+17	0	0	0	0	ACTN609
+18	0	0	0	0	ACTN609
+19	0	0	0	0	ACTN609
+20	0	0	0	0	ACTN610
+21	0	0	0	0	ACTN610
+22	0	0	0	0	ACTN611
+23	0	0	0	0	ACTN611
+24	0	0	0	0	ACTN612
+25	0	0	0	0	ACTN612
+26	0	0	0	0	ACTN612
+27	0	0	0	0	ACTN704
+28	0	0	0	0	ACTN704
+29	0	0	0	0	ACTN704
+TableEnd					
+					
+TableStart	ReplyActionInsulting				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	ACTN701
+2	0	0	0	0	ACTN701
+3	0	0	0	0	ACTN702
+4	0	0	0	0	ACTN702
+5	0	0	0	0	ACTN702
+6	0	0	0	0	ACTN703
+7	0	0	0	0	ACTN703
+8	0	0	0	0	ACTN703
+9	0	0	0	0	ACTN705
+10	0	0	0	0	ACTN705
+11	0	0	0	0	ACTN705
+12	0	0	0	0	ACTN706
+13	0	0	0	0	ACTN706
+14	0	0	0	0	ACTN706
+15	2	0	0	0	ACTN707
+16	2	0	0	0	ACTN707
+17	0	0	0	0	ACTN708
+18	0	0	0	0	ACTN709
+19	0	0	0	0	ACTN709
+20	0	0	0	0	ACTN710
+21	0	0	0	0	ACTN710
+22	0	0	0	0	ACTN710
+23	0	0	0	0	ACTN711
+24	0	0	0	0	ACTN711
+25	0	0	0	0	ACTN712
+26	0	0	0	0	ACTN712
+27	0	0	0	0	ACTN712
+28	0	0	0	0	ACTN713
+29	0	0	0	0	ACTN714
+30	0	0	0	0	ACTN714
+31	0	0	0	0	ACTN714
+32	0	0	0	0	ACTN715
+33	0	0	0	0	ACTN715
+34	0	0	0	0	ACTN716
+TableEnd					
+					
+TableStart	ReplyGerundHumble				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	GERN101
+2	0	0	0	0	GERN101
+3	0	0	0	0	GERN101
+4	0	0	0	0	GERN102
+5	0	0	0	0	GERN102
+6	0	0	0	0	GERN103
+7	0	0	0	0	GERN103
+8	0	0	0	0	GERN103
+9	0	0	0	0	GERN104
+10	0	0	0	0	GERN104
+11	0	0	0	0	GERN105
+12	0	0	0	0	GERN105
+13	0	0	0	0	GERN106
+14	0	0	0	0	GERN106
+15	0	0	0	0	GERN106
+16	4	0	0	0	GERN107
+17	4	0	0	0	GERN107
+18	0	0	0	0	GERN108
+19	0	0	0	0	GERN108
+20	0	0	0	0	GERN111
+21	0	0	0	0	GERN111
+22	0	0	0	0	GERN112
+23	0	0	0	0	GERN114
+24	0	0	0	0	GERN118
+TableEnd					
+					
+TableStart	ReplyGerundAppreciative				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	GERN113
+2	0	0	0	0	GERN113
+3	0	0	0	0	GERN202
+4	0	0	0	0	GERN202
+5	0	0	0	0	GERN203
+6	0	0	0	0	GERN203
+7	0	0	0	0	GERN203
+8	0	0	0	0	GERN211
+9	6	0	0	0	GERN213
+10	7	0	0	0	GERN301
+11	7	0	0	0	GERN301
+12	0	0	0	0	GERN302
+13	0	0	0	0	GERN302
+14	0	0	0	0	GERN302
+15	0	0	0	0	GERN303
+16	0	0	0	0	GERN303
+17	0	0	0	0	GERN303
+18	0	0	0	0	GERN304
+19	0	0	0	0	GERN304
+20	0	0	0	0	GERN304
+TableEnd					
+					
+TableStart	ReplyGerundPolite				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	GERN209
+2	0	0	0	0	GERN209
+3	0	0	0	0	GERN306
+4	0	0	0	0	GERN306
+5	0	0	0	0	GERN307
+6	0	0	0	0	GERN307
+7	0	0	0	0	GERN307
+8	0	0	0	0	GERN308
+9	0	0	0	0	GERN308
+10	0	0	0	0	GERN308
+11	0	0	0	0	GERN309
+12	0	0	0	0	GERN309
+13	0	0	0	0	GERN401
+14	0	0	0	0	GERN401
+TableEnd					
+					
+TableStart	ReplyGerundFormal				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	GERN210
+1	0	0	0	0	GERN210
+1	0	0	0	0	GERN210
+2	0	0	0	0	GERN310
+3	0	0	0	0	GERN311
+3	0	0	0	0	GERN311
+3	0	0	0	0	GERN311
+4	4	0	0	0	GERN312
+5	0	0	0	0	GERN402
+5	0	0	0	0	GERN402
+6	0	0	0	0	GERN403
+6	0	0	0	0	GERN403
+6	0	0	0	0	GERN403
+7	0	0	0	0	GERN404
+7	0	0	0	0	GERN404
+7	0	0	0	0	GERN404
+8	2	0	0	0	GERN405
+8	2	0	0	0	GERN405
+8	2	0	0	0	GERN405
+9	7	0	0	0	GERN406
+9	7	0	0	0	GERN406
+10	12	0	0	0	GERN407
+11	4	0	0	0	GERN408
+11	4	0	0	0	GERN408
+12	0	0	0	0	GERN409
+12	0	0	0	0	GERN409
+13	0	0	0	0	GERN410
+14	0	0	0	0	GERN411
+14	0	0	0	0	GERN411
+15	0	0	0	0	GERN412
+15	0	0	0	0	GERN412
+16	0	0	0	0	GERN413
+16	0	0	0	0	GERN413
+17	0	0	0	0	GERN414
+18	0	0	0	0	GERN415
+19	0	0	0	0	GERN416
+TableEnd					
+					
+TableStart	ReplyGerundCool				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	GERN502
+2	0	0	0	0	GERN502
+3	0	0	0	0	GERN502
+4	0	0	0	0	GERN503
+5	0	0	0	0	GERN503
+6	0	0	0	0	GERN504
+7	0	0	0	0	GERN504
+8	0	0	0	0	GERN505
+9	0	0	0	0	GERN505
+10	0	0	0	0	GERN505
+11	0	0	0	0	GERN506
+12	0	0	0	0	GERN506
+13	0	0	0	0	GERN506
+14	0	0	0	0	GERN507
+15	0	0	0	0	GERN507
+16	0	0	0	0	GERN508
+17	0	0	0	0	GERN508
+18	0	0	0	0	GERN509
+19	0	0	0	0	GERN510
+20	0	0	0	0	GERN510
+21	0	0	0	0	GERN510
+22	15	0	0	0	GERN511
+23	15	0	0	0	GERN511
+24	0	0	0	0	GERN512
+25	0	0	0	0	GERN512
+26	0	0	0	0	GERN512
+27	0	0	0	0	GERN513
+28	0	0	0	0	GERN513
+29	0	0	0	0	GERN514
+30	0	0	0	0	GERN514
+31	0	0	0	0	GERN514
+32	0	0	0	0	GERN515
+TableEnd					
+					
+TableStart	ReplyGerundCold				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	GERN501
+2	0	0	0	0	GERN516
+3	0	0	0	0	GERN601
+4	0	0	0	0	GERN601
+5	0	0	0	0	GERN601
+6	0	0	0	0	GERN603
+7	0	0	0	0	GERN603
+8	5	0	0	0	GERN605
+9	5	0	0	0	GERN605
+10	1	0	0	0	GERN606
+11	1	0	0	0	GERN606
+12	1	0	0	0	GERN606
+13	0	0	0	0	GERN607
+14	0	0	0	0	GERN608
+15	0	0	0	0	GERN609
+16	0	0	0	0	GERN609
+17	0	0	0	0	GERN610
+18	0	0	0	0	GERN610
+19	0	0	0	0	GERN611
+20	0	0	0	0	GERN612
+21	0	0	0	0	GERN612
+22	0	0	0	0	GERN612
+23	0	0	0	0	GERN704
+24	0	0	0	0	GERN704
+25	0	0	0	0	GERN704
+TableEnd					
+					
+TableStart	ReplyGerundInsulting				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	GERN701
+2	0	0	0	0	GERN701
+3	0	0	0	0	GERN702
+4	0	0	0	0	GERN702
+5	0	0	0	0	GERN702
+6	0	0	0	0	GERN703
+7	0	0	0	0	GERN703
+8	0	0	0	0	GERN703
+9	0	0	0	0	GERN705
+10	0	0	0	0	GERN705
+11	0	0	0	0	GERN706
+12	0	0	0	0	GERN706
+13	0	0	0	0	GERN706
+14	2	0	0	0	GERN707
+15	2	0	0	0	GERN707
+16	0	0	0	0	GERN708
+17	0	0	0	0	GERN709
+18	0	0	0	0	GERN709
+19	0	0	0	0	GERN710
+20	0	0	0	0	GERN710
+21	0	0	0	0	GERN711
+22	0	0	0	0	GERN711
+23	0	0	0	0	GERN712
+24	0	0	0	0	GERN712
+25	0	0	0	0	GERN712
+26	0	0	0	0	GERN713
+27	0	0	0	0	GERN714
+28	0	0	0	0	GERN714
+29	0	0	0	0	GERN714
+30	0	0	0	0	GERN715
+31	0	0	0	0	GERN715
+32	0	0	0	0	GERN716
+TableEnd					
+					
+TableStart	ReplyAdverbHumble				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	ADVB101
+2	0	0	0	0	ADVB102
+3	0	0	0	0	ADVB103
+4	0	0	0	0	ADVB104
+5	0	0	0	0	ADVB105
+6	0	0	0	0	ADVB106
+7	0	0	0	0	ADVB107
+8	0	0	0	0	ADVB108
+9	0	0	0	0	ADVB109
+10	0	0	0	0	ADVB110
+11	0	0	0	0	ADVB111
+12	0	0	0	0	ADVB112
+13	0	0	0	0	ADVB113
+14	0	0	0	0	ADVB114
+15	0	0	0	0	ADVB115
+16	0	0	0	0	ADVB116
+17	0	0	0	0	ADVB117
+18	0	0	0	0	ADVB118
+19	0	0	0	0	ADVB119
+20	0	0	0	0	ADVB120
+21	0	0	0	0	ADVB121
+22	0	0	0	0	ADVB122
+23	0	0	0	0	ADVB123
+24	0	0	0	0	ADVB124
+25	0	0	0	0	ADVB125
+26	0	0	0	0	ADVB116
+27	0	0	0	0	ADVB120
+28	0	0	0	0	ADVB121
+29	0	0	0	0	ADVB125
+30	0	0	0	0	ADVB203
+TableEnd					
+					
+TableStart	ReplyAdverbAppreciative				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	ADVB201
+2	0	0	0	0	ADVB201
+3	0	0	0	0	ADVB201
+4	0	0	0	0	ADVB202
+5	0	0	0	0	ADVB202
+6	0	0	0	0	ADVB202
+7	0	0	0	0	ADVB203
+8	0	0	0	0	ADVB203
+9	0	0	0	0	ADVB203
+10	0	0	0	0	ADVB204
+11	0	0	0	0	ADVB204
+12	0	0	0	0	ADVB204
+13	0	0	0	0	ADVB205
+14	0	0	0	0	ADVB205
+15	0	0	0	0	ADVB206
+16	0	0	0	0	ADVB206
+17	0	0	0	0	ADVB207
+18	0	0	0	0	ADVB207
+19	0	0	0	0	ADVB208
+20	0	0	0	0	ADVB208
+21	0	0	0	0	ADVB209
+22	0	0	0	0	ADVB209
+23	0	0	0	0	ADVB210
+24	0	0	0	0	ADVB211
+25	0	0	0	0	ADVB212
+26	0	0	0	0	ADVB213
+27	0	0	0	0	ADVB214
+28	0	0	0	0	ADVB215
+29	0	0	0	0	ADVB216
+30	0	0	0	0	ADVB217
+31	0	0	0	0	ADVB218
+32	0	0	0	0	ADVB219
+33	0	0	0	0	ADVB220
+34	0	0	0	0	ADVB620
+35	0	0	0	0	ADVB611
+36	0	0	0	0	ADVB613
+37	0	0	0	0	ADVB613
+TableEnd					
+					
+TableStart	ReplyAdverbPolite				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	ADVB301
+2	0	0	0	0	ADVB301
+3	0	0	0	0	ADVB302
+4	0	0	0	0	ADVB302
+5	0	0	0	0	ADVB302
+6	0	0	0	0	ADVB303
+7	0	0	0	0	ADVB303
+8	0	0	0	0	ADVB304
+9	0	0	0	0	ADVB304
+10	0	0	0	0	ADVB304
+11	0	0	0	0	ADVB305
+12	0	0	0	0	ADVB305
+13	0	0	0	0	ADVB305
+14	0	0	0	0	ADVB306
+15	0	0	0	0	ADVB306
+16	0	0	0	0	ADVB307
+17	0	0	0	0	ADVB307
+18	0	0	0	0	ADVB308
+19	0	0	0	0	ADVB308
+20	0	0	0	0	ADVB308
+21	0	0	0	0	ADVB309
+22	0	0	0	0	ADVB309
+23	0	0	0	0	ADVB310
+24	0	0	0	0	ADVB311
+25	0	0	0	0	ADVB311
+26	0	0	0	0	ADVB312
+27	0	0	0	0	ADVB312
+28	0	0	0	0	ADVB312
+29	0	0	0	0	ADVB313
+30	0	0	0	0	ADVB313
+31	0	0	0	0	ADVB314
+32	0	0	0	0	ADVB314
+33	0	0	0	0	ADVB315
+34	0	0	0	0	ADVB316
+35	0	0	0	0	ADVB317
+36	0	0	0	0	ADVB317
+37	0	0	0	0	ADVB318
+38	0	0	0	0	ADVB319
+39	0	0	0	0	ADVB320
+TableEnd					
+					
+TableStart	ReplyAdverbFormal				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	ADVB401
+2	0	0	0	0	ADVB401
+3	0	0	0	0	ADVB401
+4	0	0	0	0	ADVB402
+5	0	0	0	0	ADVB402
+6	0	0	0	0	ADVB403
+7	0	0	0	0	ADVB403
+8	0	0	0	0	ADVB404
+9	0	0	0	0	ADVB404
+10	0	0	0	0	ADVB405
+11	0	0	0	0	ADVB405
+12	0	0	0	0	ADVB405
+13	0	0	0	0	ADVB406
+14	0	0	0	0	ADVB406
+15	0	0	0	0	ADVB407
+16	0	0	0	0	ADVB407
+17	0	0	0	0	ADVB408
+18	0	0	0	0	ADVB408
+19	0	0	0	0	ADVB409
+20	0	0	0	0	ADVB409
+21	0	0	0	0	ADVB410
+22	0	0	0	0	ADVB410
+23	0	0	0	0	ADVB410
+24	0	0	0	0	ADVB411
+25	0	0	0	0	ADVB411
+26	0	0	0	0	ADVB412
+27	0	0	0	0	ADVB413
+28	0	0	0	0	ADVB413
+29	0	0	0	0	ADVB413
+30	0	0	0	0	ADVB414
+31	0	0	0	0	ADVB617
+32	0	0	0	0	ADVB617
+33	0	0	0	0	ADVB618
+TableEnd					
+					
+TableStart	ReplyAdverbCool				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	ADVB501
+2	0	0	0	0	ADVB501
+3	0	0	0	0	ADVB501
+4	0	0	0	0	ADVB502
+5	0	0	0	0	ADVB502
+6	0	0	0	0	ADVB503
+7	0	0	0	0	ADVB503
+8	0	0	0	0	ADVB504
+9	0	0	0	0	ADVB504
+10	0	0	0	0	ADVB504
+11	0	0	0	0	ADVB505
+12	0	0	0	0	ADVB505
+13	0	0	0	0	ADVB506
+14	0	0	0	0	ADVB507
+15	0	0	0	0	ADVB507
+16	0	0	0	0	ADVB508
+17	0	0	0	0	ADVB508
+18	0	0	0	0	ADVB508
+19	0	0	0	0	ADVB512
+20	0	0	0	0	ADVB512
+21	0	0	0	0	ADVB513
+22	0	0	0	0	ADVB515
+23	0	0	0	0	ADVB515
+24	0	0	0	0	ADVB515
+25	0	0	0	0	ADVB516
+26	0	0	0	0	ADVB517
+27	0	0	0	0	ADVB518
+28	0	0	0	0	ADVB519
+29	0	0	0	0	ADVB520
+30	0	0	0	0	ADVB520
+31	0	0	0	0	ADVB523
+32	0	0	0	0	ADVB523
+33	0	0	0	0	ADVB523
+34	0	0	0	0	ADVB524
+35	0	0	0	0	ADVB525
+36	0	0	0	0	ADVB526
+37	0	0	0	0	ADVB526
+38	0	0	0	0	ADVB527
+39	0	0	0	0	ADVB527
+40	0	0	0	0	ADVB527
+41	0	0	0	0	ADVB528
+42	0	0	0	0	ADVB528
+43	0	0	0	0	ADVB614
+44	0	0	0	0	ADVB614
+TableEnd					
+					
+TableStart	ReplyAdverbCold				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	ADVB509
+2	0	0	0	0	ADVB509
+3	0	0	0	0	ADVB510
+4	0	0	0	0	ADVB511
+5	0	0	0	0	ADVB514
+6	0	0	0	0	ADVB514
+7	0	0	0	0	ADVB514
+8	0	0	0	0	ADVB518
+9	0	0	0	0	ADVB518
+10	0	0	0	0	ADVB521
+11	0	0	0	0	ADVB522
+12	0	0	0	0	ADVB522
+13	0	0	0	0	ADVB522
+14	0	0	0	0	ADVB601
+15	0	0	0	0	ADVB601
+16	0	0	0	0	ADVB601
+17	0	0	0	0	ADVB602
+18	0	0	0	0	ADVB602
+19	0	0	0	0	ADVB602
+20	0	0	0	0	ADVB603
+21	0	0	0	0	ADVB603
+22	0	0	0	0	ADVB604
+23	0	0	0	0	ADVB604
+24	0	0	0	0	ADVB604
+25	0	0	0	0	ADVB605
+26	0	0	0	0	ADVB605
+27	0	0	0	0	ADVB605
+28	0	0	0	0	ADVB606
+29	0	0	0	0	ADVB606
+30	0	0	0	0	ADVB606
+31	0	0	0	0	ADVB607
+32	0	0	0	0	ADVB607
+33	0	0	0	0	ADVB608
+34	0	0	0	0	ADVB608
+35	0	0	0	0	ADVB608
+36	0	0	0	0	ADVB609
+37	0	0	0	0	ADVB609
+38	0	0	0	0	ADVB610
+39	0	0	0	0	ADVB612
+40	0	0	0	0	ADVB615
+41	0	0	0	0	ADVB616
+42	0	0	0	0	ADVB619
+43	0	0	0	0	ADVB620
+TableEnd					
+					
+TableStart	ReplyAdverbInsulting				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	ADVB701
+2	0	0	0	0	ADVB701
+3	0	0	0	0	ADVB701
+4	0	0	0	0	ADVB702
+5	0	0	0	0	ADVB702
+6	0	0	0	0	ADVB703
+7	0	0	0	0	ADVB703
+8	0	0	0	0	ADVB704
+9	0	0	0	0	ADVB704
+10	0	0	0	0	ADVB705
+11	0	0	0	0	ADVB706
+12	0	0	0	0	ADVB706
+13	0	0	0	0	ADVB707
+14	0	0	0	0	ADVB707
+15	0	0	0	0	ADVB707
+16	0	0	0	0	ADVB708
+17	0	0	0	0	ADVB709
+18	0	0	0	0	ADVB709
+19	0	0	0	0	ADVB710
+20	0	0	0	0	ADVB710
+21	0	0	0	0	ADVB711
+22	0	0	0	0	ADVB711
+23	0	0	0	0	ADVB711
+24	0	0	0	0	ADVB712
+25	0	0	0	0	ADVB713
+26	0	0	0	0	ADVB713
+27	0	0	0	0	ADVB714
+28	0	0	0	0	ADVB715
+29	0	0	0	0	ADVB715
+30	0	0	0	0	ADVB715
+31	0	0	0	0	ADVB716
+32	0	0	0	0	ADVB717
+33	0	0	0	0	ADVB717
+34	0	0	0	0	ADVB718
+35	0	0	0	0	ADVB718
+36	0	0	0	0	ADVB719
+37	0	0	0	0	ADVB720
+38	0	0	0	0	ADVB720
+39	0	0	0	0	ADVB721
+40	0	0	0	0	ADVB722
+TableEnd					
+					
+TableStart	ReplyStyleHumble				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	RSTY101
+2	0	0	0	0	RSTY102
+3	0	0	0	0	RSTY103
+4	0	0	0	0	RSTY104
+5	0	0	0	0	RSTY105
+6	0	0	0	0	RSTY106
+7	0	0	0	0	RSTY107
+8	0	0	0	0	RSTY108
+9	0	0	0	0	RSTY109
+10	0	0	0	0	RSTY110
+TableEnd					
+					
+TableStart	ReplyStyleAppreciative				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	RSTY201
+2	0	0	0	0	RSTY202
+3	0	0	0	0	RSTY203
+4	0	0	0	0	RSTY204
+5	0	0	0	0	RSTY205
+6	0	0	0	0	RSTY206
+7	0	0	0	0	RSTY207
+8	0	0	0	0	RSTY208
+9	0	0	0	0	RSTY209
+10	0	0	0	0	RSTY210
+11	0	0	0	0	RSTY211
+12	0	0	0	0	RSTY212
+13	0	0	0	0	RSTY213
+14	0	0	0	0	RSTY214
+15	0	0	0	0	RSTY215
+16	0	0	0	0	RSTY216
+17	0	0	0	0	RSTY217
+18	0	0	0	0	RSTY218
+TableEnd					
+					
+TableStart	ReplyStylePolite				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	RSTY301
+2	0	0	0	0	RSTY302
+3	0	0	0	0	RSTY303
+4	0	0	0	0	RSTY304
+5	0	0	0	0	RSTY305
+6	0	0	0	0	RSTY306
+7	0	0	0	0	RSTY307
+8	0	0	0	0	RSTY308
+9	0	0	0	0	RSTY309
+10	0	0	0	0	RSTY310
+11	0	0	0	0	RSTY311
+12	0	0	0	0	RSTY312
+13	0	0	0	0	RSTY313
+14	0	0	0	0	RSTY314
+15	0	0	0	0	RSTY315
+16	0	0	0	0	RSTY316
+TableEnd					
+					
+TableStart	ReplyStyleFormal				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	RSTY401
+2	0	0	0	0	RSTY402
+3	0	0	0	0	RSTY403
+4	0	0	0	0	RSTY404
+5	0	0	0	0	RSTY405
+6	0	0	0	0	RSTY406
+7	0	0	0	0	RSTY407
+8	0	0	0	0	RSTY408
+9	0	0	0	0	RSTY409
+10	0	0	0	0	RSTY410
+11	0	0	0	0	RSTY411
+12	0	0	0	0	RSTY412
+13	0	0	0	0	RSTY413
+14	0	0	0	0	RSTY414
+15	0	0	0	0	RSTY415
+16	0	0	0	0	RSTY416
+17	0	0	0	0	RSTY417
+TableEnd					
+					
+TableStart	ReplyStyleCool				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	RSTY501
+2	0	0	0	0	RSTY502
+3	0	0	0	0	RSTY503
+4	0	0	0	0	RSTY504
+5	0	0	0	0	RSTY505
+6	0	0	0	0	RSTY506
+7	0	0	0	0	RSTY507
+8	0	0	0	0	RSTY508
+9	0	0	0	0	RSTY509
+10	0	0	0	0	RSTY510
+11	0	0	0	0	RSTY511
+12	0	0	0	0	RSTY512
+13	0	0	0	0	RSTY513
+14	0	0	0	0	RSTY514
+15	0	0	0	0	RSTY515
+16	0	0	0	0	RSTY516
+17	0	0	0	0	RSTY517
+18	0	0	0	0	RSTY518
+19	0	0	0	0	RSTY519
+20	0	0	0	0	RSTY520
+21	0	0	0	0	RSTY521
+TableEnd					
+					
+TableStart	ReplyStyleCold				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	RSTY601
+2	0	0	0	0	RSTY602
+3	0	0	0	0	RSTY603
+4	0	0	0	0	RSTY604
+5	0	0	0	0	RSTY605
+6	0	0	0	0	RSTY606
+7	0	0	0	0	RSTY607
+8	0	0	0	0	RSTY608
+9	0	0	0	0	RSTY609
+10	0	0	0	0	RSTY610
+11	0	0	0	0	RSTY611
+12	0	0	0	0	RSTY612
+13	0	0	0	0	RSTY613
+14	0	0	0	0	RSTY614
+15	0	0	0	0	RSTY615
+16	0	0	0	0	RSTY616
+TableEnd					
+					
+TableStart	ReplyStyleInsulting				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	RSTY701
+2	0	0	0	0	RSTY702
+3	0	0	0	0	RSTY703
+4	0	0	0	0	RSTY704
+5	0	0	0	0	RSTY705
+6	0	0	0	0	RSTY706
+7	0	0	0	0	RSTY707
+8	0	0	0	0	RSTY708
+9	0	0	0	0	RSTY709
+TableEnd					
+					
+TableStart	ReplyFollowHumble				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	RFOL101
+2	0	0	0	0	RFOL102
+3	0	0	0	0	RFOL103
+4	0	0	0	0	RFOL104
+5	0	0	0	0	RFOL105
+6	0	0	0	0	RFOL106
+7	0	0	0	0	RFOL107
+8	0	0	0	0	RFOL108
+9	0	0	0	0	RFOL109
+10	0	0	0	0	RFOL110
+11	0	0	0	0	RFOL111
+12	0	0	0	0	RFOL112
+13	0	0	0	0	RFOL113
+TableEnd					
+					
+TableStart	ReplyFollowAppreciative				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	RFOL201
+2	0	0	0	0	RFOL202
+3	0	0	0	0	RFOL203
+4	0	0	0	0	RFOL204
+5	0	0	0	0	RFOL205
+6	0	0	0	0	RFOL206
+7	0	0	0	0	RFOL207
+8	0	0	0	0	RFOL208
+9	0	0	0	0	RFOL209
+10	0	0	0	0	RFOL210
+11	0	0	0	0	RFOL211
+12	0	0	0	0	RFOL212
+13	0	0	0	0	RFOL213
+14	0	0	0	0	RFOL214
+15	0	0	0	0	RFOL215
+TableEnd					
+					
+TableStart	ReplyFollowPolite				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	RFOL301
+2	0	0	0	0	RFOL302
+3	0	0	0	0	RFOL303
+4	0	0	0	0	RFOL304
+5	0	0	0	0	RFOL305
+6	0	0	0	0	RFOL306
+7	0	0	0	0	RFOL307
+8	0	0	0	0	RFOL308
+9	0	0	0	0	RFOL309
+10	0	0	0	0	RFOL310
+11	0	0	0	0	RFOL311
+12	0	0	0	0	RFOL312
+TableEnd					
+					
+TableStart	ReplyFollowFormal				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	RFOL401
+2	0	0	0	0	RFOL402
+3	0	0	0	0	RFOL403
+4	0	0	0	0	RFOL404
+5	0	0	0	0	RFOL405
+6	0	0	0	0	RFOL406
+7	0	0	0	0	RFOL407
+8	0	0	0	0	RFOL408
+9	0	0	0	0	RFOL409
+10	0	0	0	0	RFOL410
+11	0	0	0	0	RFOL411
+12	0	0	0	0	RFOL412
+TableEnd					
+					
+TableStart	ReplyFollowCool				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	RFOL501
+2	0	0	0	0	RFOL502
+3	0	0	0	0	RFOL503
+4	0	0	0	0	RFOL504
+5	0	0	0	0	RFOL505
+6	0	0	0	0	RFOL506
+7	0	0	0	0	RFOL507
+8	0	0	0	0	RFOL508
+9	0	0	0	0	RFOL509
+10	0	0	0	0	RFOL510
+11	0	0	0	0	RFOL511
+12	0	0	0	0	RFOL512
+13	0	0	0	0	RFOL513
+TableEnd					
+					
+TableStart	ReplyFollowCold				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	RFOL601
+2	0	0	0	0	RFOL602
+3	0	0	0	0	RFOL603
+4	0	0	0	0	RFOL604
+5	0	0	0	0	RFOL605
+6	0	0	0	0	RFOL606
+7	0	0	0	0	RFOL607
+8	0	0	0	0	RFOL608
+9	0	0	0	0	RFOL609
+10	0	0	0	0	RFOL610
+11	0	0	0	0	RFOL611
+12	0	0	0	0	RFOL612
+TableEnd					
+					
+TableStart	ReplyFollowInsulting				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	RFOL701
+2	0	0	0	0	RFOL702
+3	0	0	0	0	RFOL703
+4	0	0	0	0	RFOL704
+5	0	0	0	0	RFOL705
+6	0	0	0	0	RFOL706
+7	0	0	0	0	RFOL707
+8	0	0	0	0	RFOL708
+9	0	0	0	0	RFOL709
+10	0	0	0	0	RFOL710
+11	0	0	0	0	RFOL711
+12	0	0	0	0	RFOL712
+TableEnd					
+					
+TableStart	ReplyGreetingHumble				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	GRTG101
+2	0	0	0	0	GRTG102
+3	0	0	0	0	GRTG103
+4	0	0	0	0	GRTG104
+5	0	0	0	0	GRTG105
+6	0	0	0	0	GRTG106
+7	0	0	0	0	GRTG107
+8	0	0	0	0	GRTG108
+9	0	0	0	0	GRTG109
+10	0	0	0	0	GRTG110
+11	0	0	0	0	GRTG111
+12	0	0	0	0	GRTG112
+13	0	0	0	0	GRTG113
+14	0	0	0	0	GRTG114
+15	0	0	0	0	GRTG115
+16	0	0	0	0	GRTG116
+17	0	0	0	0	GRTG117
+18	0	0	0	0	GRTG118
+19	0	0	0	0	GRTG119
+20	0	0	0	0	GRTG202
+21	0	0	0	0	GRTG120
+TableEnd					
+					
+TableStart	ReplyGreetingAppreciative				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	GRTG201
+2	0	0	0	0	GRTG201
+3	0	0	0	0	GRTG203
+4	0	0	0	0	GRTG204
+5	0	0	0	0	GRTG205
+6	0	0	0	0	GRTG206
+7	0	0	0	0	GRTG207
+8	0	0	0	0	GRTG208
+9	0	0	0	0	GRTG209
+10	0	0	0	0	GRTG210
+11	0	0	0	0	GRTG211
+12	0	0	0	0	GRTG212
+TableEnd					
+					
+TableStart	ReplyGreetingPolite				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	GRTG301
+2	0	0	0	0	GRTG302
+3	0	0	0	0	GRTG303
+4	0	0	0	0	GRTG304
+5	0	0	0	0	GRTG305
+6	0	0	0	0	GRTG306
+7	0	0	0	0	GRTG307
+8	4	0	0	0	GRTG308
+9	0	0	0	0	GRTG309
+10	0	0	0	0	GRTG310
+11	0	0	0	0	GRTG311
+12	0	0	0	0	GRTG312
+13	0	0	0	0	GRTG313
+14	0	0	0	0	GRTG314
+TableEnd					
+					
+TableStart	ReplyGreetingFormal				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	GRTG401
+2	0	0	0	0	GRTG402
+3	0	0	0	0	GRTG403
+4	0	0	0	0	GRTG404
+5	0	0	0	0	GRTG405
+6	0	0	0	0	GRTG406
+7	0	0	0	0	GRTG407
+8	0	0	0	0	GRTG408
+9	0	0	0	0	GRTG409
+10	0	0	0	0	GRTG410
+11	0	0	0	0	GRTG411
+12	0	0	0	0	GRTG412
+TableEnd					
+					
+TableStart	ReplyGreetingCool				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	GRTG501
+2	0	0	0	0	GRTG502
+3	0	0	0	0	GRTG503
+4	0	0	0	0	GRTG504
+5	0	0	0	0	GRTG505
+6	0	0	0	0	GRTG506
+7	0	0	0	0	GRTG507
+8	0	0	0	0	GRTG508
+9	0	0	0	0	GRTG509
+10	0	0	0	0	GRTG510
+11	0	0	0	0	GRTG511
+12	0	0	0	0	GRTG512
+13	0	0	0	0	GRTG513
+14	0	0	0	0	GRTG514
+15	0	0	0	0	GRTG515
+16	0	0	0	0	GRTG516
+TableEnd					
+					
+TableStart	ReplyGreetingCold				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	GRTG601
+2	0	0	0	0	GRTG602
+3	0	0	0	0	GRTG603
+4	0	0	0	0	GRTG604
+5	0	0	0	0	GRTG605
+6	0	0	0	0	GRTG606
+7	0	0	0	0	GRTG607
+8	0	0	0	0	GRTG608
+9	0	0	0	0	GRTG609
+10	0	0	0	0	GRTG610
+11	0	0	0	0	GRTG611
+12	0	0	0	0	GRTG612
+13	0	0	0	0	GRTG613
+14	0	0	0	0	GRTG614
+15	0	0	0	0	GRTG615
+16	0	0	0	0	GRTG616
+17	0	0	0	0	GRTG617
+18	0	0	0	0	GRTG618
+19	0	0	0	0	GRTG619
+TableEnd					
+					
+TableStart	ReplyGreetingInsulting				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	GRTG701
+2	0	0	0	0	GRTG702
+3	0	0	0	0	GRTG703
+4	0	0	0	0	GRTG704
+5	0	0	0	0	GRTG705
+6	0	0	0	0	GRTG706
+7	0	0	0	0	GRTG707
+8	0	0	0	0	GRTG708
+9	0	0	0	0	GRTG709
+10	0	0	0	0	GRTG710
+11	5	8	0	0	GRTG711
+12	0	0	0	0	GRTG712
+13	0	0	0	0	GRTG713
+14	0	0	0	0	GRTG714
+13	0	0	0	0	GRTG713
+14	0	0	0	0	GRTG714
+TableEnd					
+					
+TableStart	ReplyNoanswerHumble				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	NOAN101
+2	0	0	0	0	NOAN102
+3	0	0	0	0	NOAN103
+4	0	0	0	0	NOAN104
+5	0	0	0	0	NOAN105
+6	0	0	0	0	NOAN106
+TableEnd					
+					
+TableStart	ReplyNoanswerAppreciative				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	NOAN201
+2	0	0	0	0	NOAN202
+3	0	0	0	0	NOAN203
+4	0	0	0	0	NOAN204
+5	0	0	0	0	NOAN205
+6	0	0	0	0	NOAN206
+TableEnd					
+					
+TableStart	ReplyNoanswerPolite				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	NOAN301
+2	0	0	0	0	NOAN302
+3	0	0	0	0	NOAN303
+4	0	0	0	0	NOAN304
+5	0	0	0	0	NOAN305
+6	0	0	0	0	NOAN306
+TableEnd					
+					
+TableStart	ReplyNoanswerFormal				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	NOAN401
+2	0	0	0	0	NOAN402
+3	0	0	0	0	NOAN403
+4	0	0	0	0	NOAN404
+5	0	0	0	0	NOAN405
+6	0	0	0	0	NOAN406
+TableEnd					
+					
+TableStart	ReplyNoanswerCool				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	NOAN501
+2	0	0	0	0	NOAN502
+3	0	0	0	0	NOAN503
+4	0	0	0	0	NOAN504
+5	0	0	0	0	NOAN505
+6	0	0	0	0	NOAN506
+TableEnd					
+					
+TableStart	ReplyNoanswerCold				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	NOAN601
+2	0	0	0	0	NOAN602
+3	0	0	0	0	NOAN603
+4	0	0	0	0	NOAN604
+5	0	0	0	0	NOAN605
+6	0	0	0	0	NOAN606
+TableEnd					
+					
+TableStart	ReplyNoanswerInsulting				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	NOAN701
+2	0	0	0	0	NOAN702
+3	0	0	0	0	NOAN703
+4	0	0	0	0	NOAN704
+5	0	0	0	0	NOAN705
+6	0	0	0	0	NOAN706
+TableEnd					
+					
+TableStart	ReplyRefusalHumble				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	RFUS101
+2	0	0	0	0	RFUS102
+3	0	0	0	0	RFUS103
+4	0	0	0	0	RFUS104
+5	0	0	0	0	RFUS105
+6	0	0	0	0	RFUS106
+7	0	0	0	0	RFUS107
+8	0	0	0	0	RFUS108
+9	0	0	0	0	RFUS109
+10	0	0	0	0	RFUS110
+11	0	0	0	0	RFUS111
+12	0	0	0	0	RFUS112
+13	0	0	0	0	RFUS113
+14	0	0	0	0	NOAN101
+15	0	0	0	0	NOAN102
+16	0	0	0	0	NOAN103
+17	0	0	0	0	NOAN104
+18	0	0	0	0	NOAN105
+19	0	0	0	0	NOAN106
+TableEnd					
+					
+TableStart	ReplyRefusalAppreciative				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	RFUS201
+2	0	0	0	0	RFUS202
+3	0	0	0	0	RFUS203
+4	0	0	0	0	RFUS204
+5	0	0	0	0	RFUS205
+6	0	0	0	0	RFUS206
+7	0	0	0	0	RFUS207
+8	0	0	0	0	RFUS208
+9	0	0	0	0	RFUS209
+10	0	0	0	0	RFUS210
+11	0	0	0	0	RFUS211
+12	0	0	0	0	STAL203
+13	0	0	0	0	STAL204
+14	0	0	0	0	NOAN201
+15	0	0	0	0	NOAN202
+16	0	0	0	0	NOAN203
+17	0	0	0	0	NOAN204
+18	0	0	0	0	NOAN205
+19	0	0	0	0	NOAN206
+TableEnd					
+					
+TableStart	ReplyRefusalPolite				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	RFUS301
+2	0	0	0	0	RFUS302
+3	0	0	0	0	RFUS303
+4	0	0	0	0	RFUS304
+5	0	0	0	0	RFUS305
+6	0	0	0	0	RFUS306
+7	0	0	0	0	RFUS307
+8	0	0	0	0	RFUS308
+9	0	0	0	0	RFUS309
+10	0	0	0	0	RFUS310
+11	0	0	0	0	RFUS311
+12	0	0	0	0	STAL305
+13	0	0	0	0	NOAN301
+14	0	0	0	0	NOAN302
+15	0	0	0	0	NOAN303
+16	0	0	0	0	NOAN304
+17	0	0	0	0	NOAN305
+18	0	0	0	0	NOAN306
+TableEnd					
+					
+TableStart	ReplyRefusalFormal				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	RFUS401
+2	0	0	0	0	RFUS402
+3	0	0	0	0	RFUS403
+4	0	0	0	0	RFUS404
+5	0	0	0	0	RFUS405
+6	0	0	0	0	RFUS406
+7	0	0	0	0	RFUS407
+8	0	0	0	0	RFUS408
+9	0	0	0	0	RFUS409
+10	0	0	0	0	RFUS410
+11	0	0	0	0	RFUS411
+12	0	0	0	0	RFUS412
+13	0	0	0	0	RFUS413
+14	0	0	0	0	STAL406
+15	0	0	0	0	STAL602
+16	0	0	0	0	STAL606
+17	0	0	0	0	NOAN401
+18	0	0	0	0	NOAN402
+19	0	0	0	0	NOAN403
+20	0	0	0	0	NOAN404
+21	0	0	0	0	NOAN405
+22	0	0	0	0	NOAN406
+TableEnd					
+					
+TableStart	ReplyRefusalCool				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	RFUS501
+2	0	0	0	0	RFUS502
+3	0	0	0	0	RFUS503
+4	0	0	0	0	RFUS504
+5	0	0	0	0	RFUS505
+6	0	0	0	0	RFUS506
+7	0	0	0	0	RFUS507
+8	0	0	0	0	RFUS508
+9	0	0	0	0	RFUS509
+10	0	0	0	0	RFUS510
+11	0	0	0	0	RFUS511
+12	0	0	0	0	RFUS512
+13	0	0	0	0	RFUS513
+14	0	0	0	0	RFUS514
+15	0	0	0	0	RFUS515
+16	0	0	0	0	RFUS516
+17	0	0	0	0	STAL502
+18	0	0	0	0	STAL505
+19	0	0	0	0	STAL501
+20	0	0	0	0	NOAN501
+21	0	0	0	0	NOAN502
+22	0	0	0	0	NOAN503
+23	0	0	0	0	NOAN504
+24	0	0	0	0	NOAN505
+25	0	0	0	0	NOAN506
+26	0	0	0	0	STAL606
+TableEnd					
+					
+TableStart	ReplyRefusalCold				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	RFUS601
+2	0	0	0	0	RFUS602
+3	0	0	0	0	RFUS603
+4	0	0	0	0	RFUS604
+5	0	0	0	0	RFUS605
+6	0	0	0	0	RFUS606
+7	0	0	0	0	RFUS607
+8	0	0	0	0	RFUS608
+9	0	0	0	0	RFUS609
+10	0	0	0	0	RFUS610
+11	0	0	0	0	RFUS611
+12	0	0	0	0	RFUS612
+13	0	0	0	0	RFUS613
+14	0	0	0	0	RFUS614
+15	0	0	0	0	RFUS615
+16	0	0	0	0	RFUS616
+17	0	0	0	0	RFUS617
+18	0	0	0	0	STAL601
+19	0	0	0	0	NOAN601
+20	0	0	0	0	NOAN602
+21	0	0	0	0	NOAN603
+22	0	0	0	0	NOAN604
+23	0	0	0	0	NOAN605
+24	0	0	0	0	NOAN606
+25	0	0	0	0	STAL602
+TableEnd					
+					
+TableStart	ReplyRefusalInsulting				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	RFUS701
+2	0	0	0	0	RFUS702
+3	0	0	0	0	RFUS703
+4	0	0	0	0	RFUS704
+5	0	0	0	0	RFUS705
+6	0	0	0	0	RFUS706
+7	0	0	0	0	RFUS707
+8	0	0	0	0	RFUS708
+9	0	0	0	0	RFUS709
+10	0	0	0	0	RFUS710
+11	0	0	0	0	RFUS711
+12	0	0	0	0	RFUS712
+13	0	0	0	0	RFUS713
+14	0	0	0	0	NOAN701
+15	0	0	0	0	NOAN702
+16	0	0	0	0	NOAN703
+17	0	0	0	0	NOAN704
+18	0	0	0	0	NOAN705
+19	0	0	0	0	NOAN706
+20	0	0	0	0	STAL701
+21	0	0	0	0	STAL704
+TableEnd					
+					
+TableStart	ReplyStallHumble				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	STAL101
+2	0	0	0	0	STAL102
+3	0	0	0	0	STAL103
+4	0	0	0	0	STAL104
+5	0	0	0	0	STAL105
+6	0	0	0	0	STAL106
+TableEnd					
+					
+TableStart	ReplyStallAppreciative				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	STAL201
+2	0	0	0	0	STAL202
+3	0	0	0	0	STAL203
+4	0	0	0	0	STAL204
+5	0	0	0	0	STAL205
+6	0	0	0	0	STAL206
+TableEnd					
+					
+TableStart	ReplyStallPolite				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	STAL301
+2	0	0	0	0	STAL302
+3	0	0	0	0	STAL303
+4	0	0	0	0	STAL304
+5	0	0	0	0	STAL305
+6	0	0	0	0	STAL306
+TableEnd					
+					
+TableStart	ReplyStallFormal				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	STAL401
+2	0	0	0	0	STAL402
+3	0	0	0	0	STAL403
+4	0	0	0	0	STAL404
+5	0	0	0	0	STAL405
+6	0	0	0	0	STAL406
+TableEnd					
+					
+TableStart	ReplyStallCool				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	STAL501
+2	0	0	0	0	STAL502
+3	0	0	0	0	STAL503
+4	0	0	0	0	STAL504
+5	0	0	0	0	STAL505
+6	0	0	0	0	STAL506
+TableEnd					
+					
+TableStart	ReplyStallCold				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	STAL601
+2	0	0	0	0	STAL602
+3	0	0	0	0	STAL603
+4	0	0	0	0	STAL604
+5	0	0	0	0	STAL605
+6	0	0	0	0	STAL606
+TableEnd					
+					
+TableStart	ReplyStallInsulting				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	STAL701
+2	0	0	0	0	STAL702
+3	0	0	0	0	STAL703
+4	0	0	0	0	STAL704
+5	0	0	0	0	STAL705
+6	0	0	0	0	STAL706
+TableEnd					
+					
+TableStart	ReplyCounterHumble				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	CNTR101
+2	0	0	0	0	CNTR102
+3	0	0	0	0	CNTR103
+4	0	0	0	0	CNTR104
+5	0	0	0	0	CNTR105
+6	0	0	0	0	CNTR106
+TableEnd					
+					
+TableStart	ReplyCounterAppreciative				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	CNTR201
+2	0	0	0	0	CNTR202
+3	0	0	0	0	CNTR203
+4	0	0	0	0	CNTR204
+5	0	0	0	0	CNTR205
+6	0	0	0	0	CNTR206
+TableEnd					
+					
+TableStart	ReplyCounterPolite				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	CNTR301
+2	0	0	0	0	CNTR302
+3	0	0	0	0	CNTR303
+4	0	0	0	0	CNTR304
+5	0	0	0	0	CNTR305
+6	0	0	0	0	CNTR306
+TableEnd					
+					
+TableStart	ReplyCounterFormal				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	CNTR401
+2	0	0	0	0	CNTR402
+3	0	0	0	0	CNTR403
+4	0	0	0	0	CNTR404
+5	0	0	0	0	CNTR405
+6	0	0	0	0	CNTR406
+TableEnd					
+					
+TableStart	ReplyCounterCool				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	CNTR501
+2	0	0	0	0	CNTR502
+3	0	0	0	0	CNTR503
+4	0	0	0	0	CNTR504
+5	0	0	0	0	CNTR505
+6	0	0	0	0	CNTR506
+TableEnd					
+					
+TableStart	ReplyCounterCold				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	CNTR601
+2	0	0	0	0	CNTR602
+3	0	0	0	0	CNTR603
+4	0	0	0	0	CNTR604
+5	0	0	0	0	CNTR605
+6	0	0	0	0	CNTR606
+TableEnd					
+					
+TableStart	ReplyCounterInsulting				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	CNTR701
+2	0	0	0	0	CNTR702
+3	0	0	0	0	CNTR703
+4	0	0	0	0	CNTR704
+5	0	0	0	0	CNTR705
+6	0	0	0	0	CNTR706
+TableEnd					
+					
+TableStart	ReplyAcceptHumble				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	ACPT101
+2	0	0	0	0	ACPT102
+3	0	0	0	0	ACPT103
+4	0	0	0	0	ACPT104
+5	0	0	0	0	ACPT105
+6	0	0	0	0	ACPT106
+7	0	0	0	0	ACPT107
+8	0	0	0	0	ACPT108
+9	0	0	0	0	ACPT109
+10	0	0	0	0	ACPT110
+11	0	0	0	0	ACPT111
+12	0	0	0	0	ACPT112
+TableEnd					
+					
+TableStart	ReplyAcceptAppreciative				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	ACPT201
+2	0	0	0	0	ACPT202
+3	0	0	0	0	ACPT203
+4	0	0	0	0	ACPT204
+5	0	0	0	0	ACPT205
+6	0	0	0	0	ACPT206
+7	0	0	0	0	ACPT207
+8	0	0	0	0	ACPT208
+9	0	0	0	0	ACPT209
+10	0	0	0	0	ACPT210
+11	0	0	0	0	ACPT211
+12	0	0	0	0	ACPT212
+TableEnd					
+					
+TableStart	ReplyAcceptPolite				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	ACPT301
+2	0	0	0	0	ACPT302
+3	0	0	0	0	ACPT303
+4	0	0	0	0	ACPT304
+5	0	0	0	0	ACPT305
+6	0	0	0	0	ACPT306
+7	0	0	0	0	ACPT307
+8	0	0	0	0	ACPT308
+9	0	0	0	0	ACPT309
+10	0	0	0	0	ACPT310
+11	0	0	0	0	ACPT311
+12	0	0	0	0	ACPT312
+					
+TableEnd					
+					
+TableStart	ReplyAcceptFormal				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	ACPT401
+2	0	0	0	0	ACPT402
+3	0	0	0	0	ACPT403
+4	0	0	0	0	ACPT404
+5	0	0	0	0	ACPT405
+6	0	0	0	0	ACPT406
+7	0	0	0	0	ACPT407
+8	0	0	0	0	ACPT408
+9	0	0	0	0	ACPT409
+10	0	0	0	0	ACPT410
+11	0	0	0	0	ACPT411
+12	0	0	0	0	ACPT412
+TableEnd					
+					
+TableStart	ReplyAcceptCool				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	ACPT501
+2	0	0	0	0	ACPT502
+3	0	0	0	0	ACPT503
+4	0	0	0	0	ACPT504
+5	0	0	0	0	ACPT505
+6	0	0	0	0	ACPT506
+7	0	0	0	0	ACPT507
+8	0	0	0	0	ACPT508
+9	0	0	0	0	ACPT509
+10	0	0	0	0	ACPT510
+11	0	0	0	0	ACPT511
+12	0	0	0	0	ACPT512
+TableEnd					
+					
+TableStart	ReplyAcceptCold				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	ACPT601
+2	0	0	0	0	ACPT602
+3	0	0	0	0	ACPT603
+4	0	0	0	0	ACPT604
+5	0	0	0	0	ACPT605
+6	0	0	0	0	ACPT606
+7	0	0	0	0	ACPT607
+8	0	0	0	0	ACPT608
+9	0	0	0	0	ACPT609
+10	0	0	0	0	ACPT610
+11	0	0	0	0	ACPT611
+					
+TableEnd					
+					
+TableStart	ReplyAcceptInsulting				
+ColumnHeadingsStart	Speaking	Target	Leader	Religion	TextTag
+RowHeadingsStart					
+1	0	0	0	0	ACPT701
+2	0	0	0	0	ACPT702
+3	0	0	0	0	ACPT703
+4	0	0	0	0	ACPT704
+5	0	0	0	0	ACPT705
+6	0	0	0	0	ACPT706
+7	0	0	0	0	ACPT707
+8	0	0	0	0	ACPT708
+9	0	0	0	0	ACPT709
+10	0	0	0	0	ACPT710
+11	0	0	0	0	ACPT711
+12	0	0	0	0	ACPT712
+TableEnd					

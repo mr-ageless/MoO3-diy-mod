@@ -1,0 +1,170 @@
+TableStart	OfferPhrases													
+ColumnHeadingsStart	Tag	Level1	Level2	Level3	Level4	Level5	Define Value	Define Value2	Define Type	Choice1	Choice2	Choice3	Choice4	
+RowHeadingsStart														
+1		Speak Softly												
+2			Propose											
+3	Embassy			Exchange Embassies					embassy	EMB101	EMB102	EMB103	EMB104	
+4	Nonaggression			Non-aggression Pact					pact	OFFR103	OFFR102	OFFR101	OFFR104	
+5				Spheres of Influence										
+6	SphereOurs				Ours		System		diplomatic offer	OFFR111	OFFR112	OFFR113	OFFR114	?
+7	SphereYours				Yours		System		diplomatic offer	OFFR121	OFFR122	OFFR123	OFFR124	?
+8				Trade Agreement										
+9	TradeEconomic				Economic				treaty	OFFR131	OFFR132	OFFR133	OFFR134	
+10	TradeAntiPirate				Anti-Piracy				treaty	OFFR141	OFFR142	OFFR143	OFFR144	
+11	TradeOpenBorder				Open Border				treaty	OFFR151	OFFR152	OFFR153	OFFR154	
+12	TradeResearch				Research				treaty	OFFR1033	OFFR1032	OFFR1031	OFFR1034	
+13	TradeIntelligence				Intelligence				treaty	OFFR1043	OFFR1042	OFFR1041	OFFR1044	
+14	DefensiveAlliance			Defensive Military Alliance					alliance offer	OFFR161	OFFR162	OFFR163	OFFR164	
+15	FullAlliance			Full Military Alliance					alliance offer	OFFR174	OFFR172	OFFR173	OFFR171	
+16				Create Faction/Invite New Member			Team		diplomatic offer / invitation	OFFR181	OFFR182	OFFR183	OFFR184	
+17				Political Union/Invite New Member			Team		diplomatic offer / invitation	OFFR191	OFFR192	OFFR193	OFFR194	
+18			Exchange											
+19				This/These										
+20	GiveMoney				Money		Credits		trade offer	OFFR201	OFFR202	OFFR203	OFFR204	
+21	GiveTerritory				Territory		System		trade offer	OFFR211	OFFR212	OFFR213	OFFR214	?
+22	GiveTechnology				Technology		Tech		trade offer	OFFR221	OFFR222	OFFR223	OFFR224	?
+23					Strategic Mineral Access		Mineral		trade offer	OFFR231	OFFR232	OFFR233	OFFR234	
+24	GiveShips				Ships		Quantity	Ships	trade offer	OFFR241	OFFR242	OFFR243	OFFR244	?
+25					Star Maps				trade offer	OFFR251	OFFR252	OFFR253	OFFR254	
+26					Military Intelligence		3rd race		trade offer	OFFR261	OFFR262	OFFR263	OFFR264	
+27	GiveSupport				Support for next leadership vote in Orion Senate				trade offer	OFFR271	OFFR272	OFFR273	OFFR274	?
+28	GiveVote				Yes/no vote for a specific pending Lex Galactica Bill		Vote	Bill	trade offer	OFFR281	OFFR282	OFFR283	OFFR284	?
+29	GiveSanctions3P				We Impose Sanctions on 3rd party		3rd race		trade offer	OFFR1051	OFFR1052	OFFR1053	OFFR1054	
+30	GiveSanctionsInc3P				We Increase Sanctions to Embargo on 3rd party		3rd race		trade offer	OFFR1061	OFFR1062	OFFR1063	OFFR1064	
+31	GiveEmbargo3P				We Impose Embargo on 3rd party		3rd race		trade offer	OFFR1071	OFFR1072	OFFR1073	OFFR1074	
+32	GiveEndSanctions3P				We End Sanctions on 3rd party		3rd race		trade offer	OFFR1081	OFFR1082	OFFR1083	OFFR1084	
+33	GiveEaseEmbargo3P				We Ease Embargo on 3rd party		3rd race		trade offer	OFFR1091	OFFR1092	OFFR1093	OFFR1094	
+34	GiveEndEmbargo3P				We End Embargo on 3rd party		3rd race		trade offer	OFFR1101	OFFR1102	OFFR1103	OFFR1104	
+35	GiveEndSanctions				Ending Our Sanctions				trade offer	OFFR1111	OFFR1112	OFFR1113	OFFR1114	
+36	GiveEaseEmbargo				Easing Our Embargo				trade offer	OFFR1121	OFFR1122	OFFR1123	OFFR1124	
+37	GiveEndEmbargo				Ending Our Embargo				trade offer	OFFR291	OFFR292	OFFR293	OFFR294	
+38					Recognize Your Claim									
+39	GiveClaimTerritory					To territory			trade offer	OFFR301	OFFR302	OFFR303	OFFR304	
+40	GiveClaimSenate					To Membership in Orion Senate			trade offer	OFFR311	OFFR312	OFFR313	OFFR314	?
+41	GiveClaimThrone					To Orion Throne			trade offer	OFFR321	OFFR322	OFFR323	OFFR324	?
+42	GiveClaimWar					Declaration of War on	Enemy		trade offer	OFFR331	OFFR332	OFFR333	OFFR334	
+43				For That/Those										
+44	GetMoney				Money		Credits		trade offer	OFFR341	OFFR342	OFFR343	OFFR344	
+45	GetTerritory				Territory		System		trade offer	OFFR351	OFFR352	OFFR353	OFFR354	?
+46	GetTechnology				Technology		Tech		trade offer	OFFR361	OFFR362	OFFR363	OFFR364	?
+47					Strategic Mineral Access		Mineral		trade offer	OFFR371	OFFR372	OFFR373	OFFR374	
+48	GetShips				Ships		Quantity	Ships	trade offer	OFFR381	OFFR382	OFFR383	OFFR384	?
+49					Star Maps				trade offer	OFFR391	OFFR392	OFFR393	OFFR394	
+50					Military Intelligence		3rd race		trade offer	OFFR401	OFFR402	OFFR403	OFFR404	
+51	GetSupport				Support for next leadership vote in Orion Senate				trade offer	OFFR411	OFFR412	OFFR413	OFFR414	?
+52	GetVote				Yes/no vote for a specific pending Lex Galactica Bill		Vote	Bill	trade offer	OFFR421	OFFR422	OFFR423	OFFR424	?
+53	GetSanctions3P				You Impose Sanctions on 3rd party		3rd race		trade offer	OFFR1131	OFFR1132	OFFR1133	OFFR1134	
+54	GetSanctionsInc3P				You Increase Sanctions to Embargo on 3rd party		3rd race		trade offer	OFFR1141	OFFR1142	OFFR1143	OFFR1144	
+55	GetEmbargo3P				You Impose Embargo on 3rd party		3rd race		trade offer	OFFR1151	OFFR1152	OFFR1153	OFFR1154	
+56	GetEndSanctions3P				You End Sanctions on 3rd party		3rd race		trade offer	OFFR1161	OFFR1162	OFFR1163	OFFR1164	
+57	GetEaseEmbargo3P				You Ease Embargo on 3rd party		3rd race		trade offer	OFFR1171	OFFR1172	OFFR1173	OFFR1174	
+58	GetEndEmbargo3P				You End Embargo on 3rd party		3rd race		trade offer	OFFR1181	OFFR1182	OFFR1183	OFFR1184	
+59	GetEndSanctions				Ending Your Sanctions				trade offer	OFFR1191	OFFR1192	OFFR1193	OFFR1194	
+60	GetEaseEmbargo				Easing Your Embargo				trade offer	OFFR1201	OFFR1202	OFFR1203	OFFR1204	
+61	GetEndEmbargo				Ending Your Embargo				trade offer	OFFR431	OFFR432	OFFR433	OFFR434	
+62					Recognize Our Claim									
+63	GetClaimTerritory					To territory			trade offer	OFFR441	OFFR442	OFFR443	OFFR444	
+64	GetClaimSenate					To Membership in Orion Senate			trade offer	OFFR451	OFFR452	OFFR453	OFFR454	?
+65	GetClaimThrone					To Orion Throne			trade offer	OFFR461	OFFR462	OFFR463	OFFR464	?
+66	GetClaimWar					Declaration of War on	Enemy		trade offer	OFFR471	OFFR472	OFFR473	OFFR474	
+67			Offer											
+68				One-Time Gift/Reparations										
+69	OfferMoney				Money		Credits		gift	OFFR481	OFFR482	OFFR483	OFFR484	
+70					Ships									
+71	OfferShipsWithdraw					Withdraw			gift	OFFR491	OFFR492	OFFR493	OFFR494	?
+72	OfferShipsDisband					Disband	Quantity	Ships	gift	OFFR501	OFFR502	OFFR503	OFFR504	?
+73						Lend-Lease (from reserves)	Quantity	Ships	gift	OFFR511	OFFR512	OFFR513	OFFR514	
+74	OfferShipsGift					Gift (from reserves)	Quantity	Ships	gift	OFFR521	OFFR522	OFFR523	OFFR524	?
+75	OfferTechnology				Technology		Tech		gift	OFFR531	OFFR532	OFFR533	OFFR534	?
+76	OfferTerritory				Territory		System		gift	OFFR541	OFFR542	OFFR543	OFFR544	?
+77					Star Maps				gift	OFFR1011	OFFR1012	OFFR1013	OFFR1014	
+78					Military Intelligence		3rd race		gift	OFFR1021	OFFR1022	OFFR1023	OFFR1024	
+79	OfferSupport				Support for next leadership vote in Orion Senate				gift	OFFR551	OFFR552	OFFR553	OFFR554	?
+80	OfferVote				Yes/no vote for a specific pending Lex Galactica Bill		Vote	Bill	gift	OFFR561	OFFR562	OFFR563	OFFR564	?
+81	OfferSanctions3P				We Impose Sanctions on 3rd party		3rd race		gift	OFFR1211	OFFR1212	OFFR1213	OFFR1214	
+82	OfferSanctionsInc3P				We Increase Sanctions to Embargo on 3rd party		3rd race		gift	OFFR1221	OFFR1222	OFFR1223	OFFR1224	
+83	OfferEmbargo3P				We Impose Embargo on 3rd party		3rd race		gift	OFFR1231	OFFR1232	OFFR1233	OFFR1234	
+84	OfferEndSanctions3P				We End Sanctions on 3rd party		3rd race		gift	OFFR1241	OFFR1242	OFFR1243	OFFR1244	
+85	OfferEaseEmbargo3P				We Ease Embargo on 3rd party		3rd race		gift	OFFR1251	OFFR1252	OFFR1253	OFFR1254	
+86	OfferEndEmbargo3P				We End Embargo on 3rd party		3rd race		gift	OFFR1261	OFFR1262	OFFR1263	OFFR1264	
+87	OfferEndSanctions				Ending Our Sanctions				gift	OFFR1271	OFFR1272	OFFR1273	OFFR1274	
+88	OfferEaseEmbargo				Easing Our Embargo				gift	OFFR1281	OFFR1282	OFFR1283	OFFR1284	
+89	OfferEndEmbargo				Ending Our Embargo				gift	OFFR571	OFFR572	OFFR573	OFFR574	
+90					Recognize Your Claim									
+91	OfferClaimTerritory					To territory	System		gift	OFFR581	OFFR582	OFFR583	OFFR584	
+92	OfferClaimSenate					To Membership in Orion Senate			gift	OFFR591	OFFR592	OFFR593	OFFR594	?
+93	OfferClaimThrone					To Orion Throne			gift	OFFR601	OFFR602	OFFR603	OFFR604	?
+94				Regular Tribute/Continuing Activity										
+95	OfferTributeMoney				Money		Credits		tribute	OFFR611	OFFR612	OFFR613	OFFR614	?
+96	OfferTributeTrade				Trade Concessions				trade offer	OFFR621	OFFR622	OFFR623	OFFR624	?
+97	OfferTributeMineral				Strategic Mineral Access		Mineral		trade offer	OFFR631	OFFR632	OFFR633	OFFR634	?
+98	OfferTributeNoSpy				Curtail Espionage Activities				offer	OFFR641	OFFR642	OFFR643	OFFR644	?
+99	OfferTributeNoPiracy				Curtail Piracy Activities				offer	OFFR651	OFFR652	OFFR653	OFFR654	?
+100		End War/Make Peace												
+101			Propose											
+102	ProposeArmistice			Armistice (terms)			Terms		armistice proposal	OFFR661	OFFR662	OFFR663	OFFR664	
+103	ProposePeace			Peace (terms)			Terms		peace offer	OFFR671	OFFR672	OFFR673	OFFR674	
+104			Offer											
+105	OfferCeaseFire			Cease-Fire (length)			Turns		cease-Fire proposal	OFFR681	OFFR682	OFFR683	OFFR684	
+106	OfferConditionalSurrender			Conditional Surrender (terms)			Terms		surrender	OFFR691	OFFR692	OFFR693	OFFR694	
+107	OfferUnconditionalSurrender			Unconditional Surrender					surrender	OFFR701	OFFR702	OFFR703	OFFR704	
+108		Carry a Big Stick												
+109			Declare											
+110	DeclareTributeEnd			Our Tribute Obligations Ended						OFFR711	OFFR712	OFFR713	OFFR714	
+111				Our Withdrawal from Our Faction/Union			Team			OFFR721	OFFR722	OFFR723	OFFR724	
+112				A Secret Vote to Expel a Member from our Faction/Union			Empire	Team		OFFR731	OFFR732	OFFR733	OFFR734	
+113	DeclareTradeEnd			Our Trade Agreements Ended						OFFR1292	OFFR1291	OFFR1293	OFFR1294	
+114	DeclareTreatyEnd			Our Treaties Ended						OFFR741	OFFR742	OFFR743	OFFR744	
+115				Your Mineral Access Denied			Mineral			OFFR751	OFFR752	OFFR753	OFFR754	
+116	DeclareSanction			Trade Sanctions						OFFR1301	OFFR1302	OFFR1303	OFFR1304	
+117	DeclareSanctionIncrease			Increase Sanctions to Embargo						OFFR1311	OFFR1312	OFFR1313	OFFR1314	
+118	DeclareEmbargo			An Embargo						OFFR761	OFFR762	OFFR763	OFFR764	
+119	DeclareWar			War						OFFR772	OFFR771	OFFR773	OFFR774	
+120			Demand											
+121				One-Time Gift/Reparations										
+122	DemandMoney				Money		Credits		demand	OFFR781	OFFR782	OFFR783	OFFR784	
+123					Ships									
+124	DemandShipsWithdraw					Withdraw			demand	OFFR791	OFFR792	OFFR793	OFFR794	?
+125	DemandShipsDisband					Disband	Quantity	Ships	demand	OFFR801	OFFR802	OFFR803	OFFR804	?
+126						Lend-Lease (from reserves)	Quantity	Ships	demand	OFFR811	OFFR812	OFFR813	OFFR814	
+127	DemandShipsGift					Gift (from reserves)	Quantity	Ships	demand	OFFR821	OFFR822	OFFR823	OFFR824	?
+128	DemandTechnology				Technology		Tech		demand	OFFR831	OFFR832	OFFR833	OFFR834	?
+129	DemandTerritory				Territory		System		demand	OFFR841	OFFR842	OFFR843	OFFR844	?
+130					Star Maps				demand	OFFR851	OFFR852	OFFR853	OFFR854	
+131					Military Intelligence		3rd race		demand	OFFR861	OFFR862	OFFR863	OFFR864	
+132	DemandSupport				Support for next leadership vote in Orion Senate				demand	OFFR871	OFFR872	OFFR873	OFFR874	?
+133	DemandVote				Yes/no vote for a specific pending Lex Galactica Bill		Vote	Bill	demand	OFFR881	OFFR882	OFFR883	OFFR884	?
+134					Recognize Our Claim									
+135	DemandClaimTerritory					To territory	System		demand	OFFR891	OFFR892	OFFR893	OFFR894	
+136	DemandClaimSenate					To Membership in Orion Senate			demand	OFFR901	OFFR902	OFFR903	OFFR904	?
+137	DemandClaimThrone					To Orion Throne			demand	OFFR911	OFFR912	OFFR913	OFFR914	?
+138				Regular Tribute/Continuing Activity										
+139	DemandTributeMoney				Money		Credits		demand	OFFR921	OFFR922	OFFR923	OFFR924	?
+140	DemandTributeTrade				Trade Concessions				demand	OFFR931	OFFR932	OFFR933	OFFR934	?
+141					Strategic Mineral Access		Mineral		demand	OFFR941	OFFR942	OFFR943	OFFR944	
+142	DemandTributeNoSpy				Curtail Espionage Activities				demand	OFFR951	OFFR952	OFFR953	OFFR954	?
+143	DemandTributeNoPiracy				Curtail Piracy Activities				demand	OFFR961	OFFR962	OFFR963	OFFR964	?
+144				Change in relations										
+145	DemandSurrender				Surrender				demand	OFFR971	OFFR972	OFFR973	OFFR974	?
+146	DemandBreakTreaty				Break Treaty with __		Empire		demand	OFFR981	OFFR982	OFFR983	OFFR984	?
+147	DemandEndWar				Offer to end War with __		Empire		demand	OFFR991	OFFR992	OFFR993	OFFR994	?
+148	DemandWar				Declare War on __		Empire		demand	OFFR1001	OFFR1002	OFFR1003	OFFR1004	
+149		Send a general message												
+150	Attaboy		Hot Juicy (Attaboy)							OFFR011	OFFR012	OFFR013	OFFR014	
+151			Cold Prickly (Threat/warning)											
+152	Warning			Warning						OFFR023	OFFR022	OFFR021	OFFR024	
+153				Threat										
+154	ThreatTribute				End Tribute					OFFR031	OFFR032	OFFR033	OFFR034	
+155					Recall all Lend-Lease forces									
+156					Withdrawal from Faction/Union		Team			OFFR041	OFFR042	OFFR043	OFFR044	
+157					Vote to Expel from Faction/Union		Team			OFFR051	OFFR052	OFFR053	OFFR054	
+158	ThreatTrade				End all Trade Agreements					OFFR1321	OFFR1322	OFFR1323	OFFR1324	
+159	ThreatTreaty				End all Treaties					OFFR061	OFFR062	OFFR063	OFFR064	
+160					End Mineral Access		Mineral			OFFR071	OFFR072	OFFR073	OFFR074	
+161	ThreatSanctions				Establish Trade Sanctions					OFFR1331	OFFR1332	OFFR1333	OFFR1334	
+162	ThreatSanctionsIncrease				Increase Sanctions to Embargo					OFFR081	OFFR082	OFFR083	OFFR084	
+163	ThreatCondemnation				Propose Condemnation in Orion Senate					OFFR1341	OFFR1342	OFFR1343	OFFR1344	
+164	ThreatExpulsion				Propose Expulsion from Orion Senate					OFFR1351	OFFR1352	OFFR1353	OFFR1354	
+165	ThreatWar				Declare War					OFFR091	OFFR092	OFFR093	OFFR094	
+166	threat									OFFR091	OFFR092	OFFR093	OFFR094	
+TableEnd														

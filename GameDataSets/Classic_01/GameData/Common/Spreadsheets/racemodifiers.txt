@@ -1,0 +1,615 @@
+TableStart	Racemod									
+ColumnHeadingsStart	UISpecies	Species	Race	Modifiers	BioFood	MinFood	PopFood	FoodVal	Environ	Techs
+RowHeadingsStart										
+HUMAN	0	0	0	"GndCombt = 3, MeansWar += 3, ReseaEff += 0.5, OSMayILB *=1.15, PositvDP *= 1.25, PositvCB *=1.06"	100	0	0	1	0	66
+EVON	0	0	1	"GndCombt = 3, ReseaEff += 0.5,MeansWar+=2"	100	0	0	1	0	66
+PSILON	0	0	2	"GndCombt = 3, MeansWar += 3, ReseaEff += 3, OSMayILB *= 1.15, PositvDP *= 1.25, PositvCB *= 1.06, mPopGrow *= 0.9"	100	0	0	1	0	66
+MEKLAR	1	3	0	"GndCombt = 3, ManufEff += 4,MeansWar+=2"	50	50	0	0	1	66
+CYNOID	1	3	1	"GndCombt = 3, ManufEff += 4,MeansWar+=2"	50	50	0	1	1	66
+SAKKRA	2	7	0	"GndCombt = 3, PolluAbs *= 1.5, mPopGrow *= 1.1,MeansWar+=2"	100	0	0	1	0	66
+RAAS	2	7	1	"GndCombt = 3, PolluAbs *= 1.5, mPopGrow *= 1.1,MeansWar+=2"	100	0	0	1	0	66
+GRENDARL	2	7	2	"GndCombt = 3, PolluAbs *= 1.5, mPopGrow  *= 1.25,MeansWar+=2"	100	0	0	1	0	66
+TRILARIAN	3	4	0	"GndCombt = 3,MeansWar+=2"	100	0	0	1	3	66
+NOMMO	3	4	1	"GndCombt = 3,MeansWar+=2"	100	0	0	1	3	66
+IMSAEIS	4	1	0	"GndCombt = 3,ManufEff+=4,ReseaEff+=3,MeansWar+=2"	100	0	0	1	2	66
+EOLADI	4	1	1	"GndCombt = 3, ManufEff += 4, ReseaEff += 3,MeansWar+=2"	100	0	0	1	2	66
+SILICOID	5	2	0	"GndCombt = 3, mPopGrow *= 0.85, MineEff += 4,MeansWar+=2"	0	75	0	0	0	66
+KLACKON	6	6	0	"GndCombt = 3, mPopGrow *= 1.15,MeansWar+=2"	100	0	0	1	1	66
+TACHDI	6	6	1	"GndCombt = 3, mPopGrow *= 1.35,MeansWar+=2"	100	0	0	1	1	66
+ITHKUL	7	5	0	"GndCombt = 3, MeansWar += 1, OSMayILB *= 0.6"	100	0	0	1	0	73
+Metashifters	-1	8	0	"GndCombt = 3, OSMayILB *= 0.85,MeansWar+=2"	100	0	0	1	3	66
+NonCorporeal	-1	9	0	"GndCombt = 4,MeansWar+=2"	20	0	0	-1	0	66
+Protoplasmic	-1	10	0	"GndCombt = 3,MeansWar+=2"	80	0	0	1	3	66
+Plant	-1	11	0	"GndCombt = 5, PolprPop += -0.75, PolluAbs += 2,MeansWar+=2"	50	0	0	1	0	66
+Fungal	-1	12	0	"GndCombt = 3, mMaintAU *= 0.85, mPopGrow *= 1.15,MeansWar+=2"	100	0	0	1	1	66
+Avian	-1	13	0	"GndCombt = 3,MeansWar+=2"	100	0	0	1	2	66
+Gargantua	-1	14	0	"GndCombt = 9, PolprPop += 1,MeansWar+=2"	100	0	0	1	0	66
+Bulrathi	-1	15	0	"GndCombt = 8, MineEff +=1,MeansWar+=2"	100	0	0	1	0	66
+Mrrshan	-1	16	0	"GndCombt = 7, MilEff += 4,MeansWar+=2"	100	0	0	1	0	66
+Elerians	-1	17	0	"GndCombt = 3, MdUnrest += -30,MeansWar+=2"	100	0	0	1	0	66
+Gnolam	-1	18	0	"GndCombt = 3, TradeLev+=1,SPortEff+=2,CRTradeM+=50,CRExchng+=50,TradeAmt*=1.2,MeansWar+=2"	100	0	0	1	0	66
+Elder Civilizations	-1	19	0	"GndCombt = 5,mPopGrow *= 0.5, ManufEff += 8, MdUnrest+=-25, CraftsMa*=1.2, BioHaEff += 2, BioHRare*=1.3, MineEff +=2, MineRare*=1.3, ReseaEff +=6, TradeLev+=1, SPortEff+=2, CRTradeM+=50, CRExchng+=50, TradeAmt*=1.2, Pollutio*=.6, TFormCst*=.7, HFofGovt *= 0.7, OpprCost *= 0.7, MilEff *= 2, mMaintAU *= 0.2, _GSeries=3, CemprPop += 2, TTperPop+=1,MeansWar+=2"	100	0	0	1	0	100
+ComBots	-1	20	0	GndCombt = 3	100	0	0	1	0	0
+TableEnd									
+
+									
+TableStart	RacePickPoints								
+ColumnHeadingsStart	Species	Race	RemainingPoints						
+RowHeadingsStart									
+Custom	None	None	0						
+HUMAN	0	0	0						
+EVON	0	1	0						
+PSILON	0	2	0						
+MEKLAR	3	0	0						
+CYNOID	3	1	0						
+SAKKRA	7	0	0						
+RAAS	7	1	0						
+GRENDARL	7	2	0						
+TRILARIAN	4	0	0						
+NOMMO	4	1	0					
+IMSAEIS	1	0	0					
+EOLADI	1	1	0					
+SILICOID	2	0	0					
+KLACKON	6	0	0					
+TACHDI	6	1	0					
+ITHKUL	5	0	0					
+TableEnd								
+								
+
+								
+TableStart	RacePicks							
+ColumnHeadingsStart	TableSelect	kUnicode	Type					
+RowHeadingsStart								
+RaceBioharvesting	RaceBioharvesting	Bioharve	Radio					
+RaceMining	RaceMining	Mining	Radio					
+RaceManufacturing	RaceManufacturing	Manufact	Radio					
+RaceResearch	RaceResearch	Research	Radio					
+RaceTrade	RaceTrade	Trade	Radio					
+RaceEnvironmental	RaceEnvironmental	Environm	Radio					
+RaceAccuracy	RaceAccuracy	Accuracy	Radio					
+RaceReflexes	RaceReflexes	Reflexes	Radio					
+RaceToughness	RaceToughness	Toughnes	Radio					
+RaceDiplomacy	RaceDiplomacy	Diplomac	Radio					
+RaceGovernmentSeries	RaceGovernmentSeries	Governme	Radio					
+SenateMember	RaceSenateMember	SenateMe	Radio					
+RaceCitizenship	RaceCitizenship	Citizens	Radio					
+RacePlanetMineral	RacePlanetMineral	PlanMine	Radio					
+RacePlanetBiodiversity	RacePlanetBiodiversity	PlanBioD	Radio					
+RaceCunning	RaceCunning	Cunning	Radio					
+RaceCreativity	RaceCreativity	Creativi	Radio					
+RaceSpecialAttributes	RaceSpecialAttributes	Special1	Checkbox					
+TableEnd											
+RaceAptitude	RaceAptitude	Aptitude	Radio								
+RaceEconomics	RaceEconomics	Economic	Radio								
+											
+											
+TableStart	RaceBioharvesting										
+ColumnHeadingsStart	Species	Race	Superior	Good	Average	Poor					
+RowHeadingsStart											
+kUnicode	None	None	Superior	Good	Average	Poor					
+kUnicodD	None	None	RBIOHARS	RBIOHARG	RBIOHARA	RBIOHARP					
+Modifiers	None	None	"BioHaEff+=2,BioHRare*=1.3"	"BioHaEff+=1,BioHRare*=1.15"		"BioHaEff+=-1,BioHRare*=0.85"					
+Custom	None	None	40	20	0	-10					
+HUMAN	0	0	40	20	0	-20					
+EVON	0	1	40	20	0	-20					
+PSILON	0	2	60	40	20	R					
+MEKLAR	3	0	X	40	20	R					
+CYNOID	3	1	60	40	20	0					
+SAKKRA	7	0	30	20	10	R					
+RAAS	7	1	20	R	-20	X					
+GRENDARL	7	2	40	20	0	-20					
+TRILARIAN	4	0	20	0	-20	-40					
+NOMMO	4	1	0	-20	-40	-60					
+IMSAEIS	1	0	0	-20	-40	X					
+EOLADI	1	1	R	-20	-40	X					
+SILICOID	2	0	X	20	0	-20					
+KLACKON	6	0	10	0	-20	-40					
+TACHDI	6	1	60	40	20	0					
+ITHKUL	5	0	R	-20	X	X					
+TableEnd											
+											
+											
+											
+											
+TableStart	RaceMining										
+ColumnHeadingsStart	Species	Race	Superior	Good	Average	Poor					
+RowHeadingsStart											
+kUnicode	None	None	Superior	Good	Average	Poor					
+kUnicodD	None	None	RMININGS	RMINING	RMININGA	RMININGP					
+Modifiers	None	None	"MineEff+=2,MineRare*=1.3"	"MineEff+=1,MineRare*=1.15"		"MineEff+=-1,MineRare*=0.85"					
+Custom	None	None	40	20	0	-20					
+HUMAN	0	0	40	20	0	-20					
+EVON	0	1	40	20	0	-20					
+PSILON	0	2	60	40	20	R					
+MEKLAR	3	0	40	20	0	-20					
+CYNOID	3	1	R	-20	-40	-60					
+SAKKRA	7	0	40	20	0	-20					
+RAAS	7	1	40	20	0	-20					
+GRENDARL	7	2	20	10	0	-20					
+TRILARIAN	4	0	40	20	0	-20					
+NOMMO	4	1	40	20	0	-20					
+IMSAEIS	1	0	X	0	-20	-40					
+EOLADI	1	1	X	40	20	R					
+SILICOID	2	0	R	-20	-40	X					
+KLACKON	6	0	R	-20	-40	-60					
+TACHDI	6	1	R	-20	-40	-60					
+ITHKUL	5	0	X	20	0	-20					
+TableEnd											
+											
+											
+											
+											
+TableStart	RaceManufacturing										
+ColumnHeadingsStart	Species	Race	Superior	Good	Average	Poor					
+RowHeadingsStart											
+kUnicode	None	None	Superior	Good	Average	Poor					
+kUnicodD	None	None	RMANUFAS	RMANUFAG	RMANUFAA	RMANUFAP					
+Modifiers	None	None	"ManufEff += 8,CraftsMa*=1.2,CemprPop+=2"	"ManufEff += 4, CraftsMa*=1.1,CemprPop+=1"		"ManufEff += -4, CraftsMa*=.9,CemprPop+=-1"					
+Custom	None	None	60	30	0	-30					
+HUMAN	0	0	60	30	0	-30					
+EVON	0	1	60	30	0	-30					
+PSILON	0	2	60	30	0	-30					
+MEKLAR	3	0	30	0	-30	X					
+CYNOID	3	1	R	-30	-60	X					
+SAKKRA	7	0	30	0	-30	-60					
+RAAS	7	1	R	-30	-60	-90					
+GRENDARL	7	2	30	0	-30	-60					
+TRILARIAN	4	0	30	0	-30	-60					
+NOMMO	4	1	30	0	-30	-60					
+IMSAEIS	1	0	60	30	0	-30					
+EOLADI	1	1	60	30	0	-30					
+SILICOID	2	0	60	30	0	-30					
+KLACKON	6	0	R	-30	-60	-90					
+TACHDI	6	1	10	0	-30	-60					
+ITHKUL	5	0	R	-30	X	X					
+TableEnd											
+											
+											
+TableStart	RaceResearch										
+ColumnHeadingsStart	Species	Race	Superior	Good	Average	Poor					
+RowHeadingsStart											
+kUnicode	None	None	Superior	Good	Average	Poor					
+kUnicodD	None	None	RRESEARS	RRESEARG	RRESEARA	RRESEARP					
+Modifiers	None	None	"ReseaEff+=6,TTperPop+=1"	"ReseaEff+=3,TTperPop+=.5"		"ReseaEff+=-3,TTperPop+=-.5"					
+Custom	None	None	40	20	0	-10					
+HUMAN	0	0	20	0	-20	-40					
+EVON	0	1	40	20	0	-10					
+PSILON	0	2	0	-20	-40	-60					
+MEKLAR	3	0	20	0	-20	-40					
+CYNOID	3	1	20	0	-20	-40					
+SAKKRA	7	0	20	0	-20	-40					
+RAAS	7	1	40	20	0	-20					
+GRENDARL	7	2	40	20	0	-20					
+TRILARIAN	4	0	R	-20	-40	-60					
+NOMMO	4	1	R	-20	-40	-60					
+IMSAEIS	1	0	60	40	20	R					
+EOLADI	1	1	20	0	-20	-40					
+SILICOID	2	0	60	40	20	R					
+KLACKON	6	0	60	40	20	R					
+TACHDI	6	1	40	20	0	-20					
+ITHKUL	5	0	20	0	-20	X					
+TableEnd											
+											
+											
+											
+											
+TableStart	RaceTrade										
+ColumnHeadingsStart	Species	Race	Superior	Good	Average	Poor					
+RowHeadingsStart											
+kUnicode	None	None	Superior	Good	Average	Poor					
+kUnicodD	None	None	RTRADES	RTRADEG	RTRADEA	RTRADEP					
+Modifiers	None	None	"TradeLev+=1,SPortEff+=2,CRTradeM+=50,CRExchng+=50,TradeAmt*=1.2"	"SPortEff+=1,CRTradeM+=25,CRExchng+=25,TradeAmt*=1.1"		"SPortEff+=-1,CRTradeM+=-20,CRExchng+=-20,TradeAmt*=0.9"					
+Custom	None	None	20	10	0	-10					
+HUMAN	0	0	20	10	0	-10					
+EVON	0	1	10	0	-10	-20					
+PSILON	0	2	10	0	-10	-20					
+MEKLAR	3	0	X	20	10	0					
+CYNOID	3	1	0	-10	-20	-30					
+SAKKRA	7	0	30	20	10	0					
+RAAS	7	1	10	0	-10	-20					
+GRENDARL	7	2	10	0	-10	-20					
+TRILARIAN	4	0	20	10	0	-10					
+NOMMO	4	1	10	0	-10	-20					
+IMSAEIS	1	0	20	10	0	-10					
+EOLADI	1	1	20	10	0	-10					
+SILICOID	2	0	30	20	10	0					
+KLACKON	6	0	30	20	10	0					
+TACHDI	6	1	20	10	0	-10					
+ITHKUL	5	0	X	X	10	R					
+TableEnd											
+											
+											
+											
+											
+TableStart	RaceEnvironmental										
+ColumnHeadingsStart	Species	Race	Superior	Good	Average	Poor					
+RowHeadingsStart											
+kUnicode	None	None	Superior	Good	Average	Poor					
+kUnicodD	None	None	RENVIROS	RENVIROG	RENVIROA	RENVIROP					
+Modifiers	None	None	"Pollutio*=.6,TFormCst*=.7"	"Pollutio*=.8,TFormCst*=.85"		"Pollutio*=1.2,TFormCst*=1.15"					
+Custom	None	None	40	20	0	-10					
+HUMAN	0	0	60	40	20	R					
+EVON	0	1	R	-20	-40	-60					
+PSILON	0	2	40	20	0	-20					
+MEKLAR	3	0	60	40	20	0					
+CYNOID	3	1	60	40	20	R					
+SAKKRA	7	0	60	40	20	0					
+RAAS	7	1	60	40	20	R					
+GRENDARL	7	2	60	40	20	0					
+TRILARIAN	4	0	20	0	-20	-40					
+NOMMO	4	1	40	20	0	-20					
+IMSAEIS	1	0	R	-20	-40	-60					
+EOLADI	1	1	R	-20	-40	-60					
+SILICOID	2	0	R	-20	-40	-60					
+KLACKON	6	0	20	10	0	-20					
+TACHDI	6	1	40	20	0	-20					
+ITHKUL	5	0	20	0	-20	X					
+TableEnd											
+											
+											
+											
+											
+Table Not Used											
+TableStart	RaceEconomics										
+ColumnHeadingsStart	Species	Race	Investors	Monetarists	Specie	Barter					
+RowHeadingsStart											
+kUnicode	None	None	Investor	Monetari	Specie	Barter					
+kUnicodD	None	None	RECONOMS	RECONOMG	RECONOMA	RECONOMP					
+Modifiers	None	None	"InterNeg+=-.02,InterPos+=.05,HFofGovt*=.75"	"InterNeg+=-.01,InterPos+=.02,HFofGovt*=.90"	"InterNeg+=-.01,InterPos+=.01,HFofGovt*=.95"						
+Custom	None	None	40	20	0	-10					
+HUMAN	0	0	R	-20	-40	-60					
+EVON	0	1	10	0	-20	-40					
+PSILON	0	2	40	20	0	-20					
+MEKLAR	3	0	X	40	20	R					
+CYNOID	3	1	10	0	-20	-40					
+SAKKRA	7	0	40	20	0	-20					
+RAAS	7	1	40	20	0	-20					
+GRENDARL	7	2	X	40	20	R					
+TRILARIAN	4	0	20	0	-20	-40					
+NOMMO	4	1	20	0	-20	-40					
+IMSAEIS	1	0	40	20	0	-20					
+EOLADI	1	1	20	10	0	-20					
+SILICOID	2	0	20	0	-20	-40					
+KLACKON	6	0	60	40	20	R					
+TACHDI	6	1	60	40	20	R					
+ITHKUL	5	0	X	30	0	-20					
+TableEnd											
+											
+											
+TableStart	RaceAccuracy										
+ColumnHeadingsStart	Species	Race	Superior	Good	Average	Poor					
+RowHeadingsStart											
+kUnicode	None	None	Superior	Good	Average	Poor					
+kUnicodD	None	None	RACCURAS	RACCURAG	RACCURAA	RACCURAP					
+Modifiers	None	None	"AccDisEn *=1.2, DmgDisEn *= 1.2, GndCombt += 2"	"AccDisEn *= 1.1, DmgDisEn *= 1.1, GndCombt += 1"	"AccDisEn *= 1, DmgDisEn *= 1, GndCombt += 0"	"AccDisEn *= 0.9, DmgDisEn *= 0.9, GndCombt += -1"					
+Custom	None	None	40	20	0	-10					
+HUMAN	0	0	20	10	0	-10					
+EVON	0	1	10	0	-10	-20					
+PSILON	0	2	20	10	0	-10					
+MEKLAR	3	0	R	-10	-20	-30		
+CYNOID	3	1	10	0	-10	-20		
+SAKKRA	7	0	R	-10	-20	-30		
+RAAS	7	1	10	0	-10	-20		
+GRENDARL	7	2	10	0	-10	-20		
+TRILARIAN	4	0	20	10	0	-10		
+NOMMO	4	1	30	20	10	R		
+IMSAEIS	1	0	30	20	10	R		
+EOLADI	1	1	20	10	0	-10		
+SILICOID	2	0	30	20	10	0		
+KLACKON	6	0	20	10	0	-10		
+TACHDI	6	1	20	10	0	-10		
+ITHKUL	5	0	10	0	-10	X		
+TableEnd								
+								
+								
+Table Not Used											
+TableStart	RaceAptitude										
+ColumnHeadingsStart	Species	Race	Superior	Good	Average	Poor					
+RowHeadingsStart											
+kUnicode	None	None	Superior	Good	Average	Poor					
+kUnicodD	None	None	RAPTITUS	RAPTITUG	RAPTITUA	RAPTITUP					
+Modifiers	None	None	"ExpGaind*=2,ExpLost*=.5"	"ExpGaind*=1.24,ExpLost*=.85"		"ExpGaind*=.85,ExpLost*=1.34"					
+Custom	None	None	40	20	0	-10					
+HUMAN	0	0	10	0	-10	-20					
+EVON	0	1	20	10	0	-10					
+PSILON	0	2	30	20	10	0					
+MEKLAR	3	0	R	-10	-20	-30					
+CYNOID	3	1	20	0	-10	-20					
+SAKKRA	7	0	10	0	-10	-20					
+RAAS	7	1	20	10	0	-10					
+GRENDARL	7	2	R	-10	-20	-30					
+TRILARIAN	4	0	30	20	10	R					
+NOMMO	4	1	20	10	0	-20					
+IMSAEIS	1	0	20	10	0	-10					
+EOLADI	1	1	30	20	10	R					
+SILICOID	2	0	30	20	10	0					
+KLACKON	6	0	R	-10	-20	-30					
+TACHDI	6	1	20	10	0	-20					
+ITHKUL	5	0	10	0	-10	X					
+TableEnd											
+											
+											
+											
+TableStart	RaceReflexes										
+ColumnHeadingsStart	Species	Race	Superior	Good	Average	Poor					
+RowHeadingsStart											
+kUnicode	None	None	Superior	Good	Average	Poor					
+kUnicodD	None	None	RREFLEXS	RREFLEXG	RREFLEXA	RREFLEXP					
+Modifiers	None	None	GndCombt += 2	GndCombt += 1	GndCombt += 0	GndCombt += -1					
+Custom	None	None	20	10	0	-5					
+HUMAN	0	0	20	10	0	-10					
+EVON	0	1	10	0	-10	-20					
+PSILON	0	2	30	20	10	0					
+MEKLAR	3	0	20	10	0	-10					
+CYNOID	3	1	10	0	-10	-20					
+SAKKRA	7	0	20	10	0	-10					
+RAAS	7	1	10	0	-10	-20					
+GRENDARL	7	2	10	0	-10	X					
+TRILARIAN	4	0	20	10	0	-10					
+NOMMO	4	1	30	20	10	R					
+IMSAEIS	1	0	30	20	10	0					
+EOLADI	1	1	30	20	10	R					
+SILICOID	2	0	X	20	10	0					
+KLACKON	6	0	10	0	-10	-20					
+TACHDI	6	1	30	20	10	0					
+ITHKUL	5	0	0	-10	X	X					
+TableEnd											
+											
+											
+TableStart	RaceToughness										
+ColumnHeadingsStart	Species	Race	Superior	Good	Average	Poor					
+RowHeadingsStart											
+kUnicode	None	None	Superior	Good	Average	Poor					
+kUnicodD	None	None	RTOUGHNS	RTOUGHNG	RTOUGHNA	RTOUGHNP					
+Modifiers	None	None	GndCombt += 2	GndCombt += 1	GndCombt += 0	GndCombt += -1					
+Custom	None	None	20	10	0	-5					
+HUMAN	0	0	X	20	10	R					
+EVON	0	1	20	10	R	-10					
+PSILON	0	2	X	20	10	0					
+MEKLAR	3	0	10	0	-10	-20					
+CYNOID	3	1	10	0	-10	-20					
+SAKKRA	7	0	R	-10	-20	-30					
+RAAS	7	1	30	20	10	R					
+GRENDARL	7	2	R	-10	-20	X					
+TRILARIAN	4	0	X	20	10	R					
+NOMMO	4	1	X	20	10	0					
+IMSAEIS	1	0	X	20	10	0					
+EOLADI	1	1	X	20	10	0					
+SILICOID	2	0	0	-10	-20	-30					
+KLACKON	6	0	30	20	10	0					
+TACHDI	6	1	R	-10	-20	-30					
+ITHKUL	5	0	0	-10	X	X					
+TableEnd											
+											
+											
+TableStart	RaceDiplomacy										
+ColumnHeadingsStart	Species	Race	Superior	Good	Average	Poor					
+RowHeadingsStart											
+kUnicode	None	None	Superior	Good	Average	Poor					
+kUnicodD	None	None	RDIPLOMS	RDIPLOMG	RDIPLOMA	RDIPLOMP					
+Modifiers	None	None	"MeansWar+=2,CRTreaty+=50,CRPeaceT+=50,PositvDP*=1.8,PositvCB*=1.2,OSMayILB*=1.5,RceDiplo=3"	"MeansWar+=1,CRTreaty+=25,CRPeaceT+=25,PositvDP*=1.40,PositvCB*=1.1,OSMayILB*=1.25,RceDiplo=2"	"OSMayILB*=1.0,RceDiplo=1"	"MeansWar+=-1,CRTreaty+=-20,CRPeaceT+=-20,PositvDP*=0.67,PositvCB*=.92,OSMayILB*=0.8,RceDiplo=0"					
+Custom	None	None	40	20	0	-10					
+HUMAN	0	0	20	10	0	X					
+EVON	0	1	X	40	20	R					
+PSILON	0	2	R	-20	-40	-60					
+MEKLAR	3	0	X	0	-20	-40					
+CYNOID	3	1	60	40	20	R					
+SAKKRA	7	0	X	40	20	R					
+RAAS	7	1	20	0	-20	-40					
+GRENDARL	7	2	60	40	20	R					
+TRILARIAN	4	0	20	0	-20	-40					
+NOMMO	4	1	R	-20	-40	-60		
+IMSAEIS	1	0	R	-20	-40	-60		
+EOLADI	1	1	20	0	-20	-40		
+SILICOID	2	0	60	40	20	R		
+KLACKON	6	0	40	20	0	-20		
+TACHDI	6	1	60	40	20	R		
+ITHKUL	5	0	X	X	20	R		
+TableEnd								
+								
+								
+TableStart	RaceGovernmentSeries							
+ColumnHeadingsStart	Species	Race	Absolutist	Representative	Collectivist			
+RowHeadingsStart								
+kUnicode	None	None	Absoluti	Represen	Collecti			
+kUnicodD	None	None	RGOVERNA	RGOVERNR	RGOVERNC			
+Modifiers	None	None	_GSeries=1	_GSeries=2	_GSeries=3			
+Custom	None	None	0	10	10						
+HUMAN	0	0	-20	0	40						
+EVON	0	1	-20	0	40						
+PSILON	0	2	0	30	60						
+MEKLAR	3	0	0	30	60						
+CYNOID	3	1	0	30	60						
+SAKKRA	7	0	0	30	60						
+RAAS	7	1	0	30	60						
+GRENDARL	7	2	0	30	60						
+TRILARIAN	4	0	0	30	60						
+NOMMO	4	1	0	30	60						
+IMSAEIS	1	0	0	30	60						
+EOLADI	1	1	0	30	60						
+SILICOID	2	0	0	30	60						
+KLACKON	6	0	-40	-20	0						
+TACHDI	6	1	-40	-20	0						
+ITHKUL	5	0	0	X	40			
+TableEnd								
+								
+								
+TableStart	RaceSenateMember							
+ColumnHeadingsStart	Species	Race	Random	No	Yes			
+RowHeadingsStart								
+kUnicode	None	None	SMRandom	SMNo	SMYes			
+kUnicodD	None	None	RSENATER	RSENATEN	RSENATEY			
+Modifiers	None	None	_Senate=0	_Senate=1	_Senate=2			
+Custom	None	None	0	-10	10			
+HUMAN	0	0	0	10	10			
+EVON	0	1	0	10	10			
+PSILON	0	2	0	10	10			
+MEKLAR	3	0	0	10	10			
+CYNOID	3	1	0	10	10			
+SAKKRA	7	0	0	10	10						
+RAAS	7	1	0	10	10						
+GRENDARL	7	2	0	10	10						
+TRILARIAN	4	0	0	10	10						
+NOMMO	4	1	0	10	10						
+IMSAEIS	1	0	0	10	10						
+EOLADI	1	1	0	10	10						
+SILICOID	2	0	0	10	10						
+KLACKON	6	0	0	10	10						
+TACHDI	6	1	0	10	10						
+ITHKUL	5	0	X	0	X						
+TableEnd											
+											
+											
+											
+TableStart	RaceCitizenship										
+ColumnHeadingsStart	Species	Race	Loyalty	Duty	Association	Liberty					
+RowHeadingsStart											
+kUnicode	None	None	Loyalty	Duty	Associat	Liberty					
+kUnicodD	None	None	RCITIZES	RCITIZEG	RCITIZEA	RCITIZEP					
+Modifiers	None	None	MdUnrest+=-15	MdUnrest+=-7		MdUnrest+=5					
+Custom	None	None	40	20	0	-10					
+HUMAN	0	0	60	40	20	0					
+EVON	0	1	R	-20	-40	-60					
+PSILON	0	2	40	20	0	-10					
+MEKLAR	3	0	20	0	-20	-40					
+CYNOID	3	1	40	20	0	-10					
+SAKKRA	7	0	0	-20	-40	-60					
+RAAS	7	1	40	20	0	-20					
+GRENDARL	7	2	10	R	-20	-40					
+TRILARIAN	4	0	R	-20	-40	-60					
+NOMMO	4	1	30	20	10	0					
+IMSAEIS	1	0	0	-20	-40	-60					
+EOLADI	1	1	0	-20	-40	-60					
+SILICOID	2	0	20	0	-20	-40					
+KLACKON	6	0	0	-20	-40	X					
+TACHDI	6	1	20	0	-20	X					
+ITHKUL	5	0	0	-20	X	X					
+TableEnd											
+											
+TableStart	RacePlanetMineral										
+ColumnHeadingsStart	Species	Race	Rich	Abundant	Poor						
+RowHeadingsStart											
+kUnicode	None	None	Rich	Abundant	Poor						
+kUnicodD	None	None	RPLANEMR	RPLANEMA	RPLANEMP						
+Modifiers	None	None	_PMine=3	_PMine=2	_PMine=1						
+Custom	None	None	10	0	-10						
+HUMAN	0	0	10	0	-10						
+EVON	0	1	10	0	-10					
+PSILON	0	2	10	0	-10					
+MEKLAR	3	0	10	0	-10					
+CYNOID	3	1	10	0	-10					
+SAKKRA	7	0	10	0	-10					
+RAAS	7	1	10	0	-10					
+GRENDARL	7	2	10	0	-10					
+TRILARIAN	4	0	10	0	-10					
+NOMMO	4	1	10	0	-10					
+IMSAEIS	1	0	10	0	-10					
+EOLADI	1	1	10	0	-10					
+SILICOID	2	0	10	0	-10					
+KLACKON	6	0	10	0	-10					
+TACHDI	6	1	10	0	-10					
+ITHKUL	5	0	10	0	-10					
+TableEnd										
+															
+TableStart	RacePlanetBiodiversity														
+ColumnHeadingsStart	Species	Race	Diverse	Heterogeneous	Similar										
+RowHeadingsStart															
+kUnicode	None	None	Diverse	Heteroge	Similar										
+kUnicodD	None	None	RPLANEBD	RPLANEBH	RPLANEBS										
+Modifiers	None	None	_BioD=3	_BioD=2	_BioD=1										
+Custom	None	None	10	0	-10										
+HUMAN	0	0	10	0	-10										
+EVON	0	1	10	0	-10										
+PSILON	0	2	10	0	-10										
+MEKLAR	3	0	10	0	-10										
+CYNOID	3	1	10	0	-10										
+SAKKRA	7	0	10	0	-10										
+RAAS	7	1	10	0	-10										
+GRENDARL	7	2	10	0	-10										
+TRILARIAN	4	0	10	0	-10										
+NOMMO	4	1	10	0	-10										
+IMSAEIS	1	0	10	0	-10										
+EOLADI	1	1	10	0	-10										
+SILICOID	2	0	10	0	-10										
+KLACKON	6	0	10	0	-10										
+TACHDI	6	1	10	0	-10										
+ITHKUL	5	0	10	0	-10										
+TableEnd															
+															
+TableStart	RaceCunning														
+ColumnHeadingsStart	Species	Race	Dangerous	Quick	Sharp	Slow									
+RowHeadingsStart															
+kUnicode	None	None	Dangerou	Quick	Sharp	Slow									
+kUnicodD	None	None	RCUNNINS	RCUNNING	RCUNNINA	RCUNNINP									
+Modifiers	None	None	"SpCloak+=2,SpDagger+=1,SpLuck+=10, OptOpres += 2"	"SpCloak+=1,SpDagger+=1, OptOpres += 1"	None	"SpDagger+=-1,SpCloak+=-1"									
+Custom	None	None	40	20	0	-10					
+HUMAN	0	0	R	-20	-40	-60					
+EVON	0	1	0	-20	-40	-60					
+PSILON	0	2	20	0	-20	-40					
+MEKLAR	3	0	R	-20	-40	-60					
+CYNOID	3	1	20	0	-20	-40					
+SAKKRA	7	0	20	0	-20	-40					
+RAAS	7	1	40	20	0	-20					
+GRENDARL	7	2	40	20	0	-20					
+TRILARIAN	4	0	60	40	20	R					
+NOMMO	4	1	40	20	0	X					
+IMSAEIS	1	0	30	20	10	0					
+EOLADI	1	1	60	40	20	0					
+SILICOID	2	0	60	40	20	0					
+KLACKON	6	0	60	40	20	0					
+TACHDI	6	1	60	40	20	0					
+ITHKUL	5	0	20	0	-20	X					
+TableEnd											
+											
+											
+TableStart	RaceCreativity										
+ColumnHeadingsStart	Species	Race	Original	Adaptive	Normal	Imitative					
+RowHeadingsStart											
+kUnicode	None	None	Original	Adaptive	Normal	Imitative					
+kUnicodD	None	None	RCREATIS	RCREATIG	RCREATIA	RCREATIP					
+Modifiers	None	None	"TechOver+=-10,TechPosO+=10,TechDisc+=-10, TechKnow += 24"	"TechOver+=-5,TechPosO+=5,TechDisc+=-5, TechKnow += 16"	TechKnow +=8	"TechOver+=5,TechPosO+=-5,TechDisc+=5"					
+Custom	None	None	40	20	0	-10					
+HUMAN	0	0	40	20	0	-10					
+EVON	0	1	X	0	-20	-40					
+PSILON	0	2	R	-20	-40	-60					
+MEKLAR	3	0	0	-20	-40	-60					
+CYNOID	3	1	20	0	-20	-40					
+SAKKRA	7	0	40	20	0	-20					
+RAAS	7	1	40	20	0	-20					
+GRENDARL	7	2	60	40	20	0					
+TRILARIAN	4	0	20	0	-20	-40					
+NOMMO	4	1	0	-20	-40	-60					
+IMSAEIS	1	0	20	0	-20	-40					
+EOLADI	1	1	0	-20	-40	-60					
+SILICOID	2	0	30	0	-20	-40					
+KLACKON	6	0	X	40	20	0					
+TACHDI	6	1	40	20	0	-20					
+ITHKUL	5	0	X	20	0	-20					
+TableEnd											
+											
+											
+											
+TableStart	RaceSpecialAttributes										
+ColumnHeadingsStart	Species	Race	Natural Engineers	Fantastic Traders	Tolerant	Empathic	Antaran Background		
+RowHeadingsStart									
+kUnicode	None	None	RPNaturE	RPFantaT	RPTolera	RPEmpath	RPAntarB		
+kUnicodD	None	None	RSPECIA1	RSPECIA2	RSPECIA3	RSPECIA5	RSPECIA8		
+Modifiers	None	None	CemprPop += 1.0	"CRTradeM+=33,CRExchng+=33,,TradeAmt*=1.15"	"Pollutio*=0.8,PolluAbs*=2"	"CRTreaty+=15,CRPeaceT+=15,CRTradeM+=15,CRExchng+=15,CRDipGon+=15,CRLarges+=15"	AntarMod *=1.2		
+Custom	None	None	20	10	10	10	10		
+HUMAN	0	0	30	10	20	10	X		
+EVON	0	1	30	10	20	10	10		
+PSILON	0	2	30	10	20	10	10		
+MEKLAR	3	0	10	X	10	10	10		
+CYNOID	3	1	10	10	10	X	10		
+SAKKRA	7	0	30	10	20	X	10		
+RAAS	7	1	30	10	20	10	10		
+GRENDARL	7	2	30	10	20	10	10		
+TRILARIAN	4	0	30	10	20	10	10		
+NOMMO	4	1	30	10	20	10	10		
+IMSAEIS	1	0	30	10	20	10	10
+EOLADI	1	1	30	10	20	10	10
+SILICOID	2	0	0	10	0	10	10
+KLACKON	6	0	30	10	20	10	10
+TACHDI	6	1	30	10	20	10	10
+ITHKUL	5	0	30	10	0	10	0
+TableEnd							

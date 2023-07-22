@@ -1,0 +1,111 @@
+TableStart	LeadIns												
+ColumnHeadingsStart	Tag	Level1	Level2	Level3	Level4	Level5	Define Value	Define Value2	Define Type	Choice1	Choice2		
+RowHeadingsStart													
+1		Speak Softly											
+2			Propose										
+3	Embassy			Exchange Embassies						LEAD641	LEAD642		
+4	Nonaggression			Non-aggression Pact					pact	LEAD011	LEAD012		
+5				Spheres of Influence									
+6	SphereOurs				Ours		System		diplomatic offer	LEAD021	LEAD022		?
+7	SphereYours				Yours		System		diplomatic offer	LEAD031	LEAD032		?
+8				Trade Agreement						LEAD031			
+9	TradeEconomic				Economic				treaty	LEAD041	LEAD042		
+10	TradeAntiPirate				Anti-Piracy				treaty	LEAD051	LEAD052		
+11	TradeOpenBorder				Open Border				treaty	LEAD061	LEAD062		
+12	TradeResearch				Research					LEAD651	LEAD652		
+13	TradeIntelligence				Intelligence					LEAD661	LEAD662		
+14	DefensiveAlliance			Defensive Military Alliance					alliance offer	LEAD071	LEAD072		
+15	FullAlliance			Full Military Alliance					alliance offer	LEAD092	LEAD082		
+16				Create Faction/Invite New Member			Team		diplomatic offer / invitation	LEAD091	LEAD092		
+17				Political Union/Invite New Member			Team		diplomatic offer / invitation	LEAD101	LEAD102		
+18			Exchange										
+19				This/These									
+20	GiveMoney				Money		Credits		trade offer	LEAD111	LEAD112		
+21	GiveTerritory				Territory		System		trade offer	LEAD121	LEAD122		?
+22	GiveTechnology				Technology		Tech		trade offer	LEAD131	LEAD132		?
+23					Strategic Mineral Access		Mineral		trade offer	LEAD141	LEAD142		
+24	GiveShips				Ships		Quantity	Ships	trade offer	LEAD151	LEAD152		?
+25					Star Maps				trade offer	LEAD161	LEAD162		
+26					Military Intelligence				trade offer	LEAD171	LEAD172		
+27	GiveSupport				Support for next leadership vote in Orion Senate				trade offer	LEAD181	LEAD182		?
+28	GiveVote				Yes/no vote for a specific pending Lex Galactica Bill		Vote	Bill	trade offer	LEAD191	LEAD192		?
+29	GiveSanctions3P				We Impose Sanctions on 3rd party					LEAD671	LEAD672		
+30	GiveSanctionsInc3P				We Increase Sanctions to Embargo on 3rd party					LEAD681	LEAD682		
+31	GiveEmbargo3P				We Impose Embargo on 3rd party					LEAD691	LEAD692		
+32	GiveEndSanctions3P				We End Sanctions on 3rd party					LEAD701	LEAD702		
+33	GiveEaseEmbargo3P				We Ease Embargo on 3rd party					LEAD711	LEAD712		
+34	GiveEndEmbargo3P				We End Embargo on 3rd party					LEAD721	LEAD722		
+35	GiveEndSanctions				Ending Our Sanctions					LEAD731	LEAD732		
+36	GiveEaseEmbargo				Easing Our Embargo					LEAD741	LEAD742		
+37	GiveEndEmbargo				Ending Our Embargo				trade offer	LEAD201	LEAD202		
+38					Recognize Your Claim								
+39	GiveClaimTerritory					To territory			trade offer	LEAD211	LEAD212		
+40	GiveClaimSenate					To Membership in Orion Senate			trade offer	LEAD221	LEAD222		?
+41	GiveClaimThrone					To Orion Throne			trade offer	LEAD231	LEAD232		?
+42	GiveClaimWar					Declaration of War on	Enemy		trade offer	LEAD241	LEAD242		
+43				For That/Those									
+44	GetMoney				Money		Credits		trade offer	LEAD251	LEAD252		
+45	GetTerritory				Territory		System		trade offer	LEAD261	LEAD262		?
+46	GetTechnology				Technology		Tech		trade offer	LEAD271	LEAD272		?
+47					Strategic Mineral Access		Mineral		trade offer	LEAD281	LEAD282		
+48	GetShips				Ships		Quantity	Ships	trade offer	LEAD291	LEAD292		?
+49					Star Maps				trade offer	LEAD301	LEAD302		
+50					Military Intelligence				trade offer	LEAD311	LEAD312		
+51	GetSupport				Support for next leadership vote in Orion Senate				trade offer	LEAD321	LEAD322		?
+52	GetVote				Yes/no vote for a specific pending Lex Galactica Bill		Vote	Bill	trade offer	LEAD331	LEAD332		?
+53	GetSanctions3P				You Impose Sanctions on 3rd party					LEAD751	LEAD752		
+54	GetSanctionsInc3P				You Increase Sanctions to Embargo on 3rd party					LEAD761	LEAD762		
+55	GetEmbargo3P				You Impose Embargo on 3rd party					LEAD771	LEAD772		
+56	GetEndSanctions3P				You End Sanctions on 3rd party					LEAD781	LEAD782		
+57	GetEaseEmbargo3P				You Ease Embargo on 3rd party					LEAD791	LEAD792		
+58	GetEndEmbargo3P				You End Embargo on 3rd party					LEAD801	LEAD802		
+59	GetEndSanctions				Ending Your Sanctions					LEAD811	LEAD812		
+60	GetEaseEmbargo				Easing Your Embargo					LEAD821	LEAD822		
+61	GetEndEmbargo				Ending Your Embargo				trade offer	LEAD341	LEAD342		
+62					Recognize Our Claim								
+63	GetClaimTerritory					To territory			trade offer	LEAD351	LEAD352		
+64	GetClaimSenate					To Membership in Orion Senate			trade offer	LEAD361	LEAD362		?
+65	GetClaimThrone					To Orion Throne			trade offer	LEAD371	LEAD372		?
+66	GetClaimWar					Declaration of War on	Enemy		trade offer	LEAD381	LEAD382		
+67			Offer										
+68				One-Time Gift/Reparations									
+69	OfferMoney				Money		Credits		gift	LEAD391	LEAD392		
+70					Ships								
+71	OfferShipsWithdraw					Withdraw			gift	LEAD401	LEAD402		?
+72	OfferShipsDisband					Disband	Quantity	Ships	gift	LEAD411	LEAD412		?
+73						Lend-Lease (from reserves)	Quantity	Ships	gift	LEAD421	LEAD422		
+74	OfferShipsGift					Gift (from reserves)	Quantity	Ships	gift	LEAD431	LEAD432		?
+75	OfferTechnology				Technology		Tech		gift	LEAD441	LEAD442		?
+76	OfferTerritory				Territory		System		gift	LEAD451	LEAD452		?
+77					Star Maps				gift	LEAD621	LEAD622		
+78					Military Intelligence				gift	LEAD631	LEAD632		
+79	OfferSupport				Support for next leadership vote in Orion Senate				gift	LEAD461	LEAD462		?
+80	OfferVote				Yes/no vote for a specific pending Lex Galactica Bill		Vote	Bill	gift	LEAD471	LEAD472		?
+81	OfferSanctions3P				We Impose Sanctions on 3rd party					LEAD831	LEAD832		
+82	OfferSanctionsInc3P				We Increase Sanctions to Embargo on 3rd party					LEAD841	LEAD842		
+83	OfferEmbargo3P				We Impose Embargo on 3rd party					LEAD851	LEAD852		
+84	OfferEndSanctions3P				We End Sanctions on 3rd party					LEAD861	LEAD862		
+85	OfferEaseEmbargo3P				We Ease Embargo on 3rd party					LEAD871	LEAD872		
+86	OfferEndEmbargo3P				We End Embargo on 3rd party					LEAD881	LEAD882		
+87	OfferEndSanctions				Ending Our Sanctions					LEAD891	LEAD892		
+88	OfferEaseEmbargo				Easing Our Embargo					LEAD901	LEAD902		
+89	OfferEndEmbargo				Ending Our Embargo				gift	LEAD481	LEAD482		
+90					Recognize Your Claim								
+91	OfferClaimTerritory					To territory	System		gift	LEAD491	LEAD492		
+92	OfferClaimSenate					To Membership in Orion Senate			gift	LEAD501	LEAD502		?
+93	OfferClaimThrone					To Orion Throne			gift	LEAD511	LEAD512		?
+94				Regular Tribute/Continuing Activity									
+95	OfferTributeMoney				Money		Credits		tribute	LEAD521	LEAD522		?
+96	OfferTributeTrade				Trade Concessions				trade offer	LEAD531	LEAD532		?
+97	OfferTributeMineral				Strategic Mineral Access		Mineral		trade offer	LEAD541	LEAD542		?
+98	OfferTributeNoSpy				Curtail Espionage Activities				offer	LEAD551	LEAD552		?
+99	OfferTributeNoPiracy				Curtail Piracy Activities				offer	LEAD561	LEAD562		?
+100		End War/Make Peace											
+101			Propose										
+102	ProposeArmistice			Armistice (terms)			Terms		armistice proposal	LEAD571	LEAD572		
+103	ProposePeace			Peace (terms)			Terms		peace offer	LEAD581	LEAD582		
+104			Offer										
+105	OfferCeaseFire			Cease-Fire (length)			Turns		cease-Fire proposal	LEAD591	LEAD592		
+106	OfferConditionalSurrender			Conditional Surrender (terms)			Terms		surrender	LEAD601	LEAD602		
+107	OfferUnconditionalSurrender			Unconditional Surrender					surrender	LEAD611	LEAD612		
+TableEnd													

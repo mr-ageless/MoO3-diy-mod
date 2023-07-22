@@ -1,0 +1,72 @@
+"Note: Deck 0=normal, 1=SciFi, 2=BeyondSciFi"	
+"     Good a boolean 1 = yes, 0 = no (=>bad)"	
+ You may increase/decrease the weighting of the PowerGraph or IFPs for computing good/bad	
+"    if you increase both equally, you flatten the curve, that is, the good/bad probabilities will not change as fast with distance from 0."	
+
+
+TableStart	Misc
+ColumnHeadingsStart	Data
+RowHeadingsStart	
+pGraphMult	5
+IFPMult	1
+TableEnd	
+
+TableStart	Frequency
+ColumnHeadingsStart	TurnsPerEventPerEmpire
+RowHeadingsStart	
+Frequent	20						
+Normal	10						
+Rare	6						
+TableEnd							
+
+TableStart	RandomEvents						
+ColumnHeadingsStart	Sitrep	Good	Deck	Duration	LotteryBalls	Class	Modifiers
+RowHeadingsStart							
+DriftingDebris	DriftingDebris	1	0	1d1	56	EvResApp	1
+ScientificGather	ScientificGather	1	0	1d5	56	EvEmpMod	TTperPop *=1.04
+ResearchSuccess	ResearchSuccess	1	0	1d1	17	EvResApp	1
+ScientificSymposium	ScientificSymposium	1	0	1d5	56	EvEmpMod	TTperPop *=1.1
+ScientificCongress	ScientificCongress	1	0	2d6	17	EvEmpMod	TTperPop *=1.2
+HFogCleaning	HFogCleaning	1	0	1d5	56	EvEmpMod	HFofGovt+=-1
+HfogWashing	HfogWashing	1	0	1d5	56	EvEmpMod	HFofGovt+=-3
+HFogScrubbing	HFogScrubbing	1	0	1d5	17	EvEmpMod	HFofGovt+=-5
+HfogLaundering	HfogLaundering	1	0	1d5	1	EvEmpMod	HFofGovt+=-7
+MiningAgitation	MiningAgitation	0	0	1d5	77	EvPltMod	MineEff*=.95
+ExoticAnimal	ExoticAnimal	0	0	1d5	77	EvPltMod	BioHaEff*=.95
+MiningUnrest	MiningUnrest	0	0	2d6	25	EvPltMod	MineEff*=.75
+ExoticAnimalV	ExoticAnimalV	0	0	2d6	77	EvPltMod	BioHaEff*=.85
+MinerUprising	MinerUprising	0	0	2d6	25	EvPltMod	MineEff*=.60
+ExoticAnimalP	ExoticAnimalP	0	0	2d6	25	EvPltMod	BioHaEff*=.65
+MinerRevolt	MinerRevolt	0	0	2d6	3	EvPltMod	MineEff*=.35
+ExoticAnimalD	ExoticAnimalD	0	0	2d6	3	EvPltMod	BioHaEff*=.25
+AIGlitchEffects	AIGlitchEffects	0	0	2d6	77	EvEmpMod	TTperPop *=.95
+CrackpotTime	CrackpotTime	0	0	1d5	77	EvEmpMod	TTperPop *=.95
+AIUprising	AIUprising	0	0	2d6	77	EvEmpMod	TTperPop *=.90
+ResearchFailure	ResearchFailure	0	0	1d1	77	EvResSab	1
+LoonyTime	LoonyTime	0	0	1d5	77	EvEmpMod	TTperPop *=.90
+AIRevolt	AIRevolt	0	0	2d6	25	EvEmpMod	TTperPop *=.75
+Dramatic	Dramatic	0	0	1d1	25	EvResSab	1
+RavingTime	RavingTime	0	0	2d6	77	EvEmpMod	TTperPop *=.80
+AIInsurrection	AIInsurrection	0	0	2d6	3	EvEmpMod	TTperPop *=.40
+WhispersofPirate	WhispersofPirate	0	0	2d6	77	EvPltMod	MdUnrest*=1.05
+MurmursofPirate	MurmursofPirate	0	0	2d6	25	EvPltMod	MdUnrest*=1.15
+RumorsofPirate	RumorsofPirate	0	0	2d6	3	EvPltMod	MdUnrest*=1.35
+ForLangReform	ForLangReform	1	0	2d6	56	EvEmpMod	PositvDP +=(1:6)
+ForLangInnovation	ForLangInnovation	1	0	2d6	17	EvEmpMod	PositvDP +=(1:10)
+ForLangRevolution	ForLangRevolution	1	0	2d6	1	EvEmpMod	PositvDP +=(2:16)
+LocalEntStar	LocalEntStar	1	0	1d5	56	EvPltMod	MdUnrest *=.97
+SysEntStar	SysEntStar	1	0	1d5	56	EvPltMod	MdUnrest *=.95
+SysEntStar	SysEntStar	1	0	2d6	17	EvEmpMod	MdUnrest *=.80
+MechTransGlitch	MechTransGlitch	0	0	2d6	77	EvEmpMod	NegatvDP +=(1:4)
+MechTransFailure	MechTransFailure	0	0	2d6	25	EvEmpMod	NegatvDP +=(2:8)
+MechTransDisaster	MechTransDisaster	0	0	2d6	3	EvEmpMod	NegatvDP +=(4:16)
+PlanetaryNaniteRelease	PlanetaryNaniteRelease	0	0	1d1	2	EvCollat	"60,1"
+Psionic	Psionic	0	0	1d1	25	EvPltMod	MdUnrest+=15
+VoidCrystal	VoidCrystal	1	0	1d5	17	EvPltMod	SPortEff*=1.1
+MinorEarthquake	MinorEarthquake	0	0	1d1	10	EvCollat	"5,1"
+Earthquake	Earthquake	0	0	1d1	2	EvCollat	"10,1"
+ScathHiveAttacks	ScathHiveAttacks	0	0	1d1	10	EvCollat	"10,1"
+StrongEarthquake	StrongEarthquake	0	0	1d1	1	EvCollat	"100,1"
+DevistatingEarthquake	DevistatingEarthquake	0	0	1d1	1	EvCollat	"200,1"
+AncientOrionRelic	AncientOrionRelic	1	0	1d1	17	EvResApp	1
+TableEnd							

@@ -1,0 +1,39 @@
+Spy Mission Table Format												
+Note that CoverUpRating and ScandalFactor can be blank or 0												
+"DaggerUsage: 0 - Do not use dagger, 1 - Use dagger value, 2 - Use a dX where X is dagger value"												
+
+
+TableStart	SampleSpyMissionTable											
+ColumnHeadingsStart	SpyMissionID	Circle		LotteryBalls	CoverUpRating	ScandalFactor	DaggerUsage	SourceSitRepID1	TargetSitRepID1	EventClassID	NumTurn	Modifiers
+RowHeadingsStart												
+MissionEntryName	SPYMIS01			50	15	12	0	SITREP01	SITREP03	EvEmpMod	1	"HFofGovt *= 0.85, mAddGold *= 1.20"
+SpecialCaseName	SPYMIS02			60	6	4	1	SITREP05	SITREP07	EvEmpMod	1	1
+TableEnd												
+
+TableStart	ActivityOpportunityMods											
+ColumnHeadingsStart	Normal	Restricted	Very Restricted	Nil								
+RowHeadingsStart												
+ModMultiplier	1	0.4	0.7	0								
+TableEnd												
+
+
+TableStart	BluntInstruments											
+ColumnHeadingsStart	SpyMissionID	Circle	Type	LotteryBalls	CoverUpRating	ScandalFactor	DaggerUsage	SourceSitRepID1	TargetSitRepID1	EventClassID	NumTurn	Modifiers
+RowHeadingsStart												
+TrainingDepots	SPYMIS01	Military	Black	80	15	3	2	TrainingDepotsS	TrainingDepotsT	EvShRDly	1	1
+SupportDisrupted	SPYMIS02	Military	Black	40	6	4	2	SupportDisruptedS	SupportDisruptedT	EvGrRDly	1	3
+RepairFacilities	SPYMIS04	Military	Black	40	12	8	0	RepairFacilitiesS	RepairFacilitiesT	EvEmpMod	3	BoxDelay += (1:2)
+MilBuildDestroyed	SPYMIS06	Military	Black	40	33	15	0	MilBuildDestroyedS	MilBuildDestroyedT	EvBldDes	1	6
+ProductionSabotage	SPYMIS08	Military	Blue	60	15	19	0	ProductionSabotageS	ProductionSabotageT	EvPltMod	3	ManufEff *= .95
+MobilizationCenter	SPYMIS09	Military	Blue	40	65	25	2	MobilizationCenterS	MobilizationCenterT	EvShADes	1	1
+GovBuildDestroyed	SPYMIS13	Diplomatic	Blue	40	85	26	0	GovBuildDestroyedS	GovBuildDestroyedT	EvBldDes	1	5
+EconBuildDestroyed	SPYMIS14	Economic	Black	120	22	8	0	EconBuildDestroyedS	EconBuildDestroyedT	EvBldDes	1	3
+CivilTrade	SPYMIS16	Economic	Blue	50	35	17	0	CivilTradeS	CivilTradeT	EvEmpMod	1	SPortEff *=(.92:.99)
+RecBuildDestroyed	SPYMIS17	Social	Black	120	42	11	0	RecBuildDestroyedS	RecBuildDestroyedT	EvBldDes	1	7
+CitizenFear	SPYMIS18	Social	Black	40	0	0	0	CitizenFearS	CitizenFearT	EvEmpMod	1	MdUnrest+=5
+ScienceBuildDestroyed	SPYMIS22	Science	Black	40	17	17	0	ScienceBuildDestroyedS	ScienceBuildDestroyedT	EvBldDes	1	4
+ProjectFacility	SPYMIS23	Science	Black	50	23	20	0	ProjectFacilityS	ProjectFacilityT	EvResSab	1	1
+UniversityProfessor	SPYMIS24	Science	Black	50	13	2	0	UniversityProfessorS	UniversityProfessorT	EvResSab	1	1
+MajorGovResearch	SPYMIS25	Science	Blue	30	87	25	0	MajorGovResearchS	MajorGovResearchT	EvBldDes	1	4
+StealTech	SPYMIS26	Science	Black	80	87	25	0	StealTechS	StealTechT	EvTechXf	1	1
+TableEnd												

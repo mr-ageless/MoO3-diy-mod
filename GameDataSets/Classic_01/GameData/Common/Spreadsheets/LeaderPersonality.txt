@@ -1,0 +1,535 @@
+	Leader Personality Export Sheet													
+TableStart	EntourageLeaderProbabilities													
+ColumnHeadingsStart	Probability													
+RowHeadingsStart														
+0	0.1													
+1	0.1													
+2	0.1													
+3	0.2													
+4	s													
+TableEnd														
+
+	The list of leaders. This list can be expanded to include additional leaders. The MaxLuck and MinLuck columns define the lifespan range - but require the first code patch to do so.													
+TableStart	EntourageLeaderListb													
+ColumnHeadingsStart	Name	Description	Picture	Modifiers	Icon1	Unicode1	Icon2	Unicode2	Icon3	Unicode3	Species	Race	MinLuck	MaxLuck
+RowHeadingsStart														
+Human 1	LEADER	LEADDE10	HumLeader01_	"PositvDP*=1.2,FltMaint*=1.05,gTaxColl*=.98"	leader_xenopsyche_	LEADIC46	leader_infantry_	LEADIC27	leader_economic_	LEADIC76	0	0	999	999
+Human 2	LEADER	LEADDE11	HumLeader02_	"SPortEff*=1.15,gTaxColl*=.98,ManufEff*=.95"	leader_space_	LEADIC11	leader_manufacturing_	LEADIC28	leader_economic_	LEADIC35	0	0	999	999
+Human 3	LEADER	LEADDE40	HumLeader03_	"ReseaEff*=1.1,TechPosO*=1.3,gTaxColl*=.98"	leader_research_	LEADIC57	leader_research_	LEADIC58	leader_economic_	LEADIC35	0	0	999	999
+Human 4	LEADER	LEADDE41	HumLeader04_	"ExpGaind*=1.2,MdUnrest*=1.05"	leader_infantry_	LEADIC59	leader_govt_	LEADIC36			0	0	999	999
+Evon 1	LEADER	LEADDE12	EvonLeader01_	"TechOver*=.85,TechPosO*=1.1,TechDisc*=1.15"	leader_research_	LEADIC12	leader_research_	LEADIC42	leader_research_	LEADIC31	0	1	999	999
+Evon 2	LEADER	LEADDE13	EvonLeader02_	"PositvDP*=1.15,MdUnrest*=.9,gTaxColl*=.96"	leader_xenopsyche_	LEADIC48	leader_govt_	LEADIC21	leader_economic_	LEADIC78	0	1	999	999
+Evon 3	LEADER	LEADDE42	EvonLeader03_	"PositvDP*=1.15,SpCloak*=.9,gTaxColl*=.98"	leader_xenopsyche_	LEADIC48	leader_intelligence_	LEADIC60	leader_economic_	LEADIC76	0	1	999	999
+Evon 4	LEADER	LEADDE43	EvonLeader04_	"SPortEff*=1.20,gTaxColl*=.98"	leader_space_	LEADIC62	leader_economic_	LEADIC76			0	1	999	999
+Psilon 1	LEADER	LEADDE14	PsiLeader01_	"TechOver*=.9,TTperPop+=1,gTaxColl*=.98"	leader_research_	LEADIC55	leader_research_	LEADIC09	leader_economic_	LEADIC35	0	2	999	999
+Psilon 2	LEADER	LEADDE15	PsiLeader02_	"ReseaEff*=1.2,MdUnrest*=1.05"	leader_research_	LEADIC18	leader_govt_	LEADIC36			0	2	999	999
+Psilon 3	LEADER	LEADDE44	PsiLeader03_	"ExpGaind*=1.2,ReseaEff*=.95"	leader_infantry_	LEADIC59	leader_research_	LEADIC63			0	2	999	999
+Psilon 4	LEADER	LEADDE45	PsiLeader04_	"PositvDP*=1.1,ReseaEff*=1.1,gTaxColl*=.96"	leader_xenopsyche_	LEADIC47	leader_research_	LEADIC57	leader_economic_	LEADIC78	0	2	999	999
+Imsaeis 1	LEADER	LEADDE16	ImsLeader01_	"SpCloak*=1.1,SpLuck*=1.1"	leader_intelligence_	LEADIC13	leader_intelligence_	LEADIC14			1	0	999	999
+Imsaeis 2	LEADER	LEADDE36	ImsLeader02_	PositvDP*=1.2	leader_xenopsyche_	LEADIC46					1	0	999	999
+Imsaeis 3	LEADER	LEADDE46	ImsLeader03_	"ReseaEff*=1.1,ManufEff*=1.1,gTaxColl*=.95"	leader_research_	LEADIC08	leader_manufacturing_	LEADIC53	leader_economic_	LEADIC65	1	0	999	999
+Imsaeis 4	LEADER	LEADDE47	ImsLeader04_	"ManufEff*=1.1,BioHaEff*=.9,gTaxColl*=.98"	leader_manufacturing_	LEADIC53	leader_ecological_	LEADIC66	leader_economic_	LEADIC76	1	0	999	999
+Eoladi 1	LEADER	LEADDE17	EolLeader01_	"ManufEff*=1.05,MineEff*=1.08,gTaxColl*=.98"	leader_manufacturing_	LEADIC50	leader_mining_	LEADIC54	leader_economic_	LEADIC76	1	1	999	999
+Eoladi 2	LEADER	LEADDE37	EolLeader02_	"gTaxColl*=1.1,OSTradAU*=.95,gTaxColl*=.98"	leader_economic_	LEADIC15	leader_economic_	LEADIC30	leader_economic_	LEADIC76	1	1	999	999
+Eoladi 3	LEADER	LEADDE48	EolLeader03_	"PositvDP*=1.15,gTaxColl*=.98"	leader_xenopsyche_	LEADIC48	leader_economic_	LEADIC76			1	1	999	999
+Eoladi 4	LEADER	LEADDE49	EolLeader04_	"SpCloak*=1.2,SpLuck*=1.2,MdUnrest*=1.05"	leader_intelligence_	LEADIC67	leader_intelligence_	LEADIC68	leader_govt_	LEADIC36	1	1	999	999
+Silicoid 1	LEADER	LEADDE09	SilLeader01_	"MineEff*=1.2,MdUnrest*=1.05"	leader_mining_	LEADIC39	leader_govt_	LEADIC36			2	0	999	999
+Silicoid 2	LEADER	LEADDE35	SilLeader02_	"ManufEff*=1.15,gTaxColl*=.98"	leader_manufacturing_	LEADIC64	leader_economic_	LEADIC35			2	0	999	999
+Silicoid 3	LEADER	LEADDE50	SilLeader03_	"ExpGaind*=1.2,MdUnrest*=1.05"	leader_infantry_	LEADIC59	leader_govt_	LEADIC36			2	0	999	999
+Silicoid 4	LEADER	LEADDE51	SilLeader04_	"ReseaEff*=1.15,gTaxColl*=.96"	leader_research_	LEADIC29	leader_economic_	LEADIC78			2	0	999	999
+Meklar 1	LEADER	LEADDE22	MekLeader01_	"TechOver*=.85,NegatvDP*=1.05"	leader_research_	LEADIC12	leader_xenopsyche_	LEADIC23			3	0	999	999
+Meklar 2	LEADER	LEADDE23	MekLeader02_	"ManufEff*=1.1,TechOver*=1.05,gTaxColl*=.96"	leader_manufacturing_	LEADIC53	leader_research_	LEADIC41	leader_economic_	LEADIC78	3	0	999	999
+Meklar 3	LEADER	LEADDE52	MekLeader03_	"ManufEff*=1.15,MdUnrest*=1.1"	leader_manufacturing_	LEADIC17	leader_govt_	LEADIC69			3	0	999	999
+Meklar 4	LEADER	LEADDE53	MekLeader04_	"FltMaint*=.9,ReseaEff*=1.1,ManufEff*=.95"	leader_infantry_	LEADIC01	leader_research_	LEADIC08	leader_manufacturing_	LEADIC28	3	0	999	999
+Cynoid 1	LEADER	LEADDE24	CynLeader01_	"ManufEff*=1.05,gTaxColl*=.96,SPortEff*=1.08"	leader_manufacturing_	LEADIC50	leader_economic_	LEADIC34	leader_economic_	LEADIC78	3	1	999	999
+Cynoid 2	LEADER	LEADDE25	CynLeader02_	"PositvDP*=1.15,MdUnrest*=.95,gTaxColl*=.96"	leader_xenopsyche_	LEADIC48	leader_govt_	LEADIC04	leader_economic_	LEADIC78	3	1	999	999
+Cynoid 3	LEADER	LEADDE54	CynLeader03_	"SPortEff*=1.11,SpCloak*=1.1,MdUnrest*=1.05"	leader_space_	LEADIC25	leader_intelligence_	LEADIC13	leader_govt_	LEADIC36	3	1	999	999
+Cynoid 4	LEADER	LEADDE55	CynLeader04_	"ReseaEff*=1.2,gTaxColl*.98"	leader_research_	LEADIC18	leader_economic_	LEADIC76			3	1	999	999
+Trilarian 1	LEADER	LEADDE33	TriLeader01_	"RecEff*=1.1,MilEff*=.93,gTaxColl*=.98"	leader_research_	LEADIC08	leader_infantry_	LEADIC37	leader_economic_	LEADIC76	4	0	999	999
+Trilarian 2	LEADER	LEADDE34	TriLeader02_	"TTperPop+=1,TechOver*=1.1,TechPosO*=1.1,TechDisc*=.95"	leader_research_	LEADIC09	leader_research_	LEADIC26	leader_research_	LEADIC38	4	0	999	999
+Trilarian 3	LEADER	LEADDE56	TriLeader03_	"PositvDP*=1.15,gTaxColl*=.98"	leader_xenopsyche_	LEADIC48	leader_economic_	LEADIC76			4	0	999	999
+Trilarian 4	LEADER	LEADDE57	TriLeader04_	"ReseaEff*=1.05,TechPosO*=1.3,gTaxColl*=.98"	leader_research_	LEADIC70	leader_research_	LEADIC58	leader_economic_	LEADIC76	4	0	999	999
+Nommo 1	LEADER	LEADDE07	NomLeader01_	"BioHaEff*=1.14,MdUnrest*=1.05"	leader_ecological_	LEADIC24	leader_govt_	LEADIC36			4	1	999	999
+Nommo 2	LEADER	LEADDE08	NomLeader02_	"MineEff*=1.1,ManufEff*=1.06,gTaxColl*=.96"	leader_mining_	LEADIC07	leader_manufacturing_	LEADIC52	leader_economic_	LEADIC78	4	1	999	999
+Nommo 3	LEADER	LEADDE58	NomLeader03_	"PositvDP*=1.1,gTaxColl*=.96"	leader_xenopsyche_	LEADIC47	leader_economic_	LEADIC78			4	1	999	999
+Nommo 4	LEADER	LEADDE59	NomLeader04_	"ManufEff*=1.15,MdUnrest*=1.05"	leader_manufacturing_	LEADIC17	leader_govt_	LEADIC36			4	1	999	999
+Harvester 1	LEADER	LEADDE18	HarLeader01_	"ExpGaind*=1.1,FltMaint*=.85,MdUnrest*=1.05"	leader_infantry_	LEADIC05	leader_infantry_	LEADIC44	leader_govt_	LEADIC36	5	0	999	999
+Harvester 2	LEADER	LEADDE19	HarLeader02_	"BioHaEff*=1.15,MdUnrest*=1.05"	leader_ecological_	LEADIC02	leader_govt_	LEADIC36			5	0	999	999
+Harvestor 3	LEADER	LEADDE60	HarLeader03_	"ReseaEff*=1.1,gTaxColl*=.98"	leader_research_	LEADIC57	leader_economic_	LEADIC76			5	0	999	999
+Harvestor 4	LEADER	LEADDE61	HarLeader04_	"ManufEff*=1.1,gTaxColl*=.95"	leader_manufacturing_	LEADIC53	leader_economic_	LEADIC65			5	0	999	999
+Klackon 1	LEADER	LEADDE20	KlaLeader01_	"CemprPop+=1,gTaxColl*=.98"	leader_manufacturing_	LEADIC16	leader_economic_	LEADIC76			6	0	999	999
+Klackon 2	LEADER	LEADDE21	KlaLeader02_	"ExpGaind*=1.1,ManufEff*=1.13,FltMaint*=1.05"	leader_infantry_	LEADIC05	leader_manufacturing_	LEADIC51	leader_infantry_	LEADIC27	6	0	999	999
+Klackon 3	LEADER	LEADDE62	KlaLeader03_	"ReseaEff*=1.1,TechOver*=1.1,TechPosO*=.9"	leader_research_	LEADIC57	leader_research_	LEADIC26	leader_research_	LEADIC71	6	0	999	999
+Klackon 4	LEADER	LEADDE63	KlaLeader04_	"SpLuck*=1.2,SpCloak*=1.2,MdUnrest*=1.05"	leader_intelligence_	LEADIC68	leader_intelligence_	LEADIC67	leader_govt_	LEADIC36	6	0	999	999
+Tachidi 1	LEADER	LEADDE38	TacLeader01_	"PositvDP*=1.1,TradeAmt*=1.1,gTaxColl*=.97"	leader_xenopsyche_	LEADIC47	leader_xenopsyche_	LEADIC22	leader_economic_	LEADIC77	6	1	999	999
+Tachidi 2	LEADER	LEADDE39	TacLeader02_	"ReseaEff*=1.15,TechOver*=1.05,gTaxColl*=.97"	leader_research_	LEADIC29	leader_research_	LEADIC41	leader_economic_	LEADIC77	6	1	999	999
+Tachidi 3	LEADER	LEADDE64	TacLeader03_	"ReseaEff*=1.15,SpCloak*=1.1,MdUnrest*=1.05"	leader_research_	LEADIC29	leader_intelligence_	LEADIC13	leader_govt_	LEADIC36	6	1	999	999
+Tachidi 4	LEADER	LEADDE65	TacLeader04_	"MineEff*=1.2,gTaxColl*=.95"	leader_mining_	LEADIC39	leader_economic_	LEADIC65			6	1	999	999
+Sakkra 1	LEADER	LEADDE01	SakLeader01_	"FltMaint*=.9,PositvDP*=1.05,gTaxColl*=.97"	leader_infantry_	LEADIC01	leader_xenopsyche_	LEADIC03	leader_economic_	LEADIC77	7	0	999	999
+Sakkra 2	LEADER	LEADDE02	SakLeader02_	"ManufEff*=1.15,gTaxColl*=.96"	leader_manufacturing_	LEADIC17	leader_economic_	LEADIC33			7	0	999	999
+Sakkra 3	LEADER	LEADDE66	SakLeader03_	"ReseaEff*=1.1,gTaxColl*=.97"	leader_research_	LEADIC57	leader_economic_	LEADIC77			7	0	999	999
+Sakkra 4	LEADER	LEADDE67	SakLeader04_	"BioHaEff*=1.15,gTaxColl*=.97"	leader_ecological_	LEADIC02	leader_economic_	LEADIC77			7	0	999	999
+Raas 1	LEADER	LEADDE05	RaasLeader01_	"ManufEff*=1.13,gTaxColl*=.98"	leader_manufacturing_	LEADIC51	leader_economic_	LEADIC35			7	1	999	999
+Raas 2	LEADER	LEADDE06	RaasLeader02_	"ExpGaind*=1.1,,gTaxColl*=.97,MilEff*=1.10"	leader_infantry_	LEADIC05	leader_xenopsyche_	LEADIC23	leader_economic_	LEADIC77	7	1	999	999
+Raas 3	LEADER	LEADDE68	RaasLeader03_	"BioHaEff*=1.2,gTaxColl*=1.05,ManufEff*=.9"	leader_ecological_	LEADIC72	leader_manufacturing_	LEADIC74	leader_economic_	LEADIC73	7	1	999	999
+Raas 4	LEADER	LEADDE69	RaasLeader04_	"PositvDP*=1.15,gTaxColl*=.97"	leader_xenopsyche_	LEADIC48	leader_economic_	LEADIC77			7	1	999	999
+Grendarl 1	LEADER	LEADDE03	GreLeader01_	"FltMaint*=.85,gTaxColl*=.96,ManufEff*=1.05"	leader_infantry_	LEADIC44	leader_manufacturing_	LEADIC50	leader_economic_	LEADIC33	7	2	999	999
+Grendarl 2	LEADER	LEADDE04	GreLeader02_	"PositvDP*=1.13,TradeAmt*=1.1,gTaxColl*=.98"	leader_xenopsyche_	LEADIC45	leader_xenopsyche_	LEADIC22	leader_economic_	LEADIC76	7	2	999	999
+Grendarl 3	LEADER	LEADDE70	GreLeader03_	"SPortEff*=1.15,OSTradAU*=1.1,gTaxColl*=.98"	leader_space_	LEADIC11	leader_economic_	LEADIC75	leader_economic_	LEADIC76	7	2	999	999
+Grendarl 4	LEADER	LEADDE71	GreLeader04_	"MineEff*=1.2,gTaxColl*=.97"	leader_mining_	LEADIC39	leader_economic_	LEADIC77			7	2	999	999
+Antaran	LEADER	LEADDE26	AntLeader01_	"MdUnrest*=1.05,TechOver*=.95,TTperPop+=1"	leader_research_	LEADIC09	leader_research_	LEADIC56	leader_govt_	LEADIC36	9	0	999	999
+Orion	LEADER	LEADDE27	LoknarLeader01_	ReseaEff*=1.2	leader_research_	LEADIC18					9	1	999	999						
+Varakesh	LEADER	LEADDE28	VarLeader01_	"MilEff*=1.1,gTaxColl*=1.03"	leader_infantry_	LEADIC20	leader_economic_	LEADIC43			9	2	999	999						
+Darlok	LEADER	LEADDE29	DarLeader01_	"SpCloak*=1.15,SpLuck*=1.1,gTaxColl*=.96"	leader_intelligence_	LEADIC14	leader_intelligence_	LEADIC19	leader_economic_	LEADIC78	9	3	999	999						
+Elerian	LEADER	LEADDE30	ElaLeader01_	"PositvDP*=1.08,MdUnrest*=.95,SpLuck*=1.1"	leader_xenopsyche_	LEADIC49	leader_intelligence_	LEADIC14	leader_govt_	LEADIC04	9	4	999	999						
+Mrrshan	LEADER	LEADDE31	MrrLeader01_	"MilEff*=1.1,NegatvDP*=1.05,gTaxColl*=.98"	leader_infantry_	LEADIC20	leader_xenopsyche_	LEADIC23	leader_economic_	LEADIC76	9	5	999	999						
+Dormin	LEADER	LEADDE32	DorLeader01_	"SPortEff*=1.15,gTaxColl*=.98,MdUnrest*=1.05"	leader_space_	LEADIC11	leader_economic_	LEADIC35	leader_govt_	LEADIC36	9	6	999	999						
+TableEnd																				
+
+	"The remaining tables are essentially non-functional, but are read in. They will be removed at a later date."																			
+
+TableStart	PersTypeBase																			
+ColumnHeadingsStart	Humanoid	Etherean	Geodic	Cybernetik	Ichthytosian	Harvesters	Insectoid	Saurian	Metashifters	Non-Corporeal	Protoplasmic	Plant	Fungal	Avian	Gargantua	Bulrathi	Mrrshan	Elerians	Gnolam	Elder Civilizations
+RowHeadingsStart																				
+Average	5	3	5	4	3	2	5	3	2	2	4	3	3	2	3	0	0	0	0	3
+Evil	4	1	3	2	3	5	3	4	4	2	2	3	2	3	1	0	0	0	0	3
+Stupid	4	2	3	-3	2	4	1	3	3	2	2	2	2	3	2	0	0	0	0	0
+Lazy	4	2	2	1	3	4	-3	2	4	3	3	3	3	1	3	0	0	0	0	0
+Selfish	4	2	2	2	3	5	-3	2	5	2	2	2	2	2	2	0	0	0	0	2
+Underhanded	2	3	3	1	3	4	1	3	5	3	3	2	2	3	2	0	0	0	0	2
+Driven	4	4	2	3	3	3	1	4	4	4	3	2	2	4	2	0	0	0	0	1
+Knowledgeable	3	5	3	5	4	2	3	3	3	3	3	4	4	2	4	0	0	0	0	0
+Charismatic	5	3	2	3	4	1	2	2	2	2	1	2	3	5	3	0	0	0	0	-1
+TableEnd																				
+
+TableStart	PersTypeModGov																			
+ColumnHeadingsStart	Unique	Kin--based	Group-based	Despot	Monarchy	Oligarchy	Const. Monarchy	Corporate	Democracy	Parliament	Republic	Hive	Unification							
+RowHeadingsStart																				
+Average	0	1	2	2	4	1	2	2	2	1	2	2	4							
+Evil	0	2	2	4	2	2	2	3	1	1	1	2	1							
+Stupid	0	2	2	2	2	1	2	1	-2	1	1	2	2							
+Lazy	0	2	1	2	3	4	3	2	3	2	2	-2	3							
+Selfish	0	3	1	4	2	4	3	4	1	3	2	-2	1							
+Underhanded	0	2	2	2	2	1	2	-2	4	1	2	2	2
+Driven	0	3	4	3	2	2	2	4	1	3	2	-2	1
+Knowledgeable	0	2	2	2	2	3	2	3	4	3	3	2	2
+Charismatic	0	2	3	2	2	2	3	4	2	4	3	2	2
+TableEnd													
+
+TableStart	PersTypeModSocState												
+ColumnHeadingsStart	-3	-2	-1	0	1	2	3						
+RowHeadingsStart													
+Average	0	0	1	1	1	0	0						
+Evil	-2	-1	-1	0	1	1	2						
+Stupid	-1	-1	0	0	1	1	1						
+Lazy	-1	-1	0	0	1	1	1						
+Selfish	-1	-1	0	0	1	1	1						
+Underhanded	-1	-1	0	0	1	1	1						
+Driven	1	1	0	0	1	1	1						
+Knowledgeable	2	1	1	0	0	-1	-2				
+Charismatic	2	1	1	0	0	-1	-2				
+TableEnd											
+
+TableStart	PersTypeModOppressLeader										
+ColumnHeadingsStart	0	1	2	3	4	5	6	7	8	9	10
+RowHeadingsStart											
+Average	0	1	2	2	2	1	1	0	0	-1	-1
+Evil	1	1	1	1	1	1	1	1	0	0	0
+Stupid	0	0	0	0	0	0	1	1	1	1	1
+Lazy	0	0	0	0	0	0	0	0	0	1	1
+Selfish	1	1	0	0	0	0	0	0	0	0	0
+Underhanded	0	0	0	0	0	0	1	1	1	2	2
+Driven	1	0	-1	-1	-1	-1	-1	-1	-1	-1	-1
+Knowledgeable	2	2	1	1	0	0	0	-1	-1	-1	-2
+Charismatic	1	1	1	1	0	0	0	0	0	0	0
+TableEnd																				
+
+TableStart	PersNatureBase																			
+ColumnHeadingsStart	Humanoid	Etherean	Geodic	Cybernetik	Ichthytosian	Harvesters	Insectoid	Saurian	Metashifters	Non-Corporeal	Protoplasmic	Plant	Fungal	Avian	Gargantua	Bulrathi	Mrrshan	Elerians	Gnolam	Elder Civilizations
+RowHeadingsStart																				
+Garden Variety	5	3	-3	1	4	5	-3	3	1	3	2	5	2	1	4	0	0	0	0	0
+Pacifistic	1	5	3	4	4	1	4	2	-1	3	3	2	3	0	4	0	0	0	0	-3
+Honorable	2	5	3	3	4	-3	5	4	-1	3	4	3	4	2	4	0	0	0	0	-1
+Cagey	4	3	3	3	3	3	1	3	3	1	2	3	2	4	2	0	0	0	0	2
+Pragmatic	3	4	4	5	3	3	4	2	4	2	2	4	3	2	5	0	0	0	0	2
+Territorial	4	2	3	2	3	5	4	4	3	2	2	4	3	5	2	0	0	0	0	0
+Erratic	2	1	1	1	3	5	-3	3	4	1	2	1	2	3	0	0	0	0	0	0
+Ruthless	3	1	3	1	1	5	3	4	4	2	1	4	2	4	1	0	0	0	0	5
+TableEnd																				
+
+TableStart	PersNatureModGov																			
+ColumnHeadingsStart	Unique	Despot	Monarchy	Oligarchy	Const. Monarchy	Corporate	Democracy	Parliament	Republic	Hive	Unification
+RowHeadingsStart											
+Garden Variety	0	2	2	3	2	1	2	2	2	-2	1
+Pacifistic	0	-2	2	2	2	1	4	2	3	2	3
+Honorable	0	1	2	1	1	-2	4	2	2	4	3
+Cagey	0	3	2	2	3	3	1	4	3	1	1
+Pragmatic	0	4	3	2	1	4	2	2	2	3	2
+Territorial	0	3	2	2	3	4	1	1	1	1	2
+Erratic	0	3	3	2	3	2	3	2	2	-2	1
+Ruthless	0	3	2	2	2	4	-2	3	2	2	1
+TableEnd											
+
+TableStart	PersNatureModSocState										
+ColumnHeadingsStart	-3	-2	-1	0	1	2	3				
+RowHeadingsStart											
+Garden Variety	0	0	1	1	1	0	-1				
+Pacifistic	0	0	0	0	0	0	0				
+Honorable	2	1	1	0	0	-1	-1				
+Cagey	2	1	0	0	0	0	0				
+Pragmatic	0	0	0	1	1	1	1				
+Territorial	0	0	0	0	0	1	2				
+Erratic	0	0	0	0	1	1	2				
+Ruthless	-2	-1	-1	-1	0	1	2				
+TableEnd											
+
+TableStart	PersNatureModOppressLeader										
+ColumnHeadingsStart	0	1	2	3	4	5	6	7	8	9	10
+RowHeadingsStart											
+Garden Variety	1	1	1	0	0	0	-1	-1	-1	-1	-1
+Pacifistic	1	1	0	0	0	0	0	0	-1	-1	-1
+Honorable	0	0	0	0	0	0	0	0	1	1	1
+Cagey	-1	0	0	1	1	1	1	2	2	2	2
+Pragmatic	0	0	1	1	1	1	1	1	1	1	1									
+Territorial	0	0	1	1	1	1	1	1	1	1	1									
+Erratic	2	1	1	0	0	0	0	-1	-1	-1	-1									
+Ruthless	0	0	0	0	1	1	1	1	2	2	2									
+TableEnd																				
+
+TableStart	PersPriorityBase																			
+ColumnHeadingsStart	Humanoid	Etherean	Geodic	Cybernetik	Ichthytosian	Harvesters	Insectoid	Saurian	Metashifters	Non-Corporeal	Protoplasmic	Plant	Fungal	Avian	Gargantua	Bulrathi	Mrrshan	Elerians	Gnolam	Elder Civilizations
+RowHeadingsStart																				
+Status Quo	3	3	5	3	4	2	5	2	-3	3	2	4	3	2	5	0	0	0	0	0
+Diverse Society	4	4	1	1	3	4	-3	3	0	1	1	3	-1	-1	0	0	0	0	0	-3
+Homogenous Society	2	4	5	4	4	-3	5	4	2	2	2	-2	4	1	1	0	0	0	0	2
+Diplomatic	5	5	3	3	4	-3	3	2	3	1	1	2	1	1	2	0	0	0	0	0
+Terraforming	2	-3	3	2	3	3	4	3	2	1	1	5	3	2	2	0	0	0	0	0
+Economist	4	3	3	3	4	3	3	3	1	2	1	1	3	2	2	0	0	0	0	0
+Expansionist	4	1	3	2	2	5	4	4	3	2	4	5	4	5	4	0	0	0	0	0
+Militarist	5	2	3	2	2	4	3	5	4	1	3	3	2	5	2	0	0	0	0	3
+Technologist	4	4	3	5	4	1	3	2	3	3	3	3	4	2	2	0	0	0	0	0
+Utopian	3	4	1	4	2	-3	0	1	1	4	1	3	3	-2	1	0	0	0	0	-1
+Self Aggrandizement	5	3	2	1	3	5	-3	3	3	1	3	2	1	4	1	0	0	0	0	1
+TableEnd																				
+
+TableStart	PersPriorityModGov																			
+ColumnHeadingsStart	Unique	Despot	Monarchy	Oligarchy	Const. Monarchy	Corporate	Democracy	Parliament	Republic	Hive	Unification									
+RowHeadingsStart																				
+Status Quo	0	2	4	2	1	3	3	2	3	2	4									
+Diverse Society	0	2	1	3	3	1	3	4	3	-2	-2									
+Homogenous Society	0	4	4	1	3	1	4	3	3	4	4									
+Diplomatic	0	3	2	3	3	4	1	4	3	2	2									
+Terraforming	0	2	2	2	2	3	3	3	3	2	3									
+Economist	0	2	3	4	3	4	3	3	3	2	2									
+Expansionist	0	3	2	1	2	3	-2	2	3	2	1									
+Militarist	0	3	2	2	2	3	-2	2	2	2	1
+Technologist	0	2	2	3	2	3	3	3	3	2	2
+Utopian	0	1	1	1	1	1	2	2	2	3	3
+Self Aggrandizement	0	3	2	4	4	4	-2	4	2	-2	1
+TableEnd											
+
+TableStart	PersPriorityModSocState										
+ColumnHeadingsStart	-3	-2	-1	0	1	2	3				
+RowHeadingsStart											
+Status Quo	0	0	1	2	1	0	0				
+Diverse Society	1	1	1	0	0	0	0				
+Homogenous Society	0	0	0	0	1	1	1				
+Diplomatic	2	2	2	1	0	-1	-2				
+Terraforming	0	0	0	0	0	0	0				
+Economist	2	1	1	0	0	0	0				
+Expansionist	1	1	1	0	0	0	0				
+Militarist	-1	0	0	0	1	1	2				
+Technologist	2	1	1	0	0	-1	-1				
+Utopian	4	3	2	1	0	-1	-2				
+Self Aggrandizement	-2	-1	0	0	1	1	2				
+TableEnd											
+
+TableStart	PersPriorityModOppressLeader										
+ColumnHeadingsStart	0	1	2	3	4	5	6	7	8	9	10
+RowHeadingsStart											
+Status Quo	-1	-1	0	0	0	0	0	1	1	1	1
+Diverse Society	0	0	-1	-1	-1	-1	-1	-1	-1	-1	-1
+Homogenous Society	0	0	0	0	0	0	1	1	1	1	1
+Diplomatic	1	1	1	1	1	0	0	0	0	-1	-1
+Terraforming	0	0	0	0	0	0	0	0	0	0	0
+Economist	1	1	0	0	0	0	0	-1	-1	-1	-2
+Expansionist	1	1	0	0	0	0	0	0	0	-1	-1
+Militarist	0	1	1	1	1	1	1	1	1	2	2									
+Technologist	2	1	1	1	0	0	0	0	0	-1	-1									
+Utopian	2	2	2	1	1	1	0	0	0	-1	-1									
+Self Aggrandizement	-1	-1	0	0	1	1	1	1	2	2	2									
+TableEnd																				
+
+
+
+TableStart	StyleBase																			
+ColumnHeadingsStart	Humanoid	Etherean	Geodic	Cybernetik	Ichthytosian	Harvesters	Insectoid	Saurian	Metashifters	Non-Corporeal	Protoplasmic	Plant	Fungal	Avian	Gargantua	Bulrathi	Mrrshan	Elerians	Gnolam	Elder Civilizations
+RowHeadingsStart																				
+Bold	4	-1	3	2	2	5	4	5	-2	0	-2	-1	-1	4	2	0	0	0	0	-2
+Daring	2	0	2	2	2	2	3	4	-1	0	0	-1	0	3	2	0	0	0	0	-1
+Provocative	0	0	1	2	2	0	2	3	0	0	1	0	0	2	1	0	0	0	0	0
+Balanced	-2	1	0	2	2	-2	2	1	1	1	4	1	1	1	1	0	0	0	0	1
+Deliberate	0	3	1	3	3	0	1	-1	2	1	1	3	2	0	0	0	0	0	0	2
+Conservative	2	3	2	3	3	2	1	-1	2	2	0	1	2	-1	0	0	0	0	0	3
+Cautious	4	4	3	4	3	4	1	-2	3	2	-2	0	1	-2	0	0	0	0	0	5
+TableEnd																				
+
+TableStart	StyleModGov																			
+ColumnHeadingsStart	Unique	Despot	Monarchy	Oligarchy	Const. Monarchy	Corporate	Democracy	Parliament	Republic	Hive	Unification									
+RowHeadingsStart																				
+Bold	0	4	3	3	3	-2	-2	0	0	2	1									
+Daring	0	3	2	1	0	-1	0	1	1	1	1									
+Provocative	1	1	1	0	-1	0	1	1	1	1	2									
+Balanced	3	-2	0	0	-1	1	3	2	1	0	4									
+Deliberate	1	-1	0	0	0	2	1	1	1	0	2									
+Conservative	0	1	1	1	1	3	0	1	1	-1	1									
+Cautious	0	4	2	2	4	4	-2	1	0	-2	1									
+TableEnd																				
+
+TableStart	StyleModSocState										
+ColumnHeadingsStart	-3	-2	-1	0	1	2	3				
+RowHeadingsStart											
+Bold	2	2	1	0	0	-1	-2				
+Daring	2	1	0	0	0	-1	-1				
+Provocative	1	0	0	0	0	0	-1				
+Balanced	0	0	0	0	0	0	0				
+Deliberate	-1	0	0	0	0	0	1				
+Conservative	-1	-1	0	0	0	1	2				
+Cautious	-2	-1	-1	0	0	1	2				
+TableEnd											
+
+TableStart	StyleModOppressLeader										
+ColumnHeadingsStart	0	1	2	3	4	5	6	7	8	9	10
+RowHeadingsStart											
+Bold	2	2	1	1	1	0	0	-1	-1	-2	-2
+Daring	2	1	1	1	0	0	0	0	-1	-1	-2
+Provocative	1	1	1	0	0	0	0	0	0	-1	-1
+Balanced	1	0	0	0	0	0	0	0	0	0	0
+Deliberate	0	0	0	0	0	0	0	0	1	1	1
+Conservative	0	0	0	0	0	0	1	1	1	1	1
+Cautious	-1	-1	0	0	0	1	1	1	2	2	2
+TableEnd											
+
+TableStart	AbilityBase										
+ColumnHeadingsStart	Base										
+RowHeadingsStart											
+0	2										
+1	3										
+2	5										
+3	8										
+4	12										
+5	14										
+6	12										
+7	8										
+8	5										
+9	3										
+10	2										
+TableEnd											
+
+TableStart	AbilityModGovAdmin										
+ColumnHeadingsStart	Unique	Despot	Monarchy	Oligarchy	Const. Monarchy	Corporate	Democracy	Parliament	Republic	Hive	Unification
+RowHeadingsStart											
+0	0	1	0	1	0	-1	0	0	0	0	-1
+1	0	1	1	1	0	0	0	0	0	0	-1
+2	0	1	1	0	0	0	0	0	0	0	0
+3	0	0	0	0	0	0	1	0	1	0	0
+4	0	0	0	0	0	0	1	1	1	0	0
+5	0	0	0	0	1	1	1	1	1	0	0
+6	0	0	0	0	1	1	0	1	0	0	0
+7	0	0	0	0	1	1	0	0	0	0	1
+8	0	1	1	0	0	0	0	0	0	0	1
+9	0	1	1	1	0	0	0	0	0	0	1
+10	0	1	0	1	0	0	0	0	0	0	0
+TableEnd											
+
+TableStart	AbilityModGovHallsofPower										
+ColumnHeadingsStart	Unique	Despot	Monarchy	Oligarchy	Const. Monarchy	Corporate	Democracy	Parliament	Republic	Hive	Unification
+RowHeadingsStart											
+0	0	1	0	1	0	-1	0	0	0	0	-1
+1	0	1	1	1	0	0	0	0	0	0	-1
+2	0	1	1	0	0	0	0	0	0	0	0
+3	0	0	0	0	0	0	1	0	1	0	0
+4	0	0	0	0	0	0	1	1	1	0	0
+5	0	0	0	0	1	1	1	1	1	0	0
+6	0	0	0	0	1	1	0	1	0	0	0
+7	0	0	0	0	1	1	0	0	0	0	1
+8	0	1	1	0	0	0	0	0	0	0	1
+9	0	1	1	1	0	0	0	0	0	0	1
+10	0	1	0	1	0	0	0	0	0	0	0
+TableEnd											
+
+TableStart	AbilityModGovDiplomatic										
+ColumnHeadingsStart	Unique	Despot	Monarchy	Oligarchy	Const. Monarchy	Corporate	Democracy	Parliament	Republic	Hive	Unification
+RowHeadingsStart											
+0	0	1	0	1	0	-1	0	0	0	0	-1
+1	0	1	1	1	0	0	0	0	0	0	-1
+2	0	1	1	0	0	0	0	0	0	0	0
+3	0	0	0	0	0	0	1	0	1	0	0
+4	0	0	0	0	0	0	1	1	1	0	0
+5	0	0	0	0	1	1	1	1	1	0	0
+6	0	0	0	0	1	1	0	1	0	0	0
+7	0	0	0	0	1	1	0	0	0	0	1
+8	0	1	1	0	0	0	0	0	0	0	1
+9	0	1	1	1	0	0	0	0	0	0	1
+10	0	1	0	1	0	0	0	0	0	0	0
+TableEnd											
+
+TableStart	AbilityModGovMilitary										
+ColumnHeadingsStart	Unique	Despot	Monarchy	Oligarchy	Const. Monarchy	Corporate	Democracy	Parliament	Republic	Hive	Unification
+RowHeadingsStart											
+0	0	-1	0	0	0	-1	0	0	0	-1	-1
+1	0	-1	0	0	0	0	0	0	0	-1	-1
+2	0	0	0	0	0	0	0	0	0	0	0
+3	0	0	0	0	0	0	1	0	1	0	0
+4	0	0	0	0	0	0	1	1	1	0	0
+5	0	0	0	0	1	1	1	1	1	0	0
+6	0	0	1	1	1	1	0	1	0	0	0
+7	0	0	1	1	1	1	0	0	0	1	1
+8	0	0	1	0	0	0	0	0	0	1	1
+9	0	0	0	0	0	0	0	0	0	1	1
+10	0	0	0	0	0	0	0	0	0	0	0
+TableEnd											
+
+TableStart	AbilityModSocState										
+ColumnHeadingsStart	-3	-2	-1	0	1	2	3				
+RowHeadingsStart											
+0	-1	-1	-1	0	2	5	8				
+1	-1	-1	-1	0	1	4	7				
+2	-1	-1	0	0	1	3	6				
+3	-1	0	0	0	1	2	4				
+4	0	0	0	0	0	1	2				
+5	0	0	0	0	0	0	0				
+6	0	0	0	0	0	0	0				
+7	2	1	0	0	0	0	0				
+8	4	2	1	0	0	0	-1				
+9	6	3	1	0	0	-1	-1				
+10	8	5	2	0	-1	-1	-1				
+TableEnd											
+
+TableStart	AbilityModOppressLeader										
+ColumnHeadingsStart	0	1	2	3	4	5	6	7	8	9	10
+RowHeadingsStart											
+0	-1	-1	-1	0	0	2	4	6	8	10	12
+1	-1	-1	-1	0	0	1	3	5	7	9	11
+2	0	0	0	0	0	1	3	4	6	8	10
+3	0	0	0	0	0	1	2	3	4	6	7
+4	0	0	0	0	0	1	1	2	3	4	5
+5	0	0	0	0	0	0	0	1	1	2	2
+6	2	2	1	1	0	0	0	0	0	0	0
+7	5	4	3	2	1	1	0	0	0	0	0
+8	7	6	4	3	2	1	0	0	0	0	0
+9	10	8	6	4	3	1	0	0	0	0	0
+10	12	10	8	6	4	2	0	0	-1	-1	-1
+TableEnd											
+
+TableStart	CloutBase										
+ColumnHeadingsStart	Base										
+RowHeadingsStart											
+0	2										
+1	3										
+2	5										
+3	8										
+4	12										
+5	14										
+6	12										
+7	8										
+8	5										
+9	3										
+10	2										
+TableEnd											
+
+TableStart	CloutModGovAdmin										
+ColumnHeadingsStart	Unique	Despot	Monarchy	Oligarchy	Const. Monarchy	Corporate	Democracy	Parliament	Republic	Hive	Unification
+RowHeadingsStart											
+0	0	-2	-1	2	-1	0	0	-1	0	-1	-1
+1	0	-1	-1	1	0	0	0	0	0	-1	-1
+2	0	-1	0	1	0	0	0	0	0	-1	-1
+3	0	0	0	0	0	0	0	0	0	0	0
+4	0	0	0	0	0	1	0	0	0	0	0
+5	0	1	0	0	0	2	0	0	0	0	0
+6	0	2	1	0	0	1	0	0	0	0	0
+7	0	1	1	0	0	0	0	0	0	0	0
+8	0	0	0	-1	0	0	0	0	0	1	2
+9	0	0	0	-1	0	0	1	0	0	1	1
+10	0	-1	-1	-2	-1	0	1	-1	0	1	1
+TableEnd											
+
+TableStart	CloutModGovHallsofPower										
+ColumnHeadingsStart	Unique	Despot	Monarchy	Oligarchy	Const. Monarchy	Corporate	Democracy	Parliament	Republic	Hive	Unification
+RowHeadingsStart											
+0	0	-2	-1	1	-1	0	0	-1	0	-1	-1
+1	0	-1	-1	1	0	0	0	-1	0	-1	-1
+2	0	-1	0	1	0	0	0	0	0	-1	-1
+3	0	0	0	0	0	0	0	0	0	0	0
+4	0	0	0	0	0	0	0	0	0	0	0
+5	0	0	0	0	0	1	0	0	0	0	0
+6	0	1	0	0	0	2	0	0	0	0	0
+7	0	2	0	0	0	1	0	0	0	0	1
+8	0	1	0	-1	0	0	0	0	0	1	2
+9	0	0	0	-1	0	0	1	0	0	1	1
+10	0	-1	-1	-2	-1	0	1	0	0	1	1
+TableEnd											
+
+TableStart	CloutModGovDiplomatic										
+ColumnHeadingsStart	Unique	Despot	Monarchy	Oligarchy	Const. Monarchy	Corporate	Democracy	Parliament	Republic	Hive	Unification
+RowHeadingsStart											
+0	0	0	0	0	0	0	1	0	0	0	0
+1	0	0	0	1	0	0	0	0	0	0	0
+2	0	0	0	1	0	0	0	0	0	0	0
+3	0	0	0	0	0	0	0	0	0	0	0
+4	0	0	0	0	0	0	0	0	0	0	0
+5	0	0	0	0	0	0	0	0	0	0	0
+6	0	0	0	0	0	0	0	0	0	1	0
+7	0	0	0	0	0	0	0	0	0	2	0
+8	0	0	0	0	0	0	0	0	0	1	0
+9	0	0	0	-1	0	0	0	0	0	0	0
+10	0	-1	0	-1	0	-1	-1	0	0	0	0
+TableEnd											
+
+TableStart	CloutModGovMilitary										
+ColumnHeadingsStart	Unique	Despot	Monarchy	Oligarchy	Const. Monarchy	Corporate	Democracy	Parliament	Republic	Hive	Unification
+RowHeadingsStart											
+0	0	-1	-1	0	-1	0	0	0	0	1	0
+1	0	-1	-1	0	0	0	0	0	0	-1	0
+2	0	-1	0	0	0	0	0	0	0	-1	0
+3	0	0	0	0	0	0	0	0	0	-1	0
+4	0	0	0	0	0	0	0	0	0	0	0
+5	0	0	0	0	0	0	0	0	0	0	0
+6	0	0	0	0	0	0	0	0	0	0	0
+7	0	1	1	0	0	0	0	0	0	1	0
+8	0	1	0	0	1	0	0	0	0	1	0
+9	0	1	1	-1	1	0	0	0	0	1	0
+10	0	1	1	-1	0	0	0	0	0	1	0
+TableEnd											
+
+TableStart	CloutModSocState										
+ColumnHeadingsStart	-3	-2	-1	0	1	2	3				
+RowHeadingsStart											
+0	-1	-1	-1	0	1	3	4				
+1	-1	-1	-1	0	1	2	4				
+2	-1	-1	0	0	1	2	3				
+3	-1	0	0	0	1	1	2				
+4	0	0	0	0	0	1	1				
+5	0	0	0	0	0	0	0				
+6	0	0	0	0	0	0	0				
+7	1	1	0	0	0	0	0				
+8	2	1	1	0	0	0	-1				
+9	3	2	1	0	0	-1	-1				
+10	4	3	1	0	-1	-1	-1				
+TableEnd											
+
+TableStart	CloutModOppressLeader										
+ColumnHeadingsStart	0	1	2	3	4	5	6	7	8	9	10
+RowHeadingsStart											
+0	-1	-1	-1	0	0	1	1	2	3	3	4
+1	-1	-1	-1	0	0	0	1	2	2	3	4
+2	0	0	0	0	0	0	1	1	2	3	3
+3	0	0	0	0	0	0	1	1	1	2	2
+4	0	0	0	0	0	0	0	1	1	1	2
+5	0	0	0	0	0	0	0	0	0	1	1
+6	1	1	0	0	0	0	0	0	0	0	0
+7	2	1	1	1	0	0	0	0	0	0	0
+8	2	2	1	1	1	0	0	0	0	0	0
+9	3	3	2	1	1	0	0	0	0	0	0
+10	4	4	3	2	1	1	0	0	-1	-1	-1
+TableEnd											

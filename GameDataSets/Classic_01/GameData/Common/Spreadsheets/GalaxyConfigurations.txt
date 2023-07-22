@@ -1,0 +1,102 @@
+	Num_Stars:	1st Value = Total number of stars to aim for.
+		2nd Value = Aproximate percentage to sprinkle along arms.
+		3rd Value = Aproximate percentage to springle within central bulge.
+		4th Value (implied) = 100 - 2nd Value - 3rd Value = random sprinkling.
+
+	Arm_Descript:	1st Value = Number of galactic arms.
+		2nd Value = Number of arm segments.
+		3rd Value = Segment Length.
+		4th Value = Segment Rotation (in 2^16 increments = 360 degrees) 
+		5th Value = Segment Length increment.
+		6th Value = Segment Rotation decrement.
+
+	Starlane_Descript:	1st Value = Max num lanes per star. 
+		2nd Value = Max starlane distance.
+
+	Chance_Descript:	1st Value = Die roll size.
+		2nd Value = Base chance for star lane.
+		3rd Value = Chance deduction per exsisting starlane.
+		4th Value = Closest n stars to compute for star lanes.
+
+	Distances:	1st Value = Maximum distance a star can be from an arm.
+		2nd Value = Radius of the galactic central bulge.
+		3rd Value = Radius of the random sprinkle. 
+		4th Value = Minimum inter-star separation distance.
+		5th Value = Minimum star-lane separation distance.
+
+	OffRoad_Lanes:	1st Value = Maximum distance for an offroad lane (short range)
+		2nd Value = Maximum distance for an offroad lane (medium range)
+		3rd Value = Maximum distance for an offroad lane (long range)
+		4th Value = Maximum number of offroad lanes per star (short range). This is cumulative with other existing star lanes.
+		5th Value = Maximum number of offroad lanes per star (medium range). This is cumulative with other existing star lanes.
+		6th Value = Maximum number of offroad lanes per star (long range).  This is cumulative with other existing star lanes.
+
+TableStart	GalaxyConfigurationTestKeys					
+ColumnHeadingsStart	Key	Num_Stars	Arm_Descript	Starlane_Descript	Chance_Descript	Distances
+RowHeadingsStart						
+"2 Arm Galaxy, Large"	A	"150,45,25"	"2,14,25,375,2,0"	"-1,-1"	"-1,-1,-1,-1"	"35,120,200,10,-1"
+"2 Arm Galaxy, Giant"	B	"200,45,25"	"2,14,30,375,2,0"	"-1,-1"	"-1,-1,-1,-1"	"40,150,280,10,-1"
+"3 Arm Galaxy, Huge"	C	"250,45,25"	"3,14,30,375,2,0"	"-1,-1"	"-1,-1,-1,-1"	"40,150,280,10,-1"
+"Cluster, Small"	D	"50,0,20"	"0,0,0,0,0,0"	"-1,-1"	"-1,-1,-1,-1"	"0,75,100,10,-1"
+"Cluster, Medium"	E	"100,0,20"	"0,0,0,0,0,0"	"-1,-1"	"-1,-1,-1,-1"	"0,100,150,10,-1"
+"Cluster, Large"	F	"175,0,20"	"0,0,0,0,0,0"	"-1,-1"	"-1,-1,-1,-1"	"0,125,225,10,-1"
+"Cluster, Huge"	G	"250,0,20"	"0,0,0,0,0,0"	"-1,-1"	"-1,-1,-1,-1"	"0,150,300,10,-1"
+
+"Short Star Lanes, Few"	H	"-1,-1,-1"	"-1,-1,-1,-1,-1,-1"	"3,40"	"200,150,40,4"	"-1,-1,-1,-1,6"
+"Medium Star Lanes, Few"	I	"-1,-1,-1"	"-1,-1,-1,-1,-1,-1"	"3,60"	"200,150,40,4"	"-1,-1,-1,-1,6"
+"Long Star Lanes, Few"	J	"-1,-1,-1"	"-1,-1,-1,-1,-1,-1"	"3,120"	"200,150,40,4"	"-1,-1,-1,-1,6"
+"Short Star Lanes, Many"	K	"-1,-1,-1"	"-1,-1,-1,-1,-1,-1"	"5,40"	"200,150,20,5"	"-1,-1,-1,-1,6"
+"Medium Star Lanes, Many"	L	"-1,-1,-1"	"-1,-1,-1,-1,-1,-1"	"5,60"	"200,150,20,5"	"-1,-1,-1,-1,6"					
+"Long Star Lanes, Many"	M	"-1,-1,-1"	"-1,-1,-1,-1,-1,-1"	"5,120"	"200,150,20,5"	"-1,-1,-1,-1,6"					
+"Long Star Lanes, Lots"	N	"-1,-1,-1"	"-1,-1,-1,-1,-1,-1"	"5,120"	"200,150,20,7"	"-1,-1,-1,-1,6"					
+TableEnd											
+
+	(Note: Keys must be unique!)										
+TableStart	GalaxyConfigurations										
+ColumnHeadingsStart	Key	Num_Stars	Arm_Descript	Starlane_Descript	Chance_Descript	Distances	Specials	UI_Menu	Init_Zoom	String_Tag	OffRoad_Lanes
+RowHeadingsStart											
+"4 Arm Galaxy, 250 stars"	A	"250,60,30"	"4,16,35,375,2,0"	"-1,-1"	"-1,-1,-1,-1"	"40,75,100,10,-1"	"100,4"	0	1	NGDD01bA	"50,80,120,5,5,6"
+"4 Arm Spiral, 150 stars"	B	"150,80,15"	"4,14,18,375,2,0"	"-1,-1"	"-1,-1,-1,-1"	"20,70,70,3,-1"	"100,4"	0	1	NGDD01bB	"50,80,120,5,5,6"
+"5 Arm Galaxy, 250 stars"	C	"250,55,20"	"5,14,40,420,0,15"	"-1,-1"	"-1,-1,-1,-1"	"35,125,280,10,-1"	"100,4"	0	1	NGDD01bC	"50,80,120,5,5,6"
+"6 Arm Milky Way, 250 stars"	D	"250,70,15"	"6,14,12,350,3,10"	"-1,-1"	"-1,-1,-1,-1"	"40,75,125,10,-1"	"100,4"	0	1	NGDD01bD	"50,80,120,5,5,6"
+"8 Arm Galaxy, 250 stars"	E	"250,75,15"	"8,12,20,250,1,0"	"-1,-1"	"-1,-1,-1,-1"	"25,100,150,8,-1"	"100,4"	0	1	NGDD01bE	"50,80,120,5,5,6"
+"12 Arm Milky Way, 250"	F	"250,70,15"	"12,14,12,350,3,10"	"-1,-1"	"-1,-1,-1,-1"	"25,75,125,10,-1"	"100,4"	0	1	NGDD01bF	"50,80,120,5,5,6"
+"12 Arm Ring Core, 250"	G	"250,100,0"	"12,10,50,250,1,0"	"-1,-1"	"-1,-1,-1,-1"	"20,200,100,10,-1"	"100,4"	0	1	NGDD01bG	"150,280,300,5,5,3"
+"3rd Pocket, 250 stars"	H	"250,70,20"	"3,35,15,500,0,40"	"-1,-1"	"-1,-1,-1,-1"	"20,80,150,15,-1"	"100,4"	0	1	NGDD01bH	"50,80,120,5,5,6"
+"Swastika, 250 stars"	I	"250,100,0"	"4,12,20,180,0,90"	"-1,-1"	"-1,-1,-1,-1"	"50,50,50,10,-1"	"100,4"	0	1	NGDD01bI	"50,80,120,5,5,6"
+"4 Arm Isolated, Huge"	J	"250,100,0"	"4,12,50,350,1,0"	"-1,-1"	"-1,-1,-1,-1"	"20,200,100,10,-1"	"100,4"	0	1	NGDD01bJ	"150,280,300,5,5,3"
+"Star-Shaped Galaxy, Huge"	K	"250,75,15"	"5,10,30,240,2,0"	"-1,-1"	"-1,-1,-1,-1"	"0,100,100,10,-1"	"100,4"	0	1	NGDD01bK	"50,60,80,5,5,3"
+"Daisy-7, Huge"	L	"250,70,15"	"7,20,10,350,1,50"	"-1,-1"	"-1,-1,-1,-1"	"15,80,250,15,-1"	"100,4"	0	1	NGDD01bL	"50,80,120,5,5,6"
+"Lucky-7, Huge"	M	"250,70,20"	"7,20,10,500,1,40"	"-1,-1"	"-1,-1,-1,-1"	"20,80,200,15,-1"	"100,4"	0	1	NGDD01bM	"50,80,120,5,5,6"
+"Loopy Eye, Huge"	N	"250,100,0"	"10,12,50,350,1,0"	"-1,-1"	"-1,-1,-1,-1"	"20,200,100,10,-1"	"100,4"	0	1	NGDD01bN	"150,280,300,5,5,3"
+"Flat No-Core, Huge"	O	"250,98,0"	"12,14,30,300,2,10"	"-1,-1"	"-1,-1,-1,-1"	"40,60,280,10,-1"	"100,4"	0	1	NGDD01bO	"50,80,120,5,5,6"
+"Stringy Cluster, Huge"	P	"250,100,0"	"12,15,17,250,0,0"	"-1,-1"	"-1,-1,-1,-1"	"50,50,50,10,-1"	"100,4"	0	1	NGDD01bP	"50,80,120,5,5,6"
+"Perfectly Square, Huge"	Q	"250,99,1"	"1,1,0,0,0,0"	"-1,-1"	"-1,-1,-1,-1"	"100,10,300,10,-1"	"100,4"	0	1	NGDD01bQ	"50,80,100,5,5,3"
+"Double Cluster, Huge"	R	"250,100,0"	"2,12,20,360,0,360"	"-1,-1"	"-1,-1,-1,-1"	"50,50,50,10,-1"	"100,4"	0	1	NGDD01bR	"50,80,120,5,5,6"
+"BoP Constellations of Chaos, Huge"	S	"240,0,20"	"0,0,0,0,0,0"	"-1,-1"	"-1,-1,-1,-1"	"0,360,480,6,-1"	"100,4"	0	1	NGDD01bS	"20,40,160,5,4,3"
+"Random Whirl, Huge"	T	"250,99,1"	"4,12,50,350,1,-5"	"-1,-1"	"-1,-1,-1,-1"	"20,200,100,10,-1"	"100,4"	0	1	NGDD01bT	"150,280,300,5,5,3"
+"Random Clustered Arms, Huge"	U	"250,100,0"	"4,12,50,350,1,-5"	"-1,-1"	"-1,-1,-1,-1"	"20,200,100,10,-1"	"100,4"	0	1	NGDD01bU	"150,280,300,5,5,3"
+"Ring Galaxy, Huge"	V	"250,100,0"	"12,2,200,2920,45,0"	"-1,-1"	"-1,-1,-1,-1"	"30,25,30,8,-1"	"100,4"	0	1	NGDD01bV	"50,80,120,5,5,6"
+"Perfect Ring, Large"	W	"175,100,0"	"12,2,150,2920,45,0"	"-1,-1"	"-1,-1,-1,-1"	"30,25,30,8,-1"	"100,4"	0	1	NGDD01bW	"50,60,80,8,8,5"
+"Ring with Orion, Large"	X	"175,99,1"	"12,2,150,2920,45,0"	"-1,-1"	"-1,-1,-1,-1"	"30,25,30,8,-1"	"100,4"	0	1	NGDD01bX	"50,60,80,8,8,5"
+"Ring with Core, Large"	Y	"175,60,30"	"12,2,150,2920,45,0"	"-1,-1"	"-1,-1,-1,-1"	"0,100,100,10,-1"	"100,4"	0	1	NGDD01bY	"50,60,80,8,8,5"
+"Figure-8 Galaxy, Huge"	Z	"250,60,15"	"2,10,50,750,0,0"	"-1,-1"	"-1,-1,-1,-1"	"35,50,75,10,-1"	"100,4"	0	1	NGDD01bZ	"50,60,80,5,5,3"
+"Triple Ring, Huge"	[	"250,60,15"	"3,14,40,500,0,0"	"-1,-1"	"-1,-1,-1,-1"	"30,50,75,8,-1"	"100,4"	0	1	NGDD01b[	"50,80,100,5,5,3"
+"3 Ring Galaxy, Huge"	\	"250,60,15"	"3,14,40,500,0,0"	"-1,-1"	"-1,-1,-1,-1"	"35,100,150,10,-1"	"100,4"	0	1	NGDD01b\	"50,80,120,5,5,6"
+"Mini Galaxy, 55 stars"	]	"55,30,20"	"12,14,12,350,3,10"	"-1,-1"	"-1,-1,-1,-1"	"40,75,125,10,-1"	"100,4"	0	1	NGDD01b]	"50,80,120,5,5,6"
+"2 Arm Galaxy, 150 stars"	^	"150,45,25"	"2,14,25,375,2,0"	"-1,-1"	"-1,-1,-1,-1"	"35,120,200,10,-1"	"100,4"	0	1	NGDD01b^	"50,80,120,5,5,6"
+"2 Arm Galaxy, 200 stars"	_	"200,45,25"	"2,14,30,375,2,0"	"-1,-1"	"-1,-1,-1,-1"	"40,150,280,10,-1"	"100,4"	0	1	NGDD01b_	"50,80,120,5,5,6"
+"3 Arm Galaxy, 250 stars"	`	"250,45,25"	"3,14,30,375,2,0"	"-1,-1"	"-1,-1,-1,-1"	"40,150,280,10,-1"	"100,4"	0	1	NGDD01b`	"50,80,120,5,5,6"
+"Cluster, 50 stars"	a	"50,0,50"	"0,0,0,0,0,0"	"-1,-1"	"-1,-1,-1,-1"	"0,100,100,10,-1"	"100,4"	0	1	NGDD01ba	"50,60,80,5,5,3"
+"Cluster, 100 stars"	b	"100,0,100"	"0,0,0,0,0,0"	"-1,-1"	"-1,-1,-1,-1"	"0,150,150,10,-1"	"100,4"	0	1	NGDD01bb	"50,60,80,5,5,3"
+"Cluster, 175 stars"	c	"175,0,175"	"0,0,0,0,0,0"	"-1,-1"	"-1,-1,-1,-1"	"0,200,200,10,-1"	"100,4"	0	1	NGDD01bc	"50,80,100,5,5,3"
+"Cluster, 250 stars"	d	"250,0,250"	"0,0,0,0,0,0"	"-1,-1"	"-1,-1,-1,-1"	"0,250,250,10,-1"	"100,4"	0	1	NGDD01bd	"50,80,100,5,5,3"
+
+"Short Star Lanes, Few"	3	"-1,-1,-1"	"-1,-1,-1,-1,-1,-1"	"3,40"	"200,150,40,4"	"-1,-1,-1,-1,6"	"100,4"	1	-1	NGDD03bA	"-1,-1,-1,-1,-1,-1"
+"Medium Star Lanes, Few"	4	"-1,-1,-1"	"-1,-1,-1,-1,-1,-1"	"3,60"	"200,150,40,4"	"-1,-1,-1,-1,6"	"100,4"	1	-1	NGDD03bB	"-1,-1,-1,-1,-1,-1"
+"Long Star Lanes, Few"	5	"-1,-1,-1"	"-1,-1,-1,-1,-1,-1"	"3,120"	"200,150,40,4"	"-1,-1,-1,-1,6"	"100,4"	1	-1	NGDD03bC	"-1,-1,-1,-1,-1,-1"
+"Short Star Lanes, Many"	6	"-1,-1,-1"	"-1,-1,-1,-1,-1,-1"	"5,40"	"200,150,20,5"	"-1,-1,-1,-1,6"	"100,4"	1	-1	NGDD03bD	"-1,-1,-1,-1,-1,-1"
+"Medium Star Lanes, Many"	7	"-1,-1,-1"	"-1,-1,-1,-1,-1,-1"	"5,60"	"200,150,20,5"	"-1,-1,-1,-1,6"	"100,4"	1	-1	NGDD03bE	"-1,-1,-1,-1,-1,-1"
+"Long Star Lanes, Many"	8	"-1,-1,-1"	"-1,-1,-1,-1,-1,-1"	"5,120"	"200,150,20,5"	"-1,-1,-1,-1,6"	"100,4"	1	-1	NGDD03bF	"-1,-1,-1,-1,-1,-1"
+"Long Star Lanes, Lots"	9	"-1,-1,-1"	"-1,-1,-1,-1,-1,-1"	"5,120"	"200,150,20,7"	"-1,-1,-1,-1,6"	"100,4"	1	-1	NGDD03bG	"-1,-1,-1,-1,-1,-1"
+TableEnd											

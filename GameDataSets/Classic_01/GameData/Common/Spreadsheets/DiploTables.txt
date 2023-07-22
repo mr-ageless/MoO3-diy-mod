@@ -1,0 +1,106 @@
+TableStart	Loaded Words														
+ColumnHeadingsStart	Word	Related Species	EG Entry number	EG Entry Summary											
+RowHeadingsStart															
+1	LOAD001	4	1	A perfect Code, one that has no organic virus effect. Also refers too: Logic, Order											
+2	LOAD002	4	1	A perfect Code, one that has no organic virus effect. Also refers too: Logic, Order											
+3	LOAD003	4	1	A perfect Code, one that has no organic virus effect. Also refers too: Logic, Order											
+4	LOAD004	4	2	The life force, the life in AI sentience											
+5	LOAD005	2	3	Bottom signify death in the Etherean culture											
+6	LOAD006	2	4	Gas giants, home, colonies											
+7	LOAD007	5	5	Home, colony, shelter, safety											
+TableEnd															
+															
+TableStart	Leader Personality / Quirk / Goal														
+ColumnHeadingsStart	Survival	Common Good	Green	Utopia	Wealth	Military	Science	Individual							
+RowHeadingsStart															
+Value	1	2	3	4	5	6	7	8							
+TableEnd															
+															
+TableStart	Species Values														
+ColumnHeadingsStart	Humanoid	Etherean	Geodic	Cybernetik	Ichthytosian	Harvesters	Insectoid	Saurian	Metashifters	Non-Corporeal	Protoplasmic	Plant	Fungal	Avian	Gargantua
+RowHeadingsStart															
+Value	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15
+TableEnd															
+															
+TableStart	Religions														
+ColumnHeadingsStart	Monotheistic	Polytheistic	Ancestral	Pagan	Philosophic	Natural									
+RowHeadingsStart															
+Names	RELG001	RELG002	RELG003	RELG004	RELG005	RELG006									
+TableEnd															
+															
+TableStart	OfferItems														
+ColumnHeadingsStart	Format														
+RowHeadingsStart															
+Offer	%quid														
+Proposal	%offer1														
+Exchange	proq														
+Declaration	%offer1														
+Demand	proq														
+TableEnd															
+															
+TableStart	Quid														
+ColumnHeadingsStart	Format														
+RowHeadingsStart															
+One Item	%off% %offer1														
+Two Items	%off% %offer1 AND %offer2														
+Three Items	%off% %offer1 COMSP %offer2 AND %offer3														
+Four items	%off% %offer1 COMSP %offer2 COMSP %offer3 AND %offer4														
+Five items	%off% %offer1 COMSP %offer2 COMSP %offer3 COMSP %offer4 AND %offer5														
+TableEnd															
+															
+TableStart	ProQuo														
+ColumnHeadingsStart	Format														
+RowHeadingsStart															
+One Item	%exch% %for1														
+Two Items	%exch% %for1 AND %for2														
+Three Items	%exch% %for1 COMSP %for2 AND %for3														
+Four items	%exch% %for1 COMSP %for2 COMSP %for3 AND														
+Five items	%exch% %for1 COMSP %for2 COMSP %for3 COMSP %for4 AND %for5														
+TableEnd															
+															
+TableStart	Offering														
+ColumnHeadingsStart	1	2	3	4	5										
+RowHeadingsStart															
+Value	OFRG001	OFRG002	OFRG003	OFRG004	OFRG005										
+TableEnd															
+															
+TableStart	Asking														
+ColumnHeadingsStart	1	2	3	4	5										
+RowHeadingsStart															
+Exchange	ASKG001	ASKG002	ASKG003	ASKG004	ASKG005										
+Demand	ASKG101	ASKG102	ASKG103	ASKG104	ASKG105										
+TableEnd															
+															
+TableStart	Reaction														
+ColumnHeadingsStart	1	2	3	4	5	6	7	8	9	10	11				
+RowHeadingsStart															
+Success	REAC001	REAC002	REAC003	REAC004	REAC005	REAC006	REAC007	REAC008	REAC009	REAC010	REAC011				
+Failure	REAC101	REAC102	REAC103	REAC104	REAC105	REAC106	REAC107	REAC108	REAC109	REAC110	REAC111				
+TableEnd															
+															
+TableStart	Excuse selection														
+ColumnHeadingsStart	SimpleExcuse	CausalExcuse	TemperamentalExcuse												
+RowHeadingsStart															
+Garden Variety	6	8	7												
+Pacifistic	6	8	7												
+Honorable	6	8	7												
+Cagey	6	8	7												
+Cautious	6	8	7												
+Pragmatic	6	8	7												
+Territorial	6	8	7												
+Erratic	6	8	7												
+Aggressive	6	8	7												
+Ruthless	6	8	7												
+TableEnd															
+															
+TableStart	Popularity														
+ColumnHeadingsStart	1	2	3	4	5	6	7	8	9	10					
+RowHeadingsStart															
+Despised	POPU001	POPU002	POPU003	POPU004	POPU005	POPU006	POPU007	POPU008	POPU009	POPU010					
+Hated	POPU101	POPU102	POPU103	POPU104	POPU105	POPU106	POPU107	POPU108	POPU109	POPU110					
+Disliked	POPU201	POPU202	POPU203	POPU204	POPU205	POPU206	POPU207	POPU208	POPU209	POPU210					
+Tolerated	POPU301	POPU302	POPU303	POPU304	POPU305	POPU306	POPU307	POPU308	POPU309	POPU310					
+Liked	POPU401	POPU402	POPU403	POPU404	POPU405	POPU406	POPU407	POPU408	POPU409	POPU410					
+Loved	POPU501	POPU502	POPU503	POPU504	POPU505	POPU506	POPU507	POPU508	POPU509	POPU510					
+Adored	POPU601	POPU602	POPU603	POPU604	POPU605	POPU606	POPU607	POPU608	POPU609	POPU610					
+TableEnd															
