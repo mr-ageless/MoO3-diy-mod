@@ -1,4 +1,0 @@
-This release contains the Galaxy Configurations from rhyssana's Galaxy Configuration release.
-
-The original readme is included (readme-galaxy-collection.old), but the instructions contained
-are no longer necessary with this patch.

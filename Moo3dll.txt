@@ -1,0 +1,11 @@
+Moo3DLL.dll
+___________
+
+The Moo3DLL.dll file needs to be placed in the same directory as your Moo3.exe file.
+By default, this will be "C:\Program Files\Infogrames\Master of Orion 3\"
+If it is not located there, and you are unable to find it manually, use the windows
+file search program, and look for "Moo3.exe".
+
+Once you have moved the Moo3DLL.dll file, you need to apply support for it via the
+patcher.  This will install the code to use the dll file in the executable, and allow
+you to apply dll patches.

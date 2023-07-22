@@ -1,0 +1,19 @@
+A sample (although complete) RaceAlias.ini file is included with this release.
+As you should see, the format for setting an alias is:
+"RACEX00Y<tab>Alias", where X = species number, Y = race number, and 0 is zero,
+not capital o.  These can be obtained from racemodifiers.txt (make sure you use 
+"species number", not "UI species number").  Do not use RacePickPoints, as the 
+table is incorrect by default.
+
+The RACEX00Y value is hardcoded, and can be used with the RaceAlias.ini file.  To
+add it to TechTables.txt, move to the Sort_Tags column, and add it using the same
+system already present (delimited by commas).  You can add multiple RACEX00Y tags
+to the same tech (or multiple aliases).
+
+Currently, the NO will not get any race-specific technology.  This is hardcoded.  If
+you want a race to be guarunteed to get a tech, you must included "KEEPTHIS" to the
+Sort_Tags column as well as the racial tag.  Without this, the tech is checked against
+TechKnow to see if the race has it in their tree.
+
+Untested but assumed:  Other races can steal, trade or conquer racial tech.  They
+simply cannot research it.

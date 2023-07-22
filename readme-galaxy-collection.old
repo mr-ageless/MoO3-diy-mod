@@ -1,0 +1,342 @@
+CONTACT INFO:
+currently the easiest/quickest way to contact me is at the atari forums.
+i'm way too active in the moo3 forums - pm 'rhyssana'.
+next best thing is email:  rhyssan@yahoo.com
+
+
+
+INSTRUCTIONS:  **** very important - please read!!! ****
+
+this is a harder mod to use than most due to the limitations on galaxy creation.
+you can only have 7 configuration options at a time in the game, so there are
+four pairs of files for the 28 galaxy possibilities here.
+
+you CANNOT have more than one copy/version of these files in your moo3 hierarchy
+at any given time.  that means from the very top-level, whatever you installed
+moo3 to.  it doesn't matter what you name it or what directory you put it into,
+or even what extension you give the file.  [b]the game will find it and read it
+and you will get various odd behaviors[/b].  the game reads them all - the
+important thing is what it finds inside.
+
+so.  you need to keep the files for this mod somewhere else, completely outside
+of your moo3 folder/tree/hierarchy.  when you want to use one of the file-pairs,
+copy them to the correct place as shown below:  (make sure you take both from
+the same place!)
+
+put *\GalaxyConfigurations.txt into
+ ...moo3main\GameDataSets\Classic_01\GameData\Common\Spreadsheets
+
+put *\wsStartUpScreens.txt into
+ ...moo3main\GameDataSets\Classic_01\GameData\English\wStrings
+
+
+to uninstall whichever version of the files you're using, just delete them
+from the moo3 tree (shown above).  (make sure you keep a copy elsewhere, so
+you can use them again if you like.)
+
+
+
+FILES:
+
+Rings\wsStartUpScreens.txt
+Rings\GalaxyConfigurations.txt
+a variety of ring galaxies, from 1 large ring to 3 interlocked rings to a figure 8!
+
+Arms\wsStartUpScreens.txt
+Arms\GalaxyConfigurations.txt
+all basically spiral galaxies with varying numbers of arms.  some are milky way
+style, others are much funkier, but the primary differences are how many arms.
+
+OddArms\wsStartUpScreens.txt
+OddArms\GalaxyConfigurations.txt
+very weird arm configurations here, with or without a core.  some really cool
+and bizarre looking galaxies here!
+
+OddClusters\wsStartUpScreens.txt
+OddClusters\GalaxyConfigurations.txt
+the weird clusters went here, along with random-arm style generators.  impossible
+to classify the random ones - sometimes they generate a fairly normal galaxy, but
+sometimes it's as odd as anything you'll find in OddArms.
+
+
+
+
+DISCLAIMERS:
+this isn't the typical readme, because this isn't a typical mod.  in fact, it's
+mostly disclaimers!  i did none of the actual original design or testing effort!!!
+it's kind of like a mega-mod for galaxy configurations, but it requires more
+effort to use.  nothing i can do about that, unfortunately, but this does allow
+you to benefit from others' galaxy configuration files without actually having
+to edit or do any modding yourself!  hopefully, some people will find it
+useful...  :)
+
+what i did:  i searched through 3 threads in the forums (found by cross-links, i
+make no claim to have found all the cool galaxy mods out there!) and gathered all
+the galaxy configuration parameter sets people had posted in them.  modded the
+files as they suggested and sorted the results into 4 different galaxy
+configuration file pairs.  the sort may not be optimal for many people, but it
+seemed better to provide thematically grouped configs than try to make each of
+four sets of 7 map generators each have some kind of internal balance or diversity.
+
+the values in the files are all provided below, with the galaxy comments and
+description from the author's original post where possible.
+
+
+
+
+CREDITS:
+
+rather than repeat a ton of info in each place, i've listed the actual thread
+sources here, with labels that will be used in the list of galaxies to
+attribute the thread i found the post describing the galaxy generation parameters.
+the author of the post is listed, for most cases it's the same person who desiged
+(and tested!) the parameters given.
+
+MGC:  Bug Reports / Suggestions > modifying the GalaxyConfiguration file?
+    http://www.ina-community.com/forums/showthread.php?s=&threadid=269656
+RSC:  Fan Modifications > Problems creating a really small cluster
+    http://www.ina-community.com/forums/showthread.php?s=&threadid=271100
+GCC:  Fan Modifications > Galaxy Configuration Collection
+    http://www.ina-community.com/forums/showthread.php?s=&threadid=280720
+
+original galaxy configuration designs, testing and pics
+    (roughly in order of number of galaxy parameter sets provided :) )
+    WuphonsReach, Souma, Colt374, Bhruic, smellymummy, gameboy53, Red_Guy, BiggyBoy
+
+
+two of the listed galaxies were not found on any thread - i had only 26 configs
+from the threads, and needed 28 to make the set.  i planned to make two myself,
+but there were two already published that met exactly the requirements for where
+the empty spots fell.  credit is given there, along with the parameters copied
+into here for completeness, but i want to specially point out Colt374 for his
+gracious permission for me to incorporate and sort his published galaxy_mod 
+and Bard_of_Prey for his kindness in letting me use his 
+Constellations of Chaos config (renamed to 'BoP Constellations of Chaos' for
+extra, in-game attribution :) )
+
+(note that i didn't ask Bard_of_Prey to include his whole mod - reason being
+that this way his mod can be used as a 5th version of the important files
+with only one overlapping config.)
+
+
+
+LIST OF GALAXIES INCLUDED:
+
+an abbreviated format is used in many cases below, here's how to read it (in case
+you want to use this to quickly mod your own files instead of using the files provided):
+
+Galaxy Name  (name from thread, if different)  \\\\  version (and folder) it's in
+"Num_Stars" - "Arm Descript" - "Distances" - "Offroad Lanes (if different from default)"
+default Offroad_Lanes is "50,80,120,5,5,6" (same as huge spiral)
+link to pic if there's a web-published one
+source: post author, thread label
+
+
+
+
+Ring Galaxy, Huge  \\\\  Rings
+These values give a great big circle of stars in space.
+Num_Stars: "250,100,0"
+Arm_Descript: "12,2,200,2920,45,0"
+Distances: "40,0,0,8,-1"
+http://members.optushome.com.au/souma/moo3/ring_galaxy_map.jpg
+source: Souma, MGC
+also published in Colt374 galaxy_mod.zip
+
+
+Perfect Ring, Large    \\\\  Rings
+"175,100,0" - "12,2,150,2920,45,0" - "30,25,30,8,-1" - "50,60,80,8,8,5"
+A perfect ring, nothing in the center.
+source: Bhruic, GCC
+
+
+Ring with Orion, Large    \\\\  Rings
+"175,99,1" - "12,2,150,2920,45,0" - "30,25,30,8,-1" - "50,60,80,8,8,5"
+2 stars in the center (1 being Orion, of course).
+source: Bhruic, GCC
+
+
+Ring with Core, Large    \\\\  Rings
+ring galaxy with a core and only 175 planets
+"175,60,30" - "12,2,150,2920,45,0" - "30,25,30,8,-1" - "50,60,80,8,8,5" 
+source: smellymummy, GCC (based on a ring in MGC)
+
+
+Figure-8 Galaxy, Huge    \\\\  Rings
+Num_Stars - "250,60,15"
+Arm_Descript - "2,10,50,750,0,0"
+Distances - "35,50,75,10,-1"
+http://www.wuphonsreach.org/Games/MOO3/Pics/GalaxyConfigurations/02Mar2003_Figure8_23_21_28.png
+source: WuphonsReach, MGC (2nd version figure 8, the one w/pic)
+
+
+Triple Ring, Huge    \\\\  Rings
+"250,60,15" - "3,14,40,500,0,0" - "30,50,75,8,-1"
+- triple-ring galaxy, with a narrow center, good star distribution, the inter-star distance of 8 is a little low though, and the radius of the core and sprinkle (50/75) could have been turned up to 100/150 to widen the central area (the 100/150 is the 3-ring circus in -A). It took me 4 attempts before I got past the DXSU errors to render this map.
+source: WuphonsReach, MGC (initial version, no pic)
+
+
+3-Ring Galaxy, Huge ('3-ring circus' in thread)  \\\\  Rings
+- triple-ring galaxy, with a narrow center, good star distribution. In the past it has taken me as many as 4 attempts before I got past the DXSU errors to render this map (this time it worked first go).
+Num_stars: "250,60,15"
+Arm_Descript: "3,14,40,500,0,0"
+Distances: "35,100,150,10,-1"
+http://www.wuphonsreach.org/Games/MOO3/Pics/GalaxyConfigurations/02Mar2003_3RingCircus.png
+source: WuphonsReach, MGC (2nd version, the one w/pic)
+also published in Colt374 galaxy_mod.zip
+
+
+
+4 Arm Galaxy, Huge  ('3 Arm Galaxy, Huge' in the thread)  \\\\  Arms
+"250,60,30" - "4,16,35,375,2,0" - "40,75,100,10,-1" 
+source: Red_Guy, GCC
+
+
+4 Arm Spiral, Large    \\\\  Arms
+"150,80,15" - "4,14,18,375,2,0" - "20,70,70,3,-1"
+source: gameboy53, GCC
+
+
+5 Arm Galaxy, Huge    \\\\  Arms
+Num_Stars - "250,55,20"
+Arm_Descript - "5,14,40,420,0,15"
+Distances - "35,125,280,10,-1"
+http://www.wuphonsreach.org/Games/MOO3/Pics/SerpentsReach/Kjiam1/Kjiam_t001_0.png
+source: WuphonsReach, MGC (2nd version of 5-arm)
+
+
+6 Arm Milky Way, Huge    \\\\  Arms
+Num_Stars - "250,70,15"
+Arm_Descript - "6,14,12,350,3,10"
+Distances - "40,75,125,10,-1"
+You may need to tune that a bit...
+source: WuphonsReach, MGC
+
+
+8 Arm Galaxy, Huge  \\\\  Arms
+"250,75,15" - "8,12,20,250,1,0" - "25,100,150,8,-1"
+**source: not found in threads, copied from Colt374 to fill gap in #arms sequence
+also published in Colt374 galaxy_mod.zip
+
+
+12 Arm Milky Way, Huge    \\\\  Arms
+- 12-armed spiral, close approximation of the milky way galaxy shape, although it's possible that you could get stuck out on the tips of some of the arms, it's not likely (you may wish to change 350 to 375 to bend the tips towards the nearest arm)
+Num_Stars - "250,70,15"
+Arm_Descript - "12,14,12,350,3,10"
+Distances - "25,75,125,10,-1"
+http://www.wuphonsreach.org/Games/MOO3/Pics/GalaxyConfigurations/02Mar2003_12ArmMilkyWay.png
+(you may wish to change 350 to 375 to bend the tips towards the nearest arm)
+source: WuphonsReach, MGC (appears twice, 2nd instance has pic)
+
+
+12 Arm Ring Core, Huge    \\\\  Arms
+"250,100,0" - "12,10,50,250,1,0" - "20,200,100,10,-1" - "150,280,300,5,5,3"
+12 Armed Spiral with Double Ring in the core that looks like an eye.
+source: Colt374, GCC
+
+
+
+3rd Pocket, Huge    \\\\  OddArms
+- 3-armed spiral, where the ends of the spirals are curved in on themselves, which gives the ends of each arm an island type effect.
+Num_Stars - "250,70,20"
+Arm_Descript - "3,35,15,500,0,40"
+Distances - "20,80,150,15,-1"
+http://www.wuphonsreach.org/Games/MOO3/Pics/GalaxyConfigurations/03Mar2003_3rdPocket.png
+source: WuphonsReach, MGC
+
+
+Swastika, Huge  \\\\  OddArms
+These values give a big swastika in space. Very weird.
+"Nums_Stars: 250,100,0"
+Arm_Descript: "4,12,20,180,0,90"
+Distances: "50,50,50,10,-1" 
+http://members.optushome.com.au/souma/moo3/swastika_map.jpg
+source: Souma, MGC
+also published in Colt374 galaxy_mod.zip
+
+
+4 Arm Isolated, Huge     \\\\  OddArms
+"250,100,0" - "4,12,50,350,1,0" - "20,200,100,10,-1" - "150,280,300,5,5,3"
+Four long slim arms, and no core. Don't expect to contact some races for a LONG time.
+source: Colt374, GCC
+
+
+5 Arm Star-Shaped, Huge    \\\\  OddArms
+"250,75,15" - "5,10,30,240,2,0" - "0,100,100,10,-1" - "50,60,80,5,5,3"
+source: BiggyBoy, RSC
+
+
+Daisy 7   \\\\  OddArms
+- 7-armed spiral, where the ends of the spirals are curved in on themselves. A good number of random sprinkly stars makes for lots of short-cuts between the arms.
+Num_Stars - "250,70,15"
+Arm_Descript - "7,20,10,350,1,50"
+Distances - "15,80,250,15,-1" 
+http://www.wuphonsreach.org/Games/MOO3/Pics/GalaxyConfigurations/03Mar2003_Daisy7.png
+source: WuphonsReach, MGC
+also published in Colt374 galaxy_mod.zip
+
+
+Lucky-7, Huge    \\\\  OddArms
+- 7-armed spiral, where the ends of the spirals are straight, so it looks very "pointy". The random sprinkle radius was set to about 2/3 the width of the galaxy, with a low sprinkle qty so that there was good chance of short-cut systems between the bottoms of the arms.
+Num_Stars - "250,70,20"
+Arm_Descript - "7,20,10,500,1,40"
+Distances - "20,80,200,15,-1"
+http://www.wuphonsreach.org/Games/MOO3/Pics/GalaxyConfigurations/03Mar2003_Luky7.png
+source: WuphonsReach, MGC
+
+
+Loopy Eye, Huge    \\\\  OddArms
+"250,100,0" - "10,12,50,350,1,0" - "20,200,100,10,-1" - "150,280,300,5,5,3"
+10 arm Ring cored Galaxy. Points of arms often almost touch other arms.
+source: Colt374, GCC
+
+
+
+Flat No-Core, Huge    \\\\  OddClusters
+"250,98,0" - "12,14,30,300,2,10" - "40,60,280,10,-1"
+Huge, spreadout galaxy with no obvious core. Makes for a LONG game.
+source: Colt374, GCC
+
+
+Stringy Cluster, Huge   \\\\  OddClusters
+These values give a flat, round cluster with a tendency for the stars to often be laid out in "strings".
+Num_Stars: "250,100,0"
+Arm_Descript: "12,15,17,250,0,0"
+Distances: "50,50,50,10,-1"
+http://members.optushome.com.au/souma/moo3/stringy_cluster_map.jpg
+source: Souma, MGC
+also published in Colt374 galaxy_mod.zip
+
+
+Perfectly Square, Huge    \\\\  OddClusters
+"250,99,1" - "1,1,0,0,0,0" - "100,10,300,10,-1" - "50,80,100,5,5,3"
+source: Bhruic, GCC
+
+
+Double Cluster, Huge   \\\\  OddClusters
+These values give a pair of flat squarish clusters on either side of a center with few stars.
+Num_Stars: "250,100,0"
+Arm_Descript: "2,12,20,360,0,360"
+Distances: "50,50,50,10,-1" 
+http://members.optushome.com.au/souma/moo3/double_cluster_map.jpg
+source: Souma, MGC
+also published in Colt374 galaxy_mod.zip
+
+
+BoP Constellations of Chaos, Huge  \\\\  OddClusters
+"240,0,20" - "0,0,0,0,0,0" - "0,360,480,6,-1" - "20,40,160,5,4,3"
+Another big map, this one is designed to give a random scattering of stars in loosely-connected groups.  There is the outside chance that you'll get stuck somewhere, but I think the various out-of-the-way nooks and crannies make for interesting strategic possibilities.  Enjoy.
+**source: not found in threads, copied from Bard_of_Prey_Galaxy_Mod_1_2 to fill last spot of odd clusters/random stuff.
+originally published in Bard_of_Prey_Galaxy_Mod_1_2
+
+
+Random Whirl, Huge    \\\\  OddClusters
+"250,99,1" - "4,12,50,350,1,-5" - "20,200,100,10,-1" - "150,280,300,5,5,3"
+Wierd, always different, Clustered Spiral Galaxy. Impossible to explain, so just try it and see.
+source: Colt374, GCC
+
+
+Random Clustered Arms, Huge    \\\\  OddClusters
+"250,100,0" - "4,12,50,350,1,-5" - "20,200,100,10,-1" - "150,280,300,5,5,3"
+Another always different galaxy. This one is also a spiral but gets slightly different results to the one above.
+source: Colt374, GCC
