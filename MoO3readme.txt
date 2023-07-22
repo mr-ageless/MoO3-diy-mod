@@ -227,7 +227,7 @@ Select the desired friendly Task Forces, press [A] on the keyboard or click the 
   Lasso a group of mixed units to attack the selected enemy units with all of the currently selected friendly units.
 
 GROUPING TASK FORCES 
-Select Task Forces and then press [Control 1–0]. Press [1-0] to select the corresponding group, and press twice to center on that group. 
+Select Task Forces and then press [Control 1Â–0]. Press [1-0] to select the corresponding group, and press twice to center on that group. 
 
 Pitch, Rotate, Pan and Zoom work the same as on the Galaxy Map. Additional camera controls are: 
 [TAB] - Toggles "follow" mode on/off 
@@ -631,8 +631,8 @@ The Galaxy Map shows you all the stars that you can explore in the Orion Sector.
 
 The following controls are changed (see the Shortcuts section at the end for a list of new commands):
 
-[Enter] – Will now normalize rotation, zoom, and scroll on the Galaxy Map 
-[Shift-Enter] – Will now Process a Turn
+[Enter] Â– Will now normalize rotation, zoom, and scroll on the Galaxy Map 
+[Shift-Enter] Â– Will now Process a Turn
 
 Mouse right-click functions are not all implemented as described. Use Right-click to pan the map, and use the keyboard controls to rotate and pan.
 
@@ -714,16 +714,16 @@ The AI will always colonize with ships that are in your reserves; they will *not
 When you colonize a RED planet, you only get 1/4 of a population point (250 pop) per colony pod landed there. So, if you want to build a colony there you will need to land 4 ships (or 1 ship with 4 pods), set migration, or just wait for the population to increase to a full point naturally. YELLOW planets get 1/2 population point (500 population) per colony pod.
 
 INBOUND ANTARAN EXPEDITION LOST
-If you have discovered an X off-map and have an In-Bound Task Force, there’s a rare chance that you may have your X hijacked by an enemy empire. If this is the case, turn your efforts to spying immediately to try and recover it. Remember, Xs are most vulnerable when they are being researched; and be sure to use Scientific Spies!
+If you have discovered an X off-map and have an In-Bound Task Force, thereÂ’s a rare chance that you may have your X hijacked by an enemy empire. If this is the case, turn your efforts to spying immediately to try and recover it. Remember, Xs are most vulnerable when they are being researched; and be sure to use Scientific Spies!
 
 BUILDING SPIES
 For balance reasons, Spies can only be built one at a time. You will, however, be able to build better spies through technology discoveries.
 
 PLANETARY BOMBARDMENT
-Colonies do not become “Active” until they hit 1,000 Population (see below). When bombarding a planet, the population may dip below the 1K mark; if that is the case, your Bombardment Weapons will have no further effect unless you have Planet Destroying capabilities. You will either need to invade and take it over or wait until you have those capabilities. This is intentional, as some population will remain scattered, living underground or in caves. Also, population on a bombarded planet will continue to grow from turn to turn, albeit at a very stunted rate. See the Destroying Planets section below.
+Colonies do not become Â“ActiveÂ” until they hit 1,000 Population (see below). When bombarding a planet, the population may dip below the 1K mark; if that is the case, your Bombardment Weapons will have no further effect unless you have Planet Destroying capabilities. You will either need to invade and take it over or wait until you have those capabilities. This is intentional, as some population will remain scattered, living underground or in caves. Also, population on a bombarded planet will continue to grow from turn to turn, albeit at a very stunted rate. See the Destroying Planets section below.
 
 MILITIA
-Militia are created out of population to defend planets. Even if you have no garrisoned troops, Militia will rise up to defend. The amount of Militia depends on the number of settled regions and size of the planet. Militia generally aren’t very good, but they may be able to hold off an assault for a few turns while you bring in the reinforcements.
+Militia are created out of population to defend planets. Even if you have no garrisoned troops, Militia will rise up to defend. The amount of Militia depends on the number of settled regions and size of the planet. Militia generally arenÂ’t very good, but they may be able to hold off an assault for a few turns while you bring in the reinforcements.
 
 RETREATING IN SPACE COMBAT
 Because of the Warp capabilities, Starships can Retreat at any time during a Space Combat. *System Ships*, however, fight to the death and will never retreat; they are considered the last line of defense and will stand or fall with the planet in question. This is balanced out by their superior speed, their ability to carry more firepower/tech/armor and their generally lower cost.
@@ -1026,14 +1026,14 @@ Up-to-the-minute technical information about Infogrames Interactive products is 
 
 http://www.ina-support.com
 
-Through this site you'll have access to our FAQ (Frequently Asked Questions) documents, our FTP (File Transfer Protocol) area where you can download patches if needed, our Hints/Cheat Codes if they’re available, and an E-Mail area where you can get help and ask questions if you do not find your answers within the FAQ.
+Through this site you'll have access to our FAQ (Frequently Asked Questions) documents, our FTP (File Transfer Protocol) area where you can download patches if needed, our Hints/Cheat Codes if theyÂ’re available, and an E-Mail area where you can get help and ask questions if you do not find your answers within the FAQ.
 
-Note: In the event we must send you a Hint Sheet, FAQ document, patch or update disc via E-mail, we may require verifiable consent from a parent or guardian in order to protect children’s privacy and safety online. Consent Forms are available at the web site listed above.
+Note: In the event we must send you a Hint Sheet, FAQ document, patch or update disc via E-mail, we may require verifiable consent from a parent or guardian in order to protect childrenÂ’s privacy and safety online. Consent Forms are available at the web site listed above.
 
 Help Via Telephone/Fax or Mail in the United States & Canada
 For phone assistance, call Infogrames Interactive Tech Support at (425) 951-7108. Our Interactive Voice Response and Faxback system is generally available 24/7, providing automated support and allowing FAQ documents to be faxed to you immediately.
 
-Great News! We’ve improved our Automated Systems so that you can get product-specific Troubleshooting help more quickly. All you need to do is enter the product’s Part # when prompted to do so. This will take you directly to all of our known issues and solutions for this title. The product’s Part # is located in several places (on the CD label, package and/or plastic disc case) and is usually identified by a number such as 04-12345. When prompted by the Automated System, enter the last five digits of your product’s Part #. (For example, Part # 04-12345 would require that you enter the “12345” portion of the number for that product.) Note: Some products simply feature a five-digit Part # without an “04-” prefix.
+Great News! WeÂ’ve improved our Automated Systems so that you can get product-specific Troubleshooting help more quickly. All you need to do is enter the productÂ’s Part # when prompted to do so. This will take you directly to all of our known issues and solutions for this title. The productÂ’s Part # is located in several places (on the CD label, package and/or plastic disc case) and is usually identified by a number such as 04-12345. When prompted by the Automated System, enter the last five digits of your productÂ’s Part #. (For example, Part # 04-12345 would require that you enter the Â“12345Â” portion of the number for that product.) Note: Some products simply feature a five-digit Part # without an Â“04-Â” prefix.
 
 Live support is generally available Monday through Friday, 8:00 AM until 6:00 PM (Pacific Time). Note: We may be closed on major holidays.
 
@@ -1041,10 +1041,10 @@ Before making your call, we ask that you be at your computer, have the following
 
 System Make and Model 
 Processor Type
-Operating System, including version number if possible (such as Windows® 95; Windows® Me)
+Operating System, including version number if possible (such as WindowsÂ® 95; WindowsÂ® Me)
 RAM (Memory)
 Video and sound card data and drivers
-Any screen or error messages you’ve encountered (and where)
+Any screen or error messages youÂ’ve encountered (and where)
 
 You may also fax in your Technical Support questions or problems to: (425) 806-0480, or write to the address below.
 
@@ -1066,9 +1066,9 @@ LICENSE AGREEMENT
 
 ***  IMPORTANT  ***
 
-This is a legal agreement between the end user (“You”) and Infogrames Interactive, Inc., its parent, affiliates and subsidiaries (collectively "Infogrames Interactive”). This Agreement is part of a package (the "Package") that also includes, as applicable, executable files that you may download, a game cartridge or disc, or a CD-ROM (collectively referred to herein as the "Software") and certain written materials (the "Documentation"). Any patch, update, upgrade, modification or other enhancement provided by Infogrames Interactive with respect to the Software or the Documentation, or bonus game provided by Infogrames Interactive at no extra charge as part of the Package, shall be included within the meanings of those terms, for the purposes of this Agreement, except to the extent expressly provided below.
+This is a legal agreement between the end user (Â“YouÂ”) and Infogrames Interactive, Inc., its parent, affiliates and subsidiaries (collectively "Infogrames InteractiveÂ”). This Agreement is part of a package (the "Package") that also includes, as applicable, executable files that you may download, a game cartridge or disc, or a CD-ROM (collectively referred to herein as the "Software") and certain written materials (the "Documentation"). Any patch, update, upgrade, modification or other enhancement provided by Infogrames Interactive with respect to the Software or the Documentation, or bonus game provided by Infogrames Interactive at no extra charge as part of the Package, shall be included within the meanings of those terms, for the purposes of this Agreement, except to the extent expressly provided below.
 
-BY DOWNLOADING OR INSTALLING THE SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ ALL OF THE TERMS AND CONDITIONS OF THIS AGREEMENT, UNDERSTAND THEM, AND AGREE TO BE BOUND BY THEM. YOU UNDERSTAND THAT, IF YOU PURCHASED THE PACKAGE FROM AN AUTHORIZED RESELLER OF INFOGRAMES INTERACTIVE, THAT RESELLER IS NOT INFOGRAMES INTERACTIVE’S AGENT AND IS NOT AUTHORIZED TO MAKE ANY REPRESENTATIONS, CONDITIONS OR WARRANTIES, STATUTORY OR OTHERWISE, ON INFOGRAMES INTERACTIVE’S BEHALF NOR TO VARY ANY OF THE TERMS OR CONDITIONS OF THIS AGREEMENT.
+BY DOWNLOADING OR INSTALLING THE SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ ALL OF THE TERMS AND CONDITIONS OF THIS AGREEMENT, UNDERSTAND THEM, AND AGREE TO BE BOUND BY THEM. YOU UNDERSTAND THAT, IF YOU PURCHASED THE PACKAGE FROM AN AUTHORIZED RESELLER OF INFOGRAMES INTERACTIVE, THAT RESELLER IS NOT INFOGRAMES INTERACTIVEÂ’S AGENT AND IS NOT AUTHORIZED TO MAKE ANY REPRESENTATIONS, CONDITIONS OR WARRANTIES, STATUTORY OR OTHERWISE, ON INFOGRAMES INTERACTIVEÂ’S BEHALF NOR TO VARY ANY OF THE TERMS OR CONDITIONS OF THIS AGREEMENT.
 
 If You do not agree to the terms of this Agreement, do not download or install the Software and promptly return the entire Package to the place You obtained it for a full refund. If you should have any difficulty in obtaining such refund, please contact Infogrames Interactive Technical Support at 425-951-7108. Failure to return the entire Package within 30 days of the purchase date shall be presumed to constitute acceptance of the terms and conditions of this Agreement.
 
@@ -1109,7 +1109,7 @@ This Software generates realistic images and 3-D simulations. While playing or w
 
 LIMITED LICENSE: You are entitled to download or install, and operate this Software solely for your own personal use, but may not sell or transfer reproductions of the Software or Documentation to other parties in any way. You may download or install, and operate one copy of the Software on a single terminal connected to a single computer. You may not network the Software or otherwise use it on more than one computer or computer terminal at the same time.
 
-INTERNET-BASED PLAY; CHAT:  This Software may include Internet-play features. If You choose to use such features, You will need to access the Internet. The Software or Documentation may also suggest links to certain Software-related web sites, including web sites operated by Infogrames Interactive or third parties. Your access to web sites operated by Infogrames Interactive is subject to the terms of use and privacy policies of such web sites. Children should check with a parent or guardian before accessing the Internet, including without limitation any chat function, on-line “arcade,” or em@il Game. Internet game play may occur through one or more independent gaming or other web sites (each a “Web Site”), including without limitation the MSN Gaming Zone run by the Microsoft Corporation. Infogrames Interactive does not review or control, and disclaims any responsibility or liability for, the functioning and performance of any Web Site, the terms of use of any Web Site, the privacy policies of any Web Site, and any content on or available via a Web Site, including, without limitation, links to other web sites and comments or other contact between users of a Web Site. Infogrames Interactive does not endorse the Web Sites merely because a link to the Web Site is suggested or established. Infogrames Interactive does not monitor, control, endorse, or accept responsibility for the content of text or voice chat messages, if applicable, transmitted through the use of the Software. Use of the chat function, or other content or services of any Web Site is at Your own risk. You are strongly encouraged not to give out identity or other personal information through chat transmissions.
+INTERNET-BASED PLAY; CHAT:  This Software may include Internet-play features. If You choose to use such features, You will need to access the Internet. The Software or Documentation may also suggest links to certain Software-related web sites, including web sites operated by Infogrames Interactive or third parties. Your access to web sites operated by Infogrames Interactive is subject to the terms of use and privacy policies of such web sites. Children should check with a parent or guardian before accessing the Internet, including without limitation any chat function, on-line Â“arcade,Â” or em@il Game. Internet game play may occur through one or more independent gaming or other web sites (each a Â“Web SiteÂ”), including without limitation the MSN Gaming Zone run by the Microsoft Corporation. Infogrames Interactive does not review or control, and disclaims any responsibility or liability for, the functioning and performance of any Web Site, the terms of use of any Web Site, the privacy policies of any Web Site, and any content on or available via a Web Site, including, without limitation, links to other web sites and comments or other contact between users of a Web Site. Infogrames Interactive does not endorse the Web Sites merely because a link to the Web Site is suggested or established. Infogrames Interactive does not monitor, control, endorse, or accept responsibility for the content of text or voice chat messages, if applicable, transmitted through the use of the Software. Use of the chat function, or other content or services of any Web Site is at Your own risk. You are strongly encouraged not to give out identity or other personal information through chat transmissions.
 
 OWNERSHIP; COPYRIGHT:  Title to the Software and the Documentation, and patents, copyrights and all other property rights applicable thereto, shall at all times remain solely and exclusively with Infogrames Interactive and its licensors, and You shall not take any action inconsistent with such title. The Software and the Documentation are protected by United States, Canadian and other applicable laws and by international treaty provisions. Any rights not expressly granted herein are reserved to Infogrames Interactive and its licensors.
 
@@ -1121,7 +1121,7 @@ Infogrames Interactive warrants for a period of ninety (90) days following origi
 
 If you believe you have found any such error or defect in the Software during the warranty period, call Infogrames Interactive Technical Support at 425-951-7108 between the hours of 8:00 a.m. and 6:00 p.m. Monday through Friday (Pacific Time), holidays excluded, and provide your Product number. If a return is determined as necessary, a Return Merchandise Authorization Number (RMA#) will be issued to you. Send your original CD-ROM disc, game cartridge or disc, or, if applicable, the executable files that you downloaded, along with the RMA#, a dated proof of purchase, your full name, address and phone number, to Infogrames Interactive, Inc., Attn: TS/CS Dept., 13110 NE 177th Place, Suite # B101, Box 180, Woodinville, WA 98072-9965.
 
-If you have a problem resulting from a manufacturing defect in the Software, Infogrames Interactive’s and its licensors' entire liability and Your exclusive remedy for breach of this limited warranty shall be the replacement of the Software, within a reasonable period of time and without charge, with a corrected version of the Software. Some jurisdictions do not allow the exclusion or limitation of relief, incidental or consequential damages, so the above limitation or exclusion may not apply to You.
+If you have a problem resulting from a manufacturing defect in the Software, Infogrames InteractiveÂ’s and its licensors' entire liability and Your exclusive remedy for breach of this limited warranty shall be the replacement of the Software, within a reasonable period of time and without charge, with a corrected version of the Software. Some jurisdictions do not allow the exclusion or limitation of relief, incidental or consequential damages, so the above limitation or exclusion may not apply to You.
 
 LIMITATION OF LIABILITY
 
@@ -1131,9 +1131,9 @@ GENERAL:  This Agreement constitutes the entire understanding between Infogrames
 
 EXPORT AND IMPORT COMPLIANCE:  In the event You export the Software or the Documentation from the country in which You first received it, You assume the responsibility for compliance with all applicable export and re-export regulations, as the case may be. 
 
-GOVERNING LAW; ARBITRATION:  This Agreement shall be governed by, and any arbitration hereunder shall apply, the laws of the State of New York, U.S.A., excluding (a) its conflicts of laws principles; (b) the United Nations Convention on Contracts for the International Sale of Goods; (c) the 1974 Convention on the Limitation Period in the International Sale of Goods (the “1974 Convention”); and (d) the Protocol amending the 1974 Convention, done at Vienna April 11, 1980. 
+GOVERNING LAW; ARBITRATION:  This Agreement shall be governed by, and any arbitration hereunder shall apply, the laws of the State of New York, U.S.A., excluding (a) its conflicts of laws principles; (b) the United Nations Convention on Contracts for the International Sale of Goods; (c) the 1974 Convention on the Limitation Period in the International Sale of Goods (the Â“1974 ConventionÂ”); and (d) the Protocol amending the 1974 Convention, done at Vienna April 11, 1980. 
 
 Any dispute, controversy or claim arising out of or relating to this Agreement or to a breach hereof, including its interpretation, performance or termination, shall be finally resolved by arbitration. The arbitration shall be conducted by three (3) arbitrators, one to be appointed by Infogrames Interactive, one to be appointed by You and a third being nominated by the two arbitrators so selected or, if they cannot agree on a third arbitrator, by the President of the American Arbitration Association ("AAA"). The arbitration shall be conducted in English and in accordance with the commercial arbitration rules of the AAA. The arbitration, including the rendering of the award, shall take place in New York, New York, and shall be the exclusive forum for resolving such dispute, controversy or claim. The decision of the arbitrators shall be binding upon the parties hereto, and the expense of the arbitration (including without limitation the award of attorneys' fees to the prevailing party) shall be paid as the arbitrators determine. The decision of the arbitrators shall be executory, and judgment thereon may be entered by any court of competent jurisdiction.
 
-Notwithstanding anything contained in the foregoing Paragraph to the contrary, Infogrames Interactive shall have the right to institute judicial proceedings against You or anyone acting by, through or under You, in order to enforce Infogrames Interactive’s rights hereunder through reformation of contract, specific performance, injunction or similar equitable relief. For the purposes of this Paragraph, both parties submit to the jurisdiction of, and waive any objection to the venue of, the state and federal courts of the State of New York.
+Notwithstanding anything contained in the foregoing Paragraph to the contrary, Infogrames Interactive shall have the right to institute judicial proceedings against You or anyone acting by, through or under You, in order to enforce Infogrames InteractiveÂ’s rights hereunder through reformation of contract, specific performance, injunction or similar equitable relief. For the purposes of this Paragraph, both parties submit to the jurisdiction of, and waive any objection to the venue of, the state and federal courts of the State of New York.
 
