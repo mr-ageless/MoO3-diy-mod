@@ -85,13 +85,13 @@ TableEnd
 TableStart	TechApplications																							
 ColumnHeadingsStart	kUnicode	kUnicodD	kUnicdLg	Sort_Tag	Type_ID	Application_Class	Field_Dependencies	IconName	Global_Tags	Tag_Values														
 RowHeadingsStart																								
-Self sufficiency	TASelfSf	TBSelfSf	None	" Achieve, KEEPTHIS, Human, Evon, Psilon, Imsaeis, Eoladi, Trilarian, Nommo, Ithkul, Klackon, Tachidi, Sakkra, Raas, Grendarl, Ant, NoTrade "	SelfSuff	Achieve	BioSc_00	ICO_SitRep_ScientificSymposium	None	" BioprPop+=0.025, MinprPop+=0.025 , teclvl = 00, SelfSuff = 1"														
-Silicoid self sufficiency	TASelfSS	TBSelfSS	None	" Achieve, KEEPTHIS, Silicoid, NoTrade "	SelfSufS	Achieve	BioSc_00	ICO_SitRep_ScientificSymposium	None	"MinprPop+=0.05, teclvl = 00, SelfSufS = 1"														
-Meklar self sufficiency	TASelfSM	TBSelfSM	None	" Achieve, KEEPTHIS, Meklar, NoTrade "	SelfSufM	Achieve	BioSc_00	ICO_SitRep_ScientificSymposium	None	" BioprPop+=0.00625, MinprPop+=0.04375 , teclvl = 00, SelfSufM = 1"														
+Self sufficiency	TASelfSf	TBSelfSf	None	" Achieve, KEEPTHIS, Human, Evon, Psilon, Imsaeis, Eoladi, Trilarian, Nommo, Ithkul, Klackon, Tachidi, Sakkra, Raas, Grendarl, Ant, NoTrade "	SelfSuff	Achieve	Ecnmy_00	ICO_SitRep_ScientificSymposium	None	" BioprPop+=0.025, MinprPop+=0.025 , teclvl = 00, SelfSuff = 1"														
+Silicoid self sufficiency	TASelfSS	TBSelfSS	None	" Achieve, KEEPTHIS, Silicoid, NoTrade "	SelfSufS	Achieve	Const_00	ICO_SitRep_ScientificSymposium	None	"MinprPop+=0.05, teclvl = 00, SelfSufS = 1"														
+Meklar self sufficiency	TASelfSM	TBSelfSM	None	" Achieve, KEEPTHIS, Meklar, NoTrade "	SelfSufM	Achieve	Const_00	ICO_SitRep_ScientificSymposium	None	" BioprPop+=0.00625, MinprPop+=0.04375 , teclvl = 00, SelfSufM = 1"														
 Cynoid self sufficiency	TASelfSC	TBSelfSC	None	" Achieve, KEEPTHIS, Cynoid, NoTrade "	SelfSufC	Achieve	BioSc_00	ICO_SitRep_ScientificSymposium	None	" BioprPop+=0.0125, MinprPop+=0.0375 , teclvl = 00, SelfSufC = 1"														
-Improved Self sufficiency	TASlfSf2	TBSlfSf2	None	" Achieve, KEEPTHIS, Human, Evon, Psilon, Imsaeis, Eoladi, Trilarian, Nommo, Ithkul, Klackon, Tachidi, Sakkra, Raas, Grendarl, Ant, NoTrade "	SlfSuff2	Achieve	BioSc_20	ICO_SitRep_ScientificSymposium	None	" BioprPop+=0.025, MinprPop+=0.025 , teclvl = 20, SlfSuff2 = 2"														
-Improved Silicoid self sufficiency	TASlfSS2	TBSlfSS2	None	" Achieve, KEEPTHIS, Silicoid, NoTrade "	SlfSufS2	Achieve	BioSc_20	ICO_SitRep_ScientificSymposium	None	"MinprPop+=0.05, teclvl = 20, SlfSufS2 = 2"														
-Improved Meklar self sufficiency	TASlfSM2	TBSlfSM2	None	" Achieve, KEEPTHIS, Meklar, NoTrade "	SlfSufM2	Achieve	BioSc_20	ICO_SitRep_ScientificSymposium	None	" BioprPop+=0.00625, MinprPop+=0.04375 , teclvl = 20, SlfSufM2 = 2"														
+Improved Self sufficiency	TASlfSf2	TBSlfSf2	None	" Achieve, KEEPTHIS, Human, Evon, Psilon, Imsaeis, Eoladi, Trilarian, Nommo, Ithkul, Klackon, Tachidi, Sakkra, Raas, Grendarl, Ant, NoTrade "	SlfSuff2	Achieve	Ecnmy_20	ICO_SitRep_ScientificSymposium	None	" BioprPop+=0.025, MinprPop+=0.025 , teclvl = 20, SlfSuff2 = 2"														
+Improved Silicoid self sufficiency	TASlfSS2	TBSlfSS2	None	" Achieve, KEEPTHIS, Silicoid, NoTrade "	SlfSufS2	Achieve	Const_20	ICO_SitRep_ScientificSymposium	None	"MinprPop+=0.05, teclvl = 20, SlfSufS2 = 2"														
+Improved Meklar self sufficiency	TASlfSM2	TBSlfSM2	None	" Achieve, KEEPTHIS, Meklar, NoTrade "	SlfSufM2	Achieve	Const_20	ICO_SitRep_ScientificSymposium	None	" BioprPop+=0.00625, MinprPop+=0.04375 , teclvl = 20, SlfSufM2 = 2"														
 Improved Cynoid self sufficiency	TASlfSC2	TBSlfSC2	None	" Achieve, KEEPTHIS, Cynoid, NoTrade "	SlfSufC2	Achieve	BioSc_20	ICO_SitRep_ScientificSymposium	None	" BioprPop+=0.0125, MinprPop+=0.0375 , teclvl = 20, SlfSufC2 = 2"														
 Armor I	TAArmr01	TBArmr01	SDArmInf	" Ship, Military, KEEPTHIS "	ArmTitan	ArmorCls	Const_00	Armor	None	" SystCost = 10, ArmorVal = 100, Deflects = 2 , teclvl = 00, ArmTitan = 1"														1
 Armor II	TAArmr02	TBArmr02	SDArmInf	" Ship, Military "	ArmTritn	ArmorCls	Const_15	Armor	None	" SystCost = 30, ArmorVal = 200, Deflects = 4 , teclvl = 15, ArmTritn = 1"														2
@@ -109,31 +109,31 @@ Medium Armor	TAMedArm	TBMedArm	ShipStnd	" Ship, Military "	MedArmor	ArmorThk	Con
 Heavy Armor	TAHvyArm	TBHvyArm	ShipStnd	" Ship, Military "	HvyArmor	ArmorThk	Const_30	Armor	None	" SystCost *= 7.00, ArmorVal *= 4.00, Deflects *= 1.5 , teclvl = 30, HvyArmor = 1"														10
 Very Heavy Armor	TAVhvArm	TBVhvArm	ShipStnd	" Ship, Military "	VHvArmor	ArmorThk	Const_49	Armor	None	" SystCost *= 12.00, ArmorVal *= 8.00, Deflects *= 1.75 , teclvl = 49, VHvArmor = 1"														11
 Ultra Heavy Armor	TAUhvArm	TBUhvArm	ShipStnd	" Ship, Military "	UltArmor	ArmorThk	Const_66	Armor	None	" SystCost *= 18.00, ArmorVal *= 16.00, Deflects *= 2 , teclvl = 66, UltArmor = 1"														12
-System Engine I	TASysE01	TBSysE01	SDEngInf	" Ship, KEEPTHIS "	FREngi01	ShEngine	Const_00	TFEngine	DlayTech = 1	" SystCost = 25, UniSpace *= 0.25, MaxSpeed = 1500 , teclvl = 00, FREngi01 = 01"														13
-System Engine I Miniature	TASysM01	TBSysM01	SDEngInf	Ship	FREngM01	ShEngine	Const_03	TFEngine	DlayTech = 1	" SystCost = 26, UniSpace *= 0.2, MaxSpeed = 1500 , teclvl = 03, FREngM01 = 01"														
-System Engine II	TASysE02	TBSysE02	SDEngInf	Ship	FREngi02	ShEngine	Const_05	TFEngine	DlayTech = 2	" SystCost = 27, UniSpace *= 0.235, MaxSpeed = 1800 , teclvl = 05, FREngi02 = 02"														14
-System Engine II Miniature	TASysM02	TBSysM02	SDEngInf	Ship	FREngM02	ShEngine	Const_08	TFEngine	DlayTech = 2	" SystCost = 28, UniSpace *= 0.188, MaxSpeed = 1800 , teclvl = 08, FREngM02 = 02"														
-System Engine III	TASysE03	TBSysE03	SDEngInf	Ship	FREngi03	ShEngine	Const_11	TFEngine	DlayTech = 3	" SystCost = 30, UniSpace *= 0.2325, MaxSpeed = 2100 , teclvl = 11, FREngi03 = 03"														15
-System Engine III Miniature	TASysM03	TBSysM03	SDEngInf	Ship	FREngM03	ShEngine	Const_14	TFEngine	DlayTech = 3	" SystCost = 31, UniSpace *= 0.186, MaxSpeed = 2100 , teclvl = 14, FREngM03 = 03"														
-System Engine IV	TASysE04	TBSysE04	SDEngInf	Ship	FREngi04	ShEngine	Const_17	TFEngine	DlayTech = 4	" SystCost = 32, UniSpace *= 0.218, MaxSpeed = 2400 , teclvl = 17, FREngi04 = 04"														16
-System Engine IV Miniature	TASysM04	TBSysM04	SDEngInf	Ship	FREngM04	ShEngine	Const_20	TFEngine	DlayTech = 4	" SystCost = 34, UniSpace *= 0.174, MaxSpeed = 2400 , teclvl = 20, FREngM04 = 04"														
-System Engine V	TASysE05	TBSysE05	SDEngInf	Ship	FREngi05	ShEngine	Const_24	TFEngine	DlayTech = 5	" SystCost = 35, UniSpace *= 0.2155, MaxSpeed = 2700 , teclvl = 24, FREngi05 = 05"														17
-System Engine V Miniature	TASysM05	TBSysM05	SDEngInf	Ship	FREngM05	ShEngine	Const_30	TFEngine	DlayTech = 5	" SystCost = 36, UniSpace *= 0.1724, MaxSpeed = 2700 , teclvl = 30, FREngM05 = 05"														
-System Engine VI	TASysE06	TBSysE06	SDEngInf	Ship	FREngi06	ShEngine	Const_35	TFEngine	DlayTech = 6	" SystCost = 37, UniSpace *= 0.201, MaxSpeed = 3000 , teclvl = 35, FREngi06 = 06"														18
-System Engine VI Miniature	TASysM06	TBSysM06	SDEngInf	Ship	FREngM06	ShEngine	Const_40	TFEngine	DlayTech = 6	" SystCost = 39, UniSpace *= 0.161, MaxSpeed = 3000 , teclvl = 40, FREngM06 = 06"														
-System Engine VII	TASysE07	TBSysE07	SDEngInf	Ship	FREngi07	ShEngine	Const_45	TFEngine	None	" SystCost = 40, UniSpace *= 0.1995, MaxSpeed = 3300 , teclvl = 45, FREngi07 = 07"														19
-System Engine VII Miniature	TASysM07	TBSysM07	SDEngInf	Ship	FREngM07	ShEngine	Const_50	TFEngine	None	" SystCost = 41, UniSpace *= 0.1596, MaxSpeed = 3300 , teclvl = 50, FREngM07 = 07"														
-System Engine VIII	TASysE08	TBSysE08	SDEngInf	Ship	FREngi08	ShEngine	Const_54	TFEngine	None	" SystCost = 42, UniSpace *= 0.185, MaxSpeed = 3600 , teclvl = 54, FREngi08 = 08"														20
-System Engine VIII Miniature	TASysM08	TBSysM08	SDENgInf	Ship	FREngM08	ShEngine	Const_58	TFEngine	None	" SystCost = 45, UniSpace *= 0.148, MaxSpeed = 3600 , teclvl = 58, FREngM08 = 08"														
-System Engine IX	TASysE09	TBSysE09	SDEngInf	Ship	FREngi09	ShEngine	Const_61	TFEngine	None	" SystCost = 50, UniSpace *= 0.183, MaxSpeed = 3900 , teclvl = 61, FREngi09 = 09"														21
-System Engine IX Miniature	TASysM09	TBSysM09	SDEngInf	Ship	FREngM09	ShEngine	Const_65	TFEngine	None	" SystCost = 51, UniSpace *= 0.146, MaxSpeed = 3900 , teclvl = 65, FREngM09 = 09"														
-System Engine X	TASysE10	TBSysE10	SDEngInf	Ship	FREngi10	ShEngine	Const_68	TFEngine	None	" SystCost = 52, UniSpace *= 0.169, MaxSpeed = 4200 , teclvl = 68, FREngi10 = 10"														22
-System Engine X Miniature	TASysM10	TBSysM10	SDEngInf	Ship	FREngM10	ShEngine	Const_73	TFEngine	None	" SystCost = 54, UniSpace *= 0.135, MaxSpeed = 4200 , teclvl = 73, FREngM10 = 10"														
-System Engine XI	TASysE11	TBSysE11	SDEngInf	Ship	FREngi11	ShEngine	Const_80	TFEngine	None	" SystCost = 52, UniSpace *= 0.169, MaxSpeed = 4700 , teclvl = 80, FREngi11 = 11"														22
-System Engine XI Miniature	TASysM11	TBSysM11	SDEngInf	Ship	FREngM11	ShEngine	Const_84	TFEngine	None	" SystCost = 54, UniSpace *= 0.130, MaxSpeed = 4700 , teclvl = 84, FREngM11 = 11"														
-System Engine XII	TASysE12	TBSysE12	SDEngInf	Ship	FREngi12	ShEngine	Const_90	TFEngine	None	" SystCost = 52, UniSpace *= 0.169, MaxSpeed = 5700 , teclvl = 90, FREngi12 = 12"														22
-System Engine XII Miniature	TASysM12	TBSysM12	SDEngInf	Ship	FREngM12	ShEngine	Const_94	TFEngine	None	" SystCost = 54, UniSpace *= 0.125, MaxSpeed = 5700 , teclvl = 94, FREngM12 = 12"														
-System Engine XIII	TASysE13	TBSysE13	SDEngInf	Ship	FREngM13	ShEngine	Const_97	TFEngine	None	" SystCost = 54, UniSpace *= 0.115, MaxSpeed = 8000 , teclvl = 97, FREngM13 = 13"														
+System Engine I	TASysE01	TBSysE01	SDEngInf	" Ship, KEEPTHIS "	FREngi01	ShEngine	Energ_00	TFEngine	DlayTech = 1	" SystCost = 25, UniSpace *= 0.25, MaxSpeed = 1500 , teclvl = 00, FREngi01 = 01"														13
+System Engine I Miniature	TASysM01	TBSysM01	SDEngInf	Ship	FREngM01	ShEngine	MthCm_03	TFEngine	DlayTech = 1	" SystCost = 26, UniSpace *= 0.2, MaxSpeed = 1500 , teclvl = 03, FREngM01 = 01"														
+System Engine II	TASysE02	TBSysE02	SDEngInf	Ship	FREngi02	ShEngine	Energ_05	TFEngine	DlayTech = 2	" SystCost = 27, UniSpace *= 0.235, MaxSpeed = 1800 , teclvl = 05, FREngi02 = 02"														14
+System Engine II Miniature	TASysM02	TBSysM02	SDEngInf	Ship	FREngM02	ShEngine	MthCm_08	TFEngine	DlayTech = 2	" SystCost = 28, UniSpace *= 0.188, MaxSpeed = 1800 , teclvl = 08, FREngM02 = 02"														
+System Engine III	TASysE03	TBSysE03	SDEngInf	Ship	FREngi03	ShEngine	Energ_11	TFEngine	DlayTech = 3	" SystCost = 30, UniSpace *= 0.2325, MaxSpeed = 2100 , teclvl = 11, FREngi03 = 03"														15
+System Engine III Miniature	TASysM03	TBSysM03	SDEngInf	Ship	FREngM03	ShEngine	MthCm_14	TFEngine	DlayTech = 3	" SystCost = 31, UniSpace *= 0.186, MaxSpeed = 2100 , teclvl = 14, FREngM03 = 03"														
+System Engine IV	TASysE04	TBSysE04	SDEngInf	Ship	FREngi04	ShEngine	Energ_17	TFEngine	DlayTech = 4	" SystCost = 32, UniSpace *= 0.218, MaxSpeed = 2400 , teclvl = 17, FREngi04 = 04"														16
+System Engine IV Miniature	TASysM04	TBSysM04	SDEngInf	Ship	FREngM04	ShEngine	MthCm_20	TFEngine	DlayTech = 4	" SystCost = 34, UniSpace *= 0.174, MaxSpeed = 2400 , teclvl = 20, FREngM04 = 04"														
+System Engine V	TASysE05	TBSysE05	SDEngInf	Ship	FREngi05	ShEngine	Energ_24	TFEngine	DlayTech = 5	" SystCost = 35, UniSpace *= 0.2155, MaxSpeed = 2700 , teclvl = 24, FREngi05 = 05"														17
+System Engine V Miniature	TASysM05	TBSysM05	SDEngInf	Ship	FREngM05	ShEngine	MthCm_30	TFEngine	DlayTech = 5	" SystCost = 36, UniSpace *= 0.1724, MaxSpeed = 2700 , teclvl = 30, FREngM05 = 05"														
+System Engine VI	TASysE06	TBSysE06	SDEngInf	Ship	FREngi06	ShEngine	Energ_35	TFEngine	DlayTech = 6	" SystCost = 37, UniSpace *= 0.201, MaxSpeed = 3000 , teclvl = 35, FREngi06 = 06"														18
+System Engine VI Miniature	TASysM06	TBSysM06	SDEngInf	Ship	FREngM06	ShEngine	MthCm_40	TFEngine	DlayTech = 6	" SystCost = 39, UniSpace *= 0.161, MaxSpeed = 3000 , teclvl = 40, FREngM06 = 06"														
+System Engine VII	TASysE07	TBSysE07	SDEngInf	Ship	FREngi07	ShEngine	Energ_45	TFEngine	None	" SystCost = 40, UniSpace *= 0.1995, MaxSpeed = 3300 , teclvl = 45, FREngi07 = 07"														19
+System Engine VII Miniature	TASysM07	TBSysM07	SDEngInf	Ship	FREngM07	ShEngine	MthCm_50	TFEngine	None	" SystCost = 41, UniSpace *= 0.1596, MaxSpeed = 3300 , teclvl = 50, FREngM07 = 07"														
+System Engine VIII	TASysE08	TBSysE08	SDEngInf	Ship	FREngi08	ShEngine	Energ_54	TFEngine	None	" SystCost = 42, UniSpace *= 0.185, MaxSpeed = 3600 , teclvl = 54, FREngi08 = 08"														20
+System Engine VIII Miniature	TASysM08	TBSysM08	SDENgInf	Ship	FREngM08	ShEngine	MthCm_58	TFEngine	None	" SystCost = 45, UniSpace *= 0.148, MaxSpeed = 3600 , teclvl = 58, FREngM08 = 08"														
+System Engine IX	TASysE09	TBSysE09	SDEngInf	Ship	FREngi09	ShEngine	Energ_61	TFEngine	None	" SystCost = 50, UniSpace *= 0.183, MaxSpeed = 3900 , teclvl = 61, FREngi09 = 09"														21
+System Engine IX Miniature	TASysM09	TBSysM09	SDEngInf	Ship	FREngM09	ShEngine	MthCm_65	TFEngine	None	" SystCost = 51, UniSpace *= 0.146, MaxSpeed = 3900 , teclvl = 65, FREngM09 = 09"														
+System Engine X	TASysE10	TBSysE10	SDEngInf	Ship	FREngi10	ShEngine	Energ_68	TFEngine	None	" SystCost = 52, UniSpace *= 0.169, MaxSpeed = 4200 , teclvl = 68, FREngi10 = 10"														22
+System Engine X Miniature	TASysM10	TBSysM10	SDEngInf	Ship	FREngM10	ShEngine	MthCm_73	TFEngine	None	" SystCost = 54, UniSpace *= 0.135, MaxSpeed = 4200 , teclvl = 73, FREngM10 = 10"														
+System Engine XI	TASysE11	TBSysE11	SDEngInf	Ship	FREngi11	ShEngine	Energ_80	TFEngine	None	" SystCost = 52, UniSpace *= 0.169, MaxSpeed = 4700 , teclvl = 80, FREngi11 = 11"														22
+System Engine XI Miniature	TASysM11	TBSysM11	SDEngInf	Ship	FREngM11	ShEngine	MthCm_84	TFEngine	None	" SystCost = 54, UniSpace *= 0.130, MaxSpeed = 4700 , teclvl = 84, FREngM11 = 11"														
+System Engine XII	TASysE12	TBSysE12	SDEngInf	Ship	FREngi12	ShEngine	Energ_90	TFEngine	None	" SystCost = 52, UniSpace *= 0.169, MaxSpeed = 5700 , teclvl = 90, FREngi12 = 12"														22
+System Engine XII Miniature	TASysM12	TBSysM12	SDEngInf	Ship	FREngM12	ShEngine	MthCm_94	TFEngine	None	" SystCost = 54, UniSpace *= 0.125, MaxSpeed = 5700 , teclvl = 94, FREngM12 = 12"														
+System Engine XIII	TASysE13	TBSysE13	SDEngInf	Ship	FREngM13	ShEngine	Energ_97	TFEngine	None	" SystCost = 54, UniSpace *= 0.115, MaxSpeed = 8000 , teclvl = 97, FREngM13 = 13"														
 Orbital	TAOrbitl	TBOrbitl	ShipStnd	" Ship, KEEPTHIS "	Orbital	ShHulOpt	Const_00	TFAstEng	None	" ShpCpcty *= 4, ShipWarp != 0, SystCost *= 0.5, Orbital += 1 , teclvl = 00, Orbital = 1"														23
 Systemship	TASystSh	TBSystSh	ShipStnd	" Ship, KEEPTHIS "	Systship	ShHulOpt	Const_00	SystemShips	None	" ShpCpcty *= 2, ShipWarp != 0, SystCost *=0.75 , teclvl = 00, Systship = 1"														24
 Starship	TAStrshp	TBStrshp	ShipStnd	" Ship, KEEPTHIS "	Starship	ShHulOpt	Const_00	StarShips	None	" ShpCpcty *= 1.00, SystCost *= 1.00, Starship += 1, teclvl = 00, Starship = 1"														25
@@ -151,45 +151,45 @@ Hull10	TAHull10	TBHull10	ShipStnd	" Ship, KEEPTHIS "	Hull10	ShipHull	Const_45	Ar
 Hull11	TAHull11	TBHull11	ShipStnd	" Ship, KEEPTHIS "	Hull11	ShipHull	Const_52	Armor	None	" ShpCpcty = 2610, SystCost = 4323, UseGraph = 6 , teclvl = 52, Hull11 = 11"														38
 Hull12	TAHull12	TBHull12	ShipStnd	" Ship, KEEPTHIS "	Hull12	ShipHull	Const_60	Armor	None	" ShpCpcty = 3565, SystCost = 6853, UseGraph = 7 , teclvl = 60, Hull12 = 12"														39
 Hull13	TAHull13	TBHull13	ShipStnd	" Ship, KEEPTHIS "	Hull13	ShipHull	Const_75	Armor	None	" ShpCpcty = 5000, SystCost = 11122, UseGraph = 7 , teclvl = 75, Hull13 = 13"														40
-Warp Drive 1	TAWrpD01	TBWrpD01	SDEngInf	" Ship, KEEPTHIS "	WarpDrv1	ShipWarp	Const_00	TFTraPhy	None	" SystCost = 100, UniSpace *= 0.25, MaxWarp = 85 , teclvl = 00, WarpDrv1 = 1"														41
-Warp Drive 1 Miniature	TAWrpM01	TBWrpM01	SDEngInf	Ship	WarpDvM1	ShipWarp	Const_03	TFTraPhy	None	" SystCost = 110, UniSpace *= 0.2, MaxWarp = 85 , teclvl = 03, WarpDvM1 = 1"														
-Warp Drive 2	TAWrpD02	TBWrpD02	SDEngInf	Ship	WarpDrv2	ShipWarp	Const_05	TFTraPhy	None	" SystCost = 126, UniSpace *= 0.235, MaxWarp = 105 , teclvl = 05, WarpDrv2 = 2"														42
-Warp Drive 2 Miniature	TAWrpM02	TBWrpM02	SDEngInf	Ship	WarpDvM2	ShipWarp	Const_08	TFTraPhy	None	" SystCost = 135, UniSpace *= 0.188, MaxWarp = 105 , teclvl = 08, WarpDvM2 = 2"														
-Warp Drive 3	TAWrpD03	TBWrpD03	SDEngInf	Ship	WarpDrv3	ShipWarp	Const_11	TFTraPhy	None	" SystCost = 158, UniSpace *= 0.2325, MaxWarp = 133 , teclvl = 11, WarpDrv3 = 3"														43
-Warp Drive 3 Miniature	TAWrpM03	TBWrpM03	SDEngInf	Ship	WarpDvM3	ShipWarp	Const_14	TFTraPhy	None	" SystCost = 170, UniSpace *= 0.186, MaxWarp = 133 , teclvl = 14, WarpDvM3 = 3"														
-Warp Drive 4	TAWrpD04	TBWrpD04	SDEngInf	Ship	WarpDrv4	ShipWarp	Const_17	TFTraPhy	None	" SystCost = 200, UniSpace *= 0.218, MaxWarp = 168 , teclvl = 17, WarpDrv4 = 4"														44
-Warp Drive 4 Miniature	TAWrpM04	TBWrpM04	SDEngInf	Ship	WarpDvM4	ShipWarp	Const_20	TFTraPhy	None	" SystCost = 220, UniSpace *= 0.174, MaxWarp = 168 , teclvl = 20, WarpDvM4 = 4"														
-Warp Drive 5	TAWrpD05	TBWrpD05	SDEngInf	Ship	WarpDrv5	ShipWarp	Const_24	TFTraPhy	None	" SystCost = 252, UniSpace *= 0.2155, MaxWarp = 211 , teclvl = 24, WarpDrv5 = 5"														45
-Warp Drive 5 Miniature	TAWrpM05	TBWrpM05	SDEngInf	Ship	WarpDvM5	ShipWarp	Const_30	TFTraPhy	None	" SystCost = 280, UniSpace *= 0.1724, MaxWarp = 211 , teclvl = 30, WarpDvM5 = 5"														
-Warp Drive 6	TAWrpD06	TBWrpD06	SDEngInf	Ship	WarpDrv6	ShipWarp	Const_35	TFTraPhy	None	" SystCost = 318, UniSpace *= 0.201, MaxWarp = 266 , teclvl = 35, WarpDrv6 = 6"														46
-Warp Drive 6 Miniature	TAWrpM06	TBWrpM06	SDEngInf	Ship	WarpDvM6	ShipWarp	Const_40	TFTraPhy	None	" SystCost = 340, UniSpace *= 0.161, MaxWarp = 266 , teclvl = 40, WarpDvM6 = 6"														
-Warp Drive 7	TAWrpD07	TBWrpD07	SDEngInf	Ship	WarpDrv7	ShipWarp	Const_45	TFTraPhy	None	" SystCost = 400, UniSpace *= 0.1995, MaxWarp = 336 , teclvl = 45, WarpDrv7 = 7"														47
-Warp Drive 7 Miniature	TAWrpM07	TBWrpM07	SDEngInf	Ship	WarpDvM7	ShipWarp	Const_50	TFTraPhy	None	" SystCost = 440, UniSpace *= 0.1596, MaxWarp = 336 , teclvl = 50, WarpDvM7 = 7"														
-Warp Drive 8	TAWrpD08	TBWrpD08	SDEngInf	Ship	WarpDrv8	ShipWarp	Const_54	TFTraPhy	None	" SystCost = 502, UniSpace *= 0.185, MaxWarp = 422 , teclvl = 54, WarpDrv8 = 8"														48
-Warp Drive 8 Miniature	TAWrpM08	TBWrpM08	SDEngInf	Ship	WarpDvM8	ShipWarp	Const_58	TFTraPhy	None	" SystCost = 550, UniSpace *= 0.148, MaxWarp = 422 , teclvl = 58, WarpDvM8 = 8"														
-Warp Drive 9	TAWrpD09	TBWrpD09	SDEngInf	Ship	WarpDrv9	ShipWarp	Const_61	TFTraPhy	None	" SystCost = 634, UniSpace *= 0.183, MaxWarp = 532 , teclvl = 61, WarpDrv9 = 9"														49
-Warp Drive 9 Miniature	TAWrpM09	TBWrpM09	SDEngInf	Ship	WarpDvM9	ShipWarp	Const_65	TFTraPhy	None	" SystCost = 700, UniSpace *= 0.146, MaxWarp = 532 , teclvl = 65, WarpDvM9 = 9"														
-Warp Drive 10	TAWrpD10	TBWrpD10	SDEngInf	Ship	WarpDrvA	ShipWarp	Const_68	TFTraPhy	None	" SystCost = 800, UniSpace *= 0.169, MaxWarp = 672 , teclvl = 68, WarpDrvA = 1"														50
-Warp Drive 10 Miniature	TAWrpM10	TBWrpM10	SDEngInf	Ship	WarpDvMA	ShipWarp	Const_72	TFTraPhy	None	" SystCost = 880, UniSpace *= 0.135, MaxWarp = 672 , teclvl = 72, WarpDvMA = 1"														
-Warp Drive 11	TAWrpD11	TBWrpD11	SDEngInf	Ship	WarpDrvB	ShipWarp	Const_80	TFTraPhy	None	" SystCost = 950, UniSpace *= 0.158, MaxWarp = 750 , teclvl = 80, WarpDrvB = 1"														50
-Warp Drive 11 Miniature	TAWrpM11	TBWrpM11	SDEngInf	Ship	WarpDvMB	ShipWarp	Const_84	TFTraPhy	None	" SystCost = 1100, UniSpace *= 0.125, MaxWarp = 750 , teclvl = 84, WarpDvMB = 1"														
-Warp Drive 12	TAWrpD12	TBWrpD12	SDEngInf	Ship	WarpDrvC	ShipWarp	Const_90	TFTraPhy	None	" SystCost = 1200, UniSpace *= 0.140, MaxWarp = 999 , teclvl = 90, WarpDrvC = 1"														50
-Warp Drive 12 Miniature	TAWrpM12	TBWrpM12	SDEngInf	Ship	WarpDvMC	ShipWarp	Const_94	TFTraPhy	None	" SystCost = 1400, UniSpace *= 0.118, MaxWarp = 999 , teclvl = 94, WarpDvMC = 1"														
-Force Field 1	TAFFld01	TBFFld01	SDShdInf	" Ship, KEEPTHIS "	FrcFld01	ShldTech	Const_09	TFElectr	None	" StpPow = 1, ShdStr = 200, Recharge =2, SystCost = 50, UniSpace *= 0.05 , teclvl = 09, FrcFld01 = 01"														51
-Force Field 2	TAFFld02	TBFFld02	SDShdInf	Ship	FrcFld02	ShldTech	Const_17	TFElectr	None	" StpPow = 1, ShdStr = 500, Recharge = 5, SystCost = 63, UniSpace *= 0.05 , teclvl = 17, FrcFld02 = 02"														52
-Force Field 3	TAFFld03	TBFFld03	SDShdInf	Ship	FrcFld03	ShldTech	Const_22	TFElectr	None	" StpPow = 1, ShdStr = 1000, Recharge = 15, SystCost = 79, UniSpace *= 0.05 , teclvl = 22, FrcFld03 = 03"														53
-Force Field 4	TAFFld04	TBFFld04	SDShdInf	Ship	FrcFld04	ShldTech	Const_29	TFElectr	None	" StpPow = 1, ShdStr = 1750, Recharge = 36, SystCost = 100, UniSpace *= 0.05 , teclvl = 29, FrcFld04 = 04"														54
-Force Field 5	TAFFld05	TBFFld05	SDShdInf	Ship	FrcFld05	ShldTech	Const_34	TFElectr	None	" StpPow = 1, ShdStr = 3000, Recharge = 75, SystCost = 126, UniSpace *= 0.05 , teclvl = 34, FrcFld05 = 05"														55
-Force Field 6	TAFFld06	TBFFld06	SDShdInf	Ship	FrcFld06	ShldTech	Const_40	TFElectr	None	" StpPow = 1, ShdStr = 5000, Recharge = 150, SystCost = 159, UniSpace *= 0.05 , teclvl = 40, FrcFld06 = 06"														56
-Force Field 7	TAFFld07	TBFFld07	SDShdInf	Ship	FrcFld07	ShldTech	Const_47	TFElectr	None	" StpPow = 1, ShdStr = 7000, Recharge = 250, SystCost = 200, UniSpace *= 0.05 , teclvl = 47, FrcFld07 = 07"														57
-Force Field 8	TAFFld08	TBFFld08	SDShdInf	Ship	FrcFld08	ShldTech	Const_54	TFElectr	None	" StpPow = 1, ShdStr = 10000, Recharge = 400, SystCost = 251, UniSpace *= 0.05 , teclvl = 54, FrcFld08 = 08"														58
-Force Field 9	TAFFld09	TBFFld09	SDShdInf	Ship	FrcFld09	ShldTech	Const_60	TFElectr	None	" StpPow = 1, ShdStr = 15000, Recharge = 680, SystCost = 317, UniSpace *= 0.05 , teclvl = 60, FrcFld09 = 09"														59
-Force Field 10	TAFFld10	TBFFld10	SDShdInf	Ship	FrcFld10	ShldTech	Const_70	TFElectr	None	" StpPow =1, ShdStr = 20000, Recharge = 1000, SystCost = 400, UniSpace *= 0.05 , teclvl = 70, FrcFld10 = 10"														60
-Damper Field	TADmpFld	TBDmpFld	SDShdInf	Ship	DamprFld	ShldTech	Const_66	TFElectr	None	" StpPow = 0.75, ShdStr = 100000, Recharge = 100000, SystCost = 1000, UniSpace *= 0.15 , teclvl = 66, DamprFld = 1"														61
-Small Shield Generator 	TASmShdG	TBSmShdG	ShipStnd	" Ship, Military, KEEPTHIS "	SmShdGen	ShdGenSz	Const_07	TFElectr	None	" ShdStr *= 0.66, Recharge *= 0.5, SystCost *= 0.7, UniSpace *= 0.5 , teclvl = 07, SmShdGen = 1"														62
-Stand Shield Generator	TAStShdG	TBStShdG	ShipStnd	" Ship, Military, KEEPTHIS "	ShieldGn	ShdGenSz	Const_16	TFElectr	None	" ShdStr *= 1, Recharge *= 1, SystCost *= 1, UniSpace *= 1 , teclvl = 16, ShieldGn = 1"														63
-Large Shield Generator	TALgShdG	TBLgShdG	ShipStnd	" Ship, Military "	LgShdGen	ShdGenSz	Const_30	TFElectr	None	" ShdStr *= 1.5, Recharge *= 1.5, SystCost *= 2, UniSpace *= 1.5 , teclvl = 30, LgShdGen = 1"														64
-Planetary Shield Generator I	TAPlnSd1	TBPlnSd1	None	" Military, Planet, KEEPTHIS "	PlnShd01	PlanSecu	Const_25	PDefence	None	" ShdStr *= 100, Recharge *= 25, Cost=100, PlanDef += 4, CollatSz=30, CollatDs = 60, CollatCl=0, Employee = 0.2 , teclvl = 25, PlnShd01 = 01"														65
+Warp Drive 1	TAWrpD01	TBWrpD01	SDEngInf	" Ship, KEEPTHIS "	WarpDrv1	ShipWarp	MthCm_00	TFTraPhy	None	" SystCost = 100, UniSpace *= 0.25, MaxWarp = 85 , teclvl = 00, WarpDrv1 = 1"														41
+Warp Drive 1 Miniature	TAWrpM01	TBWrpM01	SDEngInf	Ship	WarpDvM1	ShipWarp	MthCm_03	TFTraPhy	None	" SystCost = 110, UniSpace *= 0.2, MaxWarp = 85 , teclvl = 03, WarpDvM1 = 1"														
+Warp Drive 2	TAWrpD02	TBWrpD02	SDEngInf	Ship	WarpDrv2	ShipWarp	MthCm_05	TFTraPhy	None	" SystCost = 126, UniSpace *= 0.235, MaxWarp = 105 , teclvl = 05, WarpDrv2 = 2"														42
+Warp Drive 2 Miniature	TAWrpM02	TBWrpM02	SDEngInf	Ship	WarpDvM2	ShipWarp	MthCm_08	TFTraPhy	None	" SystCost = 135, UniSpace *= 0.188, MaxWarp = 105 , teclvl = 08, WarpDvM2 = 2"														
+Warp Drive 3	TAWrpD03	TBWrpD03	SDEngInf	Ship	WarpDrv3	ShipWarp	MthCm_11	TFTraPhy	None	" SystCost = 158, UniSpace *= 0.2325, MaxWarp = 133 , teclvl = 11, WarpDrv3 = 3"														43
+Warp Drive 3 Miniature	TAWrpM03	TBWrpM03	SDEngInf	Ship	WarpDvM3	ShipWarp	MthCm_14	TFTraPhy	None	" SystCost = 170, UniSpace *= 0.186, MaxWarp = 133 , teclvl = 14, WarpDvM3 = 3"														
+Warp Drive 4	TAWrpD04	TBWrpD04	SDEngInf	Ship	WarpDrv4	ShipWarp	MthCm_17	TFTraPhy	None	" SystCost = 200, UniSpace *= 0.218, MaxWarp = 168 , teclvl = 17, WarpDrv4 = 4"														44
+Warp Drive 4 Miniature	TAWrpM04	TBWrpM04	SDEngInf	Ship	WarpDvM4	ShipWarp	MthCm_20	TFTraPhy	None	" SystCost = 220, UniSpace *= 0.174, MaxWarp = 168 , teclvl = 20, WarpDvM4 = 4"														
+Warp Drive 5	TAWrpD05	TBWrpD05	SDEngInf	Ship	WarpDrv5	ShipWarp	MthCm_24	TFTraPhy	None	" SystCost = 252, UniSpace *= 0.2155, MaxWarp = 211 , teclvl = 24, WarpDrv5 = 5"														45
+Warp Drive 5 Miniature	TAWrpM05	TBWrpM05	SDEngInf	Ship	WarpDvM5	ShipWarp	MthCm_30	TFTraPhy	None	" SystCost = 280, UniSpace *= 0.1724, MaxWarp = 211 , teclvl = 30, WarpDvM5 = 5"														
+Warp Drive 6	TAWrpD06	TBWrpD06	SDEngInf	Ship	WarpDrv6	ShipWarp	MthCm_35	TFTraPhy	None	" SystCost = 318, UniSpace *= 0.201, MaxWarp = 266 , teclvl = 35, WarpDrv6 = 6"														46
+Warp Drive 6 Miniature	TAWrpM06	TBWrpM06	SDEngInf	Ship	WarpDvM6	ShipWarp	MthCm_40	TFTraPhy	None	" SystCost = 340, UniSpace *= 0.161, MaxWarp = 266 , teclvl = 40, WarpDvM6 = 6"														
+Warp Drive 7	TAWrpD07	TBWrpD07	SDEngInf	Ship	WarpDrv7	ShipWarp	MthCm_45	TFTraPhy	None	" SystCost = 400, UniSpace *= 0.1995, MaxWarp = 336 , teclvl = 45, WarpDrv7 = 7"														47
+Warp Drive 7 Miniature	TAWrpM07	TBWrpM07	SDEngInf	Ship	WarpDvM7	ShipWarp	MthCm_50	TFTraPhy	None	" SystCost = 440, UniSpace *= 0.1596, MaxWarp = 336 , teclvl = 50, WarpDvM7 = 7"														
+Warp Drive 8	TAWrpD08	TBWrpD08	SDEngInf	Ship	WarpDrv8	ShipWarp	MthCm_54	TFTraPhy	None	" SystCost = 502, UniSpace *= 0.185, MaxWarp = 422 , teclvl = 54, WarpDrv8 = 8"														48
+Warp Drive 8 Miniature	TAWrpM08	TBWrpM08	SDEngInf	Ship	WarpDvM8	ShipWarp	MthCm_58	TFTraPhy	None	" SystCost = 550, UniSpace *= 0.148, MaxWarp = 422 , teclvl = 58, WarpDvM8 = 8"														
+Warp Drive 9	TAWrpD09	TBWrpD09	SDEngInf	Ship	WarpDrv9	ShipWarp	MthCm_61	TFTraPhy	None	" SystCost = 634, UniSpace *= 0.183, MaxWarp = 532 , teclvl = 61, WarpDrv9 = 9"														49
+Warp Drive 9 Miniature	TAWrpM09	TBWrpM09	SDEngInf	Ship	WarpDvM9	ShipWarp	MthCm_65	TFTraPhy	None	" SystCost = 700, UniSpace *= 0.146, MaxWarp = 532 , teclvl = 65, WarpDvM9 = 9"														
+Warp Drive 10	TAWrpD10	TBWrpD10	SDEngInf	Ship	WarpDrvA	ShipWarp	MthCm_68	TFTraPhy	None	" SystCost = 800, UniSpace *= 0.169, MaxWarp = 672 , teclvl = 68, WarpDrvA = 1"														50
+Warp Drive 10 Miniature	TAWrpM10	TBWrpM10	SDEngInf	Ship	WarpDvMA	ShipWarp	MthCm_72	TFTraPhy	None	" SystCost = 880, UniSpace *= 0.135, MaxWarp = 672 , teclvl = 72, WarpDvMA = 1"														
+Warp Drive 11	TAWrpD11	TBWrpD11	SDEngInf	Ship	WarpDrvB	ShipWarp	MthCm_80	TFTraPhy	None	" SystCost = 950, UniSpace *= 0.158, MaxWarp = 750 , teclvl = 80, WarpDrvB = 1"														50
+Warp Drive 11 Miniature	TAWrpM11	TBWrpM11	SDEngInf	Ship	WarpDvMB	ShipWarp	MthCm_84	TFTraPhy	None	" SystCost = 1100, UniSpace *= 0.125, MaxWarp = 750 , teclvl = 84, WarpDvMB = 1"														
+Warp Drive 12	TAWrpD12	TBWrpD12	SDEngInf	Ship	WarpDrvC	ShipWarp	MthCm_90	TFTraPhy	None	" SystCost = 1200, UniSpace *= 0.140, MaxWarp = 999 , teclvl = 90, WarpDrvC = 1"														50
+Warp Drive 12 Miniature	TAWrpM12	TBWrpM12	SDEngInf	Ship	WarpDvMC	ShipWarp	MthCm_94	TFTraPhy	None	" SystCost = 1400, UniSpace *= 0.118, MaxWarp = 999 , teclvl = 94, WarpDvMC = 1"														
+Force Field 1	TAFFld01	TBFFld01	SDShdInf	" Ship, KEEPTHIS "	FrcFld01	ShldTech	Energ_09	TFElectr	None	" StpPow = 1, ShdStr = 200, Recharge =2, SystCost = 50, UniSpace *= 0.05 , teclvl = 09, FrcFld01 = 01"														51
+Force Field 2	TAFFld02	TBFFld02	SDShdInf	Ship	FrcFld02	ShldTech	Energ_17	TFElectr	None	" StpPow = 1, ShdStr = 500, Recharge = 5, SystCost = 63, UniSpace *= 0.05 , teclvl = 17, FrcFld02 = 02"														52
+Force Field 3	TAFFld03	TBFFld03	SDShdInf	Ship	FrcFld03	ShldTech	Energ_22	TFElectr	None	" StpPow = 1, ShdStr = 1000, Recharge = 15, SystCost = 79, UniSpace *= 0.05 , teclvl = 22, FrcFld03 = 03"														53
+Force Field 4	TAFFld04	TBFFld04	SDShdInf	Ship	FrcFld04	ShldTech	Energ_29	TFElectr	None	" StpPow = 1, ShdStr = 1750, Recharge = 36, SystCost = 100, UniSpace *= 0.05 , teclvl = 29, FrcFld04 = 04"														54
+Force Field 5	TAFFld05	TBFFld05	SDShdInf	Ship	FrcFld05	ShldTech	Energ_34	TFElectr	None	" StpPow = 1, ShdStr = 3000, Recharge = 75, SystCost = 126, UniSpace *= 0.05 , teclvl = 34, FrcFld05 = 05"														55
+Force Field 6	TAFFld06	TBFFld06	SDShdInf	Ship	FrcFld06	ShldTech	Energ_40	TFElectr	None	" StpPow = 1, ShdStr = 5000, Recharge = 150, SystCost = 159, UniSpace *= 0.05 , teclvl = 40, FrcFld06 = 06"														56
+Force Field 7	TAFFld07	TBFFld07	SDShdInf	Ship	FrcFld07	ShldTech	Energ_47	TFElectr	None	" StpPow = 1, ShdStr = 7000, Recharge = 250, SystCost = 200, UniSpace *= 0.05 , teclvl = 47, FrcFld07 = 07"														57
+Force Field 8	TAFFld08	TBFFld08	SDShdInf	Ship	FrcFld08	ShldTech	Energ_54	TFElectr	None	" StpPow = 1, ShdStr = 10000, Recharge = 400, SystCost = 251, UniSpace *= 0.05 , teclvl = 54, FrcFld08 = 08"														58
+Force Field 9	TAFFld09	TBFFld09	SDShdInf	Ship	FrcFld09	ShldTech	Energ_60	TFElectr	None	" StpPow = 1, ShdStr = 15000, Recharge = 680, SystCost = 317, UniSpace *= 0.05 , teclvl = 60, FrcFld09 = 09"														59
+Force Field 10	TAFFld10	TBFFld10	SDShdInf	Ship	FrcFld10	ShldTech	Energ_70	TFElectr	None	" StpPow =1, ShdStr = 20000, Recharge = 1000, SystCost = 400, UniSpace *= 0.05 , teclvl = 70, FrcFld10 = 10"														60
+Damper Field	TADmpFld	TBDmpFld	SDShdInf	Ship	DamprFld	ShldTech	Energ_66	TFElectr	None	" StpPow = 0.75, ShdStr = 100000, Recharge = 100000, SystCost = 1000, UniSpace *= 0.15 , teclvl = 66, DamprFld = 1"														61
+Small Shield Generator 	TASmShdG	TBSmShdG	ShipStnd	" Ship, Military, KEEPTHIS "	SmShdGen	ShdGenSz	Energ_07	TFElectr	None	" ShdStr *= 0.66, Recharge *= 0.5, SystCost *= 0.7, UniSpace *= 0.5 , teclvl = 07, SmShdGen = 1"														62
+Stand Shield Generator	TAStShdG	TBStShdG	ShipStnd	" Ship, Military, KEEPTHIS "	ShieldGn	ShdGenSz	Energ_16	TFElectr	None	" ShdStr *= 1, Recharge *= 1, SystCost *= 1, UniSpace *= 1 , teclvl = 16, ShieldGn = 1"														63
+Large Shield Generator	TALgShdG	TBLgShdG	ShipStnd	" Ship, Military "	LgShdGen	ShdGenSz	Energ_30	TFElectr	None	" ShdStr *= 1.5, Recharge *= 1.5, SystCost *= 2, UniSpace *= 1.5 , teclvl = 30, LgShdGen = 1"														64
+Planetary Shield Generator I	TAPlnSd1	TBPlnSd1	None	" Military, Planet, KEEPTHIS "	PlnShd01	PlanSecu	"Energ_25, MthCm_20"	PDefence	None	" ShdStr *= 100, Recharge *= 25, Cost=100, PlanDef += 4, CollatSz=30, CollatDs = 60, CollatCl=0, Employee = 0.2 , teclvl = 25, PlnShd01 = 01"														65
 Bridge	TABridge	TBBridge	ShipStnd	" Ship, KEEPTHIS "	Bridge	ShReqSys	Const_00	TFShpSup	None	" UniSpace *= .02, SystCost = 25 , teclvl = 00, Bridge = 1"														66
 Crew Quarters	TACrewQt	TBCrewQt	ShipStnd	" Ship, KEEPTHIS "	CrewQrtr	ShReqSys	Const_00	TFShpSup	None	" UniSpace *= .05, SystCost = 10 , teclvl = 00, CrewQrtr = 1"														67
 Life Support	TALifSup	TBLifSup	ShipStnd	" Ship, KEEPTHIS "	LifeSupp	ShReqSys	Const_00	TFShpSup	None	" UniSpace *= .02, SystCost = 40 , teclvl = 00, LifeSupp = 1"														68
@@ -197,127 +197,127 @@ Laser Cannon	TALserCn	TBLserCn	SDDirFir	" Ship, Military, KEEPTHIS "	LasrCann	Sh
 Continuous Laser	TACnLser	TBCnLser	None	" Ship, Military "	CnLasrCn	ShWepMod	Energ_02	TFBemWep	None	" InfoWeap >= 0, MaxAccry *= 1.5, UniSpace *= 1.25 , teclvl = 02, CnLasrCn = 1"														
 Armor Penetrating Laser	TAAPLasr	TBAPLasr	None	" Ship, Military "	APLasrCn	ShWepMod	Energ_05	TFBemWep	None	" InfoWeap >= 0, ArmrPier *= 0.75, UniSpace *= 1.5 , teclvl = 05, APLasrCn = 1"														
 Auto Fire Laser	TAAFLser	TBAFLser	None	" Ship, Military "	AFLasrCn	ShWepMod	Energ_07	TFBemWep	None	" InfoWeap >= 0, MultFire *= 3, UniSpace *= 2 , teclvl = 07, AFLasrCn = 1"														
-Laser Miniaturization I	TAM1Lser	TBM1Lser	None	" Ship, Military "	M1LasrCn	ShWepMod	Energ_03	TFBemWep	None	" InfoWeap >= 0,  UniSpace *= 0.8 , teclvl = 03, M1LasrCn = 1"														
-Laser Miniaturization II	TAM2Lser	TBM2Lser	None	" Ship, Military "	M2LasrCn	ShWepMod	Energ_07	TFBemWep	None	" InfoWeap >= 0,  UniSpace *= 0.8 , teclvl = 07, M2LasrCn = 1"														
 Laser Drone	TALasrDr	TBLasrDr	None	" Ship, Military "	LaserDro	ShWepMod	Energ_08	TFBemWep	None	" InfoWeap >= 0, UniSpace *= 0.3, NearDamg *= 0.75, FarDamag *= 0.5,  FireDlay *= 0.9, SystCost *= 2, AccDisSt *= 0.8, AccDisEn *= 0.8 , teclvl = 08, LaserDro = 1"														
 Improved Laser	TAImLser	TBImLser	None	" Ship, Military "	ImLasrCn	ShWepMod	Energ_09	TFBemWep	None	" InfoWeap >= 0, NearDamg *= 1.5, FarDamag *=1.1 , teclvl = 09, ImLasrCn = 1"														
-Mass Driver	TAMassDr	TBMassDr	SDDirFir	" Ship, Military, KEEPTHIS "	MassDrvr	ShWepSys	Energ_00	TFProWep	None	"InfoWeap <= 1, teclvl = 00, MassDrvr = 1"														
-Armor Penetrating Mass Driver	TAAPMass	TBAPMass	None	" Ship, Military "	APMassDr	ShWepMod	Energ_04	TFProWep	None	" InfoWeap >= 1, ArmrPier *= 0.75, UniSpace *= 1.5 , teclvl = 04, APMassDr = 1"														
-Auto Fire Mass Driver	TAAFMass	TBAFMass	None	" Ship, Military "	AFMassDr	ShWepMod	Energ_06	TFProWep	None	" InfoWeap >= 1, MultFire *= 3, UniSpace *= 2 , teclvl = 06, AFMassDr = 1"														
-Mass Driver Miniaturization I	TAMsDCn1	TBMsDCn1	None	" Ship, Military "	M1MsDrCn	ShWepMod	Energ_03	TFProWep	None	" InfoWeap >= 1, UniSpace *= 0.8 , teclvl = 03, M1MsDrCn = 1"														
-Mass Driver Miniaturization II	TAMsDCn2	TBMsDCn2	None	" Ship, Military "	M2MsDrCn	ShWepMod	Energ_07	TFProWep	None	" InfoWeap >= 1, UniSpace *= 0.8 , teclvl = 07, M2MsDrCn = 1"														
-Improved Mass Driver	TAImMass	TBImMass	None	" Ship, Military "	ImMassDr	ShWepMod	Energ_09	TFProWep	None	" InfoWeap >= 1, NearDamg *= 1.5, FarDamag *=1.1 , teclvl = 09, ImMassDr = 1"														
-Auto Fire Particle Beam	TAAFPtBm	TBAFPtBm	None	" Ship, Military, Ant, KEEPTHIS "	AFPhasBm	ShWepMod	Energ_36	TFPartWep	None	" InfoWeap >= 22, MultFire *= 3, UniSpace *= 2 , teclvl = 36, AFPhasBm = 1"
+Laser Miniaturization I	TAM1Lser	TBM1Lser	None	" Ship, Military "	M1LasrCn	ShWepMod	MthCm_03	TFBemWep	None	" InfoWeap >= 0,  UniSpace *= 0.8 , teclvl = 03, M1LasrCn = 1"														
+Laser Miniaturization II	TAM2Lser	TBM2Lser	None	" Ship, Military "	M2LasrCn	ShWepMod	MathCm_07	TFBemWep	None	" InfoWeap >= 0,  UniSpace *= 0.8 , teclvl = 07, M2LasrCn = 1"														
+Mass Driver	TAMassDr	TBMassDr	SDDirFir	" Ship, Military, KEEPTHIS "	MassDrvr	ShWepSys	Const_00	TFProWep	None	"InfoWeap <= 1, teclvl = 00, MassDrvr = 1"														
+Armor Penetrating Mass Driver	TAAPMass	TBAPMass	None	" Ship, Military "	APMassDr	ShWepMod	Const_04	TFProWep	None	" InfoWeap >= 1, ArmrPier *= 0.75, UniSpace *= 1.5 , teclvl = 04, APMassDr = 1"														
+Auto Fire Mass Driver	TAAFMass	TBAFMass	None	" Ship, Military "	AFMassDr	ShWepMod	Const_06	TFProWep	None	" InfoWeap >= 1, MultFire *= 3, UniSpace *= 2 , teclvl = 06, AFMassDr = 1"														
+Improved Mass Driver	TAImMass	TBImMass	None	" Ship, Military "	ImMassDr	ShWepMod	Const_09	TFProWep	None	" InfoWeap >= 1, NearDamg *= 1.5, FarDamag *=1.1 , teclvl = 09, ImMassDr = 1"														
+Mass Driver Miniaturization I	TAMsDCn1	TBMsDCn1	None	" Ship, Military "	M1MsDrCn	ShWepMod	MthCm_03	TFProWep	None	" InfoWeap >= 1, UniSpace *= 0.8 , teclvl = 03, M1MsDrCn = 1"														
+Mass Driver Miniaturization II	TAMsDCn2	TBMsDCn2	None	" Ship, Military "	M2MsDrCn	ShWepMod	MthCm_07	TFProWep	None	" InfoWeap >= 1, UniSpace *= 0.8 , teclvl = 07, M2MsDrCn = 1"														
 Fusion Cannon	TAFusCan	TBFusCan	SDDirFir	" Ship, Military "	FusionCn	ShWepSys	Energ_20	TFPlasWep	None	"InfoWeap <= 2, teclvl = 20, FusionCn = 1"
 Continuous Fusion Cannon	TACnFusn	TBCnFusn	None	" Ship, Military "	CnFusnCn	ShWepMod	Energ_22	TFPlasWep	None	" InfoWeap >= 2, MaxAccry *= 1.5, UniSpace *= 1.25 , teclvl = 22, CnFusnCn = 1"
 Enveloping Fusion Cannon	TAEnFusn	TBEnFusn	None	" Ship, Military "	EnFusnCn	ShWepMod	Energ_25	TFPlasWep	None	" InfoWeap >= 2, ShldPen *= 0.5, UniSpace *= 1.66 , teclvl = 25, EnFusnCn = 1"
-Fusion Cannon Miniaturization I	TAM1Fusn	TBM1Fusn	None	" Ship, Military "	M1FusnCn	ShWepMod	Energ_23	TFPlasWep	None	" InfoWeap >= 2,  UniSpace *= 0.8 , teclvl = 23, M1FusnCn = 1"
-Fusion Cannon Miniaturization II	TAM2Fusn	TBM2Fusn	None	" Ship, Military "	M2FusnCn	ShWepMod	Energ_27	TFPlasWep	None	" InfoWeap >= 2,  UniSpace *= 0.8 , teclvl = 27, M2FusnCn = 1"
 Improved Fusion Cannon	TAImFusn	TBImFusn	None	" Ship, Military "	ImFusnCn	ShWepMod	Energ_29	TFPlasWep	None	" InfoWeap >= 2, NearDamg *= 1.5, UniSpace *= 1, FarDamag *=1.1 , teclvl = 29, ImFusnCn = 1"
+Fusion Cannon Miniaturization I	TAM1Fusn	TBM1Fusn	None	" Ship, Military "	M1FusnCn	ShWepMod	MthCm_23	TFPlasWep	None	" InfoWeap >= 2,  UniSpace *= 0.8 , teclvl = 23, M1FusnCn = 1"
+Fusion Cannon Miniaturization II	TAM2Fusn	TBM2Fusn	None	" Ship, Military "	M2FusnCn	ShWepMod	MthCm_27	TFPlasWep	None	" InfoWeap >= 2,  UniSpace *= 0.8 , teclvl = 27, M2FusnCn = 1"
 Quark Cannon	TAPart05	TBPart05	SDDirFir	" Ship, Military "	PartBm05	ShWepSys	Energ_20	TFPartWep	None	"InfoWeap <= 3, teclvl = 20, PartBm05 = 05"
 Continuous Quark Cannon	TACnPrt5	TBCnPrt5	None	" Ship, Military "	CnPart05	ShWepMod	Energ_22	TFPartWep	None	" InfoWeap >= 3, MaxAccry *= 1.5, UniSpace *= 1.25 , teclvl = 22, CnPart05 = 05"
-Quark Cannon Miniaturization I	TAPrt5M1	TBPrt5M1	None	" Ship, Military "	Part05M1	ShWepMod	Energ_23	TFPartWep	None	" InfoWeap >= 3, UniSpace *= 0.8 , teclvl = 23, Part05M1 = 1"
-Quark Cannon Miniaturization II	TAprt5M2	TBprt5M2	None	" Ship, Military "	Part05M2	ShWepMod	Energ_27	TFPartWep	None	" InfoWeap >= 3, UniSpace *= 0.8 , teclvl = 27, Part05M2 = 2"
 Improved Quark Cannon 	TAImPrt5	TBImPrt5	None	" Ship, Military "	ImPart05	ShWepMod	Energ_29	TFPartWep	None	" InfoWeap >= 3, NearDamg *= 1.5, FarDamag *=1.1 , teclvl = 29, ImPart05 = 05"
+Quark Cannon Miniaturization I	TAPrt5M1	TBPrt5M1	None	" Ship, Military "	Part05M1	ShWepMod	MthCm_23	TFPartWep	None	" InfoWeap >= 3, UniSpace *= 0.8 , teclvl = 23, Part05M1 = 1"
+Quark Cannon Miniaturization II	TAprt5M2	TBprt5M2	None	" Ship, Military "	Part05M2	ShWepMod	MthCm_27	TFPartWep	None	" InfoWeap >= 3, UniSpace *= 0.8 , teclvl = 27, Part05M2 = 2"
 Hard Beam	TABeam10	TBBeam10	SDDirFir	" Ship, Military "	Beam_10	ShWepSys	Energ_20	TFBemWep	None	"InfoWeap <= 4, teclvl = 20, Beam_10 = 10"
 Continuous Hard Beam	TACnBm10	TBCnBm10	None	" Ship, Military "	CnBeam10	ShWepMod	Energ_22	TFBemWep	None	" InfoWeap >= 4, MaxAccry *= 1.5, UniSpace *= 1.25 , teclvl = 22, CnBeam10 = 10"
-Hard Beam Miniaturization I	TABm10M1	TBBm10M1	None	" Ship, Military "	Beam10M1	ShWepMod	Energ_23	TFBemWep	None	" InfoWeap >= 4, UniSpace *= 0.8 , teclvl = 23, Beam10M1 = 1"
 Armor Piercing Hard Beam	TAAPBm10	TBAPBm10	None	" Ship, Military "	APBeam10	ShWepMod	Energ_24	TFBemWep	None	" InfoWeap >= 4, ArmrPier *= 0.75, UniSpace *= 1.5 , teclvl = 24, APBeam10 = 10"
 Auto Fire Hard Beam	TAAFBm10	TBAFBm10	None	" Ship, Military "	AFBeam10	ShWepMod	Energ_26	TFBemWep	None	" InfoWeap >= 4, MultFire *= 3, UniSpace *= 2 , teclvl = 26, AFBeam10 = 10"
-Hard Beam Miniaturization II	TABm10M2	TBBm10M2	None	" Ship, Military "	Beam10M2	ShWepMod	Energ_27	TFBemWep	None	" InfoWeap >= 4, UniSpace *= 0.8 , teclvl = 27, Beam10M2 = 2"
 Improved Hard Beam 	TAImBm10	TBImBm10	None	" Ship, Military "	ImBeam10	ShWepMod	Energ_29	TFBemWep	None	" InfoWeap >= 4, NearDamg *= 1.5, FarDamag *=1.1 , teclvl = 29, ImBeam10 = 10"
+Hard Beam Miniaturization I	TABm10M1	TBBm10M1	None	" Ship, Military "	Beam10M1	ShWepMod	MthCm_23	TFBemWep	None	" InfoWeap >= 4, UniSpace *= 0.8 , teclvl = 23, Beam10M1 = 1"
+Hard Beam Miniaturization II	TABm10M2	TBBm10M2	None	" Ship, Military "	Beam10M2	ShWepMod	MthCm_27	TFBemWep	None	" InfoWeap >= 4, UniSpace *= 0.8 , teclvl = 27, Beam10M2 = 2"
 Neutron Blaster	TANeutBl	TBNeutBl	SDDirFir	" Ship, Military "	NeutronB	ShWepSys	Energ_40	TFPartWep	None	"InfoWeap <= 5, teclvl = 40, NeutronB = 1"
 Continuous Neutron Blaster	TACnNtBl	TBCnNtBl	None	" Ship, Military "	CnNeutnB	ShWepMod	Energ_42	TFPartWep	None	" InfoWeap >= 5, MaxAccry *= 1.5, UniSpace *= 1.25 , teclvl = 42, CnNeutnB = 1"
-Neutron Blaster Miniaturization I	TAM1NtBl	TBM1NtBl	None	" Ship, Military "	M1NeutnB	ShWepMod	Energ_43	TFPartWep	None	" InfoWeap >= 5,  UniSpace *= 0.8 , teclvl = 43, M1NeutnB = 1"
 Armor Piercing Neutron Blaster	TAAPNtBl	TBAPNtBl	None	" Ship, Military "	APNeutBl	ShWepMod	Energ_44	TFPartWep	None	" InfoWeap >= 5, ArmrPier *= 0.75, UniSpace *= 1.5 , teclvl = 44, APNeutBl = 1"
-Neutron Blaster Miniaturization II	TAM2NtBl	TBM2NtBl	None	" Ship, Military "	M2NeutnB	ShWepMod	Energ_47	TFPartWep	None	" InfoWeap >= 5,  UniSpace *= 0.8 , teclvl = 47, M2NeutnB = 1"
 Improved Neutron Blaster	TAImNtBl	TBImNtBl	None	" Ship, Military "	ImNeutnB	ShWepMod	Energ_49	TFPartWep	None	" InfoWeap >= 5, NearDamg *= 1.5, UniSpace *= 1, FarDamag *=1.1 , teclvl = 49, ImNeutnB = 1"
-Rail Gun	TAMass10	TBMass10	SDDirFir	" Ship, Military "	Mass_10	ShWepSys	Energ_40	TFProWep	None	"InfoWeap <= 6, teclvl = 40, Mass_10 = 10"
-Rail Gun Miniaturization I	TAMa10M1	TBMa10M1	None	" Ship, Military "	Mass10M1	ShWepMod	Energ_43	TFProWep	None	" InfoWeap >= 6, UniSpace *= 0.8 , teclvl = 43, Mass10M1 = 1"
-Armor Piercing Rail Gun	TAAPMa10	TBAPMa10	None	" Ship, Military "	APMass10	ShWepMod	Energ_44	TFProWep	None	" InfoWeap >= 6, ArmrPier *= 0.75, UniSpace *= 1.5 , teclvl = 44, APMass10 = 10"
-Rail Gun Miniaturization II	TAMa10M2	TBMa10M2	None	" Ship, Military "	Mass10M2	ShWepMod	Energ_47	TFProWep	None	" InfoWeap >= 6, UniSpace *= 0.8 , teclvl = 47, Mass10M2 = 2"
-Improved Rail Gun 	TAImMa10	TBImMa10	None	" Ship, Military "	ImMass10	ShWepMod	Energ_49	TFProWep	None	" InfoWeap >= 6, NearDamg *= 1.5, FarDamag *=1.1 , teclvl = 49, ImMass10 = 10"
+Neutron Blaster Miniaturization I	TAM1NtBl	TBM1NtBl	None	" Ship, Military "	M1NeutnB	ShWepMod	MthCm_43	TFPartWep	None	" InfoWeap >= 5,  UniSpace *= 0.8 , teclvl = 43, M1NeutnB = 1"
+Neutron Blaster Miniaturization II	TAM2NtBl	TBM2NtBl	None	" Ship, Military "	M2NeutnB	ShWepMod	MthCm_47	TFPartWep	None	" InfoWeap >= 5,  UniSpace *= 0.8 , teclvl = 47, M2NeutnB = 1"
+Rail Gun	TAMass10	TBMass10	SDDirFir	" Ship, Military "	Mass_10	ShWepSys	Const_40	TFProWep	None	"InfoWeap <= 6, teclvl = 40, Mass_10 = 10"
+Armor Piercing Rail Gun	TAAPMa10	TBAPMa10	None	" Ship, Military "	APMass10	ShWepMod	Const_44	TFProWep	None	" InfoWeap >= 6, ArmrPier *= 0.75, UniSpace *= 1.5 , teclvl = 44, APMass10 = 10"
+Improved Rail Gun 	TAImMa10	TBImMa10	None	" Ship, Military "	ImMass10	ShWepMod	Const_49	TFProWep	None	" InfoWeap >= 6, NearDamg *= 1.5, FarDamag *=1.1 , teclvl = 49, ImMass10 = 10"
+Rail Gun Miniaturization I	TAMa10M1	TBMa10M1	None	" Ship, Military "	Mass10M1	ShWepMod	MthCm_43	TFProWep	None	" InfoWeap >= 6, UniSpace *= 0.8 , teclvl = 43, Mass10M1 = 1"
+Rail Gun Miniaturization II	TAMa10M2	TBMa10M2	None	" Ship, Military "	Mass10M2	ShWepMod	MthCm_47	TFProWep	None	" InfoWeap >= 6, UniSpace *= 0.8 , teclvl = 47, Mass10M2 = 2"
 Graviton Beam	TAGravBm	TBGravBm	SDDirFir	" Ship, Military "	GravBeam	ShWepSys	Energ_40	TFPartWep	None	"InfoWeap <= 8, teclvl = 40, GravBeam = 1"
 Continuous Graviton Beam	TACnGrvB	TBCnGrvB	None	" Ship, Military "	CnGravBm	ShWepMod	Energ_42	TFPartWep	None	" InfoWeap >= 8, MaxAccry *= 1.5, UniSpace *= 1.25 , teclvl = 42, CnGravBm = 1"
-Graviton Beam Miniaturization I	TAM1GrvB	TBM1GrvB	None	" Ship, Military "	M1GravBm	ShWepMod	Energ_43	TFPartWep	None	" InfoWeap >= 8, UniSpace *= 0.8 , teclvl = 43, M1GravBm = 1"
 Armor Piercing Graviton Beam	TAAPGrvB	TBAPGrvB	None	" Ship, Military "	APGravBm	ShWepMod	Energ_44	TFPartWep	None	" InfoWeap >= 8, ArmrPier *= 0.75, UniSpace *= 1.5 , teclvl = 44, APGravBm = 1"
-Graviton Beam Miniaturization II	TAM2GrvB	TBM2GrvB	None	" Ship, Military "	M2GravBm	ShWepMod	Energ_47	TFPartWep	None	" InfoWeap >= 8, UniSpace *= 0.8 , teclvl = 47, M2GravBm = 1"
 Improved Graviton Beam	TAImGrvB	TBImGrvB	None	" Ship, Military "	ImGravBm	ShWepMod	Energ_49	TFPartWep	None	" InfoWeap >= 8, NearDamg *= 1.5, UniSpace *= 1, FarDamag *=1.1 , teclvl = 49, ImGravBm = 1"
+Graviton Beam Miniaturization I	TAM1GrvB	TBM1GrvB	None	" Ship, Military "	M1GravBm	ShWepMod	MthCm_43	TFPartWep	None	" InfoWeap >= 8, UniSpace *= 0.8 , teclvl = 43, M1GravBm = 1"
+Graviton Beam Miniaturization II	TAM2GrvB	TBM2GrvB	None	" Ship, Military "	M2GravBm	ShWepMod	MthCm_47	TFPartWep	None	" InfoWeap >= 8, UniSpace *= 0.8 , teclvl = 47, M2GravBm = 1"
 Hellfire Cannon	TAPlas15	TBPlas15	SDDirFir	" Ship, Military "	Plas_15	ShWepSys	Energ_40	TFPlasWep	None	"InfoWeap <= 7, teclvl = 40, Plas_15 = 15"
 Continuous Hellfire Cannon	TACnPl15	TBCnPl15	None	" Ship, Military "	CnPlas15	ShWepMod	Energ_42	TFPlasWep	None	" InfoWeap >= 7, MaxAccry *= 1.5, UniSpace *= 1.25 , teclvl = 42, CnPlas15 = 15"
-Hellfire Cannon Miniaturization I	TAPl15M1	TBPl15M1	None	" Ship, Military "	Plas15M1	ShWepMod	Energ_43	TFPlasWep	None	" InfoWeap >= 7, UniSpace *= 0.8 , teclvl = 43, Plas15M1 = 1"
 Enveloping Hellfire Cannon	TAEnPl15	TBEnPl15	None	" Ship, Military "	EnPlas15	ShWepMod	Energ_45	TFPlasWep	None	" InfoWeap >= 7, ShldPen *= 0.5, UniSpace *= 1.66 , teclvl = 45, EnPlas15 = 15"
-Hellfire Cannon Miniaturization II	TAPl15M2	TBPl15M2	None	" Ship, Military "	Plas15M2	ShWepMod	Energ_47	TFPlasWep	None	" InfoWeap >= 7, UniSpace *= 0.8 , teclvl = 47, Plas15M2 = 2"
 Improved Hellfire Cannon 	TAImPl15	TBImPl15	None	" Ship, Military "	ImPlas15	ShWepMod	Energ_49	TFPlasWep	None	" InfoWeap >= 7, NearDamg *= 1.5, FarDamag *=1.1 , teclvl = 49, ImPlas15 = 15"
+Hellfire Cannon Miniaturization I	TAPl15M1	TBPl15M1	None	" Ship, Military "	Plas15M1	ShWepMod	MthCm_43	TFPlasWep	None	" InfoWeap >= 7, UniSpace *= 0.8 , teclvl = 43, Plas15M1 = 1"
+Hellfire Cannon Miniaturization II	TAPl15M2	TBPl15M2	None	" Ship, Military "	Plas15M2	ShWepMod	MthCm_47	TFPlasWep	None	" InfoWeap >= 7, UniSpace *= 0.8 , teclvl = 47, Plas15M2 = 2"
 Ion Pulse Cannon	TAIonCan	TBIonCan	SDDirFir	" Ship, Military "	IPCannon	ShWepSys	Energ_79	TFBemWep	None	"InfoWeap <= 18, teclvl = 79, IPCannon = 1"
-Ion Pulse Cannon Miniaturization I	TAIonCn1	TBIonCn1	None	" Ship, Military "	M1IonPCn	ShWepMod	Energ_82	TFBemWep	None	" InfoWeap >= 18, UniSpace *= 0.8 , teclvl = 82, M1IonPCn = 1"
 Auto Fire Ion Pulse Cannon	TAAFIonP	TBAFIonP	None	" Ship, Military "	AFIonPls	ShWepMod	Energ_85	TFBemWep	None	" InfoWeap >= 18, MultFire *= 3, UniSpace *= 2 , teclvl = 85, AFIonPls = 1"
-Ion Pulse Cannon Miniaturization II	TAIonCn2	TBIonCn2	None	" Ship, Military "	M2IonPCn	ShWepMod	Energ_86	TFBemWep	None	" InfoWeap >= 18, UniSpace *= 0.8 , teclvl = 86, M2IonPCn = 1"
 Improved Ion Pulse Cannon	TAImIonP	TBImIonP	None	" Ship, Military "	ImIonPls	ShWepMod	Energ_88	TFBemWep	None	" InfoWeap >= 18, NearDamg *= 1.5, FarDamag *=1.1 , teclvl = 88, ImIonPls = 1"
+Ion Pulse Cannon Miniaturization I	TAIonCn1	TBIonCn1	None	" Ship, Military "	M1IonPCn	ShWepMod	MthCm_82	TFBemWep	None	" InfoWeap >= 18, UniSpace *= 0.8 , teclvl = 82, M1IonPCn = 1"
+Ion Pulse Cannon Miniaturization II	TAIonCn2	TBIonCn2	None	" Ship, Military "	M2IonPCn	ShWepMod	MthCm_86	TFBemWep	None	" InfoWeap >= 18, UniSpace *= 0.8 , teclvl = 86, M2IonPCn = 1"
 Particle Beam	TAPartBm	TBPartBm	SDDirFir	" Ship, Military, Ant, KEEPTHIS, NoTrade "	PartBeam	ShWepSys	Energ_30	TFPartWep	None	"InfoWeap <= 22, teclvl = 30, PartBeam = 1"
-Particle Beam Miniaturization I	TAM1PtBm	TBM1PtBm	None	" Ship, Military, Ant, KEEPTHIS, NoTrade "	M1PartBm	ShWepMod	Energ_34	TFPartWep	None	" InfoWeap >= 22,  UniSpace *= 0.8 , teclvl = 34, M1PartBm = 1"
-Particle Beam Miniaturization II	TAM2PtBm	TBM2PtBm	None	" Ship, Military, Ant, KEEPTHIS, NoTrade "	M2PartBm	ShWepMod	Energ_38	TFPartWep	None	" InfoWeap >= 22,  UniSpace *= 0.8 , teclvl = 38, M2PartBm = 1"
+Auto Fire Particle Beam	TAAFPtBm	TBAFPtBm	None	" Ship, Military, Ant, KEEPTHIS "	AFPhasBm	ShWepMod	Energ_36	TFPartWep	None	" InfoWeap >= 22, MultFire *= 3, UniSpace *= 2 , teclvl = 36, AFPhasBm = 1"
 Improved Particle Beam	TAImPtBm	TBImPtBm	None	" Ship, Military, Ant, KEEPTHIS, NoTrade "	ImPartBm	ShWepMod	Energ_42	TFPartWep	None	" InfoWeap >= 22, NearDamg *= 1.5, FarDamag *=1.1 , teclvl = 42, ImPartBm = 1"
+Particle Beam Miniaturization I	TAM1PtBm	TBM1PtBm	None	" Ship, Military, Ant, KEEPTHIS, NoTrade "	M1PartBm	ShWepMod	MthCm_34	TFPartWep	None	" InfoWeap >= 22,  UniSpace *= 0.8 , teclvl = 34, M1PartBm = 1"
+Particle Beam Miniaturization II	TAM2PtBm	TBM2PtBm	None	" Ship, Military, Ant, KEEPTHIS, NoTrade "	M2PartBm	ShWepMod	MthCm_38	TFPartWep	None	" InfoWeap >= 22,  UniSpace *= 0.8 , teclvl = 38, M2PartBm = 1"
 Phasor Beam	TAPhasBm	TBPhasBm	SDDirFir	" Ship, Military "	PhaBeam	ShWepSys	Energ_60	TFBemWep	None	"InfoWeap <= 9, teclvl = 60, PhaBeam = 1"
 Continuous Phasor Beam	TACnPhsB	TBCnPhsB	None	" Ship, Military "	CnPhasBm	ShWepMod	Energ_62	TFBemWep	None	" InfoWeap >= 9, MaxAccry *= 1.5, UniSpace *= 1.25 , teclvl = 62, CnPhasBm = 1"
-Phasor Beam Miniaturization I	TAM1PhsB	TBM1PhsB	None	" Ship, Military "	M1PhasBm	ShWepMod	Energ_63	TFBemWep	None	" InfoWeap >= 9, UniSpace *= 0.8 , teclvl = 63, M1PhasBm = 1"
 Armor Penetrating Phasor Beam	TAAPPhas	TBAPPhas	None	" Ship, Military "	APPhasBm	ShWepMod	Energ_64	TFBemWep	None	" InfoWeap >= 9, ArmrPier *= 0.75, UniSpace *= 1.5 , teclvl = 64, APPhasBm = 1"
 Auto Fire Phasor Beam	TAAFPhas	TBAFPhas	None	" Ship, Military "	AFPhasBm	ShWepMod	Energ_66	TFBemWep	None	" InfoWeap >= 9, MultFire *= 3, UniSpace *= 2 , teclvl = 66, AFPhasBm = 1"
-Phasor Beam Miniaturization II	TAM2PhsB	TBM2PhsB	None	" Ship, Military "	M2PhasBm	ShWepMod	Energ_67	TFBemWep	None	" InfoWeap >= 9, UniSpace *= 0.8 , teclvl = 67, M2PhasBm = 1"
 Improved Phasor Beam	TAImPhsB	TBImPhsB	None	" Ship, Military "	ImPhasBm	ShWepMod	Energ_69	TFBemWep	None	" InfoWeap >= 9, NearDamg *= 1.5, UniSpace *= 1, FarDamag *=1.1 , teclvl = 69, ImPhasBm = 1"
+Phasor Beam Miniaturization I	TAM1PhsB	TBM1PhsB	None	" Ship, Military "	M1PhasBm	ShWepMod	MthCm_63	TFBemWep	None	" InfoWeap >= 9, UniSpace *= 0.8 , teclvl = 63, M1PhasBm = 1"
+Phasor Beam Miniaturization II	TAM2PhsB	TBM2PhsB	None	" Ship, Military "	M2PhasBm	ShWepMod	MthCm_67	TFBemWep	None	" InfoWeap >= 9, UniSpace *= 0.8 , teclvl = 67, M2PhasBm = 1"
 Plasma Cannon	TAPlasCn	TBPlasCn	SDDirFir	" Ship, Military "	PlasmaCan	ShWepSys	Energ_60	TFPlasWep	None	"InfoWeap <= 10, teclvl = 60, PlasmaCan = 1"
 Continuous Plasma Cannon	TACnPlas	TBCnPlas	None	" Ship, Military "	CnPlasCn	ShWepMod	Energ_62	TFPlasWep	None	" InfoWeap >= 10, MaxAccry *= 1.5, UniSpace *= 1.25 , teclvl = 62, CnPlasCn = 1"
-Plasma Cannon Miniaturization I	TAPlsCn1	TBPlsCn1	None	" Ship, Military "	M1PlasCn	ShWepMod	Energ_63	TFPlasWep	None	" InfoWeap >= 10, UniSpace *= 0.8 , teclvl = 63, M1PlasCn = 1"
 Enveloping Plasma Cannon	TAEnPlas	TBEnPlas	None	" Ship, Military "	EnPlasCn	ShWepMod	Energ_65	TFPlasWep	None	" InfoWeap >= 10, ShldPen *= 0.5, UniSpace *= 1.66 , teclvl = 65, EnPlasCn = 1"
-Plasma Cannon Miniaturization II	TAPlsCn2	TBPlsCn2	None	" Ship, Military "	M2PlasCn	ShWepMod	Energ_67	TFPlasWep	None	" InfoWeap >= 10, UniSpace *= 0.8 , teclvl = 67, M2PlasCn = 1"
 Improved Plasma Cannon	TAImPlsC	TBImPlsC	None	" Ship, Military "	ImPlasCn	ShWepMod	Energ_69	TFPlasWep	None	" InfoWeap >= 10, NearDamg *= 1.5, UniSpace *= 1, FarDamag *=1.1 , teclvl = 69, ImPlasCn = 1"
-Gauss Cannon	TAGaussC	TBGaussC	SDDirFir	" Ship, Military "	GaussCan	ShWepSys	Energ_60	TFProWep	None	"InfoWeap <= 12, teclvl = 60, GaussCan = 1"
-Gauss Cannon Miniaturization I	TAGsCCn1	TBGsCCn1	None	" Ship, Military "	M1GsCnCn	ShWepMod	Energ_63	TFProWep	None	" InfoWeap >= 12, UniSpace *= 0.8 , teclvl = 63, M1GsCnCn = 1"
-Armor Penetrating Gauss Cannon	TAAPGaus	TBAPGaus	None	" Ship, Military "	APGaussC	ShWepMod	Energ_64	TFProWep	None	" InfoWeap >= 12, ArmrPier *= 0.75, UniSpace *= 1.5 , teclvl = 64, APGaussC = 1"
-Auto Fire Gauss Cannon	TAAFGaus	TBAFGaus	None	" Ship, Military "	AFGaussF	ShWepMod	Energ_66	TFProWep	None	" InfoWeap >= 12, MultFire *= 3, UniSpace *= 2 , teclvl = 66, AFGaussF = 1"
-Gauss Cannon Miniaturization II	TAGsCCn2	TBGsCCn2	None	" Ship, Military "	M2GsCnCn	ShWepMod	Energ_67	TFProWep	None	" InfoWeap >= 12, UniSpace *= 0.8 , teclvl = 67, M2GsCnCn = 1"
-Improved Gauss Cannon	TAImGaus	TBImGaus	None	" Ship, Military "	ImGaussF	ShWepMod	Energ_69	TFProWep	None	" InfoWeap >= 12, NearDamg *= 1.5, FarDamag *=1.1 , teclvl = 69, ImGaussF = 1"
+Plasma Cannon Miniaturization I	TAPlsCn1	TBPlsCn1	None	" Ship, Military "	M1PlasCn	ShWepMod	MthCm_63	TFPlasWep	None	" InfoWeap >= 10, UniSpace *= 0.8 , teclvl = 63, M1PlasCn = 1"
+Plasma Cannon Miniaturization II	TAPlsCn2	TBPlsCn2	None	" Ship, Military "	M2PlasCn	ShWepMod	MthCm_67	TFPlasWep	None	" InfoWeap >= 10, UniSpace *= 0.8 , teclvl = 67, M2PlasCn = 1"
+Gauss Cannon	TAGaussC	TBGaussC	SDDirFir	" Ship, Military "	GaussCan	ShWepSys	Const_60	TFProWep	None	"InfoWeap <= 12, teclvl = 60, GaussCan = 1"
+Armor Penetrating Gauss Cannon	TAAPGaus	TBAPGaus	None	" Ship, Military "	APGaussC	ShWepMod	Const_64	TFProWep	None	" InfoWeap >= 12, ArmrPier *= 0.75, UniSpace *= 1.5 , teclvl = 64, APGaussC = 1"
+Auto Fire Gauss Cannon	TAAFGaus	TBAFGaus	None	" Ship, Military "	AFGaussF	ShWepMod	Const_66	TFProWep	None	" InfoWeap >= 12, MultFire *= 3, UniSpace *= 2 , teclvl = 66, AFGaussF = 1"
+Improved Gauss Cannon	TAImGaus	TBImGaus	None	" Ship, Military "	ImGaussF	ShWepMod	Const_69	TFProWep	None	" InfoWeap >= 12, NearDamg *= 1.5, FarDamag *=1.1 , teclvl = 69, ImGaussF = 1"
+Gauss Cannon Miniaturization I	TAGsCCn1	TBGsCCn1	None	" Ship, Military "	M1GsCnCn	ShWepMod	MthCm_63	TFProWep	None	" InfoWeap >= 12, UniSpace *= 0.8 , teclvl = 63, M1GsCnCn = 1"
+Gauss Cannon Miniaturization II	TAGsCCn2	TBGsCCn2	None	" Ship, Military "	M2GsCnCn	ShWepMod	MthCm_67	TFProWep	None	" InfoWeap >= 12, UniSpace *= 0.8 , teclvl = 67, M2GsCnCn = 1"
 Lightning Field Generator	TALtFldG	TBLtFldG	SDDirFir	" Ship, Military "	LtFldGen	ShWepSys	Energ_60	TFProWep	None	"InfoWeap <= 11, teclvl = 60, LtFldGen = 1"
 Dark Energy Beam	TAPart30	TBPart30	SDDirFir	" Ship, Military "	PartBm30	ShWepSys	Energ_60	TFPartWep	None	"InfoWeap <= 13, teclvl = 60, PartBm30 = 30"
 Continuous Dark Energy Beam	TACnPt30	TBCnPt30	None	" Ship, Military "	CnPart30	ShWepMod	Energ_62	TFPartWep	None	" InfoWeap >= 13, MaxAccry *= 1.5, UniSpace *= 1.25 , teclvl = 62, CnPart30 = 30"
-Dark Energy Beam Miniaturization I	TAPt30M1	TBPt30M1	None	" Ship, Military "	Part30M1	ShWepMod	Energ_63	TFPartWep	None	" InfoWeap >= 13, UniSpace *= 0.8 , teclvl = 63, Part30M1 = 1"
 Armor Piercing Dark Energy Beam	TAAPPt30	TBAPPt30	None	" Ship, Military "	APPart30	ShWepMod	Energ_64	TFPartWep	None	" InfoWeap >= 13, ArmrPier *= 0.75, UniSpace *= 1.5 , teclvl = 64, APPart30 = 30"
-Dark Energy Beam Miniaturization II	TAPt30M2	TBPt30M2	None	" Ship, Military "	Part30M2	ShWepMod	Energ_67	TFPartWep	None	" InfoWeap >= 13, UniSpace *= 0.8 , teclvl = 67, Part30M2 = 2"
 Improved Dark Energy Beam 	TAImPt30	TBImPt30	None	" Ship, Military "	ImPart30	ShWepMod	Energ_69	TFPartWep	None	" InfoWeap >= 13, NearDamg *= 1.5, FarDamag *=1.1 , teclvl = 69, ImPart30 = 30"
+Dark Energy Beam Miniaturization I	TAPt30M1	TBPt30M1	None	" Ship, Military "	Part30M1	ShWepMod	MthCm_63	TFPartWep	None	" InfoWeap >= 13, UniSpace *= 0.8 , teclvl = 63, Part30M1 = 1"
+Dark Energy Beam Miniaturization II	TAPt30M2	TBPt30M2	None	" Ship, Military "	Part30M2	ShWepMod	MthCm_67	TFPartWep	None	" InfoWeap >= 13, UniSpace *= 0.8 , teclvl = 67, Part30M2 = 2"
 Disruptor Cannon	TADisrCn	TBDisrCn	SDDirFir	" Ship, Military "	Disruptr	ShWepSys	Energ_79	TFProWep	None	"InfoWeap <= 14, teclvl = 79, Disruptr = 1"
-Disruptor Cannon Miniaturization I	TADisCn1	TBDisCn1	None	" Ship, Military "	M1DisrCn	ShWepMod	Energ_82	TFProWep	None	" InfoWeap >= 14, UniSpace *= 0.8 , teclvl = 82, M1DisrCn = 1"
 Armor Penetrating Disruptor Cannon	TAAPDisr	TBAPDisr	None	" Ship, Military "	APDisrCn	ShWepMod	Energ_83	TFProWep	None	" InfoWeap >= 14, ArmrPier *= 0.75, UniSpace *= 1.5 , teclvl = 83, APDisrCn = 1"
 Auto Fire Disruptor Cannon	TAAFDisr	TBAFDisr	None	" Ship, Military "	AFDisrCn	ShWepMod	Energ_85	TFProWep	None	" InfoWeap >= 14, MultFire *= 3, UniSpace *= 2 , teclvl = 85, AFDisrCn = 1"
-Disruptor Cannon Miniaturization II	TADisCn2	TBDisCn2	None	" Ship, Military "	M2DisrCn	ShWepMod	Energ_86	TFProWep	None	" InfoWeap >= 14, UniSpace *= 0.8 , teclvl = 86, M2DisrCn = 1"
 Improved Disruptor Cannon	TAImDisr	TBImDisr	None	" Ship, Military "	ImDisrCn	ShWepMod	Energ_88	TFProWep	None	" InfoWeap >= 14, NearDamg *= 1.5, UniSpace *= 1, FarDamag *=1.1 , teclvl = 88, ImDisrCn = 1"
+Disruptor Cannon Miniaturization I	TADisCn1	TBDisCn1	None	" Ship, Military "	M1DisrCn	ShWepMod	MthCm_82	TFProWep	None	" InfoWeap >= 14, UniSpace *= 0.8 , teclvl = 82, M1DisrCn = 1"
+Disruptor Cannon Miniaturization II	TADisCn2	TBDisCn2	None	" Ship, Military "	M2DisrCn	ShWepMod	MthCm_86	TFProWep	None	" InfoWeap >= 14, UniSpace *= 0.8 , teclvl = 86, M2DisrCn = 1"
 Death Ray	TADethRy	TBDethRy	SDDirFir	" Ship, Military, Ant, KEEPTHIS, NoTrade "	DeathRay	ShWepSys	Energ_30	TFPartWep	None	"InfoWeap <= 23, teclvl = 30, DeathRay = 1"
-Death Ray Miniaturization I	TAM1Deth	TBM1Deth	None	" Ship, Military, Ant, KEEPTHIS, NoTrade "	M1DeathR	ShWepMod	Energ_34	TFPartWep	None	" InfoWeap >= 23,  UniSpace *= 0.8 , teclvl = 34, M1DeathR = 1"
-Death Ray Miniaturization II	TAM2Deth	TBM2Deth	None	" Ship, Military, Ant, KEEPTHIS, NoTrade "	M2DeathR	ShWepMod	Energ_38	TFPartWep	None	" InfoWeap >= 23,  UniSpace *= 0.8 , teclvl = 38, M2DeathR = 1"
+Death Ray Miniaturization I	TAM1Deth	TBM1Deth	None	" Ship, Military, Ant, KEEPTHIS, NoTrade "	M1DeathR	ShWepMod	MthCm_34	TFPartWep	None	" InfoWeap >= 23,  UniSpace *= 0.8 , teclvl = 34, M1DeathR = 1"
+Death Ray Miniaturization II	TAM2Deth	TBM2Deth	None	" Ship, Military, Ant, KEEPTHIS, NoTrade "	M2DeathR	ShWepMod	MthCm_38	TFPartWep	None	" InfoWeap >= 23,  UniSpace *= 0.8 , teclvl = 38, M2DeathR = 1"
 Improved Death Ray	TAImDeth	TBImDeth	None	" Ship, Military, Ant, KEEPTHIS, NoTrade "	ImDeathR	ShWepMod	Energ_42	TFPartWep	None	" InfoWeap >= 23, NearDamg *= 1.5, FarDamag *=1.1 , teclvl = 42, ImDeathR = 1"
 Disintegration Beam	TABeam35	TBBeam35	SDDirFir	" Ship, Military "	Beam_35	ShWepSys	Energ_79	TFBemWep	None	"InfoWeap <= 15, teclvl = 79, Beam_35 = 35"
 Continuous Disintegration Beam	TACnBm35	TBCnBm35	None	" Ship, Military "	CnBeam35	ShWepMod	Energ_81	TFBemWep	None	" InfoWeap >= 15, MaxAccry *= 1.5, UniSpace *= 1.25 , teclvl = 81, CnBeam35 = 35"
-Disintegration Beam Miniaturization I	TABm35M1	TBBm35M1	None	" Ship, Military "	Beam35M1	ShWepMod	Energ_82	TFBemWep	None	" InfoWeap >= 15, UniSpace *= 0.8 , teclvl = 82, Beam35M1 = 1"
 Armor Piercing Disintegration Beam	TAAPBm35	TBAPBm35	None	" Ship, Military "	APBeam35	ShWepMod	Energ_83	TFBemWep	None	" InfoWeap >= 15, ArmrPier *= 0.75, UniSpace *= 1.5 , teclvl = 83, APBeam35 = 35"
 Auto Fire Disintegration Beam	TAAFBm35	TBAFBm35	None	" Ship, Military "	AFBeam35	ShWepMod	Energ_85	TFBemWep	None	" InfoWeap >= 15, MultFire *= 3, UniSpace *= 2 , teclvl = 85, AFBeam35 = 35"
-Disintegration Beam Miniaturization II	TABm35M2	TBBm35M2	None	" Ship, Military "	Beam35M2	ShWepMod	Energ_86	TFBemWep	None	" InfoWeap >= 15, UniSpace *= 0.8 , teclvl = 86, Beam35M2 = 2"
 Improved Disintegration Beam 	TAImBm35	TBImBm35	None	" Ship, Military "	ImBeam35	ShWepMod	Energ_88	TFBemWep	None	" InfoWeap >= 15, NearDamg *= 1.5, FarDamag *=1.1 , teclvl = 88, ImBeam35 = 35"
+Disintegration Beam Miniaturization I	TABm35M1	TBBm35M1	None	" Ship, Military "	Beam35M1	ShWepMod	MthCm_82	TFBemWep	None	" InfoWeap >= 15, UniSpace *= 0.8 , teclvl = 82, Beam35M1 = 1"
+Disintegration Beam Miniaturization II	TABm35M2	TBBm35M2	None	" Ship, Military "	Beam35M2	ShWepMod	MthCm_86	TFBemWep	None	" InfoWeap >= 15, UniSpace *= 0.8 , teclvl = 86, Beam35M2 = 2"
 Megabolt Cannon	TAPlas35	TBPlas35	SDDirFir	" Ship, Military "	Plas_35	ShWepSys	Energ_79	TFPlasWep	None	"InfoWeap <= 16, teclvl = 79, Plas_35 = 35"
 Continuous Megabolt Cannon	TACnPl35	TBCnPl35	None	" Ship, Military "	CnPlas35	ShWepMod	Energ_81	TFPlasWep	None	" InfoWeap >= 16, MaxAccry *= 1.5, UniSpace *= 1.25 , teclvl = 81, CnPlas35 = 35"
-Megabolt Cannon Miniaturization I	TAPl35M1	TBPl35M1	None	" Ship, Military "	Plas35M1	ShWepMod	Energ_82	TFPlasWep	None	" InfoWeap >= 16, UniSpace *= 0.8 , teclvl = 82, Plas35M1 = 1"
 Enveloping Megabolt Cannon	TAEnPl35	TBEnPl35	None	" Ship, Military "	EnPlas35	ShWepMod	Energ_84	TFPlasWep	None	" InfoWeap >= 16, ShldPen *= 0.5, UniSpace *= 1.66 , teclvl = 84, EnPlas35 = 35"
-Megabolt Cannon Miniaturization II	TAPl35M2	TBPl35M2	None	" Ship, Military "	Plas35M2	ShWepMod	Energ_86	TFPlasWep	None	" InfoWeap >= 16, UniSpace *= 0.8 , teclvl = 86, Plas35M2 = 2"
 Improved Megabolt Cannon 	TAImPl35	TBImPl35	None	" Ship, Military "	ImPlas35	ShWepMod	Energ_88	TFPlasWep	None	" InfoWeap >= 16, NearDamg *= 1.5, FarDamag *=1.1 , teclvl = 88, ImPlas35 = 35"
+Megabolt Cannon Miniaturization I	TAPl35M1	TBPl35M1	None	" Ship, Military "	Plas35M1	ShWepMod	MthCm_82	TFPlasWep	None	" InfoWeap >= 16, UniSpace *= 0.8 , teclvl = 82, Plas35M1 = 1"
+Megabolt Cannon Miniaturization II	TAPl35M2	TBPl35M2	None	" Ship, Military "	Plas35M2	ShWepMod	MthCm_86	TFPlasWep	None	" InfoWeap >= 16, UniSpace *= 0.8 , teclvl = 86, Plas35M2 = 2"
 Tachyon Beam	TAPart40	TBPart40	SDDirFir	" Ship, Military "	PartBm40	ShWepSys	Energ_79	TFPartWep	None	"InfoWeap <= 17, teclvl = 79, PartBm40 = 40"
 Continuous Tachyon Beam	TACnPt40	TBCnPt40	None	" Ship, Military "	CnPart40	ShWepMod	Energ_81	TFPartWep	None	" InfoWeap >= 17, MaxAccry *= 1.5, UniSpace *= 1.25 , teclvl = 81, CnPart40 = 40"
-Tachyon Beam Miniaturization I	TAPt40M1	TBPt40M1	None	" Ship, Military "	Part40M1	ShWepMod	Energ_82	TFPartWep	None	" InfoWeap >= 17, UniSpace *= 0.8 , teclvl = 82, Part40M1 = 1"
 Armor Piercing Tachyon Beam	TAAPPt40	TBAPPt40	None	" Ship, Military "	APPart40	ShWepMod	Energ_83	TFPartWep	None	" InfoWeap >= 17, ArmrPier *= 0.75, UniSpace *= 1.5 , teclvl = 83, APPart40 = 40"
-Tachyon Beam Miniaturization II	TAPt40M2	TBPt40M2	None	" Ship, Military "	Part40M2	ShWepMod	Energ_86	TFPartWep	None	" InfoWeap >= 17, UniSpace *= 0.8 , teclvl = 86, Part40M2 = 2"
+Tachyon Beam Miniaturization I	TAPt40M1	TBPt40M1	None	" Ship, Military "	Part40M1	ShWepMod	MthCm_82	TFPartWep	None	" InfoWeap >= 17, UniSpace *= 0.8 , teclvl = 82, Part40M1 = 1"
+Tachyon Beam Miniaturization II	TAPt40M2	TBPt40M2	None	" Ship, Military "	Part40M2	ShWepMod	MthCm_86	TFPartWep	None	" InfoWeap >= 17, UniSpace *= 0.8 , teclvl = 86, Part40M2 = 2"
 Dark Matter Projector	TAMass45	TBMass45	SDDirFir	" Ship, Military "	Mass_45	ShWepSys	Energ_95	TFProWep	None	"InfoWeap <= 19, teclvl = 95, Mass_45 = 45"
 Auto Fire Dark Matter Projector	TAAFMa45	TBAFMa45	None	" Ship, Military "	AFMass45	ShWepMod	Energ_98	TFProWep	None	" InfoWeap >= 19, MultFire *= 3, UniSpace *= 2 , teclvl = 98, AFMass45 = 45"
 Armor Piercing Dark Matter Projector	TAAPMa45	TBAPMa45	None	" Ship, Military "	APMass45	ShWepMod	Energ_98	TFProWep	None	" InfoWeap >= 19, ArmrPier *= 0.75, UniSpace *= 1.5 , teclvl = 98, APMass45 = 45"
-Dark Matter Projector Miniaturization I	TAMa45M1	TBMa45M1	None	" Ship, Military "	Mass45M1	ShWepMod	Energ_98	TFProWep	None	" InfoWeap >= 19, UniSpace *= 0.8 , teclvl = 98, Mass45M1 = 1"
+Dark Matter Projector Miniaturization I	TAMa45M1	TBMa45M1	None	" Ship, Military "	Mass45M1	ShWepMod	MthCm_98	TFProWep	None	" InfoWeap >= 19, UniSpace *= 0.8 , teclvl = 98, Mass45M1 = 1"
 Mauler	TAMauler	TBMauler	SDDirFir	" Ship, Military "	MaulerDv	ShWepSys	Energ_95	TFPlasWep	None	"InfoWeap <= 20, teclvl = 95, MaulerDv = 1"
-Mauler Miniaturization I	TAMlrCn1	TBMlrCn1	None	" Ship, Military "	M1MaulCn	ShWepMod	Energ_98	TFPlasWep	None	" InfoWeap >= 20, UniSpace *= 0.8 , teclvl = 98, M1MaulCn = 1"
+Mauler Miniaturization I	TAMlrCn1	TBMlrCn1	None	" Ship, Military "	M1MaulCn	ShWepMod	MthCm_98	TFPlasWep	None	" InfoWeap >= 20, UniSpace *= 0.8 , teclvl = 98, M1MaulCn = 1"
 Stellar Converter	TAStlCnv	TBStlCnv	SDDirFir	" Ship, Military "	StelConv	ShWepSys	Energ_98	TFBemWep	None	" InfoWeap <= 21, PntDstWp = 1 , teclvl = 98, StelConv = 1"
 Invasion Pods	TAInvPod	TBInvPod	SDDirFir	" Ship, Military "	InvaPods	ShWepSys	Energ_72	TFBemWep	None	" InfoWeap <= 25, PntDstWp = 1 , teclvl = 72, InvaPods = 1"																					
 Kohr-Ahr Spinner	TASpiner	TBSpiner	SDDirFir	" Ship, Military "	KSpinner	ShWepSys	Energ_98	TFProWep	None	"InfoWeap <= 24, teclvl = 98, KSpinner = 1"																					
