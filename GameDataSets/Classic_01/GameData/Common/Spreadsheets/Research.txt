@@ -1,0 +1,94 @@
+TableStart	ProjectOverrun
+ColumnHeadingsStart	Percentage
+RowHeadingsStart	
+70	0
+75	0.1
+80	0.2
+85	0.3
+90	0.4
+95	0.5
+100	0.75
+200	0.9
+TableEnd	
+
+
+
+TableStart	OverrunAmount				
+ColumnHeadingsStart	StartPercent	EndPercent			
+RowHeadingsStart					
+19	1	15			
+29	2	18			
+39	6	20			
+49	6	20			
+74	7	25			
+89	8	35			
+200	9	45			
+TableEnd					
+
+
+TableStart	OverrunBonus				
+ColumnHeadingsStart	Amount				
+RowHeadingsStart			
+1	0		
+20	0.1		
+45	0.2		
+75	0.3		
+95	0.5		
+200	0.75		
+TableEnd			
+			
+			
+TableStart	ResearchDefaults		
+ColumnHeadingsStart	Default1	Default2	Default3
+RowHeadingsStart			
+Primary Field Cost	0.3		
+Secondary Field Cost	0.05		
+Percentage Per Turn	0.13	0.25	
+Discovery	76		
+Oppressometer	1	2	-3
+Ability	-1	1	
+Overrequired Primary	-2		
+Overrequired Secondary	-1		
+Number Overruns Mod	5		
+PercentForFundamental	80		
+TableEnd			
+
+
+TableStart	Fundlevel		
+ColumnHeadingsStart	Overrun		
+RowHeadingsStart			
+0    	0		
+Cancel	0		
+ 1/4	-3		
+ 1/2	-2			
+ 3/4	-1			
+Full	0			
+Crash	10			
+TableEnd				
+
+
+TableStart	Risklevel			
+ColumnHeadingsStart	Risk	CrashPercent		
+RowHeadingsStart				
+20	Minimal Risk	80		
+26	Low Risk	50		
+34	Moderate Risk	20		
+40	High Risk	0		
+200	Very High Risk	0		
+TableEnd				
+				
+
+These factors are multiplied by the appropriate values to get the number of ping pong balls				
+	to use when deciding to start or cancel a project			
+TableStart	PingPongs			
+ColumnHeadingsStart	StartFactor	CancelFactor		
+RowHeadingsStart				
+HelpPriority	2	2		
+HelpAmount	0.9	0.9		
+HurtPriority	1	1		
+HurtAmount	0.8	0.8		
+Risk	1.2	1.2		
+Completion	2.2	2.2		
+Cost	1.1	1.1		
+Achievement	1.8	1.8		
+TableEnd				

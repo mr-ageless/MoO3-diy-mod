@@ -1,0 +1,46 @@
+TableStart	Weapons																							TL	SizeFudge
+ColumnHeadingsStart	FireDlay	Multfire	NearDamg	FarDamag	DmgDisSt	DmgDisEn	DmgDelta	MaxAccry	AccDisSt	AccDisEn	SystCost	UniSpace	MaxShrnk	MinFactr	MinimSiz	ShldPen	ShieldDmg	HullDMod	ArmrPier	DamagCap	Fragilty	Visual			
+RowHeadingsStart																									
+Fighter Laser	2.5	1	4	1	3000	4000	3	0.7	3000	4000	6	5	4	1	6	1	1	1	1	10	20	101	Beam	1	1
+Fighter Fusion Beam	2.5	1	14	2	3000	4000	4	0.8	3000	4000	16	8	4	1	6	1	1	1	1	10	20	102	Plasma	20	1.5
+Fighter Neutron Blaster	2.5	1	18	2	3000	4000	8	0.7	3000	4000	30	9	4	1	6	1	1	1	1	10	20	5	Particle	40	1.2
+Fighter Graviton Beam	2.5	1	22	2	3000	4000	12	0.7	3000	4000	40	9	4	1	9	1	1	2	1	15	30	104	Particle	40	1.2
+Fighter Phasors	2.5	1	50	20	3000	4000	15	0.7	3000	4000	80	11	4	1	6	1	1	1	1	10	20	105	Beam	60	1
+Fighter Plasma Cannon	2.5	1	107	5	3000	4000	25	0.5	3000	4000	160	15	4	1	15	1	1	1	1	25	50	4	Plasma	60	1.5
+Fighter Disruptor Cannon	2.5	1	105	45	3000	4500	0	1	3000	4500	164	20	4	1	12	1	1	1	1	20	40	118	Mass	79	1.3
+Fighter Mass Driver	2.5	1	8	5	3000	4000	0	0.5	3000	4000	15	8	4	1	6	1	1	1	1	10	20	9	Mass	1	1.3
+Fighter Gauss Cannon	2.5	1	60	14	3000	4000	0	0.5	3000	4000	160	13	4	1	6	1	1	1	1	10	20	10	Mass	60	1.3
+Fighter Ion Pulse Cannon	2	3	31	25	3500	4000	3	0.9	3500	4000	60	8	4	1	18	0.5	1	0	0	30	60	114	Beam	79	1
+Fighter Particle Beam	2.5	1	25	8	3000	4000	20	0.9	3000	4000	25	9	4	1	9	0.1	1	1	0.8	15	30	7	Particle	20	1.2
+Fighter Death Ray	2	1	78	38	3000	4000	50	0.9	3000	4000	78	22	4	1	18	0.7	1	1	0.7	30	60	103	Particle	35	1.2
+Fighter Warhead I	35	1	50	50	1999	2000	0	0.9	1999	2000	330	40	4	1	9	0.75	1	1	0.5	25	20	24	Missile	38	1.2
+Fighter Warhead II	35	1	70	70	1999	2000	0	0.9	1999	2000	340	45	4	1	9	0.75	1	1	0.5	25	20	24	Missile	58	1.2
+Fighter Warhead III	35	1	125	125	1999	2000	0	0.9	1999	2000	350	40	4	1	9	0.75	1	1	0.5	25	20	24	Missile	75	1.2
+Fighter Warhead IV	35	1	275	275	1999	2000	0	0.9	1999	2000	360	50	4	1	9	0.75	1	1	0.5	25	20	24	Missile	93	1.2
+TableEnd																									
+
+
+
+
+Laser	7																								
+Fusion Beam	31																								
+Neutron Blaster	33																								
+Graviton Beam	49																								
+Phasors	48																								
+Plasma Cannon	213																								
+Disruptor Cannon	209																								
+Mass Driver	14																								
+Gauss Cannon	97
+Ion Pulse Cannon	33
+Particle Beam	49
+Death Ray	157
+Quark Cannon	15
+Hard Beam	15
+Rail Gun	30
+Hellfire Cannon	67
+Dark Energy Beam	107
+Disintegrater Beam	105
+Tachyon Beam	231
+Dark Matter Projector	453
+Megabolt Cannon	314
+Lightning Field Generator	36

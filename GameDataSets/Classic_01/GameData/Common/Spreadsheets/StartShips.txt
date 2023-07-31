@@ -1,0 +1,39 @@
+	NOTE: numbers used in this spreadsheet should match the enumerated types in SCAIEnums.h.		
+
+	Add a row to this spreadsheet for each ship you want to be designed for the player at the beginning of the game.		
+	Most of the columns are obvious.  Give a hull size of -1 if you want to have the design AI use the smallest hull it		
+	"can.  If you give a design that isn't possible at the beginning of the game, nothing will be produced.  Count is the "		
+	number of ships of this design which should be given to each human player at the start of the game.  The AIs will 		
+	get the same starting ships.  The row header will be the ship type name for the human player.  Hull sizes go from		
+	0..13 here.		
+
+TableStart	StartingShipDesigns		
+ColumnHeadingsStart	Count	Species	Race
+RowHeadingsStart			
+Colony Ship.shp	1	-1	-1
+SystemColony.shp	0	-1	-1
+Outpost Ship.shp	0	-1	-1
+Troop Ship.shp	0	-1	-1
+Eagle Attack.shp	0	-1	-1
+Hawk Defense.shp	3	-1	-1
+Scout Ship.shp	2	-1	-1
+Defense Base.shp	0	-1	-1
+Orion Big LR.shp	10	19	0
+Orion Big SR.shp	10	19	0
+Orion CR.shp	15	19	0
+Orion LR.shp	15	19	0
+Orion SC.shp	25	19	0
+Orion SR.shp	15	19	0
+Orion IF.shp	15	19	0
+Orion Orbital.shp	3	19	0
+Orion System 1.shp	32	19	0
+Orion System 2.shp	32	19	0
+TableEnd			
+
+
+TableStart	StartingTaskForces			
+ColumnHeadingsStart	TFMission	TFSize	Stealth	Count
+RowHeadingsStart				
+Colony Task Force	6	0	0	1
+Scout Task Force	4	0	0	2
+TableEnd				

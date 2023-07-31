@@ -1,0 +1,248 @@
+TableStart	UnitLevels																			
+ColumnHeadingsStart	Unicode	Initiative	TargetPriority	NumberOfAttacks	Accuracy	Evade	AttackStrength	Armor	Hits	Morale	Routs	Rally	VerticalEnv	NegNBCEnv	Strength	Mobility	RaceTable	Class	Fortification	Special Abilities
+RowHeadingsStart																				
+Recruit	GCXPRecr	25	2	1	30	90	40	20	+2	+1	0	+1	0	0	2	0	0	0	0	
+Trained	GCXPTrnd	30	2	1	40	120	40	20	+2	+2	0	+1	0	0	3	1	0	0	1	0 Standard Combat
+Experienced	GCXPExpd	35	2	1	50	150	45	20	+4	+3	0	+2	0	0	4	1	0	0	1	1 Irregular Combat (partisan)
+Veteran	GCXPVetn	40	2	1	60	180	50	20	+4	+4	0	+2	0	0	5	1	0	0	1	10 Special Ops
+Crack	GCXPCrck	45	2	1	70	210	55	20	+6	+5	0	+3	0	0	6	2	0	0	2	11 Command Center
+Elite	GCXPElit	50	2	1	80	240	60	20	+8	+6	0	+3	0	0	7	2	0	0	2	12 Magazine
+TableEnd																				
+																				
+TableStart	UnitTypes																			
+ColumnHeadingsStart	Unicode	Initiative	TargetPriority	NumberOfAttacks	Accuracy	Evade	AttackStrength	Armor	Hits	Morale	Routs	Rally	VerticalEnv	NegNBCEnv	Strength	Mobility	RaceTable	Class	Fortification	Special Abilities
+RowHeadingsStart																				
+Infantry	GCUTInfn	+20	0	0	0	+30	0	0	4	0	0	0	0	0	0	+1	0	0	+1	
+SpaceMarine	GCUTSpcM	+15	+1	+1	+10	+15	+5	+5	6	0	0	0	1	0	+5	+1	0	0	+1	
+Mobile	GCUTMobl	+10	+2	+2	+20	0	+10	+10	8	0	0	0	0	1	+10	0	1	0	0	
+Armor	GCUTArmr	+5	+2	+4	+30	0	+15	+20	12	0	0	0	0	1	+20	0	1	0	0	
+Battleoids	GCUTBatl	0	+4	+6	+40	0	+20	+40	16	0	0	0	1	1	+35	0	2	0	0	
+Militia	GCUTMili	+5	0	0	0	0	0	0	4	0	+1	0	0	0	0	0	0	1	0	
+PsyOps	GCUTPsyo	+10	1	0	0	150	0	0	4	+2	+1	+3	0	0	2	0	0	10	0	 +10 Initiative, +1 rout on enemy morale check 
+Commandos	GCUTCmdo	0	1	0	0	200	+10	0	4	+8	0	+4	0	0	2	0	0	10	0	+10 Attack Strength
+Hackers	GCUTHack	+10	1	0	+10	150	0	0	4	+8	0	+4	0	0	2	0	0	10	0	 +10 Initiative, +10 Accuracy 
+CommandCenter	GCUTCmCt	+10	2	0	+10	200	+10	30	6	+10	+1	+5	0	0	4	0	0	11	0	 Negates enemy Commandos, PsyOps, and Hackers 
+Magazine	GCUTMgzn	0	2	0	0	150	0	30	10	+10	0	+5	0	0	3	0	0	12	0	Allows isloated troops to fight at full effectiveness
+TableEnd																				
+																				
+TableStart	Armor Level																			
+ColumnHeadingsStart	Unicode	Initiative	TargetPriority	NumberOfAttacks	Accuracy	Evade	AttackStrength	Armor	Hits	Morale	Routs	Rally	VerticalEnv	NegNBCEnv	Strength	Mobility	RaceTable	Class	Fortification	Special Abilities
+RowHeadingsStart																				
+None	GCALNone	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Enviro Suits	GCALEnSt	0	0	0	0	0	+5	+10	+2	0	0	0	0	1	+1	0	0	0	0	
+Battle Suits	GCALBtSt	0	0	0	0	+10	+10	+20	+4	0	0	0	0	1	+2	0	0	0	0	
+Armored Exoskeleton	GCALEAEx	0	0	0	0	+20	+20	+40	+6	0	0	0	0	1	+3	0	0	0	0	
+Powered Armor	GCALPwrA	+10	+1	0	0	+30	+40	+80	+8	0	0	0	1	1	+7	+1	0	0	0	 If Gravity = Red, +11 Initiative 
+TableEnd																				
+																				
+TableStart	Armor Material																			
+ColumnHeadingsStart	Unicode	Initiative	TargetPriority	NumberOfAttacks	Accuracy	Evade	AttackStrength	Armor	Hits	Morale	Routs	Rally	VerticalEnv	NegNBCEnv	Strength	Mobility	RaceTable	Class	Fortification	Special Abilities
+RowHeadingsStart																				
+None	GCAMNone	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Titanium	GCAMTitn	0	0	0	0	0	0	+10	0	0	0	0	0	0	+1	0	0	0	0	
+Duralloy	GCALDura	0	0	0	0	0	0	+20	0	0	0	0	0	0	+2	0	0	0	0	
+Tritanium	GCAMTrit	0	0	0	0	0	0	+30	0	0	0	0	0	0	+3	0	0	0	0	
+Zortium	GCAMZort	0	0	0	0	0	0	+40	0	0	0	0	0	0	+4	0	0	0	0	
+Neutronium	GCAMNeut	0	0	0	0	0	0	+50	0	0	0	0	0	0	+5	0	0	0	0	
+Adamantium	GCAMAdam	0	0	0	0	0	0	+60	0	0	0	0	0	0	+6	0	0	0	0	
+Xintium	GCAMXint	0	0	0	0	0	0	+70	0	0	0	0	0	0	+7	0	0	0	0	
+TableEnd																				
+																				
+TableStart	Combat Shields																			
+ColumnHeadingsStart	Unicode	Initiative	TargetPriority	NumberOfAttacks	Accuracy	Evade	AttackStrength	Armor	Hits	Morale	Routs	Rally	VerticalEnv	NegNBCEnv	Strength	Mobility	RaceTable	Class	Fortification	Special Abilities
+RowHeadingsStart																				
+None	GCCSNone	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Personal Deflector	GCCSDefl	0	0	0	0	+30	0	+10	0	0	0	0	0	0	+1	0	0	0	0	
+Personal Absorbtion	GCCSAbsr	0	0	0	0	+60	0	+20	0	0	0	0	0	0	+2	0	0	0	0	
+Personal Barrier	GCCSBarr	0	0	0	0	+90	0	+30	0	0	0	0	0	0	+3	0	0	0	0	
+TableEnd																				
+																				
+TableStart	Weapons																			
+ColumnHeadingsStart	Unicode	Initiative	TargetPriority	NumberOfAttacks	Accuracy	Evade	AttackStrength	Armor	Hits	Morale	Routs	Rally	VerticalEnv	NegNBCEnv	Strength	Mobility	RaceTable	Class	Fortification	Special Abilities
+RowHeadingsStart																				
+Assault Rifle	GCWPAssR	+10	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	
+Needle Gun	GCWPNdlG	+11	0	0	+8	0	9	0	0	0	0	0	0	0	+1	0	0	0	0	
+Gauss Rifle	GCWPGssR	+13	0	0	+10	0	9	0	0	0	0	0	0	0	+2	0	0	0	0
+Laser Rifle	GCWPLsrR	+8	0	+1	+10	0	15	0	0	0	0	0	0	0	+2	0	0	0	0
+Gatling Laser	GCWPGtLs	+12	0	+1	+15	0	18	0	0	0	0	0	0	0	+4	0	0	0	0
+Phaser Rifle	GCWPPhsR	+6	0	+2	+16	0	24	0	0	0	0	0	0	0	+4	0	0	0	0
+Blaster Rifle	GCWPBlsR	+5	0	+2	+23	0	27	0	0	0	0	0	0	0	+7	0	0	0	0
+Assault Blaster	GCWPABls	+7	0	+2	+31	0	36	0	0	0	0	0	0	0	+8	0	0	0	0
+Fusion Core Launcher	GCWPFuCL	+8	0	+2	+31	0	39	0	0	0	0	0	0	0	+11	0	0	0	0
+Plasma Enveloper	GCWPPlsE	+1	0	+4	+36	0	54	0	0	0	0	0	0	0	+11	0	0	0	0
+TableEnd																			
+Gauss Automatic Rifle	GCWPGsAR	+16	0	0	+24	0	30	0	0	0	0	0	0	0	+3	0	0	0	0
+Laser Assault Rifle	GCWPLsAR	+9	0	+2	+23	0	15	0	0	0	0	0	0	0	+3	0	0	0	0
+Pulse Laser	GCWPPlsL	+14	0	+2	+39	0	36	0	0	0	0	0	0	0	+5	0	0	0	0
+Phaser Assault Rifle	GCWPPhAR	+7	0	+2	+20	0	21	0	0	0	0	0	0	0	+5	0	0	0	0
+Multi-Sync Phaser Rifle	GCWPMSPR	+9	0	+2	+30	0	30	0	0	0	0	0	0	0	+6	0	0	0	0
+Tri-Sequence Phaser Rifle	GCWPTSPR	+12	0	+3	+40	0	42	0	0	0	0	0	0	0	+7	0	0	0	0
+Hand Blaster	GCWPHndB	+4	0	+1	+15	0	21	0	0	0	0	0	0	0	+6	0	0	0	0
+Multi Blaster	GCWPMltB	+10	0	+3	+39	0	48	0	0	0	0	0	0	0	+9	0	0	0	0	
+Fusion Gun	GCWPFsnG	+2	0	+0	0	0	27	0	0	0	0	0	0	0	+8	0	0	0	0	
+Fusion Accelerator	GCWPFsnA	+3	0	+1	+12	0	33	0	0	0	0	0	0	0	+9	0	0	0	0	
+Multi Fusion Rifle	GCWPMlFR	+5	0	+3	+24	0	42	0	0	0	0	0	0	0	+10	0	0	0	0	
+Plasma Projector	GCWPPlsP	0	0	+4	+0	0	33	0	0	0	0	0	0	0	+10	0	0	0	0	
+Plamsa Gun	GCWPPlsG	+3	0	+4	+20	0	48	0	0	0	0	0	0	0	+12	0	0	0	0	
+Plasma Pod	GCWPPlsR	+6	0	+4	+30	0	60	0	0	0	0	0	0	0	+13	0	0	0	0	
+																				
+TableStart	SpecialAttacks																			
+ColumnHeadingsStart	Unicode	Initiative	TargetPriority	NumberOfAttacks	Accuracy	Evade	AttackStrength	Armor	Hits	Morale	Routs	Rally	VerticalEnv	NegNBCEnv	Strength	Mobility	RaceTable	Class	Fortification	Special Abilities
+RowHeadingsStart																				
+Nuclear	GCSANucl	0	0	+1	0	0	+20	0	0	0	0	0	0	0	0	0	0	0	0	 Extra damage to military, civilian, and environment 
+Biological	GCSABiol	0	0	0	0	0	+10	0	0	0	0	0	0	0	0	0	0	0	0	 Extra damage to environment, lots to civilians 
+Chemical	GCSAChem	0	0	0	0	0	+10	0	0	0	0	0	0	0	0	0	0	0	0	Extra Collateral Damage to all sectors
+TableEnd																				
+																				
+TableStart	Atmospheric																			
+ColumnHeadingsStart	Unicode	Initiative	TargetPriority	NumberOfAttacks	Accuracy	Evade	AttackStrength	Armor	Hits	Morale	Routs	Rally	VerticalEnv	NegNBCEnv	Strength	Mobility	RaceTable	Class	Fortification	Special Abilities
+RowHeadingsStart																				
+Green0	GCATGrn0	+20	+1	+1	+13	+9	+4	0	0	+2	0	+1	1	0	0	+3	0	0	0	
+Green1	GCATGrn1	+15	+1	+1	+9	+5	+2	0	0	+2	0	+1	1	0	0	+2	0	0	0	
+Yellow2	GCATYlw2	+10	0	0	+4	+2	0	0	0	+1	0	+1	0	0	0	+2	0	0	0	
+Yellow3	GCATYlw3	+5	0	0	+2	+1	0	0	0	+1	0	0	0	0	0	+1	0	0	0	
+Red4	GCATRed4	0	0	0	+1	0	0	0	0	0	+2	0	0	0	0	0	0	0	0	
+Red5	GCATRed5	0	0	0	0	0	0	0	0	0	+3	0	0	0	0	0	0	0	0	
+TableEnd																				
+																				
+TableStart	Surface																			
+ColumnHeadingsStart	Unicode	Initiative	TargetPriority	NumberOfAttacks	Accuracy	Evade	AttackStrength	Armor	Hits	Morale	Routs	Rally	VerticalEnv	NegNBCEnv	Strength	Mobility	RaceTable	Class	Fortification	Special Abilities
+RowHeadingsStart																				
+Green0	GCSUGrn0	+10	0	+1	+4	+4	+4	0	0	+1	0	+1	0	0	0	+2	0	0	+1	
+Green1	GCSUGrn1	+5	0	+1	+3	+3	+3	0	0	+1	0	0	0	0	0	+1	0	0	+1	
+Yellow2	GCSUYlw2	0	0	0	+2	+2	+2	0	0	0	0	0	0	0	0	+1	0	0	+1	
+Yellow3	GCSUYlw3	0	0	0	+1	+1	+1	0	0	0	0	0	0	0	0	0	0	0	+1	
+Red4	GCSURed4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Red5	GCSURed5	0	0	0	0	0	0	0	0	0	+1	0	0	0	0	0	0	0	0	
+TableEnd																				
+																				
+TableStart	Underwater																			
+ColumnHeadingsStart	Unicode	Initiative	TargetPriority	NumberOfAttacks	Accuracy	Evade	AttackStrength	Armor	Hits	Morale	Routs	Rally	VerticalEnv	NegNBCEnv	Strength	Mobility	RaceTable	Class	Fortification	Special Abilities
+RowHeadingsStart																				
+Green0	GCUNGrn0	+15	0	+1	+9	+7	+10	0	0	+2	0	+1	0	0	0	+2	0	0	+1	
+Green1	GCUNGrn1	+10	0	+1	+6	+4	+7	0	0	+2	0	+1	0	0	0	+1	0	0	+1	
+Yellow2	GCUNYlw2	+5	0	0	+2	+2	+4	0	0	+1	0	+1	0	0	0	+1	0	0	+1	
+Yellow3	GCUNYlw3	0	0	0	+1	+1	+2	0	0	+1	0	0	0	0	0	+1	0	0	0	
+Red4	GCUNRed4	0	0	0	0	0	+1	0	0	0	+1	0	0	0	0	0	0	0	0	
+Red5	GCUNRed5	0	0	0	0	0	0	0	0	0	+2	0	0	0	0	0	0	0	0	
+TableEnd																				
+																				
+TableStart	Underground																			
+ColumnHeadingsStart	Unicode	Initiative	TargetPriority	NumberOfAttacks	Accuracy	Evade	AttackStrength	Armor	Hits	Morale	Routs	Rally	VerticalEnv	NegNBCEnv	Strength	Mobility	RaceTable	Class	Fortification	Special Abilities
+RowHeadingsStart																				
+Green0	GCUGGrn0	+30	0	+1	+4	+4	+10	+4	0	+2	0	+1	0	0	0	0	0	0	+3	
+Green1	GCUGGrn1	+20	0	+1	+3	+3	+7	+3	0	+2	0	+1	0	0	0	0	0	0	+2	
+Yellow2	GCUGYlw2	+10	0	0	+2	+2	+4	+2	0	+1	0	+1	0	0	0	0	0	0	+2	
+Yellow3	GRUGYlw3	+5	0	0	+1	+1	+2	+1	0	+1	0	0	0	0	0	0	0	0	+1	
+Red4	GCUGRed4	0	0	0	0	0	+1	0	0	0	+1	0	0	0	0	0	0	0	0	
+Red5	GCUGrRed5	0	0	0	0	0	0	0	0	0	+2	0	0	0	0	0	0	0	0	
+TableEnd																				
+																				
+TableStart	Environment																			
+ColumnHeadingsStart	Unicode	Initiative	TargetPriority	NumberOfAttacks	Accuracy	Evade	AttackStrength	Armor	Hits	Morale	Routs	Rally	VerticalEnv	NegNBCEnv	Strength	Mobility	RaceTable	Class	Fortification	Special Abilities
+RowHeadingsStart																				
+Green0	GCENGrn0	+10	0	0	0	0	0	0	0	+1	0	0	0	0	0	0	0	0	0	
+Green1	GCENGrn1	+5	0	0	0	0	0	0	0	+1	0	0	0	0	0	0	0	0	0	
+Yellow2	GCENYlw2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Yellow3	GRENYlw3	0	0	0	0	0	0	0	0	0	+1	0	0	0	0	0	0	0	0	
+Red4	GCENRed4	0	0	0	0	0	0	0	0	0	+2	0	0	0	0	0	0	0	0	
+Red5	GCENRed5	0	0	0	0	0	0	0	0	0	+3	0	0	0	0	0	0	0	0	
+TableEnd																				
+																				
+TableStart	Gravity																			
+ColumnHeadingsStart	Unicode	Initiative	TargetPriority	NumberOfAttacks	Accuracy	Evade	AttackStrength	Armor	Hits	Morale	Routs	Rally	VerticalEnv	NegNBCEnv	Strength	Mobility	RaceTable	Class	Fortification	Special Abilities
+RowHeadingsStart																				
+Green0	GCGRGrn0	+25	0	+1	+14	+8	0	0	0	+1	0	+1	0	0	0	+1	0	0	0	
+Green1	GCGRGrn1	+20	0	+1	+10	+6	0	0	0	+1	0	0	0	0	0	+1	0	0	0	
+Yellow2	GCGRYlw2	+15	0	0	+6	+4	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Yellow3	GCGRYlw3	+10	0	0	+3	+2	0	0	0	0	+1	0	0	0	0	0	0	0	0	
+Red4	GCGRRed4	+5	0	0	+2	+1	0	0	0	0	+2	0	0	0	0	0	0	0	0	
+Red5	GCGRRed5	0	0	0	0	0	0	0	0	0	+3	0	0	0	0	0	0	0	0	
+TableEnd																				
+																				
+TableStart	Terrain																			
+ColumnHeadingsStart	Unicode	Initiative	TargetPriority	NumberOfAttacks	Accuracy	Evade	AttackStrength	Armor	Hits	Morale	Routs	Rally	VerticalEnv	NegNBCEnv	Strength	Mobility	RaceTable	Class	Fortification	Special Abilities
+RowHeadingsStart																				
+Green0	GCTRGrn0	+5	0	+1	+11	+4	+5	0	0	0	0	0	0	0	0	+1	0	0	+3	
+Green1	GCTRGrn1	0	0	+1	+8	+3	+4	0	0	0	0	0	0	0	0	+1	0	0	+2	
+Yellow2	GCTrYlw2	0	0	0	+5	+2	+3	0	0	0	0	0	0	0	0	0	0	0	+1	
+Yellow3	GCTRYlw3	0	0	0	+3	+1	+2	0	0	0	0	0	0	0	0	0	0	0	0	
+Red4	GCTRRed4	0	0	0	+1	0	+1	0	0	0	0	0	0	0	0	0	0	0	0	
+Red5	GCTRRed5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+TableEnd																				
+																				
+TableStart	Leadership																			
+ColumnHeadingsStart	Unicode	Initiative	TargetPriority	NumberOfAttacks	Accuracy	Evade	AttackStrength	Armor	Hits	Morale	Routs	Rally	VerticalEnv	NegNBCEnv	Strength	Mobility	RaceTable	Class	Fortification	Special Abilities
+RowHeadingsStart																				
+0	Leader00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+1	Leader01	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+2	Leader02	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+3	Leader03	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+4	Leader04	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+5	Leader05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+6	Leader06	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+7	Leader07	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+8	Leader08	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+9	Leader09	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+10	Leader10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+TableEnd																				
+
+TableStart	RaceTrait																			
+ColumnHeadingsStart	Unicode	Initiative	TargetPriority	NumberOfAttacks	Accuracy	Evade	AttackStrength	Armor	Hits	Morale	Routs	Rally	VerticalEnv	NegNBCEnv	Strength	Mobility	RaceTable	Class	Fortification	Special Abilities
+RowHeadingsStart																				
+0	GCRTTerr	0	0	0	0	0	0	0	0	0	+3	0	0	0	0	0	0	0	0	
+1	GCRTTerr	0	0	0	+5	+5	0	0	0	0	+3	0	0	0	0	0	0	0	0	
+2	GCRTTerr	0	0	0	+5	+10	0	+5	0	0	+2	0	0	0	0	0	0	0	0	
+3	GCRTTerr	+5	0	+1	+10	+20	0	+5	+1	0	+1	0	0	0	+1	0	0	0	0	
+4	GCRTTerr	+10	0	+1	+15	+25	+5	+10	+1	0	+1	0	0	0	+1	0	0	0	0	
+5	GCRTTerr	+10	0	+2	+15	+30	+5	+15	+2	0	0	0	0	0	+2	+1	0	0	0	
+6	GCRT_Bad	+15	0	+2	+20	+40	+10	+20	+2	0	0	+1	0	0	+2	+1	0	0	0	
+7	GCRTAvrg	+15	0	+3	+30	+50	+15	+25	+4	0	0	+1	0	0	+3	+2	0	0	0	
+8	GCRTGood	+20	0	+3	+40	+60	+20	+30	+4	+1	0	+2	0	0	+3	+2	0	0	+1	
+9	GCRTExcl	+25	0	+4	+50	+70	+25	+35	+6	+2	0	+3	0	0	+4	+3	0	0	+2	
+10	GCRTExcl	+30	0	+4	+60	+85	+30	+40	+6	+2	0	+3	0	0	+4	+3	0	0	+2	
+11	GCRTExcl	+35	0	+4	+70	+100	+35	+45	+8	+3	0	+3	0	0	+4	+3	0	0	+2	
+
+TableEnd																				
+
+TableStart	SpeciesModifier																			
+ColumnHeadingsStart	Unicode	Initiative	TargetPriority	NumberOfAttacks	Accuracy	Evade	AttackStrength	Armor	Hits	Morale	Routs	Rally	VerticalEnv	NegNBCEnv	Strength	Mobility	RaceTable	Class	Fortification	Special Abilities
+RowHeadingsStart																				
+Humanoid	GCSMHumn	+15	0	0	0	0	0	0	0	0	0	0	0	0	0	+3	0	0	0	
+Etherian	GCSMEthr	+10	0	+1	0	0	0	0	0	0	0	0	1	0	0	+2	0	0	0	
+Geodic	GCSMGeod	0	0	0	0	0	0	+20	+4	0	0	0	0	1	0	0	0	0	0	
+Cybernetic	GCSMCybr	+5	0	0	+20	0	0	0	0	0	0	0	0	0	0	+2	0	0	0	
+Ichthytosian	GCSMIchy	+10	0	0	0	+30	0	0	0	0	0	0	0	0	0	+2	0	0	0	
+Harvesters	GCSMHarv	+5	0	0	0	0	0	0	0	+2	0	+2	0	0	0	+2	0	0	0	
+Insectoid	GCSMInsc	+5	0	0	0	0	0	0	0	0	0	0	0	0	0	+2	0	0	+2	
+Sauron	GCSMSarn	+5	0	0	0	0	+10	0	0	0	0	0	0	0	0	+2	0	0	+1	
+Metashifters	GCSMMeta	+15	0	0	0	0	+20	0	0	0	0	0	0	0	0	+2	0	0	0	
+Non-corporeal	GCSMNonC	+15	0	0	0	+60	0	0	0	0	0	0	0	0	0	+2	0	0	0	
+Protoplasmic	GCSMSlor	0	0	0	0	0	0	0	+8	0	0	0	0	0	0	0	0	0	0	
+Plant	GCSMPlnt	0	0	0	0	+30	0	0	0	0	0	0	0	0	0	0	0	0	+3	
+Fungal	GCSMFung	+5	0	0	0	+120	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Avian	GCSMAvin	+20	0	0	0	+60	0	0	0	0	0	0	1	0	0	+4	0	0	0	
+Gargantua	GCSMGarg	0	+1	0	0	0	+20	+10	+4	0	0	0	0	0	0	+1	0	0	0	
+Bulrathi	GCSMBulr	+10	0	0	0	0	+20	+10	+2	+2	0	+2	0	0	0	+1	0	0	0	
+Mrrshan	GCSMMrrs	+15	0	0	+40	+10	+10	0	0	+4	0	0	0	0	0	+2	0	0	0	
+Elerians	GCSMEler	+5	0	0	+10	+10	0	0	0	0	0	+4	0	0	0	+2	0	0	0	
+Gnolam	GCSMGnol	+5	0	0	0	0	0	0	0	0	+2	0	0	0	0	+1	0	0	0	
+Elder Races	GCSMEldr	+10	0	0	0	0	0	0	0	0	0	0	0	0	0	+3	0	0	0	
+ComBots	GCSMComb	0	0	+1	0	0	+10	+10	+2	+99	0	+99	0	1	+3	+1	0	0	0	Experience is never gained nor lost by ComBots
+TableEnd																				
+
+TableStart	UnitIcon																			
+ColumnHeadingsStart	IconTag																			
+RowHeadingsStart																				
+Infantry	Trp																			
+SpaceMarine	Marine																			
+Mobile	Mobile																			
+Armor	Tnk																			
+Battleoids	Bat																			
+Militia	Trp																			
+PsyOps	PsiHack																			
+Commandos	Trp
+Hackers	PsiHack
+CommandCenter	CommandCenter
+Magazine	Magazine
+TableEnd	
