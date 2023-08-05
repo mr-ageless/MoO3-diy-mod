@@ -1,0 +1,322 @@
+"Row headings are a list of all the modifiers in the game.  UpOrDown is a minus sign to note that for this modifier, a lower value is better than a higher value."										
+"A plus sign notes the opposite.  A '!' means this 'modifier' is just information, not a real modification. "										
+Scale Factor is a number that gets multiplied with the modifier value to give us a number relative to 100 for the AI to know how much a modifier helps or hurts.										
+Base Priority is used by the AI to assign initial priorities to the modifiers										
+
+"The columns for Peace and Prosperity, Peace Through Strength, Limited War, Total War and Holy War are the priorities given to this modifier"										
+"when the planet AI is deciding what to build, depending on the political economy setting"										
+
+TableStart	Modifier Scale									
+ColumnHeadingsStart	UpOrDown	Scale Factor	Base Priority	Peace and Prosperity	Peace Through Strength	Limited War	Total War	Holy War		
+RowHeadingsStart										
+BaseEmph	+	20	1	0	0	0	0	0	AI	Affects number of lottery balls in the Colonial Decision Lottery
+DecLotND	-	20	1	0	0	0	0	0	AI	"AI Decision Lottery ball, No decision"
+DecLotOp	-	20	1	0	0	0	0	0	AI	"AI Decision Lottery ball, Opposite Decision"
+mAddGold	!	0	1	0	0	0	0	0	Bank	
+Cost	-	20	1	0	0	0	0	0	Building	
+mBuildAU	!	0	1	0	0	0	0	0	Building	
+mMaintAU	!	0	1	0	0	0	0	0	Building	
+ScrapVal	+	2	0	0	0	0	0	0	Building	Modifies Scrap Values
+Employee	+	100	1	0	0	0	0	0	Building	Number of employees used
+LeadCorr	-	20	1	0	0	0	0	0	Corruption	Leader Corruption Modifier
+DEACost	!	0	1	0	0	0	0	0	DEA-All	
+DEAFarm	+	1	1	1	1	1	1	1	DEA	Information modifier. To say that a build item is a DEA
+DEAMine	+	1	1	1	1	1	1	1	DEA	Information modifier. To say that a build item is a DEA
+DEAManu	+	1	1	1	1	1	1	1	DEA	Information modifier. To say that a build item is a DEA
+DEAResea	+	1	1	1	1	1	1	1	DEA	Information modifier. To say that a build item is a DEA
+DEAGov	+	1	1	1	1	1	1	1	DEA	Information modifier. To say that a build item is a DEA
+DEAMil	+	1	1	1	1	1	1	1	DEA	Information modifier. To say that a build item is a DEA
+DEARec	+	1	1	1	1	1	1	1	DEA	Information modifier. To say that a build item is a DEA
+DEASPort	+	1	1	1	1	1	1	1	DEA	Information modifier. To say that a build item is a DEA
+BioHaEff	+	20	1	1	1	1	1	1	DEA-Farm	Bioharvest DEA efficiency
+BioHaCap	+	20	1	1	1	1	1	1	DEA-Farm	Bioharvest DEA capacity
+BioprPop	+	10	0	1	1	1	1	1	DEA-Farm	Bioharvest per population point
+BioHRare	+	20	1	0	0	0	0	0	DEA-Farm	Bioharvest Rare monetary income
+BioHaSur	+	20	1	0	0	0	0	0	DEA-Farm	Bioharvest Surplus value
+BioHRing	+	10	1	0	0	0	0	0	DEA-Farm	Bioharvest Ring limit
+BioOutPt	+	100	1	1	1	1	1	1	DEA-Farm	Bioharvest output from standalong farms
+GovEff	+	20	1	1	1	1	1	1	DEA-Government	
+GovCap	+	20	1	1	1	1	1	1	DEA-Government	
+CorrCap	+	20	1	0	0	0	0	0	DEA-Government	"Second, anti-corruption capacity for Gov DEAs"
+ManufEff	+	20	1	1	1	1	1	1	DEA-Industry	
+ManufCap	+	20	1	1	1	1	1	1	DEA-Industry	Capacity for mineral input
+ManuCapB	+	20	1	1	1	1	1	1	DEA-Industry	Capacity for bioharvest input
+ManuConv	+	10	1	1	1	1	1	1	DEA-Industry	Conversion Rate level for minerals
+ManuConB	+	10	1	1	1	1	1	1	DEA-Industry	Conversion Rate level for bioharvest
+CemprPop	+	10	0	0	0	0	0	0	DEA-Industry	Cement per population point
+CraftsMa	+	20	1	1	1	1	1	1	DEA-Industry	Craftsman value
+MilEff	+	20	1	1	1	1	1	1	DEA-Military	
+MilCap	+	20	1	1	1	1	1	1	DEA-Military	
+MineEff	+	20	1	1	1	1	1	1	DEA-Mine	Mine DEA efficiency
+MineCap	+	20	1	1	1	1	1	1	DEA-Mine	Mine DEA capacity
+MinprPop	+	10	0	0	0	0	0	0	DEA-Mine	Minerals per population point
+MineSur	+	20	1	0	0	0	0	0	DEA-Mine	Mine surplus value
+MineRare	+	20	1	0	0	0	0	0	DEA-Mine	Mine Rare Value
+RecEff	+	20	1	1	1	1	1	1	DEA-Recreation	
+RecCap	+	20	1	1	1	1	1	1	DEA-Recreation	
+ReseaEff	+	20	1	1	1	1	1	1	DEA-Research	
+ReseaCap	+	20	1	1	1	1	1	1	DEA-Research	
+TTperPop	+	10	0	1	1	1	1	1	DEA-Research	TestTubes per population point
+SPortCap	+	20	1	1	1	1	1	1	DEA-Spaceport	
+SPortEff	+	20	1	1	1	1	1	1	DEA-Spaceport	
+OrElsePr	!	20	1	0	0	0	0	0	Dev Plan	Or Else Priority
+DoItPrio	!	20	1	0	0	0	0	0	Dev Plan	Do It Priority
+ComndPri	!	20	1	0	0	0	0	0	Dev Plan	Command Priority
+EdictPri	!	20	1	0	0	0	0	0	Dev Plan	Edict Priority
+DecreePr	!	20	1	0	0	0	0	0	Dev Plan	Decree Priority
+UrgePrio	!	20	1	0	0	0	0	0	Dev Plan	Urge Priority
+SuggPrio	!	20	1	0	0	0	0	0	Dev Plan	Suggest Priority
+HopePrio	!	20	1	0	0	0	0	0	Dev Plan	Hope Priority
+CivDef	!	0	0	0	0	0	0	0	Dev Plan	
+trfrm	!	0	0	0	0	0	0	0	Dev Plan	
+DraftPl	!	0	0	0	0	0	0	0	Dev Plan	
+DipLeaAb	+	20	1	0	0	0	0	0	Diplomacy	Diplomatic Leader Ability
+BaseRel	+	100	0	0	0	0	0	0	Diplomacy	Base relation with other civs
+CasusBel	+	100	0	0	0	0	0	0	Diplomacy	Casus Belli with other civ
+DiploPts	+	100	0	0	0	0	0	0	Diplomacy	Diplomacy Points
+EnfPeace	+	20	0	0	0	0	0	0	Diplomacy	Enforced Peace length
+MeansWar	+	10	0	0	0	0	0	0	Diplomacy	This Means War counter
+CRTreaty	+	20	0	0	0	0	0	0	Diplomacy	Core Reaction Treaty Modifier
+CRPeaceT	+	20	0	0	0	0	0	0	Diplomacy	Core Reaction Peace Treaty Modifier
+CRTradeM	+	20	0	0	0	0	0	0	Diplomacy	Core Reaction Trade Modifier
+CRExchng	+	20	0	0	0	0	0	0	Diplomacy	Core Reaction Exchange Modifier
+CRDipGon	+	20	0	0	0	0	0	0	Diplomacy	Core Reaction Diplomat Gone Modifier
+CRLarges	+	20	0	0	0	0	0	0	Diplomacy	Core Reaction Largesse Modifier
+PositvDP	+	50	0	0	0	0	0	0	Diplomacy	Positive Diplomacy Points modification (multiplier)
+NegatvDP	+	50	0	0	0	0	0	0	Diplomacy	Negative Diplomacy Points modification (multiplier)
+PositvCB	+	50	0	0	0	0	0	0	Diplomacy	Positive Casus Belli modification (multiplier)
+OffPeace	+	50	0	0	0	0	0	0	Diplomacy	Offer Peace check (Diplomacy)
+NonAggrs	+	50	0	0	0	0	0	0	Diplomacy	Non-aggression check (Diplomacy)
+DefAlly	+	50	0	0	0	0	0	0	Diplomacy	Densive Alliance check (Diplomacy)
+AntPirTA	+	50	0	0	0	0	0	0	Diplomacy	Anti-Piracy Trade Agreement check (Diplomacy)
+EconomTA	+	50	0	0	0	0	0	0	Diplomacy	Economic Trade Agreement check (Diplomacy)
+ResrchTA	+	50	0	0	0	0	0	0	Diplomacy	Research Trade Agreement check (Diplomacy)
+TradeAmt	+	10	0	0	0	0	0	0	Diplomacy	Increase to trade by trade agreement
+DraftPol	+	20	1	0	0	0	0	0	Draft	Draft Pool
+AUperPop	+	10	0	0	0	0	0	0	Draft	AU per population point in draft radius
+Freightr	+	2	0	0	0	0	0	0	Economy	Modifiers number of freighters generated
+OpprCost	-	20	1	0	0	0	0	0	Empire	Oppressometer Level Cost
+JobsMult	+	20	1	0	0	0	0	0	Employment	Jobs multiplier
+EventCrd	+	10	1	0	0	0	0	0	Events	Size of event card hand
+OptOpres	!	0	1	0	0	0	0	0	Government	
+GovLegit	+	10	0	0	0	0	0	0	Government	Government Legitimacy Modifier
+HFofGovt	-	20	1	0	0	0	0	0	HFOG	Heavy Foot of Government
+IFPoints	+	20	1	0	0	0	0	0	IFP	Imperial Focus Points
+IfPoints	+	20	1	0	0	0	0	0	IFP	IFP points modifier
+_GSeries	+	20	0	0	0	0	0	0	Initialization	Government series starting value used for race picks
+_Senate	+	20	0	0	0	0	0	0	Initialization	"Member of orion senate, used in race picks"
+_Agenda	+	20	0	0	0	0	0	0	Initialization	"Starting agenday, used in race picks"
+_PMine	+	20	0	0	0	0	0	0	Initialization	"Starting planet Mine, used in race picks"
+_BioD	+	20	0	0	0	0	0	0	Initialization	"Starting planet biodiverse, used in race picks"
+DisInfPe	-	20	1	0	0	0	0	0	Intelligence	Disinformation Penalty
+SpCloak	+	20	1	0	0	0	0	0	Intelligence	Spy cloak modifier
+SpDagger	+	20	1	0	0	0	0	0	Intelligence	spy dagger (clear?) modifier
+SpLuck	+	20	1	0	0	0	0	0	Intelligence	Spy luck modifier
+SpDef	+	20	1	0	0	0	0	0	Intelligence	Spy defense modifier - for civ to catch a spy
+SpOff	+	20	1	0	0	0	0	0	Intelligence	Spy offense modifier - for civ's spies to not get caught
+SpLoyal	+	20	1	0	0	0	0	0	Intelligence	Spy loyalty/morale modifier
+SpInsert	+	20	1	0	0	0	0	0	Intelligence	Spy insertion success modifier
+SpRepel	+	20	1	0	0	0	0	0	Intelligence	Spy modifier to catch someone inserting spies
+SpyCost	+	20	1	0	0	0	0	0	Intelligence	Spy train cost modifier
+SpyTime	+	20	1	0	0	0	0	0	Intelligence	Spy train time in turns modifier
+SpyTotal	+	20	1	0	0	0	0	0	Intelligence	The number of spies allowed to train at a time
+LeaClout	-	20	1	0	0	0	0	0	Leader	Leader Clout Bonus
+LeadAbil	+	20	0	0	0	0	0	0	Leader	Leader Ability Bonus
+LeadLuck	+	20	0	0	0	0	0	0	Leader	Leader Luck
+LeadPers	+	20	0	0	0	0	0	0	Leader	Leader Persuasion
+LeadAmbi	-	20	0	0	0	0	0	0	Leader	Leader Ambition
+LeadLoya	+	20	0	0	0	0	0	0	Leader	Leader Loyalty
+SystCost	-	0.5	1	0	0	0	0	0	Military	
+ArmorVal	+	0.1	1	0	0	0	0	0	Military	
+Deflects	+	10	1	0	0	0	0	0	Military	
+ShipMass	-	1	1	0	0	0	0	0	Military	
+ShdStr	+	20	1	0	0	0	0	0	Military	
+Recharge	+	20	1	0	0	0	0	0	Military	
+UniSpace	+	20	1	0	0	0	0	0	Military	
+MaxSpeed	+	0.09	1	0	0	0	0	0	Military	
+EnThrust	+	0.01	1	0	0	0	0	0	Military	
+EngDlay	+	25	1	0	0	0	0	0	Military	
+ShpCpcty	+	0.05	1	0	0	0	0	0	Military	
+MaxWedge	+	25	1	0	0	0	0	0	Military	
+HullStyl	!	0	1	0	0	0	0	0	Military	
+Marines	+	3.3	1	0	0	0	0	0	Military	
+UseGraph	!	0	1	0	0	0	0	0	Military	
+HullERM	+	50	1	0	0	0	0	0	Military
+WarpDlay	-	33	1	0	0	0	0	0	Military
+StpPow	+	500	1	0	0	0	0	0	Military
+InfoWeap	!	0	1	0	0	0	0	0	Military
+InfoGdWp	!	0	1	0	0	0	0	0	Military
+InfoGdSh	!	0	1	0	0	0	0	0	Military
+InfoGdAM	!	0	1	0	0	0	0	0	Military
+InfoGdAL	!	0	1	0	0	0	0	0	Military
+InfoFWpn	!	0	1	0	0	0	0	0	Military
+ArmrPier	-	400	1	0	0	0	0	0	Military
+MultFire	+	33	1	0	0	0	0	0	Military
+MaxAccry	+	40	1	0	0	0	0	0	Military
+DmgDisSt	+	10	1	0	0	0	0	0	Military
+NearDamg	+	10	1	0	0	0	0	0	Military
+FarDamag	+	10	1	0	0	0	0	0	Military
+Envlping	+	10	1	0	0	0	0	0	Military
+ShldPen	-	1	1	0	0	0	0	0	Military
+ShldDmg	-	1	1	0	0	0	0	0	Military
+Facing	!	0	1	0	0	0	0	0	Military
+AccDisSt	+	10	1	1	1	1	1	1	Military
+AccDisEn	+	10	1	1	1	1	1	1	Military
+DmgDisEn	+	10	1	0	0	0	0	0	Military
+FireDlay	-	10	1	0	0	0	0	0	Military
+DamagCap	+	10	1	0	0	0	0	0	Military
+WarpSped	+	10	1	0	0	0	0	0	Military
+InfoMisl	!	0	1	0	0	0	0	0	Military
+PlanDef	+	20	1	0	0	0	0	0	Military
+ShipYard	!	0	1	0	0	0	0	0	Military
+OrbPlat	!	0	1	0	0	0	0	0	Military
+OrbStat	!	0	1	0	0	0	0	0	Military
+MisBase	!	0	1	0	0	0	0	0	Military
+FireBase	!	0	1	0	0	0	0	0	Military
+FightBas	!	0	1	0	0	0	0	0	Military	
+SpcSupFB	!	0	1	0	0	0	0	0	Military	
+ReconFB	!	0	1	0	0	0	0	0	Military	
+AnFlotFB	!	0	1	0	0	0	0	0	Military	
+TrpCap	+	15	1	0	0	0	0	0	Military	
+RoboTech	+	20	1	0	0	0	0	0	Military	
+ShipWarp	!	0	1	0	0	0	0	0	Military	
+MaxWarp	+	0.05	1	0	0	0	0	0	Military	
+InfoGrnd	!	0	1	0	0	0	0	0	Military	
+Fortify	!	0	1	0	0	0	0	0	Military	
+GndCombt	!	0	1	0	0	0	0	0	Military	
+Rout	!	0	1	0	0	0	0	0	Military	
+MiliQual	+	20	1	0	0	0	0	0	Military	Militiary Quality
+MiliQuan	+	20	1	0	0	0	0	0	Military	Military Quantity
+ExpGaind	+	20	1	0	0	0	0	0	Military	Crew experience gained
+ExpLost	+	20	1	0	0	0	0	0	Military	Crew experience lost (adjusts their norm)
+CollatSz	-	0.05	0	0	0	0	0	0	Military	Size as a target of collateral damage
+CollatDs	-	0.5	0	0	0	0	0	0	Military	Chance that a collateral hit will destroy this target.
+CollatCl	!	1	0	0	0	0	0	0	Military	"What is the ""class"" of a targer: military, econ, civilian, environ."
+MilStack	+	10	0	0	0	0	0	0	Military	Military stacking modifier generated by Military DEAs
+PolitSec	-	100	1	0	0	0	0	0	Military	How much political security is required as a result of this choice
+MilitiaU	+	10	0	0	0	0	0	0	Military	Militia Units generated
+RebelGen	-	10	0	0	0	0	0	0	Military	Rebel units generated when in revolt
+BoxDelay	-	0	1	0	0	0	0	0	Military	What affects the delay box
+RsrchVal	+	20	1	0	0	0	0	0	Military	Research value of a ship
+CrewExp	!	0	0	0	0	0	0	0	Military	
+Destroy	!	0	0	0	0	0	0	0	Military	
+PolprPop	-	10	0	0	0	0	0	0	Pollution	Pollution Per Population point
+Pollutio	-	20	1	1	1	1	1	1	Pollution	Pollution generation
+PolluTol	+	20	1	1	1	1	1	1	Pollution	Pollution Tolerance
+PolluAbs	+	20	1	1	1	1	1	1	Pollution	Pollution Absorbing
+PolluCln	+	10	1	1	1	1	1	1	Pollution	Pollution Cleanup cost (Units per AU)
+MaxPop	+	0.1	1	1	1	1	1	1	Population	
+MnMaxPop	+	1	1	1	1	1	1	1	Population	
+mPopGrow	+	20	1	1	1	1	1	1	Population	
+PshFacMu	-	20	1	0	0	0	0	0	Population	Push Factor multiplier for population growth
+PshFacMi	-	20	1	0	0	0	0	0	Population	Push Factor Migrants
+PshFacPi	-	20	1	0	0	0	0	0	Population	Push Factor Pioneers
+PshFacEm	-	20	1	0	0	0	0	0	Population	Push Factor Emigrants
+PllFacMi	+	20	1	0	0	0	0	0	Population	Pull Factor Migrants
+PllFacPi	+	20	1	0	0	0	0	0	Population	Pull Factor Pioneers
+PllFacEm	+	20	1	0	0	0	0	0	Population	Pull Factor Emigrants
+GrowPush	!	20	1	0	0	0	0	0	Population	Push factor for all types
+EmtPllMi	!	20	1	0	0	0	0	0	Population	Pulls Immigrants to empty planet
+EmtPllPi	!	20	1	0	0	0	0	0	Population	Pulls Pioneers to empty planet
+EmtPllEm	!	20	1	0	0	0	0	0	Population	Pulls Emigrants to empty planet
+StrvRate	-	2	0	0	0	0	0	0	Population	Starvation Rate multiplier
+FertMult	+	20	1	0	0	0	0	0	Population	Fertility Multiplier
+Infrastr	+	20	1	1	1	1	1	1	Region	
+EcoSystm	+	5	0	1	1	1	1	1	Region	Ecosystem
+AddReseE	+	20	1	1	1	1	1	1	Research	
+AddReseP	+	20	1	1	1	1	1	1	Research	
+MdUnrest	-	20	1	1	1	1	1	1	Social State	Affects unrest
+UnReImTa	!	20	1	0	0	0	0	0	Social State	"Unrest imperial tax amount, creates unrest if the tax is over this amount"
+UnresNBC	!	20	1	0	0	0	0	0	Social State	Unrest if used NBC weapons previous turn
+SocStWar	!	20	1	0	0	0	0	0	Social State	Affects Social State when at war
+SocState	+	20	1	0	0	0	0	0	Social State	Modifies Social State
+ElimCost	!	0	1	0	0	0	0	0	Specials	
+Deplete	!	0	1	0	0	0	0	0	Specials	
+TerrCost	!	0	1	0	0	0	0	0	Specials	Cost to remove a special with terraforming
+MilCost	!	0	1	0	0	0	0	0	Specials	
+SpGenerc	!	0	1	0	0	0	0	0	Specials	
+SpTerfrm	!	0	1	0	0	0	0	0	Specials	
+SpPopAct	!	0	1	0	0	0	0	0	Specials	
+SpPrtDep	!	0	1	0	0	0	0	0	Specials	
+SpOracle	!	0	1	0	0	0	0	0	Specials	
+SpFLUGen	!	0	1	0	0	0	0	0	Specials	
+Foretell	!	0	1	0	0	0	0	0	Specials	
+SmChance	!	0	1	0	0	0	0	0	Specials	
+MdChance	!	0	1	0	0	0	0	0	Specials	
+LgChance	!	0	1	0	0	0	0	0	Specials	
+Duration	!	0	1	0	0	0	0	0	Specials	
+Species	!	1	1	0	0	0	0	0	Specials	Modifiers attached to FLU specials entries
+Race	!	1	1	0	0	0	0	0	Specials	Modifiers attached to FLU specials entries
+MinValue	!	1	1	0	0	0	0	0	Specials	Modifiers attached to FLU specials entries
+NumDice	!	1	1	0	0	0	0	0	Specials	Modifiers for rolling jump table specials
+DieSize	!	1	1	0	0	0	0	0	Specials	Modifiers for rolling jump table specials
+JumpMod	!	1	1	0	0	0	0	0	Specials	Modifiers for rolling jump table specials
+MaxEff	!	0	0	0	0	0	0	0	Specials	Solar Wind parameter
+MinEff	!	0	0	0	0	0	0	0	Specials	Solar Wind parameter
+SpechEff	+	20	1	0	0	0	0	0	Speech	Speech Effectiveness
+mTaxColl	+	100	1	1	1	1	1	1	Tax	Modify tax collected at individual political unit
+gTaxColl	+	10	1	0	0	0	0	0	Tax	Modify tax collected globally at all political units below this one
+TechOver	-	20	1	0	0	0	0	0	Technology	"This is a modifier to the chance of a technology overrun, higher is bad"
+TechPosO	+	20	1	0	0	0	0	0	Technology	"This affects the chance of any overrun occuring being a positive one (ie, you'll reap some benefit)"
+TechDisc	+	20	1	0	0	0	0	0	Technology	This affects the chance that an overrun is reported to the player or not
+TechBonu	-	20	1	0	0	0	0	0	Technology	Bonus research points applied to applied technology
+TFormCst	-	20	1	0	0	0	0	0	Terraform	Modify the cost of terraforming
+TFormVal	-	100	1	0	0	0	0	0	Terraform	"I don't know, but it is used in the Ancient Battle Dmg special"
+TFormPar	+	100	1	0	0	0	0	0	Terraform	equals 1 if user can terraform a planet to the paradise ring
+TFormRin	+	20	1	0	0	0	0	0	Terraform	how many rings can player terraform a planet from its starting ring
+TFormCs	-	100	1	0	0	0	0	0	Terraform	I don't think this is used anywhere
+MinTurn	!	0	1	0	0	0	0	0		
+DlayTech	-	20	1	0	0	0	0	0		
+SmMulti	!	0	1	0	0	0	0	0		
+MdMulti	!	0	1	0	0	0	0	0		
+LgMulti	!	0	1	0	0	0	0	0		
+NulSuprn	-	100	1	0	0	0	0	0		
+Colony	+	20	1	0	0	0	0	0		
+InterNeg	+	20	1	0	0	0	0	0		Adjustment to negative interest
+InterPos	+	20	1	0	0	0	0	0		Adjustment to positive interest
+TradeLev	+	20	1	0	0	0	0	0		
+MinRatio	+	100	0	0	0	0	0	0		
+MaxRatio	+	100	0	0	0	0	0	0		
+tsoCtsyS	+	0	0	0	0	0	0	0		
+BredRiot	-	0	0	0	0	0	0	0		
+CircRiot	-	0	0	0	0	0	0	0		
+FactInfl	+	20	1	0	0	0	0	0	Faction	Faction Influence
+FactEnfr	+	1	1	0	0	0	0	0	Faction	Faction Enfranchisement
+FactTaxB	+	1	1	0	0	0	0	0	Faction	Faction TaxBurden
+FactLoya	+	20	1	0	0	0	0	0	Faction	Faction Loyalty
+FactCorr	-	20	1	0	0	0	0	0	Faction	Faction Corruption Modifier
+GravPen	-	20	1	1	1	1	1	1	Economy	Gravity Penalty		
+Hull_Bld	+	20	1	0	0	0	0	0	Military	How big of ships can this planet build?		
+OverProd	+	20	1	1	1	1	1	1	Economy	Overdriving Cement		
+OverRsch	+	20	1	1	1	1	1	1	Economy	Overdriving Test tubes		
+AntarMod	+	20	1	0	0	0	0	0		Antaran Modifier for the expeditions		
+TransDim	+	20	1	0	0	0	0	0	Antaran	Sets transdimentional value to 1 as an access point for antaran expedition		
+EvntIFPM	+	1	1	0	0	0	0	0	Events	Value used to determine # of Ping pong balls for IFP Event mods		
+Outpost	+	1	1	0	0	0	0	0	Population	Indicatator that this is an Outpost System		
+IFPFacLy	+	1	1	0	0	0	0	0	Faction	Faction Loyalty modifier from IFP usage.		
+OSMayILB	+	0	0	0	0	0	0	0	Diplomacy	Modifiers for determining number of lottery balls for deciding whether or not to make a proposal in the Senate		
+OSMembLB	+	0	0	0	0	0	0	0	Diplomacy	Modifiers for determining number of lottery balls for deciding whether or not to make a Membership Proposal in the Senate		
+OSTradAU	+	0	0	0	0	0	0	0	Diplomacy	Multiplies the amount of AU generated from Trade as a member of the Orion Senate		
+OffTgtRg	-	1	0	0	0	0	0	0	Military	Sensors for targetting		
+DefTgtRg	+	1	0	0	0	0	0	0	Military	ECM		
+OffSptRg	-	1	0	0	0	0	0	0	Military	Senesors for spotting		
+DefSptRg	+	1	0	0	0	0	0	0	Military	Cloaking		
+PntDstWp	+	1	0	0	0	0	0	0	Military	Planet Destroying Weapon
+PntDstMt	+	1	0	0	0	0	0	0	Military	Planet Destroying Weapon
+duration	!	0	1	0	0	0	0	0	Events	
+effIdx	!	0	1	0	0	0	0	0	Events	
+FltMaint	+	0	1	0	0	0	0	0	Military	Fleet Maintenance
+NumLnch	+	0	1	0	0	0	0	0	Military	Number of Fighters or Missiles Launched from a Planetary Base
+PercImg	+	0	1	0	0	0	0	0	Diplomacy	"The Perceived Image Index, reverse of Casus Belli"
+BaseCore	+	0	1	0	0	0	0	0	Diplomacy	Base Core Reaction Modifier
+RceDiplo	!	0	0	0	0	0	0	0	Diplomacy	Which race pick was applied to this race?  Used to determine aggresiveness by the AI when facing unknown opponents
+SptRng	+	10	0	0	0	0	0	0	Military	Improves chances of spotting a cloaked ship
+DetRng	+	10	0	0	0	0	0	0	Military	Improves chances of avoiding being spotted.
+OffSensr	+	0.2	1	0	1	1	1	1	Military	Improves how far you can see on the galaxy map
+Cloaking	+	10	0	0	0	0	0	0	Military	hides a ship on the galaxy screen
+SpcePort	+	10	0	0	0	0	0	0	Economy	enables SpacePort DEA's to be built
+MinRgPop	!	0	0	0	0	0	0	0	Economy	Minimum population for a building to be built
+TechKnow	!	1	0	0	0	0	0	0	Research	Amount of Tech known at the beginning of the game.
+CivilDef	+	750	1	0	0	0	0	0	CivilDefense	Tag for dev plans
+TableEnd										
+TableEnd										
