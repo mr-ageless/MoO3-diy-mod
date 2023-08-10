@@ -151,18 +151,18 @@ InfoGdAM	!	0	1	0	0	0	0	0	Military
 InfoGdAL	!	0	1	0	0	0	0	0	Military
 InfoFWpn	!	0	1	0	0	0	0	0	Military
 ArmrPier	-	400	1	0	0	0	0	0	Military
-MultFire	+	33	1	0	0	0	0	0	Military
+MultFire	+	33	1	0	0	0	0	0	Military	Weapon fire rate
 MaxAccry	+	40	1	0	0	0	0	0	Military
-DmgDisSt	+	10	1	0	0	0	0	0	Military
+DmgDisSt	+	10	1	0	0	0	0	0	Military	Damage Dissipation Starting Distance
 NearDamg	+	10	1	0	0	0	0	0	Military
 FarDamag	+	10	1	0	0	0	0	0	Military
 Envlping	+	10	1	0	0	0	0	0	Military
 ShldPen	-	1	1	0	0	0	0	0	Military
 ShldDmg	-	1	1	0	0	0	0	0	Military
 Facing	!	0	1	0	0	0	0	0	Military
-AccDisSt	+	10	1	1	1	1	1	1	Military
-AccDisEn	+	10	1	1	1	1	1	1	Military
-DmgDisEn	+	10	1	0	0	0	0	0	Military
+AccDisSt	+	10	1	1	1	1	1	1	Military	Weapon Accuracy Dissipation Starting Distance
+AccDisEn	+	10	1	1	1	1	1	1	Military	Weapon Accuracy Dissipation End
+DmgDisEn	+	10	1	0	0	0	0	0	Military	Damage Dissipation End
 FireDlay	-	10	1	0	0	0	0	0	Military
 DamagCap	+	10	1	0	0	0	0	0	Military
 WarpSped	+	10	1	0	0	0	0	0	Military
