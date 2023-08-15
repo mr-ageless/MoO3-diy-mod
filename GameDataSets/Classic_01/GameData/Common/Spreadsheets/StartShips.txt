@@ -8,7 +8,7 @@
 	0..13 here.		
 
 TableStart	StartingShipDesigns		
-ColumnHeadingsStart	Count	Species	Race
+ColumnHeadingsStart	Count	Species	Race	
 RowHeadingsStart			
 Colony Ship.shp	1	-1	-1
 SystemColony.shp	0	-1	-1
