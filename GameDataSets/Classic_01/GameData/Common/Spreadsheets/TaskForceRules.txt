@@ -1,0 +1,43 @@
+TableStart	ShipNumbers											
+ColumnHeadingsStart	Unicode	MinShip	MaxShip	Pickets	Escorts	Mission						
+RowHeadingsStart												
+Detachment	TSKSIZE0	1	1	0	0	1						
+Squadron	TSKSIZE1	2	6	0	0	1						
+Flotilla	TSKSIZE2	7	12	1	1	2						
+Wave	TSKSIZE3	13	18	2	2	4						
+Pack	TSKSIZE4	19	24	3	4	6						
+Armada	TSKSIZE5	25	32	4	6	8						
+TableEnd												
+
+
+
+TableStart	MissionShips											
+ColumnHeadingsStart	Unicode	EscortRulesApply	LRSS	SRSS	PlanetDestroyer	IndirectFire	Carrier	FlotsamDefense	Recon	Transport	Colony	Outpost
+RowHeadingsStart												
+LongRange	TASKLRSS	0	1	0	1	3	0	3	0	0	0	0
+ShortRange	TASKSRSS	0	0	1	0	3	0	3	0	0	0	0
+IndirectFire	TASKIFSS	1	0	0	0	1	0	3	0	0	0	0
+Carrier	TASKCASS	1	0	0	0	0	1	3	0	0	0	0
+Reconnaissance	TSKRCNSC	0	0	0	0	0	0	0	1	0	0	0
+Transport	TSKTRNSP	1	0	0	0	0	0	0	0	1	0	0
+Colony	TASKCLNY	1	0	0	0	0	0	0	0	0	1	0
+Outpost	TASKOUTP	1	0	0	0	0	0	0	0	0	0	1
+TableEnd												
+
+TableStart	MissionShipRules											
+ColumnHeadingsStart	Unicode	Core	Escort	Picket	Mandatory	Recommended	Maximize	Defense	Speed			
+RowHeadingsStart												
+LRSS	SHPMLRSS	1	1	0	InfoWeap	UniSpace	AccDisEn	3	100			
+SRSS	SHPMSRSS	1	1	0	InfoWeap	UniSpace	NearDamg	3	100			
+PlanetDestroyer	SHPMPLDS	1	0	0	InfoWeap	UniSpace	PntDstWp	3	100			
+IndirectFire	SHPMINDF	1	0	0	InfoMisl	InfoMisl	FarDamag	1	80
+Carrier	SHPMCARR	1	0	0	InfoFWpn	InfoFWpn	UniSpace	1	100
+FlotsamDefense	SHPMPDEF	0	1	0	InfoWeap	UniSpace	FireDlay	2	100
+Recon	SHPMRCON	0	0	1	OffTgtRg	UniSpace	UniSpace	1	100
+Transport	SHPMTRNS	1	0	0	TrpCap	UniSpace	UniSpace	1	60
+Colony	SHPMCLNY	1	0	0	Colony	UniSpace	UniSpace	0	60
+Outpost	SHPMOUTP	1	0	0	Outpost	UniSpace	UniSpace	0	60
+TableEnd									
+
+"Defense  key 0-none, 1-light,  2-medium, 3 heavy"									
+"Speed key 100=do 100% max speed, 50=do 50% max speed"									

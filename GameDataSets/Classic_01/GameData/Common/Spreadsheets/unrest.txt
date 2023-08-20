@@ -1,0 +1,119 @@
+TableStart		UnrestCheck																												
+ColumnHeadingsStart	Unrest Factors	 	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	25	26	27	28	29	30
+RowHeadingsStart																														
+1	0	0	0	0	0	0	0	0	-1	-1	-1	-1	-1	-2	-2	-2	-2	-2	-1	-1	-1	-1	-1	0	0	0	0	0	0	0
+2	5	0	0	0	0	0	0	0	-1	-1	-1	-1	-1	-2	-2	-2	-2	-1	-1	-1	-1	-1	0	0	0	0	0	0	0	0
+3	10	0	0	0	0	0	0	0	0	-1	-1	-1	-1	-1	-2	-2	-2	-1	-1	-1	-1	-1	0	0	0	0	0	0	0	0
+4	15	0	0	0	0	0	0	0	0	-1	-1	-1	-1	-1	-2	-2	-1	-1	-1	-1	-1	0	0	0	0	0	0	0	0	0
+5	20	0	0	0	0	0	0	0	0	0	-1	-1	-1	-1	-1	-2	-1	-1	-1	-1	-1	0	0	0	0	0	0	0	0	0
+6	25	1	0	0	0	0	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	0	0	0	0	0	0	0	1
+7	30	1	1	0	0	0	0	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	-1	0	0	0	0	0	0	0	0	1	1
+8	35	1	1	1	0	0	0	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	0	0	0	0	0	0	0	0	1	1	1
+9	40	1	1	1	1	0	0	0	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	0	0	0	0	0	0	0	1	1	1	1
+10	45	1	1	1	1	0	0	0	0	0	0	0	-1	-1	-1	-1	-1	-1	0	0	0	0	0	0	0	1	1	1	1	1
+11	50	1	1	1	1	1	0	0	0	0	0	0	0	-1	-1	-1	-1	-1	0	0	0	0	0	0	0	1	1	1	1	1
+12	55	1	1	1	1	1	0	0	0	0	0	0	0	-1	-1	-1	-1	0	0	0	0	0	0	0	1	1	1	1	1	2
+13	60	2	1	1	1	1	1	0	0	0	0	0	0	0	-1	-1	-1	0	0	0	0	0	0	0	1	1	1	1	1	2
+14	65	2	1	1	1	1	1	0	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	1	1	1	1	1	2	2
+15	70	2	2	1	1	1	1	1	0	0	0	0	0	0	0	-1	0	0	0	0	0	0	0	1	1	1	1	1	2	2
+16	75	2	2	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1	1	2	2	2
+17	80	2	2	2	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1	1	2	2	2
+18	85	2	2	2	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1	1	2	2	2	3
+19	90	3	2	2	2	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1	1	2	2	2	3
+20	95	3	2	2	2	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0	1	1	1	1	1	2	2	2	3	3
+21	100	3	3	2	2	2	1	1	1	1	1	0	0	0	0	0	0	0	0	0	1	1	1	1	1	2	2	2	3	3
+22	105	3	3	2	2	2	1	1	1	1	1	0	0	0	0	0	0	0	0	1	1	1	1	1	2	2	2	3	3	4
+23	110	4	3	3	2	2	2	1	1	1	1	1	0	0	0	0	0	0	0	1	1	1	1	1	2	2	2	3	3	4
+24	115	4	3	3	2	2	2	1	1	1	1	1	0	0	0	0	0	0	1	1	1	1	1	2	2	2	3	3	4	4
+25	120	4	4	3	3	2	2	2	1	1	1	1	1	0	0	0	0	0	1	1	1	1	1	2	2	2	3	3	4	4
+26	125	4	4	3	3	2	2	2	1	1	1	1	1	0	0	0	0	1	1	1	1	1	2	2	2	3	3	4	4	4
+27	130	4	4	4	3	3	2	2	2	1	1	1	1	1	0	0	0	1	1	1	1	1	2	2	2	3	3	4	4	4
+28	135	4	4	4	3	3	2	2	2	1	1	1	1	1	0	0	1	1	1	1	1	2	2	2	3	3	4	4	4	4
+29	140	4	4	4	4	3	3	2	2	2	1	1	1	1	1	0	1	1	1	1	1	2	2	2	3	3	4	4	4	4
+30	145	4	4	4	4	3	3	2	2	2	1	1	1	1	1	1	1	1	1	1	2	2	2	3	3	4	4	4	4	4
+31	32767	4	4	4	4	4	3	3	2	2	2	1	1	1	1	1	1	1	1	1	2	2	2	3	3	4	4	4	4	4
+TableEnd																														
+
+TableStart	EconUnrest																													
+ColumnHeadingsStart	Unicode	PeaceAndProsperity	PeaceThroughStrength	LimitedWar	TotalWar	HolyWar																								
+RowHeadingsStart																														
+MilSpendingCap	MilSpCap	10	20	30	50	67																								
+UnrestPerExcess		2	2	1	1	1	Points per percent over Mil SpendingCap																							
+MilSpendingFloor	MilSpFlr	0	0	15	25	33																								
+UnrestPerDeficit		0	0	1	2	3	Points per percent under Mil Spending Floor																							
+StrongCurrency	StrCurr	90	100	105	115	125																								
+StrongGranularity		4	4	5	5	5	One unrest per x pts over StrongCurrency																							
+Weak Currency	WkCurrcy	50	40	35	25	20																								
+WeakGranularity		2	2	3	3	4	One unrest per x pts under weak Currency																							
+PlanetSpendingLvl	PlaSpLvl	2	5	10	17	25	This gives the % of its budget each planet will spend on local defense																							
+ReserveSize	RsrvSize	15	33	50	75	100	"Taken as a %, this gives the desired ratio of reserves : deployed forces"
+PlanetsToBuildUnits	PlaBdMil	10	20	40	60	80	Only the best planets will be asked to build military units; this gives the % of total planets that will be given such orders.
+TableEnd							
+
+TableStart	UnrestTaxAdjustment						
+ColumnHeadingsStart	Adjustment to Tax Rate						
+RowHeadingsStart							
+0	2						
+10	1						
+20	0						
+26	-1						
+32	-2						
+40	-3						
+50	-4						
+TableEnd							
+
+TableStart	UnrestTaxMod
+ColumnHeadingsStart	UnrestMod
+RowHeadingsStart	
+-40	-40
+-20	-20
+-10	-12
+-5	-3
+0	0
+5	6
+10	10
+20	20
+40	40
+60	80
+TableEnd	
+
+TableStart	UnrestBad
+ColumnHeadingsStart	Unicode	Value	Notes
+RowHeadingsStart			
+Starvation	Starve	5	per PP unfed
+Societal Corruption	SocCorr	2	per point
+Piracy	Piracy	1	per point
+Population can't move as desired	PopNoMv	1	per .01PP
+Protracted War	LongWar	3	Per turn
+PlanetUnderSiege	UnderSge	15	
+Other Planet in Revolt	OthRevlt	5	
+Monetary Policy Switch	MonPolSw	10	
+Military Presence	MilPres	-3	
+Soc Sect FLU	SocFLU	-5	
+TechAdvance	TechAdvU	0	Formula in code
+EatenByHarvesters	HarvEat	3	Per Harvester PP on planet
+NoHarvesterFood	NoHarvFd	20	
+OppressometerBad	OppBad	0	"Value not used, just the tag"
+TableEnd						
+
+TableStart		UnrestMisc				
+ColumnHeadingsStart	Unicode	Entry1	Entry2	Amount		
+RowHeadingsStart						
+SocialStateGood	SocStGd	10	10	-1	Amount per Entry1% above Entry2	
+SocialStateBad	SocStBd	10	-10	1	Amount per Entry1% below Entry2	
+OppressometerGood	OppGd	1	5	-10	Amount per (Entry1) of Oppressometer below (Entry2)	Note that this is now done as Amount per Entry1 that oppress is set different from species/govt pref - both high and low.  Entry 2 is unused
+LowUnemployment	LowUnemp	0.002	0.05	1	Amount per entry1 below entry 2	
+HighUnemployment	HiUnempl	0.001	0.07	1	Amount per entry1 below entry 2	
+TableEnd						
+
+
+TableStart	UnrestEffects					
+ColumnHeadingsStart	Unicode	Modifiers				
+RowHeadingsStart						
+Content	Content	None
+Unrest1	Unrest1	"MdUnrest*=1.2,ScrapVal*=0.75,Freightr*=0.75,DraftPol*=0.75,MilitiaU*=0.75,BioprPop*=0.75,MinprPop*=.75,BioOutPt*=0.75,TTperPop*=0.75"
+Unrest2	Unrest2	"MdUnrest*=1.3,ScrapVal*=0.5,Freightr*=0.5,DraftPol*=0.5,MilitiaU*=0.5,BioprPop*=0.5,MinprPop*=.5,BioOutPt*=0.5,TTperPop*=0.5"
+Unrest3	Unrest3	"MdUnrest*=1.4,ScrapVal*=0.25,Freightr*=0.25,DraftPol*=0.25,MilitiaU*=0.25,BioprPop*=0.25,MinprPop*=.25,BioOutPt*=0.25,TTperPop*=0.25"
+Revolt	Revolt	"MdUnrest*=2,ScrapVal*=0.0,Freightr*=0.0,DraftPol*=0,MilitiaU*=0,BioprPop*=0,MinprPop*=0,BioOutPt*=0,TTperPop*=0"
+Subjugated	Subjugat	"ScrapVal*=0.0,Freightr*=0.0,DraftPol*=0,MilitiaU*=0,BioprPop*=0,MinprPop*=0,BioOutPt*=0,TTperPop*=0"
+TableEnd		

@@ -1,28 +1,28 @@
 TableStart	SpeciesBaseRel																			
-ColumnHeadingsStart	Humanoid	Etherean	Geodic	Cybernetik	Ichthytosian	Harvesters	Insectoid	Saurian	Metashifters	Non-corporeal	Protoplasmic	Plant	Fungal	Avian	Gargantua	Bulrathi	Mrrshan	Elerians	Gnolam	Elder Civilizations
+ColumnHeadingsStart	Human	Evon	Psilon	Imsaeis	Eoladi	Silicoid	Meklar	Cynoid	Trilarian	Nommo	Ithkul	Klackon	Tachidi	Sakkra	Raas	Grendarl	XXXX	XXXX	XXXX	Elder Civilizations
 RowHeadingsStart																				
-Humanoid	0	0	-38	-60	50	-150	14	30	25	-24	-20	60	-38	38	63	7	7	25	7	-20
-Etherean	0	0	40	-65	40	-150	0	14	-14	-40	-60	14	-20	-50	38	0	0	0	0	-20
-Geodic	-38	40	0	-80	0	-150	-64	30	60	-14	0	0	14	0	-24	0	0	0	0	-20
-Cybernetik	-60	-65	38	0	38	-150	0	-14	0	-100	-37	14	-40	0	0	0	0	0	0	-20
-Ichthytosian	50	40	0	38	0	-150	0	-140	-20	0	24	0	-24	0	0	0	0	0	0	-20
-Harvesters	-150	-150	-150	-150	-150	-150	-150	-150	-150	-150	-150	-150	-150	-150	-150	-150	-150	-150	-150	-10
-Insectoid	14	0	-64	0	0	-150	0	24	12	35	0	-24	0	0	-12	0	-7	-7	0	-20
-Saurian	30	14	30	-14	-140	-150	24	0	24	0	-12	-14	0	0	23	0	-19	0	0	-20
-Metashifters	25	-14	60	0	-20	-150	12	24	0	54	12	0	0	-24	0	0	0	0	0	-20
-Non-Corporeal	0	-40	-14	-100	0	-150	35	0	54	0	12	0	0	-16	25	0	0	0	0	-20
-Protoplasmic	-20	-60	0	-37	24	-150	0	-12	12	12	0	12	-75	0	-24	0	0	0	0	-20
-Plant	60	14	0	14	0	-150	-24	-14	0	0	12	0	-160	-12	0	0	0	0	0	-20
-Fungal	-38	-20	14	-40	-24	-150	0	0	0	0	-75	-160	0	0	0	0	0	-7	0	-20
-Avian	38	-50	0	0	0	-150	0	0	-24	-16	0	0	-12	0	65	0	0	0	0	-20
-Gargantua	63	38	-24	0	0	-150	-12	23	0	25	-24	0	0	65	0	0	0	0	0	-20
-Bulrathi	7	0	0	0	0	-150	0	0	0	0	0	0	0	-7	0	0	-7	0	0	-20
-Mrrshan	7	0	0	0	0	-150	-7	-19	0	0	0	0	0	0	0	0	0	0	0	-20
-Elerians	25	0	0	0	0	-150	-7	0	0	0	0	0	-7	0	0	0	0	7	0	-20
-Gnolam	7	0	0	0	0	-150	0	0	0	0	0	0	0	0	0	0	0	0	0	-20
+Human	100	0	0	-10	-10	-10	-10	-10	-10	-10	-200	-10	-10	-10	-10	-10	0	0	0	-20
+Evon	0	100	0	-10	-10	-10	-10	-10	-10	-10	-200	-10	-10	-10	-10	-10	0	0	0	-20
+Psilon	0	0	100	-10	-10	-10	-10	-10	-10	-10	-200	-10	-10	-10	-10	-10	0	0	0	-20
+Imsaeis	-10	-10	-10	100	0	-10	-10	-10	-10	-10	-200	-10	-10	-10	-10	-10	0	0	0	-20
+Eoladi	-10	-10	-10	0	100	-10	-10	-10	-10	-10	-200	-10	-10	-10	-10	-10	0	0	0	-20
+Silicoid	-10	-10	-10	-10	-10	100	-10	-10	-10	-10	-200	-10	-10	-10	-10	-10	0	0	0	-10
+Meklar	-10	-10	-10	-10	-10	-10	100	0	-10	-10	-200	-10	-10	-10	-10	-10	0	0	0	-20
+Cynoid	-10	-10	-10	-10	-10	-10	0	100	-10	-10	-200	-10	-10	-10	-10	-10	0	0	0	-20
+Trilarian	-10	-10	-10	-10	-10	-10	-10	-10	100	0	-200	-10	-10	-10	-10	-10	0	0	0	-20
+Nommo	-10	-10	-10	-10	-10	-10	-10	-10	0	100	-200	-10	-10	-10	-10	-10	0	0	0	-20
+Ithkul	-200	-200	-200	-200	-200	-200	-200	-200	-200	-200	-100	-200	-200	-200	-200	-200	0	0	0	-20
+Klackon	-10	-10	-10	-10	-10	-10	-10	-10	-10	-10	-200	100	0	-10	-10	-10	0	0	0	-20
+Tachidi	-10	-10	-10	-10	-10	-10	-10	-10	-10	-10	-200	0	100	-10	-10	-10	0	0	0	-20
+Sakkra	-10	-10	-10	-10	-10	-10	-10	-10	-10	-10	-200	-10	-10	100	0	0	0	0	0	-20
+Raas	-10	-10	-10	-10	-10	-10	-10	-10	-10	-10	-200	-10	-10	0	100	0	0	0	0	-20
+Grendarl	-10	-10	-10	-10	-10	-10	-10	-10	-10	-10	-200	-10	-10	0	0	100	0	0	0	-20
+XXXX	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-20
+XXXX	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-20
+XXXX	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-20
 Elder Civs	-20	-20	-20	-20	-20	-10	-20	-20	-20	-20	-20	-20	-20	-20	-20	-20	-20	-20	-20	0
 TableEnd																				
-
+																				
 TableStart	GovBaseRel																			
 ColumnHeadingsStart	Unique	Despot	Monarchy	Oligarchy	ConstMon	Corporate	Democracy	Parliamentary	Rebulicanism	Hive	Unification									
 RowHeadingsStart																				
@@ -30,119 +30,119 @@ Unique	-15	-8	-8	-8	-10	-12	-10	-10	-8	-12	-15
 Despot	-8	4	2	0	0	-2	-5	-4	-3	0	-3									
 Monarchy	-8	2	8	3	6	-4	-2	0	0	-2	-4									
 Oligarchy	-8	0	3	12	8	6	-8	-6	-4	-10	-4									
-Const Monarchy	-10	0	6	8	4	0	0	2	4	-8	-6
-Corporate	-12	-2	-4	6	0	12	4	6	8	-10	-12
-Democracy	-10	-5	-2	-8	0	4	15	12	10	-15	-12
-Parliamentary	-10	-4	0	-6	2	6	12	10	8	-12	-10
-Republicanism	-8	-3	0	-4	4	8	10	8	5	-10	-7
-Hive	-12	0	-2	-10	-8	-10	-15	-12	-10	0	-8
-Unification	-15	-3	-4	-4	-6	-12	-12	-10	-7	-8	-10
-TableEnd											
-
-TableStart	RelationBar										
-ColumnHeadingsStart	MinValue										
-RowHeadingsStart											
-Feud	-200										
-Loathing	-181										
-Hateful	-157										
-Jaundiced	-133										
-Troubled	-109
-Tense	-85
-Wary	-61
-Unease	-37
-Neutral	-13
-Calm	14
-Relaxed	38
-Peaceful	62
-Cordial	86
-Amiable	110
-Friendly	134
-Harmonious	158
-Solidarity	182
-TableEnd	
-
-TableStart	CasusBelli
-ColumnHeadingsStart	MinValue
-RowHeadingsStart	
-DemandExtermine	-200
-DesireExtermine	-191
-DemandSurr	-181
-DesireSurrender	-169
-DemandWar	-154
-DesireCOnflict	-135
-AcceptConflict	-111
-Unfavorable	-81
-Apathetic	-44
-Favorable	45
-AcceptEndConflict	82
-DesireEndConflict	112
-DemandPeace	136
-DesireTreaty	155
-DemandTreaty	170	
-DesireAlliance	182	
-DemandAlliance	192	
-TableEnd		
-
-TableStart	PerceivedImage	
-ColumnHeadingsStart	Increase	Decrease
-RowHeadingsStart		
-OneThird	134	-200
-TwoTHird	67	-133
-Full	-200	-66
-Double	-400	101
-TableEnd		
-
-TableStart	RelationsGravitation	
-ColumnHeadingsStart	DPs Drifted	
-RowHeadingsStart					
-1	1				
-2	1				
-3	1				
-4	2				
-5	2				
-6	3				
-7	3				
-8	4				
-9	5				
-10	6				
-TableEnd					
-
-TableStart	MoralOutrage				
-ColumnHeadingsStart	ChancePop	ChanceReg	NotSenate	NotBanned	SenateBanned
-RowHeadingsStart					
-NuclearWeapons	1	0	CRDipGon+=-25	"CRTreaty+=-25,CRPeaceT+=-25,CRTradeM+=-25,CRExchng+=-25,CRDipGon+=-25,CRLarges+=-25"	"CRTreaty+=-37,CRPeaceT+=-37,CRTradeM+=-37,CRExchng+=-37,CRDipGon+=-37,CRLarges+=-37"
-ChemicalWeapons	2	0	CRDipGon+=-40	"CRTreaty+=-40,CRPeaceT+=-40,CRTradeM+=-40,CRExchng+=-40,CRDipGon+=-40,CRLarges+=-40"	"CRTreaty+=-60,CRPeaceT+=-60,CRTradeM+=-60,CRExchng+=-60,CRDipGon+=-60,CRLarges+=-60"
-BiologicalWeapons	3	0	CRDipGon+=-66	"CRTreaty+=-66,CRPeaceT+=-66,CRTradeM+=-66,CRExchng+=-66,CRDipGon+=-66,CRLarges+=-66"	"CRTreaty+=-99,CRPeaceT+=-99,CRTradeM+=-99,CRExchng+=-99,CRDipGon+=-99,CRLarges+=-99"
-DestroyUnpopulated	0	5	CRDipGon+=-50	"CRTreaty+=-50,CRPeaceT+=-50,CRTradeM+=-50,CRExchng+=-50,CRDipGon+=-50,CRLarges+=-50"	"CRTreaty+=-75,CRPeaceT+=-75,CRTradeM+=-75,CRExchng+=-75,CRDipGon+=-75,CRLarges+=-75"
-DestroyLightPop	0	8	CRDipGon+=-66	"CRTreaty+=-66,CRPeaceT+=-66,CRTradeM+=-66,CRExchng+=-66,CRDipGon+=-66,CRLarges+=-66"	"CRTreaty+=-99,CRPeaceT+=-99,CRTradeM+=-99,CRExchng+=-99,CRDipGon+=-99,CRLarges+=-99"
-DestroyPopulated	1	8	CRDipGon+=-90	"CRTreaty+=-90,CRPeaceT+=-90,CRTradeM+=-90,CRExchng+=-90,CRDipGon+=-90,CRLarges+=-90"	"CRTreaty+=-135,CRPeaceT+=-135,CRTradeM+=-135,CRExchng+=-135,CRDipGon+=-135,CRLarges+=-135"
-TableEnd					
-
-	Base war loss value is (Troops * #units lost) + (HullSize * #hullsizeslost) + (Population* #poppointskilled) + 				
-		(univalue*univalue of captured or destroyed planets) + (Planets * number of captured or destroyed planets)			
-	"For victim, this value is multiplied by VictimMult, then the sqrt of the result is applied as to the casus belli of the victim twoards the attacker"				
-		"Casus Belli is increased when at war, decreased when not at war or at holy war."			
-	For empires at war with the victim. The loss value is multiplied by EnemyOfEnemyMult and then divided by current turn number				
-		This result is added to the current relations between the attacker and the other warring empires			
-TableStart	WarLossValues				
-ColumnHeadingsStart	Factor	MeansWar			
-RowHeadingsStart		
-Troops	2	0
-Hull Size	1	0
-Population	4	0
-Univalue	0.01	0
-Planets	4	1
-VictimMult	1.5	0
-EnemyOfEnemyMult	1	0
-TableEnd		
-
-
-	PreLapse is the minimum number of turns which can trigger a war lapse	
-	PostLapse is the minimum number of turns after a lapse for a declaration of war to be made purely for low casus belli reasons	
-
-TableStart	LapseParams	
-ColumnHeadingsStart	Value	
-RowHeadingsStart	
-PreLapse	4
-PostLapse	5
-TableEnd	
+Const Monarchy	-10	0	6	8	4	0	0	2	4	-8	-6									
+Corporate	-12	-2	-4	6	0	12	4	6	8	-10	-12									
+Democracy	-10	-5	-2	-8	0	4	15	12	10	-15	-12									
+Parliamentary	-10	-4	0	-6	2	6	12	10	8	-12	-10									
+Republicanism	-8	-3	0	-4	4	8	10	8	5	-10	-7									
+Hive	-12	0	-2	-10	-8	-10	-15	-12	-10	0	-8									
+Unification	-15	-3	-4	-4	-6	-12	-12	-10	-7	-8	-10									
+TableEnd																				
+																				
+TableStart	RelationBar																			
+ColumnHeadingsStart	MinValue																			
+RowHeadingsStart																				
+Feud	-200																			
+Loathing	-181																			
+Hateful	-157																			
+Jaundiced	-133																			
+Troubled	-109																			
+Tense	-85																			
+Wary	-61																			
+Unease	-37																			
+Neutral	-13																			
+Calm	14																			
+Relaxed	38																			
+Peaceful	62																			
+Cordial	86																			
+Amiable	110																			
+Friendly	134																			
+Harmonious	158																			
+Solidarity	182																			
+TableEnd																				
+																				
+TableStart	CasusBelli																			
+ColumnHeadingsStart	MinValue																			
+RowHeadingsStart																				
+DemandExtermine	-200																			
+DesireExtermine	-191																			
+DemandSurr	-181																			
+DesireSurrender	-169																			
+DemandWar	-154																			
+DesireCOnflict	-135																			
+AcceptConflict	-111																			
+Unfavorable	-81																			
+Apathetic	-44																			
+Favorable	45																			
+AcceptEndConflict	82																			
+DesireEndConflict	112																			
+DemandPeace	136																			
+DesireTreaty	155																			
+DemandTreaty	170																			
+DesireAlliance	182																			
+DemandAlliance	192																			
+TableEnd																				
+																				
+TableStart	PerceivedImage																			
+ColumnHeadingsStart	Increase	Decrease																		
+RowHeadingsStart																				
+OneThird	134	-200																		
+TwoTHird	67	-133																		
+Full	-200	-66																		
+Double	-400	101																		
+TableEnd																				
+																				
+TableStart	RelationsGravitation																			
+ColumnHeadingsStart	DPs Drifted																			
+RowHeadingsStart																				
+1	1																			
+2	1																			
+3	1																			
+4	2																			
+5	2																			
+6	3																			
+7	3																			
+8	4																			
+9	5																			
+10	6																			
+TableEnd																				
+																				
+TableStart	MoralOutrage																			
+ColumnHeadingsStart	ChancePop	ChanceReg	NotSenate	NotBanned	SenateBanned															
+RowHeadingsStart																				
+NuclearWeapons	1	0	CRDipGon+=-25	 CRTreaty+=-25,CRPeaceT+=-25,CRTradeM+=-25,CRExchng+=-25,CRDipGon+=-25,CRLarges+=-25 	 CRTreaty+=-37,CRPeaceT+=-37,CRTradeM+=-37,CRExchng+=-37,CRDipGon+=-37,CRLarges+=-37 															
+ChemicalWeapons	2	0	CRDipGon+=-40	 CRTreaty+=-40,CRPeaceT+=-40,CRTradeM+=-40,CRExchng+=-40,CRDipGon+=-40,CRLarges+=-40 	 CRTreaty+=-60,CRPeaceT+=-60,CRTradeM+=-60,CRExchng+=-60,CRDipGon+=-60,CRLarges+=-60 															
+BiologicalWeapons	3	0	CRDipGon+=-66	 CRTreaty+=-66,CRPeaceT+=-66,CRTradeM+=-66,CRExchng+=-66,CRDipGon+=-66,CRLarges+=-66 	 CRTreaty+=-99,CRPeaceT+=-99,CRTradeM+=-99,CRExchng+=-99,CRDipGon+=-99,CRLarges+=-99 															
+DestroyUnpopulated	0	5	CRDipGon+=-50	 CRTreaty+=-50,CRPeaceT+=-50,CRTradeM+=-50,CRExchng+=-50,CRDipGon+=-50,CRLarges+=-50 	 CRTreaty+=-75,CRPeaceT+=-75,CRTradeM+=-75,CRExchng+=-75,CRDipGon+=-75,CRLarges+=-75 															
+DestroyLightPop	0	8	CRDipGon+=-66	 CRTreaty+=-66,CRPeaceT+=-66,CRTradeM+=-66,CRExchng+=-66,CRDipGon+=-66,CRLarges+=-66 	 CRTreaty+=-99,CRPeaceT+=-99,CRTradeM+=-99,CRExchng+=-99,CRDipGon+=-99,CRLarges+=-99 															
+DestroyPopulated	1	8	CRDipGon+=-90	 CRTreaty+=-90,CRPeaceT+=-90,CRTradeM+=-90,CRExchng+=-90,CRDipGon+=-90,CRLarges+=-90 	 CRTreaty+=-135,CRPeaceT+=-135,CRTradeM+=-135,CRExchng+=-135,CRDipGon+=-135,CRLarges+=-135 															
+TableEnd																				
+																				
+	Base war loss value is (Troops * #units lost) + (HullSize * #hullsizeslost) + (Population* #poppointskilled) + 																			
+		(univalue*univalue of captured or destroyed planets) + (Planets * number of captured or destroyed planets)																		
+	 For victim, this value is multiplied by VictimMult, then the sqrt of the result is applied as to the casus belli of the victim twoards the attacker 																			
+		 Casus Belli is increased when at war, decreased when not at war or at holy war. 																		
+	For empires at war with the victim. The loss value is multiplied by EnemyOfEnemyMult and then divided by current turn number																			
+		This result is added to the current relations between the attacker and the other warring empires																		
+TableStart	WarLossValues																			
+ColumnHeadingsStart	Factor	MeansWar																		
+RowHeadingsStart																				
+Troops	2	0																		
+Hull Size	1	0																		
+Population	4	0																		
+Univalue	0.01	0																		
+Planets	4	1																		
+VictimMult	1.5	0																		
+EnemyOfEnemyMult	1	0																		
+TableEnd																				
+																				
+																				
+	PreLapse is the minimum number of turns which can trigger a war lapse																			
+	PostLapse is the minimum number of turns after a lapse for a declaration of war to be made purely for low casus belli reasons																			
+																				
+TableStart	LapseParams																			
+ColumnHeadingsStart	Value																			
+RowHeadingsStart																				
+PreLapse	6																			
+PostLapse	8																			
+TableEnd																				

@@ -1,0 +1,42 @@
+TableStart	SpyTimeCost	
+ColumnHeadingsStart	Time	Cost
+RowHeadingsStart		
+Blunt Instrument	3	100
+TableEnd		
+
+TableStart	SpyDefaults	
+ColumnHeadingsStart	Loyalty	ReserveSpiesPerOppressPt
+RowHeadingsStart		
+Blunt Instrument	95	5
+TableEnd		
+
+TableStart	SpyTimeCostbySpecialty1	
+ColumnHeadingsStart	Time	Cost
+RowHeadingsStart		
+No Circle	0	0
+Military	2	20
+Political	1	20
+Economic	1	20
+Social	2	10
+Diplomatic	1	20
+Scientific	3	50
+TableEnd		
+
+Really simple table for specifying how many spies may cook on a single burner		
+TableStart	MaxSpiesPerBurner	
+ColumnHeadingsStart	MaxSpiesPerBurner	
+RowHeadingsStart		
+Value	12	
+TableEnd		
+
+
+Table for specifying the operative's cost multiplier based on its current status	
+TableStart	SpyCostByStatus
+ColumnHeadingsStart	SpyStatus
+RowHeadingsStart	
+On the Bench	0.04
+"In the Field, Risk None"	0.08
+"In the Field, Risk Low"	0.12
+"In the Field, Risk Average"	0.18
+"In the Field, Risk High"	0.26
+TableEnd	

@@ -1,0 +1,65 @@
+// Basic information about snapshots - currently just how long they last	
+TableStart	Snapshots
+ColumnHeadingsStart	value
+RowHeadingsStart	
+Snapshot Length	1000000.0
+TableEnd	
+
+
+
+// Basic information about shields	
+TableStart	Shields
+ColumnHeadingsStart	value
+RowHeadingsStart	
+Time for shield to recharge specified amount	6000000.0
+% Strength Shield Turns Back On	0.5
+% Of Excess Shield Dam Applied To Generator	0.333333
+TableEnd	
+
+
+
+// Information about the affects of maneuver	
+TableStart	Maneuver
+ColumnHeadingsStart	value
+RowHeadingsStart	
+Modification to Chance Armor Blocks Rear Hit	0.8
+Modification to Accuracy from Masking Fires	0.8
+Modification to Accuracy from Flanking Fires	1.25
+TableEnd	
+
+
+
+// the basic modifier applied to different values when a ship is suppressed different amounts.	
+TableStart	Base Suppression Modifiers			
+ColumnHeadingsStart	Unengaged	Lightly Engaged	Under Fire	Stunned
+RowHeadingsStart				
+Accuracy	0.0	0.05	0.4	1.0
+Sensor Radius	0.0	0.05	0.5	1.0
+Speed	0.0	0.05	0.25	0.5
+TableEnd				
+
+
+
+// The modification to the above based on crew quality				
+// Note - we need ways for techs to be able to modify these too…				
+TableStart	Crew Quality Modifiers			
+ColumnHeadingsStart	value			
+RowHeadingsStart				
+Recruit	2.0			
+Trained	1.5	
+Experienced	1.2	
+Veteran	1.0	
+Crack	0.8	
+Elite	0.5	
+TableEnd		
+
+
+
+"// The minimum and maximum value for varius delays in space combat.  These may be modified in code, obviously."		
+TableStart	Base Delays	
+ColumnHeadingsStart	minimum	maximum
+RowHeadingsStart		
+Think Delay	6000000.0	14000000.0
+Tracking Delay - Primary Target	3000000.0	8000000.0
+Tracking Delay - Target of Opportunity	0.2	
+TableEnd

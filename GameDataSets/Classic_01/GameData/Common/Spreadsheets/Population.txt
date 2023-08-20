@@ -1,0 +1,123 @@
+	// Stay percentage is used only by growth migration - it is the chance that pop growth will stay in the same region		
+	// Population not aligned with any empire will not migrate.		
+TableStart	StayPercentage		
+ColumnHeadingsStart	Percentage		
+RowHeadingsStart			
+Humanoid	75		
+Etherean	75		
+Geodic	75		
+Cybernetik	75		
+Ichthytosian	75		
+Harvesters	50		
+Insectoid	75		
+Saurian	75		
+Metashifters	75		
+Non-Corporeal	75		
+Protoplasmic	75		Max stay number is 95
+Plant	75							
+Fungal	75							
+Avian	75							
+Gargantua	75							
+Bulrathi	75							
+Mrrshan	75							
+Elerians	75							
+Gnolam	75							
+Elder Civ	95							
+TableEnd								
+
+
+TableStart	PopulationGrowthPlanet							
+ColumnHeadingsStart	Paradise	SweetSpot	G1	G2	Y1	Y2	R1	R2
+RowHeadingsStart								
+NaturalLimit	36	25	24	22	9	9	2	2
+Overcrowding	22	18	16	15	6	6	2	2
+MaxPop	10	8	7	6	3	3	2	2
+TableEnd								
+
+
+TableStart	PopulationPushFactor							
+ColumnHeadingsStart	Paradise	SweetSpot	G1	G2	Y1	Y2	R1	R2
+RowHeadingsStart								
+Pioneers	30	25	25	25	10	10	-15	-20
+TableEnd								
+
+	// Population Moving							
+	// Number of rows is fixed. Values for pct full and eligible can both be changed							
+	"// if push has occurred and population density is greater than PctFull[x], then Eligible[x]% of the population will move"							
+TableStart	PopulationMoving							
+ColumnHeadingsStart	PctFull	Eligible						
+RowHeadingsStart											
+1	0.02	1									
+2	0.05	0.4									
+3	0.1	0.2									
+4	0.25	0.02									
+5	0.5	0.02									
+6	0.75	0.02									
+7	1	0.02									
+TableEnd											
+
+TableStart	PopGrowth										
+ColumnHeadingsStart	0	1	2	3	4	5	6	7	8	9	10
+RowHeadingsStart											
+Jobs Multiplier	1	1.41	1.73	2	2.24	2.45	2.65	2.83	3	3.16	3.32
+Fertility Multiplier	1	1	1.17	1.35	1.55	1.76	2	2.27	2.59	3	1
+TableEnd											
+
+TableStart	PopMisc			
+ColumnHeadingsStart	Entry1	Entry2		
+RowHeadingsStart				
+TaxRatePull	2			
+Starvation	2			
+PullUnemployment%	0.2	5		
+PopDensity	0.75	0.9		
+Immigration cap	0.05	5		"min cap, x growth rate"
+TableEnd				
+
+
+TableStart	PushFactor			
+ColumnHeadingsStart	Amount	Special notes		
+RowHeadingsStart				
+Dense population	4	per .1 over natural limit		
+Overpopulation	10	per .1 over overcrowding limit
+Region in Unrest	18	per level of unrest
+Region in Revolt	30	
+Colonization Targets exist	50	per planet targeted by empire
+TableEnd		
+
+
+
+TableStart	PushPullPlanet	
+ColumnHeadingsStart	Migrants	Special notes
+RowHeadingsStart		
+Distance to system	-5	per jump
+Green habitability rating	35	
+Yellow habitability rating	0	Assumes possession of tech to create biosphere
+Red habitability rating	-30	Assumes possession of tech to create biosphere
+Existing pop of same species	20	per populated region
+Existing pop of same race	60	per populated region
+No population on planet		"Check pullfactorX row, colinizationpolicy table on governmodifiers spreadsheet"
+Potential maximum population	1	per point for all regions combined
+Government Encouragement	200	
+Green gravity rating	30	
+Yellow gravity rating	0	
+Red gravity rating	-35	
+TableEnd		
+
+
+TableStart	PushPullRegion	
+ColumnHeadingsStart	Migrants	Special notes
+RowHeadingsStart		
+Region contains different race	-999	Won't go to region with different race
+High planetary unemployment	-999	Won't go to high unemployment region
+Starvation	-999	Won't go to starving region
+Region in Unrest	-999	Won't go to region in Unrest
+Region in Revolt	-999	Won't go to region in Revolt
+Underemployment	3	per (Entry1)% below (Entry2)% PullUnemployment% row PopMisc Table
+Low/no taxes	0	per (Entry1)% from TaxRatePush row PopMisc table under (PopulationTaxRate2%) from GovernModifiers spreadsheet
+Room for population growth	5	"per .1 below ""natural limit"""
+Dense population	-2	per .1 over natural limit
+Overpopulation	-8	per .1 over overcrowding limit
+High taxes	0	per (Entry1)% from TaxRatePush row PopMisc table over (PopulationTaxRate2%) from GovernModifiers spreadsheet
+High piracy in system	0	per point of system piracy
+Polluted Environment	0	per point of pollution mess
+TableEnd		

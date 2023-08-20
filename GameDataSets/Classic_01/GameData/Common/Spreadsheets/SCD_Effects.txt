@@ -1,0 +1,97 @@
+Spreadsheet for describing space combat visual effects of energy bolt class weapons:												
+"  RowHeadingsStart: values are ignored, can be used for reference."												
+  ID: Column should contain a unique value that matches the visual column values in the WeaponsTable spreadsheet file.												
+"  TextureFileNameBase: Base name for the files in the asset folder of the texture .png's. If NumFramse equals 1, then the name is used as is."												
+"  NumFrames: Number of .png files this effect uses.  If more than 1, ""_##"" will be added to the base name to load each file where ## is ""01"" for the first, etc…"												
+  FPS: Rate of animation for effects with more than one frame.												
+"  Scale:  Adjust the base size of the effect, 0.5 meaning half, 2.0 being double."												
+  Speed: How fast the effect moves.  Measured in world coordinates per second.												
+
+
+TableStart	SCD_BoltWeaponEffects											
+ColumnHeadingsStart	ID	AttackTextureFileBase	A_NumFrames	A_FPS	A_Scale	A_Speed	A_SoundFile	HitTextureFileBase	H_NumFrames	H_FPS	H_Scale	H_SoundFile
+RowHeadingsStart												
+Effect_0	1	Comet	10	15	0.4	5250	sbo_Comet	ExploC	15	15	1.0	hbo_Comet
+Effect_1	2	LightningBall	10	15	1	10000	sbo_LightningB	ExploC	15	15	1.0	hbo_LightningB
+Effect_2	3	Photon	10	15	0.6	19000	sbo_Photon	ExploC	15	15	1.0	hbo_Photon
+Effect_3	4	EnergyBolt	1	0	0.4	27000	sbo_EnergyBolt	ExploC	15	15	1.0	hbo_EnergyBolt
+Effect_4	5	Pulsar	5	15	0.4	25000	sbo_Pulsar	ExploC	15	15	1.0	hbo_Pulsar
+Effect_5	6	BluRnd	4	15	0.15	6000	sbo_BluRnd	ExploC	15	15	1.0	hbo_BluRnd
+Effect_6	7	Evangel	4	15	0.25	29000	sbo_Evangel	ExploC	15	15	1.0	hbo_Evangel
+Effect_7	8	EvanNA01	1	15	0.25	6000	sbo_EvanNA01	ExploC	15	15	1.0	hbo_EvanNA01
+Effect_8	9	BlueCapsul01	1	15	0.1	6000	sbo_BlueCapsul1	ExploC	15	15	1.0	hbo_BlueCapsul1
+Effect_9	10	YelGrnCapsul01	1	15	0.1	30000	sbo_YelGrnCapsul01	ExploC	15	15	1.0	hbo_YelGrnCaps1
+Effect_10	11	GreenCapsul01	1	15	0.1	7500	sbo_GreenCap01	ExploC	15	15	1.0	hbo_GreenCap01
+Effect_11	12	RedCapsul01	1	15	0.1	7500	sbo_RedCapsul01	ExploC	15	15	1.0	hbo_RedCapsul01
+Effect_12	13	RedYellCapsul01	1	15	0.1	7500	sbo_RedYelCap01	ExploC	15	15	1.0	hbo_RedYelCap01
+Effect_13	14	ViolCapsul01	1	15	0.1	7500	sbo_ViolCap01	ExploC	15	15	1.0	hbo_ViolCap01
+Effect_14	15	YellCapsul01	1	15	0.1	7500	sbo_YelCapsul01	ExploC	15	15	1.0	hbo_YelCapsul01
+Effect_15	16	RedYell3Caps	1	15	0.15	19000	sbo_RedYell3Caps	ExploC	15	15	1.0	hbo_RedYell3Cap
+Effect_16	17	Blue3Caps	1	15	0.15	6750	sbo_Blue3Caps	ExploC	15	15	1.0	hbo_Blue3Caps
+Effect_17	18	BluGrn3Caps	1	15	0.15	6750	sbo_BluGrn3Caps	ExploC	15	15	1.0	hbo_BluGrn3Caps
+Effect_18	19	Green3Caps	1	15	0.15	6750	sbo_Green3Caps	ExploC	15	15	1.0	hbo_Green3Caps
+Effect_19	20	viol3Caps	1	15	0.15	6750	sbo_viol3Caps	ExploC	15	15	1.0	hbo_viol3Caps
+Effect_20	21	SwlVort	7	15	0.2	6750	sbo_SwlVort	ExploC	15	15	1.0	hbo_SwlVort
+Effect_21	22	Smlpnwheel	6	15	0.15	6750	sbo_Smlpnwheel	ExploC	15	15	1.0	hbo_Smlpnwheel
+Effect_22	23	BluPinwhl	4	15	0.15	6750	sbo_BluPinwhl	ExploC	15	15	1.0	hbo_BluPinwhl
+Effect_23	24	Warhead	4	15	0.2	6750	sbo_Warhead	ExploC	15	15	1.0	hbo_Warhead
+Effect_24	25	AtomShot	10	15	0.6	40000	sbo_AtomShot	ExploC	15	15	1.0	hbo_AtomShot
+Effect_25	26	PulseShot	10	15	0.5	35000	sbo_PulseShot	ExploC	15	15	1.0	hbo_PulseShot
+Effect_26	27	StarShot	10	15	0.5	33000	sbo_StarShot	ExploC	15	15	1.0	hbo_StarShot
+TableEnd												
+Spreadsheet for describing space combat visual effects of energy beam class weapons:												
+"  RowHeadingsStart: values are ignored, can be used for reference."												
+  ID: Column should contain a unique value that matches the visual column values in the WeaponsTable spreadsheet file.												
+"  TextureFileNameBase: Base name for the files in the asset folder of the texture .png's. If NumFramse equals 1, then the name is used as is."												
+"  NumFrames: Number of .png files this effect uses.  If more than 1, ""_##"" will be added to the base name to load each file where ## is ""01"" for the first, etc…"												
+  FPS: Rate of animation for effects with more than one frame.														
+  Compression: Frequency with which the texture is tiled over the length of the beam.  0.5 is half normal.  2.0 is twice normal.														
+  ScrollRate:  How fast the beam textures scroll at the target.  Measured in world coordinates per second.														
+  Width: How wide the beam is drawn.  Measured in world coordinates.														
+  Duration:  How long does the effect last.  Measured in seconds.														
+
+
+TableStart	SCD_BeamWeaponEffects													
+ColumnHeadingsStart	ID	AttackTextureFileBase	A_NumFrames	A_FPS	A_Comp	A_Scroll	A_Width	A_Duration	A_SoundFile	HitTextureFileBase	H_NumFrames	H_FPS	H_Scale	H_SoundFile
+RowHeadingsStart														
+Effect_27	101	EnergyBeam	10	15	0.5	100	40	0.25	sbe_EnergyBeam	ExploB	15	15	1.0	hbe_EnergyBeam
+Effect_28	102	LightningBeam	10	15	1	50	40	0.50	sbe_LightningBm	ExploB	15	15	1.0	hbe_LightningBm
+Effect_29	103	CSBeam_01	1	0	0.5	300	40	0.75	sbe_CSBeam_01	ExploB	15	15	1.0	hbe_CSBeam_01
+Effect_30	104	BlueOscBeam	5	45	0.5	0	35	0.50	sbe_BlueOscBeam	ExploB	15	15	1.0	hbe_BlueOscBeam
+Effect_31	105	BlueVioArcBeam	5	10	0.5	300	20	0.50	sbe_BlueVioArcB	ExploB	15	15	1.0	hbe_BlueVioArcB
+Effect_32	106	GreenPlasBeam	2	45	0.25	800	15	0.50	sbe_GreenPlasBm	ExploB	15	15	1.0	hbe_GreenPlasBm
+Effect_33	107	Argon	4	15	0.5	0	10	0.50	sbe_Argon	ExploB	15	15	1.0	hbe_Argon
+Effect_34	108	ArgonRip	6	15	3	0	15	2.50	sbe_ArgonRip	ExploB	15	15	1.0	hbe_ ArgonRip
+Effect_35	109	BluGatBeam01	1	0	4	1100	25	0.35	sbe_BluGatBm01	ExploB	15	15	1.0	hbe_BluGatBm01
+Effect_36	110	GreenGatBeam01	1	0	4	1100	40	0.75	sbe_GreenGatB01	ExploB	15	15	1.0	hbe_GreenGatB01
+Effect_37	111	RedYelGatBeam01	1	0	5	2000	40	0.35	sbe_RedYelGat01	ExploB	15	15	1.0	hbe_RedYelGat01
+Effect_38	112	ViolGatBeam01	1	0	4	1100	40	2.50	sbe_ViolGatBm01	ExploB	15	15	1.0	hbe_ViolGatBeam01
+Effect_39	113	AnimGatBeam	2	10	4	1100	40	2.50	sbe_AnimGatBeam	ExploB	15	15	1.0	hbe_AnimGatBeam
+Effect_40	114	BluSmalGatbeam01	1	0	4	700	30	0.35	sbe_BluSmlGat01	ExploB	15	15	1.0	hbe_BluSmlGat01
+Effect_41	115	GrnSmalGatbeam01	1	0	4	700	30	2.50	sbe_GrnSmlGat01	ExploB	15	15	1.0	hbe_GrnSmlGat01
+Effect_42	116	SmalGatbeam01	1	0	4	700	30	2.50	sbe_SmlGatGat01	ExploB	15	15	1.0	hbe_SmlGatGat01
+Effect_43	117	VioSmalGatbeam01	1	0	4	700	30	2.50	sbe_ViolSmlGt01	ExploB	15	15	1.0	hbe_ViolSmlGt01
+Effect_44	118	SonicBeam	10	15	0.5	300	30	1.00	sbe_SonicBeam	ExploB	15	15	1.0	hbe_SonicBeam
+Effect_45	119	PhaseBeam	10	30	0.5	300	20	2.00	sbe_PhaseBeam	ExploB	15	15	1.0	hbe_PhaseBeam
+TableEnd														
+
+
+
+
+
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				

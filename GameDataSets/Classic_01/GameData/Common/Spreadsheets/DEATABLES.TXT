@@ -1,0 +1,361 @@
+TableStart	MineralTerrainMod		
+ColumnHeadingsStart	Plain	Broken	Mountain
+RowHeadingsStart			
+Humanoid	-1	0	1
+Etherean	-1	0	1
+Geodic	-1	0	1
+Cybernetik	-1	0	1
+Ichthytosian	-1	0	1
+Harvesters	-1	0	1
+Insectiod	-1	0	1
+Sauron	-1	0	1
+Metashifters	-1	0	1
+Non-corporeal	-1	0	1
+Protoplasmic	-1	0	1
+Plant	-1	0	1
+Fungal	-1	0	1
+Avian	-1	0	1			
+Gargantua	-1	0	1			
+Bulrathi	-1	0	1			
+Mrrshan	-1	0	1			
+Elerians	-1	0	1			
+Gnolam	-1	0	1			
+Elder Civs	-1	0	1			
+TableEnd						
+
+TableStart	MineEfficiency					
+ColumnHeadingsStart	Very Poor	Poor	Abundant	Rich	Very Rich	Ultra Rich
+RowHeadingsStart						
+Base	1	2	3	5	8	12
+TableEnd						
+
+TableStart	EcoSystemMod					
+ColumnHeadingsStart	RareHarvestVal	PollutionAbsorbed
+RowHeadingsStart		
+-2	1	3
+-1	1	6
+0	1	10
+1	1	15
+2	1	21
+TableEnd		
+
+TableStart	BioDiversityMod	
+ColumnHeadingsStart	RareHarvestVal	
+RowHeadingsStart		
+0	1	
+1	2	
+2	3	
+3	5	
+4	8		
+TableEnd			
+
+TableStart	FertilityTerrainMod		
+ColumnHeadingsStart	Plain	Broken	Mountain
+RowHeadingsStart			
+Humanoid	1	0	-1
+Etherean	1	0	-1
+Geodic	-1	0	1
+Cybernetik	0	0	0
+Ichthytosian	1	0	-1
+Harvesters	1	0	-1
+Insectiod	1	0	-1
+Sauron	1	0	-1
+Metashifters	1	0	-1
+Non-corporeal	1	0	-1
+Protoplasmic	1	0	-1						
+Plant	1	0	-1						
+Fungal	1	0	-1						
+Avian	1	0	-1						
+Gargantua	1	0	-1						
+Bulrathi	1	0	-1						
+Mrrshan	1	0	-1						
+Elerians	1	0	-1						
+Gnolam	1	0	-1						
+TableEnd									
+
+TableStart	FertilityEfficiency								
+ColumnHeadingsStart	Toxic	Hostile	Barren	Subsistence	Hardscrabble	Arable	Fertile	Alluvial	Lush
+RowHeadingsStart									
+Base	0	0	0.5	1	2	3	5	8	12
+TableEnd									
+
+TableStart	PopulationReq																				
+ColumnHeadingsStart	Bioharvest	Mine	Industry	Research	Government	Military	Recreation	Spaceport													
+RowHeadingsStart																					
+Employed(Base)	0.67	0.33	1	0.33	1	0.67	0.67	0.33													
+Required(Base)	0	0	0	0	0	0	0	2													
+TableEnd																					
+
+TableStart	FactoryConversionRate																				
+ColumnHeadingsStart	Base	"""+1"	"""+2"	"""+3"	"""+4"	"""+5"	"""+6"	"""+7"	"""+8"	"""+9"	"""+10"	"""+11"	"""+12"	"""+13"	"""+14"	"""+15"	"""+16"	"""+17"	"""+18"	"""+19"	"""+20"
+RowHeadingsStart																					
+Minerals	4	3.2	2.5	2	1.6	1.3	1	0.9	0.8	0.7	0.6	0.5	0.4	0.3	0.2	0.1	0.1	0.1	0.1	0.1	0.1
+BioHarvest	3.2	2.5	2	1.6	1.3	1	1	0.9	0.8	0.7	0.6	0.5	0.4	0.3	0.2	0.1	0.1	0.1	0.1	0.1	0.1
+TableEnd																					
+
+TableStart	BaseCapacity																				
+ColumnHeadingsStart	Bioharvest	Mine	Industry	Research	Government	Military	Recreation	Spaceport
+RowHeadingsStart								
+BaseCapacity	1	1	1	1	1	1	1	1
+BaseEfficiency	5	5	15	5	1	1	3	3
+TableEnd								
+
+TableStart	BaseValues							
+ColumnHeadingsStart	Base							
+RowHeadingsStart								
+Surplus Mineral Value	7.5							
+Industrial Mineral Value	15							
+Mineral Food Value	30							
+RareMineralTune	4							
+MineralPerPop	0							
+Surplus Bio Value	5							
+Industrial Bio Value	10							
+Bio Food Value	20
+RareBioTune	2.5
+BioPerPop	0
+IndustryAUperOutput	10
+CementPerPop	3
+CementPerOutput	1
+ResearchPerPop	1
+PollutionPerPop	0.75
+PollutionPerMineral	1
+PollutionPerCementAU	1
+BreadSurplusValue	5
+Commuter Trade	2
+System Trade	1
+InterstellarTrade	0.5
+SameCivDiffSpecies	1.5
+DiffCivSameSpecies	1.5
+DiffCivDiffSpecies	2										
+TableEnd											
+
+TableStart	BaseCost										
+ColumnHeadingsStart	Bioharvest	Mine	Industry	Research	Government	Military	Recreation	Spaceport			
+RowHeadingsStart											
+BaseCost	50	50	150	150	100	100	50	150			
+TableEnd											
+
+TableStart	RecDimRet										
+ColumnHeadingsStart	Ignore	1DEA	2DEA	3DEA	4DEA	5DEA	6DEA	7DEA	8DEA	9DEA	10DEA+
+RowHeadingsStart											
+Planet	0	1	0.75	0.66667	0.5625	0.5	0.4417	0.4	0.3625	0.33333	0.33333
+Orbit	0	1	0.75	0.66667	0.5625	0.5	0.4417	0.4	0.3625	0.33333	0.33333
+System	0	1	0.75	0.66667	0.5625	0.5	0.4417	0.4	0.3625	0.33333	0.33333
+Adj System	0	1	0.75	0.66667	0.5625	0.5	0.4417	0.4	0.3625	0.33333	0.33333
+TableEnd											
+
+TableStart	MilDimRet										
+ColumnHeadingsStart	Ignore	1DEA	2DEA	3DEA	4DEA	5DEA	6DEA	7DEA	8DEA	9DEA	10DEA+
+RowHeadingsStart											
+Planet	0	1	0.75	0.66667	0.5625	0.5	0.4417	0.4	0.3625	0.33333	0.33333
+Orbit	0	1	0.75	0.66667	0.5625	0.5	0.4417	0.4	0.3625	0.33333	0.33333
+System	0	1	0.75	0.66667	0.5625	0.5	0.4417	0.4	0.3625	0.33333	0.33333
+Adj System	0	1	0.75	0.66667	0.5625	0.5	0.4417	0.4	0.3625	0.33333	0.33333
+TableEnd											
+
+TableStart	GovDimRet										
+ColumnHeadingsStart	Ignore	1DEA	2DEA	3DEA	4DEA	5DEA	6DEA	7DEA	8DEA	9DEA	10DEA+
+RowHeadingsStart											
+Planet	0	1	0.75	0.66667	0.5625	0.5	0.4417	0.4	0.3625	0.33333	0.33333
+TableEnd											
+
+TableStart	IconNames	
+ColumnHeadingsStart	Filename	Unicode
+RowHeadingsStart		
+None	None	DEAnone
+Farming	Ecological	DEAFarm
+Mining	Mining	DEAMine
+Industry	Manufacturing	DEAFact
+Research	Research	DEAResea
+Government	Governmental	DEAGov
+Military	Infantry	DEAMil
+Recreation	Recreation	DEARec
+SpacePort	TFAstEng	DEASpPrt
+Prison	TFCrimin	DEAPrisn
+TableEnd		
+
+TableStart	GovInfrastructure			
+ColumnHeadingsStart	Base	System	Sector	Empire
+RowHeadingsStart				
+Base	0.04	0.03	0.02	0.01
+2	0.09	0.07	0.05	0.03
+3	0.15	0.12	0.09	0.06
+4	0.22	0.18	0.14	0.1
+5	0.3	0.25	0.2	0.15
+TableEnd				
+
+TableStart	GovTaxMoney			
+ColumnHeadingsStart	Base	System	Sector	Empire
+RowHeadingsStart				
+Base	0	0	0	0
+2	0.05	0.05	0.05	0.05
+3	0.075	0.075	0.075	0.075
+4	0.1	0.1	0.1	0.1
+5	0.125	0.125	0.125	0.125
+TableEnd				
+
+TableStart	GovUnrestReduce			
+ColumnHeadingsStart	Base	System	Sector	Empire
+RowHeadingsStart				
+Base	2.5	2	1.5	1
+2	5	4	3	2
+3	7.5	6	4.5	3
+4	10	8	6	4
+5	12.5	10	7.5	5
+TableEnd				
+
+TableStart	GovDraftPool			
+ColumnHeadingsStart	Base	System	Sector	Empire
+RowHeadingsStart						
+Base	0.25	0.2	0.15	0.1		
+2	0.5	0.4	0.3	0.2		
+3	0.75	0.6	0.45	0.3		
+4	1	0.8	0.6	0.4		
+5	1.25	1	0.75	0.5		
+TableEnd						
+
+TableStart	MilDEA					
+ColumnHeadingsStart	ExtraRgn	DraftPool	UnrestRed	Outreach		
+RowHeadingsStart						
+Base	1	0.25	14	Region		
+2	2	0.25	12	Planet		"Note: Outreach is hardcoded, not table driven"
+3	3	0.25	14	Orbit		
+4	4	0.25	10	System		
+5	5	0.25	8	AdjSystem		
+TableEnd					
+
+TableStart	RecDEA				
+ColumnHeadingsStart	UnrestRed	Tourism	Outreach		
+RowHeadingsStart					
+Base	3	3	Planet		
+2	4	2	Orbit		
+3	3	1	System		
+4	2	0.5	AdjSystem		
+TableEnd					
+
+TableStart	GravityEffects				
+ColumnHeadingsStart	NegligibleGravity	LowGravity	MediumGrav	HighGrav	CrushingGrav
+RowHeadingsStart					
+NegligiblePref	0	1	2	3	4
+LowPref	1	0	1	2	3
+MediumPref	2	1	0	1	2	
+HighPref	3	2	1	0	1	
+CrushingPref	4	3	2	1	0	
+TableEnd						
+
+TableStart	GravityPenalties					
+ColumnHeadingsStart	None	Low	Med	High	Vhigh	
+RowHeadingsStart						
+Efficiency	1	0.85	0.7	0.5	0.33	
+Maintenance	1	1	1	1	1	
+TableEnd						
+
+TableStart	UnrestPenalties					
+ColumnHeadingsStart	Content	Unrest1	Unrest2	Unrest3	Revolt	Subjugated
+RowHeadingsStart						
+Efficiency	1	0.75	0.5	0.25	0	0.1
+TableEnd				
+
+TableStart	PortDistanceDiminish			
+ColumnHeadingsStart	1 Jump	2 Jump	3 Jump	4 Jump
+RowHeadingsStart				
+1	0.33	0.11	0.04	0.01
+2	0.33	0.11	0.04	0.01
+3	0.5	0.25	0.125	0.0625
+4	0.5	0.25	0.125	0.0625
+5	0.66	0.44	0.3	0.2
+6	0.66	0.44	0.3	0.2
+7	0.75	0.56	0.42	0.32
+8	0.75	0.56	0.42	0.32
+9	0.8	0.64	0.51	0.41
+10	0.8	0.64	0.51	0.41
+11	0.83	0.69	0.58	0.48
+12	0.83	0.69	0.58	0.48	
+TableEnd					
+
+TableStart	PollutionMess				
+ColumnHeadingsStart	EfficiencyMultiplier	MessLevel	Tolerant	SaurianAdaptibility	SaurianAndTolerant
+RowHeadingsStart					
+1	1	0	0	0	0
+2	0.95	7	11	9	13
+3	0.9	15	23	19	27
+4	0.85	23	35	29	41
+5	0.8	32	48	40	56
+6	0.75	42	62	52	73
+7	0.7	51	77	64	90
+8	0.65	62	93	78	109
+9	0.6	74	111	92	129
+10	0.55	86	129	108	151
+11	0.5	100	150	125	175			
+12	0.45	115	173	144	202			
+13	0.4	132	198	165	231			
+14	0.35	151	227	189	265			
+15	0.3	174	261	217	304			
+16	0.25	200	300	250	350			
+17	0.2	232	348	290	406			
+18	0.15	274	411	342	479			
+19	0.1	332	498	415	581			
+20	0.05	432	648	540	756			
+TableEnd								
+
+TableStart	OverDriveProd							
+ColumnHeadingsStart	1to1	2to1	3to1	4to1	5to1	6to1	7to1	8to1
+RowHeadingsStart								
+Base	1	3	9	27	81	243	729	2187
+1 OverProd Achievement	1	2.4	5.8	14	33.6	81	195.1	469.8
+2 OverProd Achievement	1	2	4.1	8.2	16.7	33.6	67.9	137.2
+3 OverProd Achievement	1	1.8	3.1	5.4	9.5	16.7	29.2	51.3
+4 OverProd Achievement	1	1.6	2.5	3.9	6	9.5	14.9	23.3
+5 OverProd Achievement	1	1.4	2.1	2.9	4.2	6	8.7	12.4
+6 OverProd Achievement	1	1.3	1.8	2.4	3.2	4.2	5.6	7.5
+7 OverProd Achievement	1	1.3	1.6	2	2.5	3.2	4	5
+8 OverProd Achievement	1	1.2	1.4	1.7	2.1	2.5	3	3.6
+9 OverProd Achievement	1	1.2	1.3	1.6	1.8	2.1	2.4	2.8
+10 OverProd Achievement	1	1.1	1.3	1.4	1.6	1.8	2	2.3
+11 OverProd Achievement	1	1.1	1.2	1.3	1.5	1.6	1.8	1.9
+12 OverProd Achievement	1	1.1	1.2	1.3	1.4	1.5	1.6	1.7
+13 OverProd Achievement	1	1.1	1.1	1.2	1.3	1.4	1.4	1.5
+14 OverProd Achievement	1	1	1.1	1.2	1.2	1.3	1.3	1.4
+15 OverProd Achievement	1	1	1.1	1.1	1.2	1.2	1.3	1.3
+16 OverProd Achievement	1	1	1.1	1.1	1.1	1.2	1.2	1.2
+17 OverProd Achievement	1	1	1.1	1.1	1.1	1.1	1.2	1.2
+18 OverProd Achievement	1	1	1	1.1	1.1	1.1	1.1	1.1
+19 OverProd Achievement	1	1	1	1	1.1	1.1	1.1	1.1
+20 OverProd Achievement	1	1	1	1	1.1	1.1	1.1	1.1
+TableEnd								
+
+TableStart	OverDriveRsch							
+ColumnHeadingsStart	1to1	2to1	3to1	4to1	5to1	6to1	7to1	8to1
+RowHeadingsStart								
+Base	1	3	9	27	81	243	729	2187
+1 OverRsch Achievement	1	2.4	5.8	14	33.6	81	195.1	469.8
+2 OverRsch Achievement	1	2	4.1	8.2	16.7	33.6	67.9	137.2
+3 OverRsch Achievement	1	1.8	3.1	5.4	9.5	16.7	29.2	51.3
+4 OverRsch Achievement	1	1.6	2.5	3.9	6	9.5	14.9	23.3
+5 OverRsch Achievement	1	1.4	2.1	2.9	4.2	6	8.7	12.4
+6 OverRsch Achievement	1	1.3	1.8	2.4	3.2	4.2	5.6	7.5
+7 OverRsch Achievement	1	1.3	1.6	2	2.5	3.2	4	5
+8 OverRsch Achievement	1	1.2	1.4	1.7	2.1	2.5	3	3.6
+9 OverRsch Achievement	1	1.2	1.3	1.6	1.8	2.1	2.4	2.8
+10 OverRsch Achievement	1	1.1	1.3	1.4	1.6	1.8	2	2.3
+11 OverRsch Achievement	1	1.1	1.2	1.3	1.5	1.6	1.8	1.9
+12 OverRsch Achievement	1	1.1	1.2	1.3	1.4	1.5	1.6	1.7
+13 OverRsch Achievement	1	1.1	1.1	1.2	1.3	1.4	1.4	1.5
+14 OverRsch Achievement	1	1	1.1	1.2	1.2	1.3	1.3	1.4
+15 OverRsch Achievement	1	1	1.1	1.1	1.2	1.2	1.3	1.3
+16 OverRsch Achievement	1	1	1.1	1.1	1.1	1.2	1.2	1.2
+17 OverRsch Achievement	1	1	1.1	1.1	1.1	1.1	1.2	1.2
+18 OverRsch Achievement	1	1	1	1.1	1.1	1.1	1.1	1.1
+19 OverRsch Achievement	1	1	1	1	1.1	1.1	1.1	1.1
+20 OverRsch Achievement	1	1	1	1	1.1	1.1	1.1	1.1
+21 OverRsch Achievement	1	1	1	1	1	1.1	1.1	1.1
+22 OverRsch Achievement	1	1	1	1	1	1	1	1.1
+23 OverRsch Achievement	1	1	1	1	1	1	1	1
+24 OverRsch Achievement	1	1	1	1	1	1	1	1
+25 OverRsch Achievement	1	1	1	1	1	1	1	1
+26 OverRsch Achievement	1	1	1	1	1	1	1	1
+27 OverRsch Achievement	1	1	1	1	1	1	1	1
+28 OverRsch Achievement	1	1	1	1	1	1	1	1
+29 OverRsch Achievement	1	1	1	1	1	1	1	1
+30 OverRsch Achievement	1	1	1	1	1	1	1	1
+TableEnd								

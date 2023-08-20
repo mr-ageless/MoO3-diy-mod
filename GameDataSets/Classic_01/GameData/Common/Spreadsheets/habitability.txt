@@ -1,0 +1,197 @@
+TableStart	PlanetHabitability							
+ColumnHeadingsStart	Atmosphere_factor	Temp_factor	Race_Name					
+RowHeadingsStart								
+0	61	38	Humanoid					
+1	106	55	Etherean					
+2	50	78	Geodic					
+3	30	55	Cybernetik					
+4	96	37	Ichthytosian					
+5	61	38	Harvesters					
+6	45	46	Insectiod					
+7	89	73	Sauron					
+8	90	50	Metashifters					
+9	76	26	Non-corporeal					
+10	38	38	Protoplasmic					
+11	70	76	Plant					
+12	54	67	Fungal					
+13	83	38	Avian					
+14	105	27	Gargantua					
+15	86	21	Bulrathi					
+16	68	32	Mrrshan					
+17	43	72	Elerians					
+18	67	53	Gnolam					
+19	78	63	ElderCivilizations					
+20	0	0	Combots					
+TableEnd								
+TableStart	FertilityLevel							
+ColumnHeadingsStart	Paradise	SweetSpot	G1	G2	Y1	Y2	R1	R2
+RowHeadingsStart								
+2	9	8	7	6	5	4	3	2
+1	8	7	6	5	4	3	2	1
+0	7	6	5	4	3	2	1	1
+-1	6	5	4	3	2	1	1	1
+-2	5	4	3	2	1	1	1	1
+TableEnd								
+								
+								
+TableStart	TerraformCost							
+ColumnHeadingsStart	Cost Mulitplier	Cost for First Ring						
+RowHeadingsStart								
+RingEquivDist	8	5		// The first number is how far to terraform before the cost goes up.  The second number is the percent of terraform cost that maintenance costs.				
+0 Terraforming Achievement	1.8	200		// needed for calculating maintenance degradation each turn				
+1 Terraforming Achievement	1.7	175						
+2 Terraforming Achievement	1.6	150						
+3 Terraforming Achievement	1.5	125						
+4 Terraforming Achievement	1.4	100						
+5 Terraforming Achievement	1.3	80						
+6 Terraforming Achievement	1.2	60						
+7 Terraforming Achievement	1.2	60						
+8 Terraforming Achievement	1.2	60		// get to 8 if you can terraform to paradise				
+TableEnd								
+								
+								
+								
+								
+TableStart	PlanetRings							
+ColumnHeadingsStart	Ring_Diameter							
+RowHeadingsStart								
+Paradise	0.1							
+Sweet Spot	1.6							
+G1	3.2							
+G2	4.8							
+Y1	6.4							
+Y2	8							
+R1	9.6							
+R2	10							
+TableEnd								
+								
+TableStart	PlanetaryGravityModifier							
+ColumnHeadingsStart	Zero	Low	Middle	High	Crushing	Race_Name		
+RowHeadingsStart								
+0	-0.3	0	0.7	0	-0.7	Humanoid		
+1	-1	-0.5	0	0.5	1	Etherean		
+2	-0.3	0	0	0.7	0.3	Geodic		
+3	0.3	0.7	0	-0.3	-0.7	Cybernetik		
+4	-0.3	0	0.3	0.7	0	Ichthytosian		
+5	-0.7	0	0.7	0.3	0	Harvesters		
+6	0	0.7	0.3	0	-0.7	Insectiod		
+7	0	0	0.7	-0.3	-0.7	Sauron		
+8	-0.3	0	0	0.7	0.3	Metashifters		
+9	0	0	0.7	-0.3	-0.7	Non-corporeal		
+10	0.3	0.7	0	-0.3	-0.7	Protoplasmic		
+11	-0.3	0	0.7	0	-0.7	Plant		
+12	0.3	0	0.7	0	-0.7	Fungal		
+13	0	0.7	0	-0.3	-0.7	Avian		
+14	-0.7	0.3	0	0.7	0	Gargantua		
+15	-0.7	-0.3	0.3	0.7	0	Bulrathi		
+16	-0.3	0	0.7	0.3	-0.7	Mrrshan		
+17	-0.3	0.3	0.7	0	-0.7	Elerians		
+18	-0.3	0	0.7	0	-0.7	Gnolam		
+19	-0.7	0	0	0.7	0.3	Elder Civilizations		
+20	0	0	0	0	0	Combots		
+TableEnd								
+								
+								
+TableStart	MaxGrowthRate							
+ColumnHeadingsStart	MaxGrowthRate							
+RowHeadingsStart								
+1	0.01		// tenths of a percent					
+2	0.015							
+3	0.02							
+4	0.025							
+5	0.03							
+6	0.035							
+7	0.04							
+8	0.045							
+9	0.05							
+TableEnd								
+								
+TableStart	PopCapSize							
+ColumnHeadingsStart	Base							
+RowHeadingsStart								
+1	4							
+2	4.5							
+3	5							
+4	5.5							
+5	6							
+6	6.5							
+7	7							
+8	7.5							
+9	8							
+10	8.5							
+11	9							
+12	10							
+TableEnd								
+								
+TableStart	PopCapRing							
+ColumnHeadingsStart	Multipliers							
+RowHeadingsStart								
+Paradise	1.2							
+SweetSpot	1							
+G1	0.85							
+G2	0.7							
+Y1	0.55							
+Y2	0.4							
+R1	0.25							
+R2	0.1							
+TableEnd								
+								
+TableStart	SubterraneanMods							
+ColumnHeadingsStart	PopAdd							
+RowHeadingsStart								
+1	3							
+2	2.75							
+3	2.5							
+4	2.25							
+5	2							
+6	1.75							
+7	1.5							
+8	1.25							
+9	1							
+10	0.75							
+11	0.5							
+12	0.25							
+TableEnd								
+								
+TableStart	FlyMods							
+ColumnHeadingsStart	PopAdd							
+RowHeadingsStart								
+1	-1.25							
+2	-1							
+3	-0.75							
+4	-0.5							
+5	-0.25							
+6	0							
+7	0.25							
+8	0.5							
+9	0.75							
+10	1							
+11	1.25							
+12	1.5							
+TableEnd								
+								
+TableStart	AquaticMods							
+ColumnHeadingsStart	PopAdd							
+RowHeadingsStart								
+1	-0.5							
+2	0							
+3	0.5							
+4	1							
+5	0.75							
+6	0.5							
+7	0							
+8	-0.5							
+9	-0.75							
+10	-1							
+TableEnd								
+								
+TableStart	EcosystemMods							
+ColumnHeadingsStart	PopCapMult							
+RowHeadingsStart								
+noEco	0.4							
+VerySparse	0.6							
+Sparse	0.7							
+Average	0.8							
+Dense	0.9							
+VeryDense	1							
+TableEnd								

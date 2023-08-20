@@ -27,10 +27,10 @@ ScientificGather	ScientificGather	1	0	1d5	56	EvEmpMod	TTperPop *=1.04
 ResearchSuccess	ResearchSuccess	1	0	1d1	17	EvResApp	1
 ScientificSymposium	ScientificSymposium	1	0	1d5	56	EvEmpMod	TTperPop *=1.1
 ScientificCongress	ScientificCongress	1	0	2d6	17	EvEmpMod	TTperPop *=1.2
-HFogCleaning	HFogCleaning	1	0	1d5	56	EvEmpMod	HFofGovt+=-1
-HfogWashing	HfogWashing	1	0	1d5	56	EvEmpMod	HFofGovt+=-3
-HFogScrubbing	HFogScrubbing	1	0	1d5	17	EvEmpMod	HFofGovt+=-5
-HfogLaundering	HfogLaundering	1	0	1d5	1	EvEmpMod	HFofGovt+=-7
+HFogCleaning	HFogCleaning	1	0	2d6	56	EvEmpMod	HFofGovt*=.95
+HfogWashing	HfogWashing	1	0	2d6	56	EvEmpMod	HFofGovt*=.85
+HFogScrubbing	HFogScrubbing	1	0	1d5	17	EvEmpMod	HFofGovt*=.35
+HfogLaundering	HfogLaundering	1	0	1d5	1	EvEmpMod	HFofGovt*=.50
 MiningAgitation	MiningAgitation	0	0	1d5	77	EvPltMod	MineEff*=.95
 ExoticAnimal	ExoticAnimal	0	0	1d5	77	EvPltMod	BioHaEff*=.95
 MiningUnrest	MiningUnrest	0	0	2d6	25	EvPltMod	MineEff*=.75
@@ -51,15 +51,14 @@ AIInsurrection	AIInsurrection	0	0	2d6	3	EvEmpMod	TTperPop *=.40
 WhispersofPirate	WhispersofPirate	0	0	2d6	77	EvPltMod	MdUnrest*=1.05
 MurmursofPirate	MurmursofPirate	0	0	2d6	25	EvPltMod	MdUnrest*=1.15
 RumorsofPirate	RumorsofPirate	0	0	2d6	3	EvPltMod	MdUnrest*=1.35
-ForLangReform	ForLangReform	1	0	2d6	56	EvEmpMod	PositvDP +=(1:6)
-ForLangInnovation	ForLangInnovation	1	0	2d6	17	EvEmpMod	PositvDP +=(1:10)
-ForLangRevolution	ForLangRevolution	1	0	2d6	1	EvEmpMod	PositvDP +=(2:16)
-LocalEntStar	LocalEntStar	1	0	1d5	56	EvPltMod	MdUnrest *=.97
-SysEntStar	SysEntStar	1	0	1d5	56	EvPltMod	MdUnrest *=.95
-SysEntStar	SysEntStar	1	0	2d6	17	EvEmpMod	MdUnrest *=.80
-MechTransGlitch	MechTransGlitch	0	0	2d6	77	EvEmpMod	NegatvDP +=(1:4)
-MechTransFailure	MechTransFailure	0	0	2d6	25	EvEmpMod	NegatvDP +=(2:8)
-MechTransDisaster	MechTransDisaster	0	0	2d6	3	EvEmpMod	NegatvDP +=(4:16)
+ForLangReform	ForLangReform	1	0	2d6	56	EvEmpMod	PositvDP *=1.2
+ForLangInnovation	ForLangInnovation	1	0	2d6	17	EvEmpMod	PositvDP *=1.35
+ForLangRevolution	ForLangRevolution	1	0	2d6	1	EvEmpMod	PositvDP *=1.5
+LocalEntStar	LocalEntStar	1	0	2d6	56	EvPltMod	MdUnrest *=.95
+SysEntStar	SysEntStar	1	0	2d6	56	EvPltMod	MdUnrest *=.90
+MechTransGlitch	MechTransGlitch	0	0	2d6	77	EvEmpMod	NegatvDP *=1.2
+MechTransFailure	MechTransFailure	0	0	2d6	25	EvEmpMod	NegatvDP *=1.35
+MechTransDisaster	MechTransDisaster	0	0	2d6	3	EvEmpMod	NegatvDP *=1.5
 PlanetaryNaniteRelease	PlanetaryNaniteRelease	0	0	1d1	2	EvCollat	"60,1"
 Psionic	Psionic	0	0	1d1	25	EvPltMod	MdUnrest+=15
 VoidCrystal	VoidCrystal	1	0	1d5	17	EvPltMod	SPortEff*=1.1
@@ -69,4 +68,7 @@ ScathHiveAttacks	ScathHiveAttacks	0	0	1d1	10	EvCollat	"10,1"
 StrongEarthquake	StrongEarthquake	0	0	1d1	1	EvCollat	"100,1"
 DevistatingEarthquake	DevistatingEarthquake	0	0	1d1	1	EvCollat	"200,1"
 AncientOrionRelic	AncientOrionRelic	1	0	1d1	17	EvResApp	1
-TableEnd							
+TableEnd
+
+\\Unused event data
+\\SysEntStar	SysEntStar	1	0	2d6	17	EvEmpMod	MdUnrest *=.80						

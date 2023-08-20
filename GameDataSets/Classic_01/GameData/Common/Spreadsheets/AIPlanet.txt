@@ -1,0 +1,51 @@
+TableStart	PlanetAIValues	
+ColumnHeadingsStart	iIDValue	Value
+RowHeadingsStart		
+kUnemploymentFactor 	UnemPri	1
+kPlayerDEARequestPriorityIncrease	PlayDEAI	500
+kPlayerDEARequestPriorityDecrease	PlayDEAD	2000
+kDEAReducePriorityNumBuilding	DEARedNB	20
+kDEAReducePriorityAnyDEABuilding	DEARedAB	50
+kPlanetNeedFoodFactor 	NeedFood	3
+kPlanetNeedMineralFactor 	NeedMin	3
+kLushRegionFarmPriority 	LushReg	150
+kRichRegionMinePriority 	RichReg	150
+kNewColonyFactoryPriority 	FrstFact	1000
+kImproveFactoryCapacityFactor 	FactCap	5
+kImproveFactoryEfficiencyFactor 	FactEff	5
+kAddManufacturingDEAFactor 	ManDEA	4
+kFactoryConsumptionPriority 	FactCons	100
+kFactoryBioConsumptionPriority 	BioCons	100
+kPollutionCleanupFactor 	PolClean	10
+kExtraGovDEAPriority 	GovDEA	7
+kUnrestGovFactor 	UnrGov	1
+kUnrestGovDEAFactor 	UnrGovD	0.6
+kUnrestRecFactor 	UnrRec	2
+kUnrestRecDEAFactor 	UnrRecD	1
+kUnrestMilFactor 	UnrMil	1.25
+kUnrestMilDEAFactor 	UnrMilD	0.75
+kIncreaseMilUnivaluePriority 	MilUni	20
+kFirstSystemMilitaryDEAPriority 	SysMlDEA	40
+kSecondSystemMilitaryDEAPriority 	SysMilD2	20
+kIncreasePopCapFactor 	PopCap	70
+kIncreasePopGrowthFactor 	PopGrow	100
+kSpecializeDEAPriority 	DEASpec	20
+kIncreaseFarmableRingFactor 	FarmRing	100
+kImproveGravityPenalty 	GravPen	100
+kImproveResearchFactor 	ImpRes	20
+kTestTubesPerPopPriority 	TTPPop	100
+kAddResearchDEAFactor 	ResDEA	100
+kAddSpaceportPriority 	SPort	40
+kBalanceZonePriority	BalZone	50
+kSpecializeZonePriority	SpecZone	50
+kMinExtraFoodAmount	XtraFood	5
+kMinExtraMineralAmount	XtraMin	5
+kExtraFoodScrapPercent	ScrpFPct	200
+kExtraMineralsScrapPercent	ScrpMPct	150
+kExtraFoodScrapAmount	ScrpFAmt	75
+kExtraMineralsScrapAmount	ScrpMAmt	75
+kExtraFoodKeepPercent	KeepFPct	30
+kExtraMineralsKeepPercent	KeepMPct	50
+kGiftToEmpireFactor	Gift2Emp	4
+TableEnd		
+TableEnd		

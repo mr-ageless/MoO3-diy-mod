@@ -1,7 +1,7 @@
 Spy Mission Table Format												
 Note that CoverUpRating and ScandalFactor can be blank or 0												
 "DaggerUsage: 0 - Do not use dagger, 1 - Use dagger value, 2 - Use a dX where X is dagger value"												
-
+Note: This determines if a spie's daggar rating is added to its success score. A DaggerUsage of 2 generates a rondom value based on a spies dagger rating.												
 
 TableStart	SampleSpyMissionTable											
 ColumnHeadingsStart	SpyMissionID	Circle		LotteryBalls	CoverUpRating	ScandalFactor	DaggerUsage	SourceSitRepID1	TargetSitRepID1	EventClassID	NumTurn	Modifiers
@@ -16,24 +16,39 @@ RowHeadingsStart
 ModMultiplier	1	0.4	0.7	0								
 TableEnd												
 
-
+Note: All missions with EvEmpMod tag don't work. ScnadalFactor and CoverupRating are not used.												
 TableStart	BluntInstruments											
 ColumnHeadingsStart	SpyMissionID	Circle	Type	LotteryBalls	CoverUpRating	ScandalFactor	DaggerUsage	SourceSitRepID1	TargetSitRepID1	EventClassID	NumTurn	Modifiers
 RowHeadingsStart												
-TrainingDepots	SPYMIS01	Military	Black	80	15	3	2	TrainingDepotsS	TrainingDepotsT	EvShRDly	1	1
-SupportDisrupted	SPYMIS02	Military	Black	40	6	4	2	SupportDisruptedS	SupportDisruptedT	EvGrRDly	1	3
+TrainingDepots	SPYMIS01	Military	Black	80	0	0	1	TrainingDepotsS	TrainingDepotsT	EvShRDly	1	1
+SupportDisrupted	SPYMIS02	Military	Black	40	0	0	1	SupportDisruptedS	SupportDisruptedT	EvGrRDly	1	3
 RepairFacilities	SPYMIS04	Military	Black	40	12	8	0	RepairFacilitiesS	RepairFacilitiesT	EvEmpMod	3	BoxDelay += (1:2)
-MilBuildDestroyed	SPYMIS06	Military	Black	40	33	15	0	MilBuildDestroyedS	MilBuildDestroyedT	EvBldDes	1	6
-ProductionSabotage	SPYMIS08	Military	Blue	60	15	19	0	ProductionSabotageS	ProductionSabotageT	EvPltMod	3	ManufEff *= .95
-MobilizationCenter	SPYMIS09	Military	Blue	40	65	25	2	MobilizationCenterS	MobilizationCenterT	EvShADes	1	1
-GovBuildDestroyed	SPYMIS13	Diplomatic	Blue	40	85	26	0	GovBuildDestroyedS	GovBuildDestroyedT	EvBldDes	1	5
-EconBuildDestroyed	SPYMIS14	Economic	Black	120	22	8	0	EconBuildDestroyedS	EconBuildDestroyedT	EvBldDes	1	3
+MobilizationCenter	SPYMIS09	Military	Blue	40	0	0	2	MobilizationCenterS	MobilizationCenterT	EvShADes	1	1
+MilLayingLow	SPYMIS03	Military	Blue	75	0	0	1	LayingLowS	LayingLowT	EvBldDes	0	0
+ArmyDesertions	SPYMIS37	Military	Black	20	0	0	2	ArmyDesertS	ArmyDesertT	EvGrADes	1	10
+ProjectFacility	SPYMIS23	Science	Black	50	0	0	1	ProjectFacilityS	ProjectFacilityT	EvResSab	1	1
+UniversityProfessor	SPYMIS24	Science	Black	50	0	0	1	UniversityProfessorS	UniversityProfessorT	EvResSab	2	1
+MajorGovResearch	SPYMIS25	Science	Blue	30	0	0	1	MajorGovResearchS	MajorGovResearchT	EvBldDes	1	4
+StealTech	SPYMIS26	Science	Black	80	0	0	2	StealTechS	StealTechT	EvTechXf	1	1
+SciLayingLow	SPYMIS20	Science	Blue	75	0	0	1	LayingLowS	LayingLowT	EvBldDes	0	0
+ScienceBuildDestroyed	SPYMIS22	Science	Black	40	0	0	1	ScienceBuildDestroyedS	ScienceBuildDestroyedT	EvBldDes	1	4
+PolLayingLow	SPYMIS12	Political	Blue	75	0	0	1	LayingLowS	LayingLowT	EvBldDes	0	0
 CivilTrade	SPYMIS16	Economic	Blue	50	35	17	0	CivilTradeS	CivilTradeT	EvEmpMod	1	SPortEff *=(.92:.99)
-RecBuildDestroyed	SPYMIS17	Social	Black	120	42	11	0	RecBuildDestroyedS	RecBuildDestroyedT	EvBldDes	1	7
 CitizenFear	SPYMIS18	Social	Black	40	0	0	0	CitizenFearS	CitizenFearT	EvEmpMod	1	MdUnrest+=5
-ScienceBuildDestroyed	SPYMIS22	Science	Black	40	17	17	0	ScienceBuildDestroyedS	ScienceBuildDestroyedT	EvBldDes	1	4
-ProjectFacility	SPYMIS23	Science	Black	50	23	20	0	ProjectFacilityS	ProjectFacilityT	EvResSab	1	1
-UniversityProfessor	SPYMIS24	Science	Black	50	13	2	0	UniversityProfessorS	UniversityProfessorT	EvResSab	1	1
-MajorGovResearch	SPYMIS25	Science	Blue	30	87	25	0	MajorGovResearchS	MajorGovResearchT	EvBldDes	1	4
-StealTech	SPYMIS26	Science	Black	80	87	25	0	StealTechS	StealTechT	EvTechXf	1	1
+MineBuildDestroyed	SPYMIS32	Political	Black	20	0	0	1	MineBuildDestroyedS	MineBuildDestroyedT	EvBldDes	1	2
+FarmBuildDestroyed	SPYMIS33	Political	Black	20	0	0	1	FarmBuildDestroyedS	FarmBuildDestroyedT	EvBldDes	1	1
+MineChain	SPYMIS39	Political	Black	20	0	0	2	MineChainS	MineChainT	EvBldDes	3	2
+LeaderKilledP	SPYMIS29	Political	Black	30	0	0	2	LeaderKilledPS	LeaderKilledT	EvLdrMod	1	P;LeadLuck+=-150
+EconLayingLow	SPYMIS15	Economic	Blue	75	0	0	1	LayingLowS	LayingLowT	EvBldDes	0	0
+EconBuildDestroyed	SPYMIS14	Economic	Black	120	0	0	1	EconBuildDestroyedS	EconBuildDestroyedT	EvBldDes	1	3
+SPBuildDestroyed	SPYMIS31	Economic	Black	10	0	0	1	SPBuildDestroyedS	SPBuildDestroyedT	EvBldDes	1	8
+ChainDes	SPYMIS38	Economic	Black	20	0	0	2	ChainDesS	ChainDesT	EvBldDes	3	8
+SocLayingLow	SPYMIS19	Social	Blue	75	0	0	1	LayingLowS	LayingLowT	EvBldDes	0	0
+RecBuildDestroyed	SPYMIS17	Social	Black	120	0	0	1	RecBuildDestroyedS	RecBuildDestroyedT	EvBldDes	1	7
+MilBuildDestroyed	SPYMIS06	Social	Black	40	0	0	1	MilBuildDestroyedS	MilBuildDestroyedT	EvBldDes	1	6
+SocLayingLow	SPYMIS21	Diplomatic	Blue	75	0	0	1	LayingLowS	LayingLowT	EvBldDes	0	0
+GovBuildDestroyed	SPYMIS13	Diplomatic	Black	40	0	0	1	GovBuildDestroyedS	GovBuildDestroyedT	EvBldDes	1	5
+GovChain	SPYMIS39	Diplomatic	Black	20	0	0	2	GovChainS	GovChainT	EvBldDes	3	5
 TableEnd												
+FactionWar	SPYMIS36	Political	Black	10	0	0	1	FactionS	FactionT	EvCollat	1	3001
+Rebellion	SPYMIS35	Political	Black	5	0	0	2	RebellionS	RebellionT	EvCollat	1	6001

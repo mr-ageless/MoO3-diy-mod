@@ -1,0 +1,172 @@
+	 This table gives the number of ping pong balls that should be given to be building a military ship or grunt,  
+	depending on how depleted the reserves are (as a % of desired size).
+TableStart	UrgencyToFillReserves
+ColumnHeadingsStart	NumberOfBalls
+RowHeadingsStart	
+LessThan10	6
+LessThan20	5
+LessThan30	5
+LessThan40	4
+LessThan50	4
+LessThan60	4
+LessThan70	4
+LessThan80	3
+LessThan90	3
+LessThan100	3
+LessThan120	2
+LessThan150	2
+MoreThan150	1
+TableEnd	
+
+
+	 How far can we see outside of combat (on the galaxy screen) - this is the base distance, will be better with sensors, worse 
+	against cloaked ships.
+TableStart BaseSensorRange	
+ColumnHeadingsStart Distance	
+RowHeadingsStart	
+PlanetarySensors	32
+ShipSensors	16
+TableEnd	
+
+
+	This gives the default border policy for each type of relationship.  Values are as follows:
+	0 - Quiet Front							
+	1 - Defensive Front							
+	2 - Total War							
+TableStart	DefaultBorderPolicy							
+ColumnHeadingsStart	Policy							
+RowHeadingsStart								
+kEnforcedPeaceRelation	1							
+kTreatiedRelation	0							
+kNoWarNoPeaceRelation	1							
+kAtWarRelation	2							
+TableEnd								
+
+	 This table sets the preferences for how many of each type of ship to build.  Just set up the ratios, I will convert to %. 							
+	 Use integers, please. 							
+TableStart	ShipRatios							
+ColumnHeadingsStart	LRSS	SRSS	PlanetDstryr	IndirectFire	Carrier	FlotsamDfns	Recon	Transport
+RowHeadingsStart								
+preference	20	15	0	23	23	4	4	2
+TableEnd								
+
+
+	 This table sets the preferences for how many of each type of task force to build.  Just set up the ratios, I will convert to %. 							
+	 Use integers, please. 							
+TableStart	TaskForceRatios							
+ColumnHeadingsStart	LRSS	SRSS	IndirectFire	Carrier	Recon	Transport		
+RowHeadingsStart								
+preference	20	10	20	20	1	2		
+TableEnd								
+
+
+	 This table sets the preferences for how many of each type of troops to build.  Just set up the ratios, I will convert to %. 							
+	Militia and Partisan should always remain 0.  Infantry should be the amount we want for military actions - infantry to be 							
+	used as police are figured differently.										
+	We only consider using the first of the following: Battleoid OR Armor OR (Marine AND Mobile) OR Infantry.  All available										
+	support unit types can be used.										
+	 Use integers, please. 										
+TableStart	TroopRatios										
+ColumnHeadingsStart	Infantry	Marine	MobileInf	Armor	Battleoid	Militia	Psyops	Commando	Hacker	CommandCtr	Magazine
+RowHeadingsStart											
+preference	20	30	30	30	30	0	2	2	2	2	2
+TableEnd											
+
+
+	 This table basically specifies how aggressive the AI is - that is, how likely is it to increase it's force levels each turn (within  										
+	 the bounds of what is allowed), decrease it, or leave it at the current level.  Values should vary from 0 to 10. 										
+TableStart	BorderPolicyModificationPref										
+ColumnHeadingsStart	KeepTheSame	RaisePolicy	LowerPolicy								
+RowHeadingsStart											
+preference	5	6	5	
+TableEnd				
+
+
+	This table gives the max number of ships the new orions are allowed to have in the reserves for			
+	each difficulty level.  0 indicates no limit.  Excess ships are scrapped.			
+TableStart	MaxOrionReserves			
+ColumnHeadingsStart	easy	medium	hard	impossible
+RowHeadingsStart				
+NumShips	150	300	600	1200
+TableEnd				
+
+
+TableStart	StartingPopulation			
+ColumnHeadingsStart	ColonyShip	OutpostShip		
+RowHeadingsStart				
+Paradise	2	0.05
+SweetSpot	1.5	0.05
+Green1	1.2	0.05
+Green2	1.1	0.05
+Yellow1	0.8	0.05
+Yellow2	0.65	0.05
+Red1	0.4	0.05
+Red2	0.3	0.05
+TableEnd		
+
+
+	-----------------------------------------------------------------------------	
+	The following tables are supported in code written 3/11/03	
+	-----------------------------------------------------------------------------	
+
+
+	 Gives the chance of building an orbital or system ship, expressed as an int from 1 to 100.  Chance is base + border + 				
+	 threatened + home system. The min systems is a divisor - if we have less than this many systems, we multiply by the  				
+	 number of systems we have, then divide by min systems. 				
+TableStart	LocalDefensePriority				
+ColumnHeadingsStart	base	border	threatened	home system	min systems
+RowHeadingsStart					
+percent	5	10	10	5	10
+TableEnd					
+
+
+	 If we've decided to build a system defense, gives the percent chance to build an planetary defense.  Otherwise, we  				
+	 build a system ship.  For each class of planet (only planet, best planet, or other), we have a base chance and then  				
+	a multiplier to multiply by the number of system ships.  There is also a cap for each category.  The multiplier is float.				
+TableStart	PlanetaryDefensePriority				
+ColumnHeadingsStart	base	multiplier	cap		
+RowHeadingsStart					
+only planet	60	1.5	95	
+best planet	40	2	95	
+other	60	1	95	
+TableEnd				
+
+
+	 The percent chance of deciding to build a deployment center on a system seat that doesn't have one, as an int from 1 			
+	 to 100.  (Base + (per jump * jump to closest deployment center)) * border.  If > cap, set to cap.  Border is a float 			
+TableStart	DeploymentCenterPriority			
+ColumnHeadingsStart	base	per jump	border	cap
+RowHeadingsStart				
+percent	-7	5	2	60
+TableEnd				
+
+
+	Gives the priority of building a system colony ship			
+TableStart	SystemColonyShipPriority			
+ColumnHeadingsStart	percent			
+RowHeadingsStart				
+percent	5			
+TableEnd				
+
+
+	This table gives multipliers (as fixed point) to the priority of each of the categories of military build queue items.  It's			
+	 intended to facilitate balance, but for significant changes you may want to modify the functions themselves. 			
+TableStart	BuildItemBalance			
+ColumnHeadingsStart	military ships	colony ships	transports	grunts
+RowHeadingsStart				
+multiplier	1	1	1	1
+TableEnd				
+
+
+
+	 This table tells us how much we want to outnumber the enemy by on the defense, and also when we attack.  Basically, 										
+	 we count hull sizes, multiply by a factor based on effectiveness in past battles, and then multiply by this factor. 										
+TableStart	AdvantageNeeded										
+ColumnHeadingsStart	HavePlanet	NoPlanet									
+RowHeadingsStart											
+Quiet Front	1.5	0.9									.
+Defensive Front	1.4	0.8									
+Total War	1	0.6									
+Holy War	0.8	0.35									
+Unknown Opponent	1.5	0.9									
+TableEnd											

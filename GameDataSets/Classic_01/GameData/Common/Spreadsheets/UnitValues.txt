@@ -1,0 +1,50 @@
+TableStart	CostandValue						
+ColumnHeadingsStart	Maint	ScrapVal	SystemBlockedMod	OrbitBesiegedMod	UnrestL1Mod	UnrestL2Mod	UnrestL3Mod
+RowHeadingsStart							
+Buildings	0.05	0.5	0.67	0.33	0.75	0.5	0.25
+FLU's	0.05	0	1	1	1	1	1
+Ships in Reserve	0.005	0.5	1	1	1	1	1
+Ships in Service	0.015	0.5	1	1	1	1	1
+Armies in Reserve	0.004	0	1	1	1	1	1
+Divisions in Service	0.003	0	1	1	1	1	1
+Corps in Service	0.002	0	1	1	1	1	1
+Armies in Service	0.005	0	1	1	1	1	1
+Spies	0.05	0	1	1	1	1	1
+Leaders	0.05	0	1	1	1	1	1
+TableEnd							
+
+
+TableStart	Draft Pool
+ColumnHeadingsStart	Points
+RowHeadingsStart	
+Infantry Grunt*	1.1
+Space Marine	1
+Mobile Infantry	0.9
+Armor Grunt	0.8
+Battleoid Grunt	0.6
+Command Center	0.2
+Magazine*	0.2
+PsyOps	0.2
+Commandos	0.2
+Hackers	0.2
+Ground Defense	0.3
+Planetary Defense Shield	0.3
+Planetary Defense Special	0.3
+Ground Based Space Fighters	0.2
+Science labs (each)	0.1
+Fighter bays (each)	0.1
+Commando quarters (each)	0.2
+Lancer	0.4
+Cutter	0.5
+Corvette	0.6
+Frigate	0.7
+Destroyer	0.9
+Light Cruiser	1.1
+Cruiser	1.3
+Battle Cruiser	1.5
+Battleship	1.8
+Dreadnought	2.1
+Superdreadnought	2.4
+Behemoth	2.8
+Leviathan	3.2
+TableEnd	

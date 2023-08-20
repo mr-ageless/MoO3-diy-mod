@@ -1,36 +1,37 @@
-Format block usage						
-Message type		Uses format list				
-
-Variable list - Variables in ALL CAPS are types of a format block; others are embedded or secondary variables						
-TableStart	Definitions					
-ColumnHeadingsStart	Content	Tablename			Notes	TableType
-RowHeadingsStart						
-%race1%	Race involved with this report	n/a				0
-%race2%	Race involved with this report	n/a				0
-%REPORT	The text of whatever event has occurred	ReportType				16
-%subject%	The subject of this report	n/a				0
-%value1%	Misc text value 1	n/a				0
-%value2%	Misc text value 2	n/a				0
-%value3%	Misc text value 3	n/a				0
-TableEnd						
-
-
+Format block usage							
+Message type		Uses format list					
+							
+Variable list - Variables in ALL CAPS are types of a format block; others are embedded or secondary variables							
+TableStart	Definitions						
+ColumnHeadingsStart	Content	Tablename			Notes	TableType	
+RowHeadingsStart							
+%race1%	Race involved with this report	n/a				0	
+%race2%	Race involved with this report	n/a				0	
+%REPORT	The text of whatever event has occurred	ReportType				16	
+%subject%	The subject of this report	n/a				0	
+%value1%	Misc text value 1	n/a				0	
+%value2%	Misc text value 2	n/a				0	
+%value3%	Misc text value 3	n/a				0	
+TableEnd							
+							
+							
 TableStart	Sitrep Formats						
 ColumnHeadingsStart	Format						
 RowHeadingsStart							
 1	%REPORT						
 TableEnd							
-
-"Note: If you change the number of columns in front of the text tags, the code needs to be updated to reflect this (look for NUM_COLUMNS_BEFORE_TEXT_TAGS in SitrepReporter.cpp). "							
-
+							
+Note: If you change the number of columns in front of the text tags, the code needs to be updated to reflect this (look for NUM_COLUMNS_BEFORE_TEXT_TAGS in SitrepReporter.cpp). 							
+							
 TableStart	ReportType						
 ColumnHeadingsStart	Type	Priority	Class	Icon	TextTag	TextTag2	TextTag3
 RowHeadingsStart							
+NewStarlane	New	Event	Reg	ICO_SitRep_ExplorationComplete	STARLN01	STARLN01	STARLN01
 SpaceCombat	New	Event	Reg	ICO_SitRep_SpaceCombat	SITRF001	SITRF002	SITRF003
 ResearchBreakthrough	New	Yellow	Reg	sitrep_tech	SITRF004	SITRF005	SITRF006
 TechPrototype	New	Yellow	Tech_Brkthru	sitrep_tech	SITRF007	SITRF007	SITRF007
 TechTheoreticalComplete	New	Green	Tech_Brkthru	sitrep_tech	SITRF008	SITRF008	SITRF008
-TechProjectComplete	New	Red	Reg	sitrep_tech	SITRF009	SITRF009	SITRF009
+TechProjectComplete	New	Yellow	Tech_Brkthru	sitrep_tech	SITRF009	SITRF009	SITRF009
 TechPositiveOverrun	New	Red	Tech_Brkthru	sitrep_tech	SITRF010	SITRF010	SITRF010
 TechOverrun	New	Red	Tech_Brkthru	sitrep_tech	SITRF011	SITRF011	SITRF011
 TechStartProject	New	Yellow	Tech_Brkthru	sitrep_tech	SITRF019	SITRF019	SITRF019
@@ -51,7 +52,7 @@ SupportDisruptedS	New	Yellow	Spies	sitrep_spy	SUPRTSD1	SUPRTSD2	SUPRTSD2
 RepairFacilitiesS	New	Yellow	Spies	sitrep_spy	REPARSD1	REPARSD2	REPARSD2
 MilBuildDestroyedS	New	Yellow	Spies	sitrep_spy	MILTBSD1	MILTBSD2	MILTBSD2
 ProductionSabotageS	New	Yellow	Spies	sitrep_spy	MILTPSD1	MILTPSD2	MILTPSD2
-MobilizationCenterS	New	Yellow	Spies	sitrep_spy	MOBLESD1	MOBLESD2	MOBLESD2
+MobilizationCenterS	New	Event	Spies	ICO_SitRep_SpyBuilt	MOBLESD1	MOBLESD2	MOBLESD2
 GovBuildDestroyedS	New	Yellow	Spies	sitrep_spy	GOVSBSD1	GOVSBSD2	GOVSBSD2
 EconBuildDestroyedS	New	Yellow	Spies	sitrep_spy	GOVEBSD1	GOVEBSD2	GOVEBSD2
 CivilTradeS	New	Yellow	Spies	sitrep_spy	CIVTDSD1	CIVTDSD2	CIVTDSD2
@@ -69,7 +70,7 @@ SupportDisruptedT	New	Yellow	Spies	sitrep_spy	SUPRTRC1	SUPRTRC2	SUPRTRC2
 RepairFacilitiesT	New	Yellow	Spies	sitrep_spy	REPARRC1	REPARRC2	REPARRC2
 MilBuildDestroyedT	New	Yellow	Spies	sitrep_spy	MILTBRC1	MILTBRC2	MILTBRC2
 ProductionSabotageT	New	Yellow	Spies	sitrep_spy	MILTPRC1	MILTPRC2	MILTPRC2
-MobilizationCenterT	New	Yellow	Spies	sitrep_spy	MOBLERC1	MOBLERC2	MOBLERC2
+MobilizationCenterT	New	Event	Spies	ICO_SitRep_SpyBuilt	MOBLERC1	MOBLERC2	MOBLERC2
 GovBuildDestroyedT	New	Yellow	Spies	sitrep_spy	GOVSBRC1	GOVSBRC2	GOVSBRC2
 EconBuildDestroyedT	New	Yellow	Spies	sitrep_spy	GOVEBRC1	GOVEBRC2	GOVEBRC2
 CivilTradeT	New	Yellow	Spies	sitrep_spy	CIVTDRC1	CIVTDRC2	CIVTDRC2
@@ -81,7 +82,7 @@ UniversityProfessorT	New	Yellow	Spies	sitrep_spy	UNIPFRC1	UNIPFRC2	UNIPFRC2
 MajorGovResearchT	New	Yellow	Spies	sitrep_spy	MJGOVRC1	MJGOVRC2	MJGOVRC2
 ConstructionComplete	New	Yellow	Const	sitrep_Planet	SITRF025	SITRF025	SITRF025
 MiltConstructionComplete	New	Yellow	Milt_Const	sitrep_Planet	SITRF025	SITRF025	SITRF025
-LeaderKilledT	New	Red	Spies	sitrep_spy	LDKILL04	LDKILL05	LDKILL05
+LeaderKilledT	New	Event	Spies	ICO_SitRep_SpyBuilt	LDKILL04	LDKILL05	LDKILL05
 ScandalCorrect	New	Red	Reg	sitrep_empire	SCANDA01	SCANDA01	SCANDA01
 ScandalLie	New	Red	Reg	sitrep_empire	SCANDA02	SCANDA02	SCANDA02
 ScandalAccuser	New	Red	Reg	sitrep_empire	SCANDA03	SCANDA03	SCANDA03
@@ -106,8 +107,8 @@ AntaranExp9	New	Event	Reg	ICO_SitRep_AntaranExpedition	ANTARA09	ANTARA09	ANTARA0
 DriftingDebris	New	Event	Reg	ICO_SitRep_DriftingDebris	Event001	Event002	Event003
 ScientificGather	New	Event	Reg	ICO_SitRep_ScientificSymposium	Event004	Event005	Event006
 ResearchSuccess	New	Event	Reg	ICO_SitRep_ResearchBreakthrough	Event007	Event008	Event009
-ScientificSymposium	New	Event	Reg	ICO_SitRep_ScientificSymposium	Event010	Event005	Event010
-ScientificCongress	New	Event	Reg	ICO_SitRep_ScientificSymposium	Event004	Event011	Event006
+ScientificSymposium	New	Event	Reg	ICO_SitRep_ScientificSymposium	Event010	Event147	Event148
+ScientificCongress	New	Event	Reg	ICO_SitRep_ScientificSymposium	Event149	Event011	Event150
 HFogCleaning	New	Event	Reg	ICO_SitRep_PendingMessages	Event018	Event019	Event020
 HfogWashing	New	Event	Reg	ICO_SitRep_PendingMessages	Event021	Event022	Event023
 HFogScrubbing	New	Event	Reg	ICO_SitRep_PendingMessages	Event024	Event025	Event026
@@ -137,8 +138,6 @@ ForLangInnovation	New	Event	Reg	ICO_SitRep_PendingMessages	Event093	Event094	Eve
 ForLangRevolution	New	Event	Reg	ICO_SitRep_PendingMessages	Event096	Event097	Event098
 LocalEntStar	New	Event	Reg	ICO_SitRep_Psionic	Event012	Event013	Event014
 SysEntStar	New	Event	Reg	ICO_SitRep_Psionic	Event015	Event016	Event017
-LeaderWounded	New	Event	Reg	ICO_SitRep_SpaceCombat	Event099	Event100	Event101
-LeaderKilled	New	Event	Reg	ICO_SitRep_LeaderKilled	Event102	Event103	Event104
 MechTransGlitch	New	Event	Reg	ICO_SitRep_Tech	Event105	Event106	Event107
 MechTransFailure	New	Event	Reg	ICO_SitRep_Tech	Event108	Event109	Event110
 MechTransDisaster	New	Event	Reg	ICO_SitRep_Tech	Event111	Event112	Event113
@@ -161,7 +160,7 @@ MilitaryMaintGFDestroyed2	New	Red	Reg	sitrep_GrndForce	GFDSRY21	GFDSRY21	GFDSRY2
 MilitaryMaintShipDestroyed1	New	Red	Reg	sitrep_ship	SHPDES11	SHPDES11	SHPDES11
 MilitaryMaintShipDestroyed2	New	Red	Reg	sitrep_ship	SHPDES21	SHPDES21	SHPDES21
 MilitaryMaintShipScrapped	New	Red	Reg	sitrep_scrap	SHPSCRP1	SHPSCRP1	SHPSCRP1
-SenateElectionStarts	New	Red	Reg	sitrep_senate	SENELRP1	SENELRP1	SENELRP1
+SenateElectionStarts	New	Event	Reg	ICO_SitRep_SenateElectionStarts	SENELRP1	SENELRP1	SENELRP1
 SpecialDiscovered	New	Green	Reg	sitrep_Planet	SPDSC01	SPDSC01	SPDSC01
 PendingMessages	New	Event	Reg	ICO_SitRep_PendingMessages	DIPLO001	DIPLO002	DIPLO003
 AcceptedOffer	New	Red	Reg	sitrep_diplomacy	DIPLO004	DIPLO005	DIPLO006
@@ -181,13 +180,13 @@ SBSystemWon	New	Event	Reg	ICO_SitRep_SpaceCombat	SBATTL16	SBATTL17	SBATTL18
 SBSystemLost	New	Event	Reg	ICO_SitRep_SpaceCombat	SBATTL13	SBATTL14	SBATTL15
 SBDraw	New	Event	Reg	ICO_SitRep_SpaceCombat	SBATTL19	SBATTL20	SBATTL21
 SBNoFight	New	Event	Reg	ICO_SitRep_SpaceCombat	SBATTL22	SBATTL23	SBATTL24
-MigratedColony	New	Green	Reg	sitrep_Planet	COLONY02	COLONY02	COLONY03
+MigratedColony	New	Green	Reg	ICO_SitRep_MigratedColony	COLONY02	COLONY02	COLONY03
 Unrest1	New	Yellow	Reg	sitrep_unrest	UNREST01	UNREST02	UNREST03
 Unrest2	New	Yellow	Reg	sitrep_unrest	UNREST04	UNREST05	UNREST06
 Unrest3	New	Event	Reg	ICO_SitRep_Unrest	UNREST07	UNREST08	UNREST09
 Revolt	New	Event	Reg	ICO_SitRep_Revolt	REVOLT01	REVOLT02	REVOLT03
 RevoltPlanetLeft	New	Event	Reg	ICO_SitRep_Revolt	REVOLT04	REVOLT05	REVOLT06
-EntourageLeader	New	Red	Reg	sitrep_Person	ENTLD001	ENTLD002	ENTLD003
+EntourageLeader	New	Event	Reg	ICO_SitRep_Scandal	ENTLD001	ENTLD002	ENTLD003
 RevoltDestroyBuildings	New	Event	Reg	ICO_SitRep_MilitaryBuildingDestroyed	REVOL001	REVOL002	REVOL003
 NewColony	New	Yellow	Reg	sitrep_Planet	NEWCOL01	NEWCOL02	NEWCOL03
 NewOutpost	New	Yellow	Reg	sitrep_Planet	NEWOUT01	NEWOUT02	NEWOUT03
@@ -206,22 +205,22 @@ SpyDeadKilledEscaping	New	Yellow	Spies	sitrep_spy	SPY16	SPY17	SPY18
 SpyDeadKilledSqueeze	New	Yellow	Spies	sitrep_spy	SPY19	SPY20	SPY21
 SpyPrisonEscapeCapture	New	Yellow	Spies	sitrep_spy	SPY22	SPY23	SPY24
 SpyPrisonSqueeze	New	Yellow	Spies	sitrep_spy	SPY25	SPY26	SPY27
-SpyEscapesPrison	New	Yellow	Spies	sitrep_spy	SPY28	SPY29	SPY30	
-SpyEscapesCapture	New	Yellow	Spies	sitrep_spy	SPY31	SPY32	SPY33	
-SpySqueezeLetGo	New	Yellow	Spies	sitrep_spy	SPY34	SPY35	SPY36	
-SpyInsertFailedEvades	New	Yellow	Spies	sitrep_spy	SPY37	SPY38	SPY39	
-SpyMissionFailedEvades	New	Yellow	Spies	sitrep_spy	SPY40	SPY41	SPY42	
-SpyExtractFailedEvades	New	Yellow	Spies	sitrep_spy	SPY43	SPY44	SPY45	
-SpyMissionFailed	New	Yellow	Spies	sitrep_spy	SPY46	SPY47	SPY48	
-SpyInsertFailed	New	Yellow	Spies	sitrep_spy	SPY49	SPY50	SPY51	
-SpyExtractFailed	New	Yellow	Spies	sitrep_spy	SPY52	SPY53	SPY54	
-SpyInsertSuccess	New	Yellow	Spies	sitrep_spy	SPY55	SPY56	SPY57	
-SpyExtractSuccess	New	Yellow	Spies	sitrep_spy	SPY58	SPY59	SPY60	
-StealTechS	New	Red	Spies	sitrep_spy	STEAL01	STEAL02	STEAL03	
-SpecialResearch	New	Red	Reg	sitrep_tech	SPDSC12	SPDSC12	SPDSC12	
-SpecialLeader	New	Red	Reg	sitrep_Person	SPDSC13	SPDSC13	SPDSC13	
-DarlokGd	New	Event	Reg	ICO_SitRep_AntaranExpedition	srDarGrd	srDarGrd	srDarGrd	
-BulratGd	New	Event	Reg	ICO_SitRep_AntaranExpedition	srBulGrd	srBulGrd	srBulGrd	
+SpyEscapesPrison	New	Yellow	Spies	sitrep_spy	SPY28	SPY29	SPY30
+SpyEscapesCapture	New	Yellow	Spies	sitrep_spy	SPY31	SPY32	SPY33
+SpySqueezeLetGo	New	Yellow	Spies	sitrep_spy	SPY34	SPY35	SPY36
+SpyInsertFailedEvades	New	Yellow	Spies	sitrep_spy	SPY37	SPY38	SPY39
+SpyMissionFailedEvades	New	Yellow	Spies	sitrep_spy	SPY40	SPY41	SPY42
+SpyExtractFailedEvades	New	Yellow	Spies	sitrep_spy	SPY43	SPY44	SPY45
+SpyMissionFailed	New	Yellow	Spies	sitrep_spy	SPY46	SPY47	SPY48
+SpyInsertFailed	New	Yellow	Spies	sitrep_spy	SPY49	SPY50	SPY51
+SpyExtractFailed	New	Yellow	Spies	sitrep_spy	SPY52	SPY53	SPY54
+SpyInsertSuccess	New	Yellow	Spies	sitrep_spy	SPY55	SPY56	SPY57
+SpyExtractSuccess	New	Yellow	Spies	sitrep_spy	SPY58	SPY59	SPY60
+StealTechS	New	Event	Spies	ICO_SitRep_ResearchBreakthrough	STEAL01	STEAL02	STEAL03
+SpecialResearch	New	Red	Reg	sitrep_tech	SPDSC12	SPDSC12	SPDSC12
+SpecialLeader	New	Red	Reg	sitrep_Person	SPDSC13	SPDSC13	SPDSC13
+DarlokGd	New	Event	Reg	ICO_SitRep_AntaranExpedition	srDarGrd	srDarGrd	srDarGrd
+BulratGd	New	Event	Reg	ICO_SitRep_AntaranExpedition	srBulGrd	srBulGrd	srBulGrd
 MrrshaGd	New	Event	Reg	ICO_SitRep_AntaranExpedition	srMrrGrd	srMrrGrd	srMrrGrd
 ElereGd	New	Event	Reg	ICO_SitRep_AntaranExpedition	srEleGrd	srEleGrd	srEleGrd
 AlkariGd	New	Event	Reg	ICO_SitRep_AntaranExpedition	srAlkgrd	srAlkgrd	srAlkgrd
@@ -233,21 +232,21 @@ OutpostFailedColonyExists	New	Red	Reg	sitrep_Planet	COLPROB3	COLPROB3	COLPROB3
 OutpostFailedNoRegion	New	Red	Reg	sitrep_Planet	COLPROB4	COLPROB4	COLPROB4
 OwnedOutpostExists	New	Red	Reg	sitrep_Planet	COLPROB5	COLPROB5	COLPROB5
 UnownedOutpostExists	New	Red	Reg	sitrep_Planet	COLPROB6	COLPROB6	COLPROB6
-SpyDeadImprisonedKilledE	New	Yellow	Spies	sitrep_spy	SPY70	SPY71	SPY72
-SpyDeadSuicideCapturedE	New	Yellow	Spies	sitrep_spy	SPY70	SPY71	SPY72
-SpyDeadKilledCapturedE	New	Yellow	Spies	sitrep_spy	SPY70	SPY71	SPY72
-SpyDeadSuicideEscapingE	New	Yellow	Spies	sitrep_spy	SPY70	SPY71	SPY72
+SpyDeadImprisonedKilledE	New	Yellow	Spies	sitrep_spy	SPY61	SPY62	SPY63
+SpyDeadSuicideCapturedE	New	Yellow	Spies	sitrep_spy	SPY64	SPY65	SPY66
+SpyDeadKilledCapturedE	New	Yellow	Spies	sitrep_spy	SPY67	SPY68	SPY69
+SpyDeadSuicideEscapingE	New	Yellow	Spies	sitrep_spy	SPY86	SPY87	SPY88
 SpyDeadKilledEscapingE	New	Yellow	Spies	sitrep_spy	SPY70	SPY71	SPY72
-SpyDeadKilledSqueezeE	New	Yellow	Spies	sitrep_spy	SPY70	SPY71	SPY72
+SpyDeadKilledSqueezeE	New	Yellow	Spies	sitrep_spy	SPY73	SPY74	SPY75
 SpyPrisonEscapeCaptureE	New	Yellow	Spies	sitrep_spy	SPY76	SPY77	SPY78
-SpyPrisonSqueezeE	New	Yellow	Spies	sitrep_spy	SPY79	SPY79	SPY79
+SpyPrisonSqueezeE	New	Yellow	Spies	sitrep_spy	SPY89	SPY90	SPY79
 SpyEscapesPrisonE	New	Yellow	Spies	sitrep_spy	SPY80	SPY81	SPY82
 SpyEscapesCaptureE	New	Yellow	Spies	sitrep_spy	SPY83	SPY84	SPY85
-LeaderDied	New	Event	Reg	ICO_SitRep_LeaderKilled	LeaderDied	LeaderDied	LeaderDied
+LeaderDied	New	Event	Reg	ICO_SitRep_Scandal	LeaderDied	LeaderDied	LeaderDied
 EmpireKilled	New	Event	Reg	ICO_SitRep_Revolt	EmpireKilled	EmpireKilled	EmpireKilled
 EmpireDied	New	Event	Reg	ICO_SitRep_Revolt	EmpireDied	EmpireDied	EmpireDied
 EmpireBankrupt	New	Red	Reg	sitrep_empire	EmpBankrupt	EmpBankrupt	EmpBankrupt
-StealTechT	New	Red	Reg	sitrep_tech	StlTch01	StlTch02	StlTch03
+StealTechT	New	Event	Reg	ICO_SitRep_ResearchBreakthrough	StlTch01	StlTch02	StlTch03
 WarLapse	New	Red	Reg	sitrep_diplomacy	WARLAP01	WARLAP01	WARLAP02
 BillFail	New	Yellow	Reg	sitrep_senate	BILLFAIL	BILLFAIL	BILLFAIL
 BillSeconded	New	Yellow	Reg	sitrep_senate	BILL2NDD	BILL2NDD	BILL2NDD
@@ -303,8 +302,8 @@ LW22ESIT	New	Yellow	Reg	sitrep_senate	LW22ESIT	LW22ESIT	LW22ESIT
 LW23ESIT	New	Yellow	Reg	sitrep_senate	LW23ESIT	LW23ESIT	LW23ESIT
 LW24ESIT	New	Yellow	Reg	sitrep_senate	LW24ESIT	LW24ESIT	LW24ESIT
 LW25ESIT	New	Yellow	Reg	sitrep_senate	LW25ESIT	LW25ESIT	LW25ESIT
-NewPresident	New	Event	Reg	ICO_SitRep_PendingMessages	ELECT01	ELECT01	ELECT01
-PresReelected	New	Event	Reg	ICO_SitRep_PendingMessages	ELECT02	ELECT02	ELECT02
+NewPresident	New	Event	Reg	ICO_SitRep_SenateElectionStarts	ELECT01	ELECT01	ELECT01
+PresReelected	New	Event	Reg	ICO_SitRep_SenateElectionStarts	ELECT02	ELECT02	ELECT02
 SenateNewMember	New	Event	Reg	ICO_SitRep_PendingMessages	SNTEJOIN	SNTEJOIN	SNTEJOIN
 SenateKickedOut	New	Event	Reg	ICO_SitRep_PendingMessages	SNTEKICK	SNTEKICK	SNTEKICK
 FirstContact	New	Red	Reg	sitrep_diplomacy	FCONTAC1	FCONTAC2	FCONTAC1
@@ -317,7 +316,37 @@ TheyDestroyed	New	Event	Reg	ICO_SitRep_MilitaryBuildingDestroyed	SCTHDES1	SCTHDE
 WeDestroyed	New	Event	Reg	ICO_SitRep_MilitaryBuildingDestroyed	SCWEDES1	SCWEDES1	SCWEDES1
 TheirPlanetDefenseless	New	Event	Reg	ICO_SitRep_SpaceCombat	SCTHPDF1	SCTHPDF1	SCTHPDF1
 OurPlanetDefenseless	New	Event	Reg	ICO_SitRep_SpaceCombat	SCMYPDF1	SCMYPDF1	SCMYPDF1
-NewStarlane	New	Event	Reg	ICO_SitRep_ExplorationComplete	STARLN01	STARLN01	STARLN01
+ArmyDesertS	New	Red	Reg	sitrep_spy	ARMYDES1	ARMYDES1	ARMYDES1
+ArmyDesertT	New	Red	Reg	sitrep_spy	ARMYDES2	ARMYDES2	ARMYDES2
+UnrestPlRaisedS	New	Red	Reg	sitrep_spy	PLAUNRV1	PLAUNRV1	PLAUNRV1
+UnrestPlRaisedT	New	Red	Reg	sitrep_spy	PLAUNRV2	PLAUNRV3	PLAUNRV2
+MineBuildDestroyedS	New	Yellow	Spies	sitrep_spy	MINEDES1	MINEDES1	MINEDES1
+MineBuildDestroyedT	New	Yellow	Spies	sitrep_spy	MINEDESA	MINEDESA	MINEDESA
+FarmBuildDestroyedS	New	Yellow	Spies	sitrep_spy	FARMDES1	FARMDES1	FARMDES1
+FarmBuildDestroyedT	New	Yellow	Spies	sitrep_spy	FARMDESA	FARMDESA	FARMDESA
+LeaderBribeS	New	Yellow	Spies	sitrep_spy	LEADBRI1	LEADBRI1	LEADBRI1
+LeaderBribeT	New	Yellow	Spies	sitrep_spy	LEADBRIA	LEADBRIA	LEADBRIA
+SPBuildDestroyedS	New	Yellow	Spies	sitrep_spy	SPDESTR1	SPDESTR1	SPDESTR1
+SPBuildDestroyedT	New	Yellow	Spies	sitrep_spy	SPDESTRA	SPDESTRA	SPDESTRA
+RebellionS	New	Event	Spies	ICO_SitRep_SpyBuilt	REBELLI1	REBELLI1	REBELLI1
+RebellionT	New	Event	Spies	ICO_SitRep_SpyBuilt	REBELLIA	REBELLIA	REBELLIA
+FactionS	New	Red	Spies	sitrep_spy	FACTION1	FACTION1	FACTION1
+FactionT	New	Red	Spies	sitrep_spy	FACTIONA	FACTIONA	FACTIONA
+GovChainS	New	Event	Spies	ICO_SitRep_SpyBuilt	GOVCHAI1	GOVCHAI1	GOVCHAI1
+GovChainT	New	Event	Spies	ICO_SitRep_SpyBuilt	GOVCHAIA	GOVCHAIA	GOVCHAIA
+MineChainS	New	Event	Spies	ICO_SitRep_SpyBuilt	MINECHA1	MINECHA1	MINECHA1
+MineChainT	New	Event	Spies	ICO_SitRep_SpyBuilt	MINECHAA	MINECHAA	MINECHAA
+ChainDesS	New	Event	Spies	ICO_SitRep_SpyBuilt	CHAINDE1	CHAINDE1	CHAINDE1
+ChainDesT	New	Event	Spies	ICO_SitRep_SpyBuilt	CHAINDEA	CHAINDEA	CHAINDEA
+GovBuildDestroyedS	New	Yellow	Spies	sitrep_spy	GOVSBSDA	GOVSBSDB	GOVSBSDB
+GovBuildDestroyedT	New	Yellow	Spies	sitrep_spy	GOVSBRCA	GOVSBRCB	GOVSBRCB
 AntaranRevolt	New	Event	Reg	ICO_SitRep_Revolt	AntaranRevolt	AntaranRevolt	AntaranRevolt
 DiscoverSystem	New	Event	Reg	ICO_SitRep_ExplorationComplete	Discoversystem	DiscoverSystem	DiscoverSystem
 TableEnd							
+							
+\\Unused sitreps
+\\LeaderWounded	New	Event	Reg	ICO_SitRep_SpaceCombat	Event099	Event100	Event101
+\\LeaderKilled	New	Event	Reg	ICO_SitRep_LeaderKilled	Event102	Event103	Event104
+\\Desertions	New	Event	Reg	ICO_SitRep_Revolt	Event141	Event142	Event143
+\\MassDesert	New	Event	Reg	ICO_SitRep_Revolt	Event144	Event145	Event146
+
