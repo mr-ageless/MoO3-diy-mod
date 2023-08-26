@@ -1,7 +1,7 @@
 TableStart	Racemod									
 ColumnHeadingsStart	UISpecies	Species	Race	Modifiers	BioFood	MinFood	PopFood	FoodVal	Environ	Techs
 RowHeadingsStart										
-HUMAN	0	0	0	"GndCombt = 3, MeansWar += 3, ReseaEff += 0.5, OSMayILB *=1.15, PositvDP *= 1.25, PositvCB *=1.06"	100	0	0	1	0	66
+Human	0	0	0	"GndCombt = 3, MeansWar += 3, ReseaEff += 0.5, OSMayILB *=1.15, PositvDP *= 1.25, PositvCB *=1.06"	100	0	0	1	0	66
 EVON	0	0	1	"GndCombt = 3, ReseaEff += 0.5,MeansWar+=2"	100	0	0	1	0	66
 PSILON	0	0	2	"GndCombt = 3, MeansWar += 3, ReseaEff += 3, OSMayILB *= 1.15, PositvDP *= 1.25, PositvCB *= 1.06, mPopGrow *= 0.9"	100	0	0	1	0	66
 MEKLAR	1	3	0	"GndCombt = 3, ManufEff += 4,MeansWar+=2"	50	50	0	0	1	66
@@ -40,19 +40,19 @@ Custom	None	None	0
 HUMAN	0	0	0						
 EVON	0	1	0						
 PSILON	0	2	0						
-MEKLAR	3	0	0						
-CYNOID	3	1	0						
-SAKKRA	7	0	0						
-RAAS	7	1	0						
-GRENDARL	7	2	0						
-TRILARIAN	4	0	0						
-NOMMO	4	1	0					
-IMSAEIS	1	0	0					
-EOLADI	1	1	0					
-SILICOID	2	0	0					
+MEKLAR	1	0	0						
+CYNOID	1	1	0						
+SAKKRA	2	0	0						
+RAAS	2	1	0						
+GRENDARL	2	2	0						
+TRILARIAN	3	0	0						
+NOMMO	3	1	0					
+IMSAEIS	4	0	0					
+EOLADI	4	1	0					
+SILICOID	5	0	0					
 KLACKON	6	0	0					
 TACHDI	6	1	0					
-ITHKUL	5	0	0					
+ITHKUL	7	0	0					
 TableEnd								
 								
 
