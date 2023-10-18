@@ -1,0 +1,73 @@
+"If you change the order of the stats listed, that is, change the order of the columns, code needs to change, so tell Tim Hume or someone."																																					
+				The code that needs to change are the enums in leader.h																																	
+				This is because the code that reads in these numbers assumes the order of the enums matches the order listed here.																																	
+
+TableStart	LeaderStats																																				
+ColumnHeadingsStart	Average	Evil	Stupid	Lazy	Selfish	Underhanded	Driven	Knowledgeable	Charismatic	GardenVariety	Pacifistic	Honorable	Cagey	Cautious	Pragmatic	Territorial	Erratic	Aggressive	Ruthless	StatusQuo	DiverseSociety	Homogeneous Society	Diplomatic	Terraforming	Economist	Expansionist	Militarist	Technologist	Self Aggrandizement	None	Instigator	Unifier	Politican	Sociopathic	Champion Underdog	Paranoid	Xenophobe
+RowHeadingsStart																																					
+Technology Overrun	0	0	2	2	2	0	-2	-2	0	0	0	-2	0	-2	-2	0	2	2	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Overrun Discover	0	0	5	5	5	0	-5	-5	0	0	0	-5	0	-5	-5	0	5	5	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+BaseRelation	0	-20	-15	0	-10	-8	0	0	15	0	5	12	-3	0	8	-6	0	-5	-11	3	0	0	25	0	0	-8	-15	0	-2	0	0	6	9	-12	0	-8	-18
+BaseRelLdr	0	-40	-30	0	-20	-16	0	0	30	0	10	24	-6	0	16	-12	0	-10	-22	6	0	0	50	0	0	-16	-30	0	-4	0	0	12	18	-24	0	-16	-36
+BaseRelAmb	0	-13	-10	0	-7	-5	0	0	10	0	3	8	-2	0	5	-4	0	-2	-7	2	0	0	17	0	0	-5	-10	0	-1	0	0	4	6	-8	0	-5	-12
+BaseRelEnv	0	-7	-5	0	-3	-3	0	0	5	0	2	4	-1	0	3	-2	0	-1	-4	1	0	0	8	0	0	-3	-5	0	-1	0	0	2	3	-4	0	-3	-6
+Attaboy Leader	0	-4	-1	-1	-1	0	0	0	0	0	4	6	0	0	2	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	-4	2	1	0	0	-2	-3
+Attaboy Ambassador	0	-2	-1	0	-1	0	0	0	0	0	2	4	0	0	2	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	-2	2	1	0	0	-2	-2
+Attaboy Envoy	0	0	-1	0	-1	0	0	0	0	0	1	2	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	-1	2	1	0	0	-1	-1
+Cold Prickly Leader	0	6	1	-1	1	2	0	0	0	0	-5	6	0	0	-2	0	0	0	0	0	0	0	-1	0	0	3	0	0	2	0	4	-2	-1	3	0	2	3
+Cold Prickly Ambassador	0	4	1	0	1	2	0	0	0	0	-3	4	0	0	-2	0	0	0	0	0	0	0	-1	0	0	2	0	0	1	0	2	-2	-1	2	0	2	2
+Cold Prickly Envoy	0	2	1	0	1	1	0	0	0	0	-2	2	0	0	-1	0	0	0	0	0	0	0	-1	0	0	1	0	0	0	0	1	-2	-1	1	0	1	1
+This Means War	0	-2	-1	0	0	0	0	1	0	0	2	1	1	0	2	0	(-2:2)	0	-1	1	0	0	1	0	0	-1	-1	0	0	0	-1	0	1	-1	0	-2	0
+Threaten Only Leader	0	18	3	-3	3	6	0	0	0	0	-15	-18	0	0	-9	0	0	0	0	0	0	0	-3	0	0	9	0	0	6	0	12	-6	-3	9	0	6	18
+Threaten Only Ambassador	0	12	3	0	3	6	0	0	0	0	-9	-12	0	0	-6	0	0	0	0	0	0	0	-3	0	0	6	0	0	3	0	6	-6	-3	6	0	6	12
+Threaten Only Envoy	0	6	3	0	3	3	0	0	0	0	-6	-6	0	0	-3	0	0	0	0	0	0	0	-3	0	0	3	0	0	0	0	3	-6	-3	3	0	3	6
+MaliceLeader	0	75	0	0	0	75	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	75	0
+MaliceAmbassador	0	30	0	0	0	30	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	30	0
+MaliceEnvoy	0	10	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0
+MaliceDoubleYes	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0
+MaliceDoubleNo	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	1
+PragmaticLeader	0	0	0	0	0	0	0	0	0	0	30	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	30	0	0	0	0	0
+PragmaticAmbassador	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0
+PragmaticEnvoy	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0
+PragmaticDoubleYes	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+PragmaticDoubleNo	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	1
+TableEnd																																					
+
+TableStart	StyleChangeUp																																				
+ColumnHeadingsStart	LuckValue	FirstBdry	SecondBdry																																		
+RowHeadingsStart																																					
+Top	76	6	21																																		
+Next1	51	2	16																																		
+Next2	36	1	11																																		
+Next3	21	1	6																																		
+Next4	11	1	3																																		
+Next5	1	1	2																																		
+TableEnd																																					
+
+TableStart	StyleChangeDown																																				
+ColumnHeadingsStart	LuckValue	FirstBdry	SecondBdry																																		
+RowHeadingsStart																																					
+Top	75	96	100																																		
+Next1	50	86	96																																		
+Next2	35	71	91																																		
+Next3	20	41	86																																		
+Next4	10	16	81																																		
+Next5	0	6	71																																		
+TableEnd																																					
+
+TableStart	LeaderStatMults																																				
+ColumnHeadingsStart	Average	Evil	Stupid	Lazy	Selfish	Underhanded	Driven	Knowledgeable	Charismatic	GardenVariety	Pacifistic	Honorable	Cagey	Cautious	Pragmatic	Territorial	Erratic	Aggressive	Ruthless	StatusQuo	DiverseSociety	Homogeneous Society	Diplomatic	Terraforming	Economist	Expansionist	Militarist	Technologist	Self Aggrandizement	None	Instigator	Unifier	Politican	Sociopathic	Champion Underdog	Paranoid	Xenophobe
+RowHeadingsStart																																					
+Senate Member Proposal Senator	1	0.5	1	1	0.7	0.7	1	1	1	1	1	1.5	1	1	1	1	1	1	1	0.7	1.3	0.7	1.3	1	1	1	1	1	1	1	0.7	1.3	1	1	1	1	0.5
+Senate Member Proposal Foreign Office	1	0.7	1	1	0.8	0.8	1	1	1	1	1	1.3	1	1	1	1	1	1	1	0.8	1.2	0.8	1.2	1	1	1	1	1	1	1	0.8	1.2	1	1	1	1	0.7
+Senate Member Proposal Big Leader	1	0.9	1	1	0.9	0.9	1	1	1	1	1	1.1	1	1	1	1	1	1	1	0.9	1.1	0.9	1.1	1	1	1	1	1	1	1	0.9	1.1	1	1	1	1	0.9
+Senate Commendation Senator	1	0.5	1	1	0.7	0.7	1	1	1	1	1	1.5	1	1	1	1	1	1	1	0.7	1.3	0.7	1.3	1	1	1	1	1	1	1	0.7	1.3	1	1	1	1	0.5
+Senate Commendation Foreign Office	1	0.7	1	1	0.8	0.8	1	1	1	1	1	1.3	1	1	1	1	1	1	1	0.8	1.2	0.8	1.2	1	1	1	1	1	1	1	0.8	1.2	1	1	1	1	0.7
+Senate Commendation Big Leader	1	0.9	1	1	0.9	0.9	1	1	1	1	1	1.1	1	1	1	1	1	1	1	0.9	1.1	0.9	1.1	1	1	1	1	1	1	1	0.9	1.1	1	1	1	1	0.9
+Senate Condemnation Senator	1	1.5	1	1	1.1	1.1	1	1	1	1	1	0.5	1	1	1	1	1	1	1	1.1	0.7	1.1	0.7	1	1	1	1	1	1	1	1.1	0.7	1	1	1	1	1.5
+Senate Condemnation Foreign Office	1	1.3	1	1	1.2	1.2	1	1	1	1	1	0.7	1	1	1	1	1	1	1	1.2	0.8	1.2	0.8	1	1	1	1	1	1	1	1.2	0.8	1	1	1	1	1.3
+Senate Condemnation Big Leader	1	1.1	1	1	1.3	1.3	1	1	1	1	1	0.5	1	1	1	1	1	1	1	1.3	0.9	0.9	0.9	1	1	1	1	1	1	1	1.3	0.9	1	1	1	1	1.1
+Senate Punishment Senator	1	1.5	1	1	1.1	1.1	1	1	1	1	1	1.5	1	1	1	1	1	1	1	1	1	1.1	1.2	1	1	1	1	1	1	1	1.4	1	1	1	1	1	1.5
+Senate Punishment Foreign Office	1	1.3	1	1	1.2	1.2	1	1	1	1	1	1.7	1	1	1	1	1	1	1	1	1	1.2	1.3	1	1	1	1	1	1	1	1.6	1	1	1	1	1	1.3
+Senate Punishment Big Leader	1	1.1	1	1	1.3	1.3	1	1	1	1	1	1.9	1	1	1	1	1	1	1	1	1	1.3	1.4	1	1	1	1	1	1	1	1.8	1	1	1	1	1	1.1
+TableEnd																																					

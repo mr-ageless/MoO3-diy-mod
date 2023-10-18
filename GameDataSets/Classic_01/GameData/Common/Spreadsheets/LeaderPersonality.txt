@@ -23,17 +23,17 @@ Evon 3	LEADER	LEADDE42	EvonLeader03_	" SpyDef+=-10, PositvDP*=1.2,TradeAmt*=1.2 
 Evon 4	LEADER	LEADDE43	EvonLeader04_	" SPortEff+=3, PositvDP*=1.1,Hfog*=1.1 "	leader_space_	LEADIC18	leader_xenopsyche_	LEADIC01	leader_govt_	LEADIC29	0	1	50	300	Trade	Corr				
 Psilon 1	LEADER	LEADDE14	PsiLeader01_	" TTperPop*=1.3, AntarMod*=1.10, NegatvDP*=1.1 "	leader_research_	LEADIC78	leader_research_	LEADICBB	leader_xenopsyche_	LEADIC08	0	2	50	300	Sci (tt)					
 Psilon 2	LEADER	LEADDE15	PsiLeader02_	" ReseaEff*=1.2,MdUnrest*=1.1, SpDef+=-10 "	leader_research_	LEADIC35	leader_recreation_	LEADIC83	leader_intelligence_	LEADIC74	0	2	50	300	Sci	Spy Unrest				
-Psilon 3	LEADER	LEADDE44	PsiLeader03_	" MilEff *=1.3, BoxDelay+=-3,TradeAmt*=.8 "	leader_infantry_	LEADIC90	leader_infantry_	LEADICCY	leader_space_	LEADIC26	0	2	50	300	Ind delay box	Sci				
+Psilon 3	LEADER	LEADDE44	PsiLeader03_	" MilEff *=1.3, BoxDelay+=-3,ReseaEff*=.8 "	leader_infantry_	LEADIC90	leader_infantry_	LEADICCY	leader_research_	LEADIC38	0	2	50	300	Ind delay box	Sci				
 Psilon 4	LEADER	LEADDE45	PsiLeader04_	" TTperPop*=1.2, MdUnrest*=1.05, TradeAmt*=1.1 "	leader_research_	LEADIC77	leader_space_	LEADIC22	leader_recreation_	LEADIC82	0	2	50	300	Sci Diplo	Overruns				
 Imsaeis 1	LEADER	LEADDE16	ImsLeader01_	" SpOff+=15, MdUnrest*=.9,NegatvDP*=1.3 "	leader_intelligence_	LEADIC66	leader_recreation_	LEADIC86	leader_xenopsyche_	LEADIC09	1	0	50	300	Spy					
 Imsaeis 2	LEADER	LEADDE46	ImsLeader03_	" ReseaEff*=1.1,CemprPop*=1.3, CraftsMa*=.8 "	leader_manufacturing_	LEADICAL	leader_research_	LEADIC34	leader_economic_	LEADIC98	1	0	50	300	Manu Spy	Cost				
 Imsaeis 3	LEADER	LEADDE47	ImsLeader04_	" ManufEff*=1.3,BioHaEff*=.7, MineSur*=1.2 "	leader_manufacturing_	LEADICDO	leader_economic_	LEADICBU	leader_ecological_	LEADICCK	1	0	50	300	Ind	Bio Quality				
 Imsaeis 4	LEADER	LEADDE77	ImsLeader02_	" NegatvDP*=1.2, SpDef+=5, SPortEff*=1.3 "	leader_space_	LEADIC18	leader_intelligence_	LEADIC70	leader_xenopsyche_	LEADIC08	1	0	50	300	Trade Secu					
 Eoladi 1	LEADER	LEADDE17	EolLeader01_	" CemprPop*=1.3, ManufEff*=1.2, ReseaEff*=.7 "	leader_manufacturing_	LEADICAK	leader_manufacturing_	LEADICDN	leader_research_	LEADIC39	1	1	50	300	Manu Planetary Development					
-Eoladi 2	LEADER	LEADDE37	EolLeader02_	" MineRare*=1.3, SPortEff+=2, Pollutio*=1.3 "	leader_economic_	LEADIC48	leader_space_	LEADIC17	leader_ecological_	LEADICAR	1	1	50	300	Econ	Corr				
+Eoladi 2	LEADER	LEADDE37	EolLeader02_	" MineRare*=1.3, SPortEff+=2, HFoG*=1.15 "	leader_economic_	LEADIC48	leader_space_	LEADIC17	leader_govt_	LEADIC30	1	1	50	300	Econ	Corr				
 Eoladi 3	LEADER	LEADDE48	EolLeader03_	" PositvDP*=1.3,SpDef+=5,SpOff+=-10 "	leader_xenopsyche_	LEADIC03	leader_intelligence_	LEADIC70	leader_intelligence_	LEADIC68	1	1	50	300	Diplo Secu					
 Eoladi 4	LEADER	LEADDE49	EolLeader04_	" SpOff+=15,SpDef+=5,MdUnrest*=1.1 "	leader_intelligence_	LEADIC66	leader_intelligence_	LEADIC70	leader_recreation_	LEADIC83	1	1	50	300	spy					
-Silicoid 1	LEADER	LEADDE09	SilLeader01_	" MineEff*=1.3,MdUnrest*=.95,CraftsMa*=.8 "	leader_mining_	LEADICDU	leader_recreation_	LEADIC85	leader_economic_	LEADIC98	2	0	50	300	Mine	Econ				
+Silicoid 1	LEADER	LEADDE09	SilLeader01_	" MineEff*=1.3,MdUnrest*=1.05,CraftsMa*=.8 "	leader_mining_	LEADICDU	leader_recreation_	LEADIC82	leader_economic_	LEADIC98	2	0	50	300	Mine	Econ				
 Silicoid 2	LEADER	LEADDE35	SilLeader02_	" MineEff*=1.3, mBuildAU*=1.1, NegatvDP*=1.1 "	leader_mining_	LEADICDV	leader_xenopsyche_	LEADIC07	leader_economic_	LEADICBL	2	0	50	300	Min	Diplo				
 Silicoid 3	LEADER	LEADDE50	SilLeader03_	" BoxDelay+=-3, FltMaint*=.80, MdUnrest*=1.1 "	leader_infantry_	LEADICCY	leader_infantry_	LEADICAE	leader_recreation_	LEADIC83	2	0	50	300	Mil	Diplo(casus)				
 Silicoid 4	LEADER	LEADDE51	SilLeader04_	" TTperPop*=1.3, GovEff*=1.2, mPopGrow*=.9 "	leader_research_	LEADIC78	leader_govt_	LEADIC41	leader_recreation_	LEADICBA	2	0	50	300	Res Gov	Pop grwoth				
